@@ -7,6 +7,7 @@ from supabase import create_client
 from multiprocessing import Process
 import time
 from rating_scraper import scrap_function
+from rating_combiner import combine_data
 
 load_dotenv()
 
@@ -18,10 +19,6 @@ supabase = create_client(url_supabase, key)
 # Get the table
 db_data = supabase.table("idx_key_stats").select("").execute()
 df_db_data = pd.DataFrame(db_data.data)
-
-# Add new column for rating data
-df_db_data['technical_rating'] = np.nan
-df_db_data['analyst_rating']  = np.nan
 
 cols = df_db_data.columns.tolist()
 
@@ -54,6 +51,23 @@ if __name__ == "__main__":
   p2.join()
   p3.join()
   p4.join()
+
+  # Merge and upsert to db
+  df_merge = combine_data(df_db_data)
+
+  # Convert to json. Remove the index in dataframe
+  records = df_merge.to_dict(orient="records")
+
+  # Upsert to db
+  try:
+    supabase.table("idx_key_stats").upsert(
+        records
+    ).execute()
+    print(
+        f"Successfully upserted {len(records)} data to database"
+    )
+  except Exception as e:
+    raise Exception(f"Error upserting to database: {e}")
 
 
 

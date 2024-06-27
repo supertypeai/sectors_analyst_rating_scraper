@@ -120,17 +120,17 @@ def scrap_function(symbol_list, process_idx):
     all_data.append(scrapped_data)
 
     if (i % 10 == 0 and count != 0):
-      print(f"CHECKPOINT || {i} Data")
+      print(f"CHECKPOINT || P{process_idx} {i} Data")
     
-    if (i % 50 == 0 and count != 0):
-      filename = f"P{process_idx}_data_{i}.json"
-      print(f"==> Data is exported in {filename}")
-      file_path = os.path.join(cwd, "data", filename)
-      save_to_json(file_path, all_data)
+    # if (i % 50 == 0 and count != 0):
+    #   filename = f"P{process_idx}_data_{i}.json"
+    #   print(f"==> Data is exported in {filename}")
+    #   file_path = os.path.join(cwd, "data", filename)
+    #   save_to_json(file_path, all_data)
     count += 1
 
   # Save last
-  filename = f"P{process_idx}_data_finish.json"
+  filename = f"P{process_idx}_data.json"
   print(f"==> Finished data is exported in {filename}")
   file_path = os.path.join(cwd, "data", filename)
   save_to_json(file_path, all_data)
