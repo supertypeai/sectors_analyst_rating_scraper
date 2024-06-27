@@ -35,7 +35,7 @@ for i in range (len(symbol_list)):
        
 
 if __name__ == "__main__":
-  length_list = 8
+  length_list = len(symbol_list)
   i1 = int(length_list / 4)
   i2 = 2 * i1
   i3 = 3 * i1
