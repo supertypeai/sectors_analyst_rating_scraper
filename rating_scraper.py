@@ -4,14 +4,16 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.chrome.service import Service
 import chromedriver_autoinstaller
-from pyvirtualdisplay import Display
+from webdriver_manager.chrome import ChromeDriverManager
 import json
+# from pyvirtualdisplay import Display
 
 # Setup for selenium on Github Action
 # Adding display for xvfb
-display = Display(visible=0, size=(800, 800))  
-display.start()
+# display = Display(visible=0, size=(800, 800))  
+# display.start()
 
 chromedriver_autoinstaller.install()  # Check if the current version of chromedriver exists
                                       # and if it doesn't exist, download it automatically,
@@ -22,14 +24,14 @@ chrome_options = webdriver.ChromeOptions()
 options = [
   # Define window size here
    "--window-size=800,800",
-    "--ignore-certificate-errors",
     "--headless",
-    #"--disable-gpu",
+    "--no-sandbox",
+    "--disable-dev-shm-usage",
+    "--disable-gpu",
+    # "--ignore-certificate-errors",
     #"--window-size=1920,1200",
     #"--ignore-certificate-errors",
     #"--disable-extensions",
-    #"--no-sandbox",
-    #"--disable-dev-shm-usage",
     #'--remote-debugging-port=9222'
 ]
 
@@ -49,7 +51,7 @@ def get_url_page(symbol:str) -> str:
     return f"{BASE_URL}{symbol}"
 
 def scrap_page(url: str) :
-    driver = webdriver.Chrome(options = chrome_options)
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
     driver.get(url)
     try:
         _ = WebDriverWait(driver, 5).until(

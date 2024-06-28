@@ -5,3 +5,4 @@ python-dotenv==1.0.1
 PyVirtualDisplay==3.0
 selenium==4.22.0
 supabase==2.5.1
+webdriver_manager==4.0.1
