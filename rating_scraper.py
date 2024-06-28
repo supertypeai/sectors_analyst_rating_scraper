@@ -5,20 +5,13 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.service import Service
-import chromedriver_autoinstaller
 from webdriver_manager.chrome import ChromeDriverManager
 import json
-# from pyvirtualdisplay import Display
+# import shutil
+
+# shutil.rmtree(ChromeDriverManager().driver_cache.root_dir, ignore_errors=True)
 
 # Setup for selenium on Github Action
-# Adding display for xvfb
-# display = Display(visible=0, size=(800, 800))  
-# display.start()
-
-chromedriver_autoinstaller.install()  # Check if the current version of chromedriver exists
-                                      # and if it doesn't exist, download it automatically,
-                                      # then add chromedriver to path
-
 chrome_options = webdriver.ChromeOptions()    
 # Add your options as needed    
 options = [
