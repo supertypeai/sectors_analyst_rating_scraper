@@ -9,8 +9,9 @@ from pyvirtualdisplay import Display
 import json
 
 # Setup for selenium on Github Action
-# display = Display(visible=0, size=(800, 800))  
-# display.start()
+# Adding display for xvfb
+display = Display(visible=0, size=(800, 800))  
+display.start()
 
 chromedriver_autoinstaller.install()  # Check if the current version of chromedriver exists
                                       # and if it doesn't exist, download it automatically,
