@@ -35,7 +35,6 @@ options = [
 for option in options:
     chrome_options.add_argument(option)
 
-driver = webdriver.Chrome(options = chrome_options)
 
 
 # Scraping data
@@ -49,7 +48,7 @@ def get_url_page(symbol:str) -> str:
     return f"{BASE_URL}{symbol}"
 
 def scrap_page(url: str) :
-    driver = webdriver.Chrome()
+    driver = webdriver.Chrome(options = chrome_options)
     driver.get(url)
     try:
         _ = WebDriverWait(driver, 5).until(
