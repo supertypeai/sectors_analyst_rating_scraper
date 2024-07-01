@@ -27,28 +27,32 @@ def scrap_technical_page(url: str) :
       response.html.render()
 
       soup = BeautifulSoup(response.html.html, "html.parser")
-      technical_rating_dict = dict()
+      if (soup is not None):
+        technical_rating_dict = dict()
 
-      # Getting into the data
-      speedometer_containers = soup.findAll("div", {"class": "speedometerWrapper-kg4MJrFB"})
-      summary_technical_data_wrapper = speedometer_containers[1]
-      technical_counters_data_wrapper = summary_technical_data_wrapper.findAll("div", {"class": "counterWrapper-kg4MJrFB"})
+        # Getting into the data
+        speedometer_containers = soup.findAll("div", {"class": "speedometerWrapper-kg4MJrFB"})
+        summary_technical_data_wrapper = speedometer_containers[1]
+        technical_counters_data_wrapper = summary_technical_data_wrapper.findAll("div", {"class": "counterWrapper-kg4MJrFB"})
 
-      technical_number_data = []
-      for technical_counter in technical_counters_data_wrapper:
-        # Get the number data
-        technical_counters_number = technical_counter.find("span", {"class": "counterNumber-kg4MJrFB"})
-        technical_number_data.append(technical_counters_number.get_text())
-      
-      # Insert the data to dictionary
-      for idx, enum in enumerate(TECHNICAL_ENUM):
-        technical_rating_dict[enum] = int(technical_number_data[idx])
-      technical_rating_dict['updated_on'] = (datetime.now()).strftime("%Y-%m-%d %H:%M:%S")
+        technical_number_data = []
+        for technical_counter in technical_counters_data_wrapper:
+          # Get the number data
+          technical_counters_number = technical_counter.find("span", {"class": "counterNumber-kg4MJrFB"})
+          technical_number_data.append(technical_counters_number.get_text())
+        
+        # Insert the data to dictionary
+        for idx, enum in enumerate(TECHNICAL_ENUM):
+          technical_rating_dict[enum] = int(technical_number_data[idx])
+        technical_rating_dict['updated_on'] = (datetime.now()).strftime("%Y-%m-%d %H:%M:%S")
 
-      session.close()
-      return technical_rating_dict
+        session.close()
+        return technical_rating_dict
+      else:
+        print(f"[TECHNICAL] = None HTML Value for {url}")
+        return None
     except Exception as e:
-      print(f"Fail scraping from URL: {url}")
+      print(f"[TECHNICAL] = Fail scraping from URL: {url}")
       print(e)
       return None
     
@@ -59,25 +63,29 @@ def scrap_forecast_page(url: str) :
       response.html.render()
 
       soup = BeautifulSoup(response.html.html, "html.parser")
-      analyst_rating_dict = dict()
+      if (soup is not None):
+        analyst_rating_dict = dict()
 
-      # Getting into the data
-      analyst_rating_wrap = soup.find("div", {"class" : "wrap-GNeDL9vy"})
-      analyst_value_wrap = analyst_rating_wrap.findAll("div", {"class": "value-GNeDL9vy"})
+        # Getting into the data
+        analyst_rating_wrap = soup.find("div", {"class" : "wrap-GNeDL9vy"})
+        analyst_value_wrap = analyst_rating_wrap.findAll("div", {"class": "value-GNeDL9vy"})
 
-      analyst_number_data = []
-      for analyst_rating_elm in analyst_value_wrap:
-        analyst_number_data.append(analyst_rating_elm.get_text())
-      
-      # Insert the data to dictionary
-      for idx, enum in enumerate(ANALYST_ENUM):
-          analyst_rating_dict[enum] = int(analyst_number_data[idx])
-      analyst_rating_dict['updated_on'] = (datetime.now()).strftime("%Y-%m-%d %H:%M:%S")
+        analyst_number_data = []
+        for analyst_rating_elm in analyst_value_wrap:
+          analyst_number_data.append(analyst_rating_elm.get_text())
+        
+        # Insert the data to dictionary
+        for idx, enum in enumerate(ANALYST_ENUM):
+            analyst_rating_dict[enum] = int(analyst_number_data[idx])
+        analyst_rating_dict['updated_on'] = (datetime.now()).strftime("%Y-%m-%d %H:%M:%S")
 
-      session.close()
-      return analyst_rating_dict
+        session.close()
+        return analyst_rating_dict
+      else:
+        print(f"[ANALYST] = None HTML Value for {url}")
+        return None
     except Exception as e:
-      print(f"Fail scraping from URL: {url}")
+      print(f"[ANALYST] = Fail scraping from URL: {url}")
       print(e)
       return None
     
@@ -104,7 +112,7 @@ def scrap_rating_data(symbol: str) -> dict:
     # Wrap up
     result_data['technical_rating'] = technical_rating_dict
     result_data['analyst_rating'] = analyst_rating_dict
-    print(result_data)
+    # print(result_data)
     return result_data
 
 def scrap_function(symbol_list, process_idx):
@@ -136,7 +144,3 @@ def scrap_function(symbol_list, process_idx):
   save_to_json(file_path, all_data)
 
   return all_data
-
-test = ["BBCA", "AMMN", "GOTO"]
-for i in test:
-  scrap_rating_data(i)
