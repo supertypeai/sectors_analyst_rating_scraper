@@ -4,24 +4,78 @@ from datetime import datetime
 from requests_html import HTMLSession
 import json
 import os
-
+import logging
 
 # Scraping data
 BASE_URL = 'https://www.tradingview.com/symbols/IDX-'
 TECHNICAL_ENUM = ['sell', 'neutral', 'buy']
 ANALYST_ENUM = ['strong_buy', 'buy', 'hold', 'sell', 'strong_sell']
 
+# Set the logging level for the 'websockets' logger
+logging.getLogger('websockets').setLevel(logging.WARNING)
+
+# If you need to configure logging for requests-html as well
+logging.getLogger('requests_html').setLevel(logging.WARNING)
+
 def get_url_page(symbol:str) -> str:
     return f"{BASE_URL}{symbol}"
 
-def scrap_page(url: str) :
+def scrap_technical_page(url: str) :
     try:
       session = HTMLSession()
       response = session.get(url)
       response.html.render()
 
       soup = BeautifulSoup(response.html.html, "html.parser")
-      return soup
+      technical_rating_dict = dict()
+
+      # Getting into the data
+      speedometer_containers = soup.findAll("div", {"class": "speedometerWrapper-kg4MJrFB"})
+      summary_technical_data_wrapper = speedometer_containers[1]
+      technical_counters_data_wrapper = summary_technical_data_wrapper.findAll("div", {"class": "counterWrapper-kg4MJrFB"})
+
+      technical_number_data = []
+      for technical_counter in technical_counters_data_wrapper:
+        # Get the number data
+        technical_counters_number = technical_counter.find("span", {"class": "counterNumber-kg4MJrFB"})
+        technical_number_data.append(technical_counters_number.get_text())
+      
+      # Insert the data to dictionary
+      for idx, enum in enumerate(TECHNICAL_ENUM):
+        technical_rating_dict[enum] = int(technical_number_data[idx])
+      technical_rating_dict['updated_on'] = (datetime.now()).strftime("%Y-%m-%d %H:%M:%S")
+
+      session.close()
+      return technical_rating_dict
+    except Exception as e:
+      print(f"Fail scraping from URL: {url}")
+      print(e)
+      return None
+    
+def scrap_forecast_page(url: str) :
+    try:
+      session = HTMLSession()
+      response = session.get(url)
+      response.html.render()
+
+      soup = BeautifulSoup(response.html.html, "html.parser")
+      analyst_rating_dict = dict()
+
+      # Getting into the data
+      analyst_rating_wrap = soup.find("div", {"class" : "wrap-GNeDL9vy"})
+      analyst_value_wrap = analyst_rating_wrap.findAll("div", {"class": "value-GNeDL9vy"})
+
+      analyst_number_data = []
+      for analyst_rating_elm in analyst_value_wrap:
+        analyst_number_data.append(analyst_rating_elm.get_text())
+      
+      # Insert the data to dictionary
+      for idx, enum in enumerate(ANALYST_ENUM):
+          analyst_rating_dict[enum] = int(analyst_number_data[idx])
+      analyst_rating_dict['updated_on'] = (datetime.now()).strftime("%Y-%m-%d %H:%M:%S")
+
+      session.close()
+      return analyst_rating_dict
     except Exception as e:
       print(f"Fail scraping from URL: {url}")
       print(e)
@@ -41,43 +95,11 @@ def scrap_rating_data(symbol: str) -> dict:
 
     # Scrap technical page
     technical_url = url+"/technicals/"
-    soup_tpage = scrap_page(technical_url)
-    if (soup_tpage is not None):
-      technical_rating_dict = dict()
+    technical_rating_dict = scrap_technical_page(technical_url)
 
-      # Getting into the data
-      speedometer_containers = soup_tpage.findAll("div", {"class": "speedometerWrapper-kg4MJrFB"})
-      summary_technical_data_wrapper = speedometer_containers[1]
-      technical_counters_data_wrapper = summary_technical_data_wrapper.findAll("div", {"class": "counterWrapper-kg4MJrFB"})
-
-      technical_number_data = []
-      for technical_counter in technical_counters_data_wrapper:
-        # Get the number data
-        technical_counters_number = technical_counter.find("span", {"class": "counterNumber-kg4MJrFB"})
-        technical_number_data.append(technical_counters_number.get_text())
-      
-      # Insert the data to dictionary
-      for idx, enum in enumerate(TECHNICAL_ENUM):
-        technical_rating_dict[enum] = int(technical_number_data[idx])
-      technical_rating_dict['updated_on'] = (datetime.now()).strftime("%Y-%m-%d %H:%M:%S")
-    
-    # Scrap technical page
+    # Scrap forecast page
     forecast_url = url+"/forecast/"
-    soup_fpage = scrap_page(forecast_url)
-    if (soup_fpage is not None):
-      analyst_rating_dict = dict()
-      # Getting into the data
-      analyst_rating_wrap = soup_fpage.find("div", {"class" : "wrap-GNeDL9vy"})
-      analyst_value_wrap = analyst_rating_wrap.findAll("div", {"class": "value-GNeDL9vy"})
-
-      analyst_number_data = []
-      for analyst_rating_elm in analyst_value_wrap:
-        analyst_number_data.append(analyst_rating_elm.get_text())
-      
-      # Insert the data to dictionary
-      for idx, enum in enumerate(ANALYST_ENUM):
-          analyst_rating_dict[enum] = int(analyst_number_data[idx])
-      analyst_rating_dict['updated_on'] = (datetime.now()).strftime("%Y-%m-%d %H:%M:%S")
+    analyst_rating_dict = scrap_forecast_page(forecast_url)
 
     # Wrap up
     result_data['technical_rating'] = technical_rating_dict
