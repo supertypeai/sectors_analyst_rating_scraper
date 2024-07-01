@@ -1,138 +1,89 @@
-import os
+from urllib.request import urlopen
+from bs4 import BeautifulSoup
 from datetime import datetime
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
+from requests_html import HTMLSession
 import json
-# import shutil
-
-# shutil.rmtree(ChromeDriverManager().driver_cache.root_dir, ignore_errors=True)
-
-# Setup for selenium on Github Action
-chrome_options = webdriver.ChromeOptions()    
-# Add your options as needed    
-options = [
-  # Define window size here
-   "--window-size=800,800",
-    "--headless",
-    "--no-sandbox",
-    "--disable-dev-shm-usage",
-    "--disable-gpu",
-    # "--ignore-certificate-errors",
-    #"--window-size=1920,1200",
-    #"--ignore-certificate-errors",
-    #"--disable-extensions",
-    #'--remote-debugging-port=9222'
-]
-
-for option in options:
-    chrome_options.add_argument(option)
-
+import os
 
 
 # Scraping data
-BASE_URL = "https://www.tradingview.com/chart/?symbol=IDX%3A"
+BASE_URL = 'https://www.tradingview.com/symbols/IDX-'
 TECHNICAL_ENUM = ['sell', 'neutral', 'buy']
 ANALYST_ENUM = ['strong_buy', 'buy', 'hold', 'sell', 'strong_sell']
-
-
 
 def get_url_page(symbol:str) -> str:
     return f"{BASE_URL}{symbol}"
 
 def scrap_page(url: str) :
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
-    driver.get(url)
     try:
-        _ = WebDriverWait(driver, 5).until(
-            EC.presence_of_element_located((By.CLASS_NAME, "button-vll9ujXF"))
-        )
-        print(f"Successfully get element from URL: {url}")
-        return driver
-    except:
+      session = HTMLSession()
+      response = session.get(url)
+      response.html.render()
+
+      soup = BeautifulSoup(response.html.html, "html.parser")
+      return soup
+    except Exception as e:
       print(f"Fail scraping from URL: {url}")
-      print("Loader did not disappear in time")
-      driver.quit()
+      print(e)
       return None
     
-def scrap_rating_data(symbol: str) -> dict:
-    url = get_url_page(symbol)
-    driver = scrap_page(url)
-    result_data = dict()
-    result_data['symbol'] = symbol
-    technical_rating_dict = None
-    analyst_rating_dict = None
-
-    if (driver is not None):
-      items = driver.find_elements(By.CLASS_NAME, "button-vll9ujXF")
-      for item in items:
-        
-        # Getting technical
-        if (item.text == "More technicals"):
-          technical_rating_dict = dict()
-
-          item.click()
-          try:
-            _ = WebDriverWait(driver, 5).until(
-                EC.presence_of_element_located((By.CLASS_NAME, "speedometerWrapper-kg4MJrFB"))
-              )
-            technical_data_wrapper = driver.find_elements(By.CLASS_NAME, "speedometerWrapper-kg4MJrFB")
-            assert (len(technical_data_wrapper) == 3), "Difference in technical data wrapper detected"
-
-            # Summary should be the middle one
-            summary_technical_data_wrapper = technical_data_wrapper[1]
-            technical_counters_data_wrapper = summary_technical_data_wrapper.find_element(By.CLASS_NAME, "countersWrapper-kg4MJrFB")
-            technical_rating_data = technical_counters_data_wrapper.text.split("\n")
-
-            # Insert the data to dictionary
-            start_rating_data_idx = 1
-            for enum in TECHNICAL_ENUM:
-              technical_rating_dict[enum] = int(technical_rating_data[start_rating_data_idx])
-              start_rating_data_idx +=2
-          
-            technical_rating_dict['updated_on'] = (datetime.now()).strftime("%Y-%m-%d %H:%M:%S")
-
-
-          except:
-            print("Failed to get Technical Data")
-
-        # Getting Analyst Rating
-        if (item.text == "See forecast"):
-          analyst_rating_dict = dict()
-          
-
-          item.click()
-
-          try:
-            _ = WebDriverWait(driver, 10).until(
-                EC.presence_of_element_located((By.CLASS_NAME, "container-zZSa1SHt"))
-              )
-            analyst_data_wrapper = driver.find_element(By.CLASS_NAME, "container-zZSa1SHt")
-
-            # Get the Value
-            analyst_data_values = analyst_data_wrapper.find_elements(By.CLASS_NAME,"value-GNeDL9vy")
-
-            # Insert the data to dictionary
-            for idx, enum in enumerate(ANALYST_ENUM):
-               analyst_rating_dict[enum] = int((analyst_data_values[idx]).text)
-
-            analyst_rating_dict['updated_on'] = (datetime.now()).strftime("%Y-%m-%d %H:%M:%S")
-          except:
-            print("Failed to get Analyst Data")
-
-    result_data['technical_rating'] = technical_rating_dict
-    result_data['analyst_rating'] = analyst_rating_dict
-    if (driver is not None):
-      driver.quit()
-    return result_data
 
 def save_to_json(file_path, data):
   with open(file_path, "w") as output_file:
     json.dump(data, output_file, indent=2)
 
+def scrap_rating_data(symbol: str) -> dict:
+    url = get_url_page(symbol)
+    result_data = dict()
+    result_data['symbol'] = symbol
+    technical_rating_dict = None
+    analyst_rating_dict = None
+
+    # Scrap technical page
+    technical_url = url+"/technicals/"
+    soup_tpage = scrap_page(technical_url)
+    if (soup_tpage is not None):
+      technical_rating_dict = dict()
+
+      # Getting into the data
+      speedometer_containers = soup_tpage.findAll("div", {"class": "speedometerWrapper-kg4MJrFB"})
+      summary_technical_data_wrapper = speedometer_containers[1]
+      technical_counters_data_wrapper = summary_technical_data_wrapper.findAll("div", {"class": "counterWrapper-kg4MJrFB"})
+
+      technical_number_data = []
+      for technical_counter in technical_counters_data_wrapper:
+        # Get the number data
+        technical_counters_number = technical_counter.find("span", {"class": "counterNumber-kg4MJrFB"})
+        technical_number_data.append(technical_counters_number.get_text())
+      
+      # Insert the data to dictionary
+      for idx, enum in enumerate(TECHNICAL_ENUM):
+        technical_rating_dict[enum] = int(technical_number_data[idx])
+      technical_rating_dict['updated_on'] = (datetime.now()).strftime("%Y-%m-%d %H:%M:%S")
+    
+    # Scrap technical page
+    forecast_url = url+"/forecast/"
+    soup_fpage = scrap_page(forecast_url)
+    if (soup_fpage is not None):
+      analyst_rating_dict = dict()
+      # Getting into the data
+      analyst_rating_wrap = soup_fpage.find("div", {"class" : "wrap-GNeDL9vy"})
+      analyst_value_wrap = analyst_rating_wrap.findAll("div", {"class": "value-GNeDL9vy"})
+
+      analyst_number_data = []
+      for analyst_rating_elm in analyst_value_wrap:
+        analyst_number_data.append(analyst_rating_elm.get_text())
+      
+      # Insert the data to dictionary
+      for idx, enum in enumerate(ANALYST_ENUM):
+          analyst_rating_dict[enum] = int(analyst_number_data[idx])
+      analyst_rating_dict['updated_on'] = (datetime.now()).strftime("%Y-%m-%d %H:%M:%S")
+
+    # Wrap up
+    result_data['technical_rating'] = technical_rating_dict
+    result_data['analyst_rating'] = analyst_rating_dict
+    print(result_data)
+    return result_data
 
 def scrap_function(symbol_list, process_idx):
   all_data = []
@@ -164,3 +115,6 @@ def scrap_function(symbol_list, process_idx):
 
   return all_data
 
+test = ["BBCA", "AMMN", "GOTO"]
+for i in test:
+  scrap_rating_data(i)
