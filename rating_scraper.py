@@ -55,6 +55,9 @@ def scrap_technical_page(url: str) :
       print(f"[TECHNICAL] = Fail scraping from URL: {url}")
       print(e)
       return None
+    finally:
+      session.close()
+      print("Session for {url} is closed")
     
 def scrap_forecast_page(url: str) :
     try:
@@ -79,7 +82,6 @@ def scrap_forecast_page(url: str) :
             analyst_rating_dict[enum] = int(analyst_number_data[idx])
         analyst_rating_dict['updated_on'] = (datetime.now()).strftime("%Y-%m-%d %H:%M:%S")
 
-        session.close()
         return analyst_rating_dict
       else:
         print(f"[ANALYST] = None HTML Value for {url}")
@@ -88,6 +90,9 @@ def scrap_forecast_page(url: str) :
       print(f"[ANALYST] = Fail scraping from URL: {url}")
       print(e)
       return None
+    finally:
+      session.close()
+      print("Session for {url} is closed")
     
 
 def save_to_json(file_path, data):

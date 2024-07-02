@@ -32,6 +32,11 @@ for i in range (len(symbol_list)):
        
 
 if __name__ == "__main__":
+    
+  # Start time
+  start = time.time()
+  print("== STARTED ")
+
   length_list = len(symbol_list)
   i1 = int(length_list / 4)
   i2 = 2 * i1
@@ -68,6 +73,13 @@ if __name__ == "__main__":
     )
   except Exception as e:
     raise Exception(f"Error upserting to database: {e}")
+  
+  # End time
+  end = time.time()
+  duration = int(end-start)
+  print(f"The execution time: {time.strftime('%H:%M:%S', time.gmtime(duration))}")
+  print("== FINISHED ")
+
 
 
 
