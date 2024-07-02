@@ -21,10 +21,12 @@ def get_url_page(symbol:str) -> str:
     return f"{BASE_URL}{symbol}"
 
 def scrap_technical_page(url: str) :
+    print(f"[TECHNICAL] = Opening page {url}")
     try:
       session = HTMLSession()
       response = session.get(url)
       response.html.render()
+      print(f"[TECHNICAL] = Session for {url} is opened")
 
       soup = BeautifulSoup(response.html.html, "html.parser")
       if (soup is not None):
@@ -46,7 +48,7 @@ def scrap_technical_page(url: str) :
           technical_rating_dict[enum] = int(technical_number_data[idx])
         technical_rating_dict['updated_on'] = (datetime.now()).strftime("%Y-%m-%d %H:%M:%S")
 
-        session.close()
+        print(f"[TECHNICAL] = Successfully scrap from {url}")
         return technical_rating_dict
       else:
         print(f"[TECHNICAL] = None HTML Value for {url}")
@@ -60,10 +62,12 @@ def scrap_technical_page(url: str) :
       print(f"[TECHNICAL] = Session for {url} is closed")
     
 def scrap_forecast_page(url: str) :
+    print(f"[ANALYST] = Opening page {url}")
     try:
       session = HTMLSession()
       response = session.get(url)
       response.html.render()
+      print(f"[ANALYST] = Session for {url} is opened")
 
       soup = BeautifulSoup(response.html.html, "html.parser")
       if (soup is not None):
@@ -82,6 +86,7 @@ def scrap_forecast_page(url: str) :
             analyst_rating_dict[enum] = int(analyst_number_data[idx])
         analyst_rating_dict['updated_on'] = (datetime.now()).strftime("%Y-%m-%d %H:%M:%S")
 
+        print(f"[ANALYST] = Successfully scrap from {url}")
         return analyst_rating_dict
       else:
         print(f"[ANALYST] = None HTML Value for {url}")
