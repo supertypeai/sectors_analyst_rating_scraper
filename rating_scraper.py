@@ -25,7 +25,7 @@ def scrap_technical_page(url: str) :
     try:
       session = HTMLSession()
       response = session.get(url)
-      response.html.render()
+      response.html.render(sleep=1, timeout=10)
       print(f"[TECHNICAL] = Session for {url} is opened")
 
       soup = BeautifulSoup(response.html.html, "html.parser")
@@ -66,7 +66,7 @@ def scrap_forecast_page(url: str) :
     try:
       session = HTMLSession()
       response = session.get(url)
-      response.html.render()
+      response.html.render(sleep=1, timeout=10)
       print(f"[ANALYST] = Session for {url} is opened")
 
       soup = BeautifulSoup(response.html.html, "html.parser")
