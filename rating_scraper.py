@@ -53,11 +53,11 @@ def scrap_technical_page(url: str) :
         return None
     except Exception as e:
       print(f"[TECHNICAL] = Fail scraping from URL: {url}")
-      print(e)
+      print(f"[TECHNCIAL] = {e}")
       return None
     finally:
       session.close()
-      print("Session for {url} is closed")
+      print(f"[TECHNICAL] = Session for {url} is closed")
     
 def scrap_forecast_page(url: str) :
     try:
@@ -88,11 +88,11 @@ def scrap_forecast_page(url: str) :
         return None
     except Exception as e:
       print(f"[ANALYST] = Fail scraping from URL: {url}")
-      print(e)
+      print(f"[ANALYST] = {e}")
       return None
     finally:
       session.close()
-      print("Session for {url} is closed")
+      print(f"[ANALYST] = Session for {url} is closed")
     
 
 def save_to_json(file_path, data):
@@ -117,10 +117,11 @@ def scrap_rating_data(symbol: str) -> dict:
     # Wrap up
     result_data['technical_rating'] = technical_rating_dict
     result_data['analyst_rating'] = analyst_rating_dict
-    # print(result_data)
+
     return result_data
 
 def scrap_function(symbol_list, process_idx):
+  print(f"==> Start scraping from process P{process_idx}")
   all_data = []
   cwd = os.getcwd()
   start_idx = 0
