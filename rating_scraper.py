@@ -84,6 +84,13 @@ def scrap_forecast_page(url: str) :
         # Insert the data to dictionary
         for idx, enum in enumerate(ANALYST_ENUM):
             analyst_rating_dict[enum] = int(analyst_number_data[idx])
+
+        # Find Analyst Rating
+        n_analyst = 0
+        for number_data in analyst_number_data:
+          n_analyst += int(number_data)
+        
+        analyst_rating_dict['n_analyst'] = n_analyst
         analyst_rating_dict['updated_on'] = (datetime.now()).strftime("%Y-%m-%d %H:%M:%S")
 
         print(f"[ANALYST] = Successfully scrap from {url}")
@@ -140,12 +147,6 @@ def scrap_function(symbol_list, process_idx):
 
     if (i % 10 == 0 and count != 0):
       print(f"CHECKPOINT || P{process_idx} {i} Data")
-    
-    # if (i % 50 == 0 and count != 0):
-    #   filename = f"P{process_idx}_data_{i}.json"
-    #   print(f"==> Data is exported in {filename}")
-    #   file_path = os.path.join(cwd, "data", filename)
-    #   save_to_json(file_path, all_data)
     count += 1
 
   # Save last
