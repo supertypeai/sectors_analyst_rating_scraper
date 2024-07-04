@@ -1,4 +1,4 @@
-name: Scrap Rating
+name: Scrap Analyst Rating
 on:
   workflow_dispatch:
   schedule:
@@ -32,7 +32,7 @@ jobs:
         env:
             SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
             SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
-        run: python main.py
+        run: python analyst_main.py
           
       - name: Commit files
         run: |

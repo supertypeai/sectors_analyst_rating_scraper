@@ -6,8 +6,8 @@ import json
 from supabase import create_client
 from multiprocessing import Process
 import time
-from rating_scraper import scrap_function
-from rating_combiner import combine_data
+from rating_scraper import scrap_technical_function
+from rating_combiner import combine_technical_data
 
 load_dotenv()
 
@@ -35,17 +35,17 @@ if __name__ == "__main__":
     
   # Start time
   start = time.time()
-  print("==> STARTED ")
+  print("==> START TECHNICAL DATA SCRAPING ")
 
   length_list = len(symbol_list)
   i1 = int(length_list / 4)
   i2 = 2 * i1
   i3 = 3 * i1
 
-  p1 = Process(target=scrap_function, args=(symbol_list[:i1], 1))
-  p2 = Process(target=scrap_function, args=(symbol_list[i1:i2], 2))
-  p3 = Process(target=scrap_function, args=(symbol_list[i2:i3], 3))
-  p4 = Process(target=scrap_function, args=(symbol_list[i3:], 4))
+  p1 = Process(target=scrap_technical_function, args=(symbol_list[:i1], 1))
+  p2 = Process(target=scrap_technical_function, args=(symbol_list[i1:i2], 2))
+  p3 = Process(target=scrap_technical_function, args=(symbol_list[i2:i3], 3))
+  p4 = Process(target=scrap_technical_function, args=(symbol_list[i3:], 4))
 
   p1.start()
   p2.start()
@@ -58,7 +58,7 @@ if __name__ == "__main__":
   p4.join()
 
   # Merge and upsert to db
-  df_merge = combine_data(df_db_data)
+  df_merge = combine_technical_data(df_db_data)
 
   # Convert to json. Remove the index in dataframe
   records = df_merge.to_dict(orient="records")
@@ -78,7 +78,7 @@ if __name__ == "__main__":
   end = time.time()
   duration = int(end-start)
   print(f"The execution time: {time.strftime('%H:%M:%S', time.gmtime(duration))}")
-  print("==> FINISHED ")
+  print("==> FINISHED TECHNICAL DATA SCRAPING")
 
 
 

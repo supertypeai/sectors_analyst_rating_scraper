@@ -111,28 +111,37 @@ def save_to_json(file_path, data):
   with open(file_path, "w") as output_file:
     json.dump(data, output_file, indent=2)
 
-def scrap_rating_data(symbol: str) -> dict:
+def scrap_technical_rating_data(symbol: str) -> dict:
     url = get_url_page(symbol)
     result_data = dict()
     result_data['symbol'] = symbol
     technical_rating_dict = None
-    analyst_rating_dict = None
 
     # Scrap technical page
     technical_url = url+"/technicals/"
     technical_rating_dict = scrap_technical_page(technical_url)
+
+    # Wrap up
+    result_data['technical_rating'] = technical_rating_dict
+
+    return result_data
+
+def scrap_analyst_rating_data(symbol: str) -> dict:
+    url = get_url_page(symbol)
+    result_data = dict()
+    result_data['symbol'] = symbol
+    analyst_rating_dict = None
 
     # Scrap forecast page
     forecast_url = url+"/forecast/"
     analyst_rating_dict = scrap_forecast_page(forecast_url)
 
     # Wrap up
-    result_data['technical_rating'] = technical_rating_dict
     result_data['analyst_rating'] = analyst_rating_dict
 
     return result_data
 
-def scrap_function(symbol_list, process_idx):
+def scrap_technical_function(symbol_list, process_idx):
   print(f"==> Start scraping from process P{process_idx}")
   all_data = []
   cwd = os.getcwd()
@@ -142,7 +151,7 @@ def scrap_function(symbol_list, process_idx):
   # Iterate in symbol list
   for i in range(start_idx, len(symbol_list)):
     symbol = symbol_list[i]
-    scrapped_data = scrap_rating_data(symbol)
+    scrapped_data = scrap_technical_rating_data(symbol)
     all_data.append(scrapped_data)
 
     if (i % 10 == 0 and count != 0):
@@ -150,7 +159,32 @@ def scrap_function(symbol_list, process_idx):
     count += 1
 
   # Save last
-  filename = f"P{process_idx}_data.json"
+  filename = f"P{process_idx}_technical_data.json"
+  print(f"==> Finished data is exported in {filename}")
+  file_path = os.path.join(cwd, "data", filename)
+  save_to_json(file_path, all_data)
+
+  return all_data
+
+def scrap_analyst_function(symbol_list, process_idx):
+  print(f"==> Start scraping from process P{process_idx}")
+  all_data = []
+  cwd = os.getcwd()
+  start_idx = 0
+  count = 0
+
+  # Iterate in symbol list
+  for i in range(start_idx, len(symbol_list)):
+    symbol = symbol_list[i]
+    scrapped_data = scrap_analyst_rating_data(symbol)
+    all_data.append(scrapped_data)
+
+    if (i % 10 == 0 and count != 0):
+      print(f"CHECKPOINT || P{process_idx} {i} Data")
+    count += 1
+
+  # Save last
+  filename = f"P{process_idx}_analyst_data.json"
   print(f"==> Finished data is exported in {filename}")
   file_path = os.path.join(cwd, "data", filename)
   save_to_json(file_path, all_data)
