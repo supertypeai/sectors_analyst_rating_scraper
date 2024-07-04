@@ -90,17 +90,18 @@ def scrape_forecast_page(url: str) :
         for number_data in analyst_number_data:
           n_analyst += int(number_data)
         
+        analyst_rating_dict['n_analyst'] = n_analyst
         analyst_rating_dict['updated_on'] = (datetime.now()).strftime("%Y-%m-%d %H:%M:%S")
 
         print(f"[ANALYST] = Successfully scrape from {url}")
-        return analyst_rating_dict, n_analyst
+        return analyst_rating_dict
       else:
         print(f"[ANALYST] = None HTML Value for {url}")
-        return None, None
+        return None
     except Exception as e:
       print(f"[ANALYST] = Fail scraping from URL: {url}")
       print(f"[ANALYST] = {e}")
-      return None, None
+      return None
     finally:
       session.close()
       print(f"[ANALYST] = Session for {url} is closed")
@@ -133,11 +134,10 @@ def scrape_analyst_rating_data(symbol: str) -> dict:
 
     # Scrape forecast page
     forecast_url = url+"/forecast/"
-    analyst_rating_dict, n_analyst = scrape_forecast_page(forecast_url)
+    analyst_rating_dict = scrape_forecast_page(forecast_url)
 
     # Wrap up
     result_data['analyst_rating'] = analyst_rating_dict
-    result_data['n_analyst'] = n_analyst
 
     return result_data
 
