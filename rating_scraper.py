@@ -85,23 +85,22 @@ def scrap_forecast_page(url: str) :
         for idx, enum in enumerate(ANALYST_ENUM):
             analyst_rating_dict[enum] = int(analyst_number_data[idx])
 
-        # Find Analyst Rating
+        # Calculate Analyst Rating
         n_analyst = 0
         for number_data in analyst_number_data:
           n_analyst += int(number_data)
         
-        analyst_rating_dict['n_analyst'] = n_analyst
         analyst_rating_dict['updated_on'] = (datetime.now()).strftime("%Y-%m-%d %H:%M:%S")
 
         print(f"[ANALYST] = Successfully scrap from {url}")
-        return analyst_rating_dict
+        return analyst_rating_dict, n_analyst
       else:
         print(f"[ANALYST] = None HTML Value for {url}")
-        return None
+        return None, None
     except Exception as e:
       print(f"[ANALYST] = Fail scraping from URL: {url}")
       print(f"[ANALYST] = {e}")
-      return None
+      return None, None
     finally:
       session.close()
       print(f"[ANALYST] = Session for {url} is closed")
@@ -134,10 +133,11 @@ def scrap_analyst_rating_data(symbol: str) -> dict:
 
     # Scrap forecast page
     forecast_url = url+"/forecast/"
-    analyst_rating_dict = scrap_forecast_page(forecast_url)
+    analyst_rating_dict, n_analyst = scrap_forecast_page(forecast_url)
 
     # Wrap up
     result_data['analyst_rating'] = analyst_rating_dict
+    result_data['n_analyst'] = n_analyst
 
     return result_data
 
