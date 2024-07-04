@@ -1,4 +1,4 @@
-name: Scrap Analyst Rating
+name: Scrape Analyst Rating
 on:
   workflow_dispatch:
   schedule:

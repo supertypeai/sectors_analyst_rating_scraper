@@ -20,7 +20,7 @@ logging.getLogger('requests_html').setLevel(logging.WARNING)
 def get_url_page(symbol:str) -> str:
     return f"{BASE_URL}{symbol}"
 
-def scrap_technical_page(url: str) :
+def scrape_technical_page(url: str) :
     print(f"[TECHNICAL] = Opening page {url}")
     try:
       session = HTMLSession()
@@ -48,7 +48,7 @@ def scrap_technical_page(url: str) :
           technical_rating_dict[enum] = int(technical_number_data[idx])
         technical_rating_dict['updated_on'] = (datetime.now()).strftime("%Y-%m-%d %H:%M:%S")
 
-        print(f"[TECHNICAL] = Successfully scrap from {url}")
+        print(f"[TECHNICAL] = Successfully scrape from {url}")
         return technical_rating_dict
       else:
         print(f"[TECHNICAL] = None HTML Value for {url}")
@@ -61,7 +61,7 @@ def scrap_technical_page(url: str) :
       session.close()
       print(f"[TECHNICAL] = Session for {url} is closed")
     
-def scrap_forecast_page(url: str) :
+def scrape_forecast_page(url: str) :
     print(f"[ANALYST] = Opening page {url}")
     try:
       session = HTMLSession()
@@ -92,7 +92,7 @@ def scrap_forecast_page(url: str) :
         
         analyst_rating_dict['updated_on'] = (datetime.now()).strftime("%Y-%m-%d %H:%M:%S")
 
-        print(f"[ANALYST] = Successfully scrap from {url}")
+        print(f"[ANALYST] = Successfully scrape from {url}")
         return analyst_rating_dict, n_analyst
       else:
         print(f"[ANALYST] = None HTML Value for {url}")
@@ -110,30 +110,30 @@ def save_to_json(file_path, data):
   with open(file_path, "w") as output_file:
     json.dump(data, output_file, indent=2)
 
-def scrap_technical_rating_data(symbol: str) -> dict:
+def scrape_technical_rating_data(symbol: str) -> dict:
     url = get_url_page(symbol)
     result_data = dict()
     result_data['symbol'] = symbol
     technical_rating_dict = None
 
-    # Scrap technical page
+    # Scrape technical page
     technical_url = url+"/technicals/"
-    technical_rating_dict = scrap_technical_page(technical_url)
+    technical_rating_dict = scrape_technical_page(technical_url)
 
     # Wrap up
     result_data['technical_rating'] = technical_rating_dict
 
     return result_data
 
-def scrap_analyst_rating_data(symbol: str) -> dict:
+def scrape_analyst_rating_data(symbol: str) -> dict:
     url = get_url_page(symbol)
     result_data = dict()
     result_data['symbol'] = symbol
     analyst_rating_dict = None
 
-    # Scrap forecast page
+    # Scrape forecast page
     forecast_url = url+"/forecast/"
-    analyst_rating_dict, n_analyst = scrap_forecast_page(forecast_url)
+    analyst_rating_dict, n_analyst = scrape_forecast_page(forecast_url)
 
     # Wrap up
     result_data['analyst_rating'] = analyst_rating_dict
@@ -141,7 +141,7 @@ def scrap_analyst_rating_data(symbol: str) -> dict:
 
     return result_data
 
-def scrap_technical_function(symbol_list, process_idx):
+def scrape_technical_function(symbol_list, process_idx):
   print(f"==> Start scraping from process P{process_idx}")
   all_data = []
   cwd = os.getcwd()
@@ -151,7 +151,7 @@ def scrap_technical_function(symbol_list, process_idx):
   # Iterate in symbol list
   for i in range(start_idx, len(symbol_list)):
     symbol = symbol_list[i]
-    scrapped_data = scrap_technical_rating_data(symbol)
+    scrapped_data = scrape_technical_rating_data(symbol)
     all_data.append(scrapped_data)
 
     if (i % 10 == 0 and count != 0):
@@ -166,7 +166,7 @@ def scrap_technical_function(symbol_list, process_idx):
 
   return all_data
 
-def scrap_analyst_function(symbol_list, process_idx):
+def scrape_analyst_function(symbol_list, process_idx):
   print(f"==> Start scraping from process P{process_idx}")
   all_data = []
   cwd = os.getcwd()
@@ -176,7 +176,7 @@ def scrap_analyst_function(symbol_list, process_idx):
   # Iterate in symbol list
   for i in range(start_idx, len(symbol_list)):
     symbol = symbol_list[i]
-    scrapped_data = scrap_analyst_rating_data(symbol)
+    scrapped_data = scrape_analyst_rating_data(symbol)
     all_data.append(scrapped_data)
 
     if (i % 10 == 0 and count != 0):

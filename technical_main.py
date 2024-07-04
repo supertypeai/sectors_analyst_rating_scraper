@@ -6,7 +6,7 @@ import json
 from supabase import create_client
 from multiprocessing import Process
 import time
-from rating_scraper import scrap_technical_function
+from rating_scraper import scrape_technical_function
 from rating_combiner import combine_technical_data
 
 load_dotenv()
@@ -42,10 +42,10 @@ if __name__ == "__main__":
   i2 = 2 * i1
   i3 = 3 * i1
 
-  p1 = Process(target=scrap_technical_function, args=(symbol_list[:i1], 1))
-  p2 = Process(target=scrap_technical_function, args=(symbol_list[i1:i2], 2))
-  p3 = Process(target=scrap_technical_function, args=(symbol_list[i2:i3], 3))
-  p4 = Process(target=scrap_technical_function, args=(symbol_list[i3:], 4))
+  p1 = Process(target=scrape_technical_function, args=(symbol_list[:i1], 1))
+  p2 = Process(target=scrape_technical_function, args=(symbol_list[i1:i2], 2))
+  p3 = Process(target=scrape_technical_function, args=(symbol_list[i2:i3], 3))
+  p4 = Process(target=scrape_technical_function, args=(symbol_list[i3:], 4))
 
   p1.start()
   p2.start()

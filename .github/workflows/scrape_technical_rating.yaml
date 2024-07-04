@@ -1,4 +1,4 @@
-name: Scrap Technical Rating
+name: Scrape Technical Rating
 on:
   workflow_dispatch:
   schedule:
