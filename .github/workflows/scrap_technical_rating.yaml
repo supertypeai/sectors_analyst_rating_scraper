@@ -33,6 +33,9 @@ jobs:
             SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
             SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
         run: python technical_main.py
+
+      - name: Pull changes
+        run: git pull origin main
           
       - name: Commit files
         run: |
