@@ -1,532 +1,20 @@
 [
   {
-    "symbol": "LIFE",
-    "technical_rating": {
-      "sell": 13,
-      "neutral": 10,
-      "buy": 3,
-      "updated_on": "2024-07-05 08:19:49"
-    }
-  },
-  {
-    "symbol": "ASGR",
-    "technical_rating": {
-      "sell": 8,
-      "neutral": 9,
-      "buy": 9,
-      "updated_on": "2024-07-05 08:19:58"
-    }
-  },
-  {
-    "symbol": "ECII",
-    "technical_rating": {
-      "sell": 5,
-      "neutral": 9,
-      "buy": 12,
-      "updated_on": "2024-07-05 08:20:06"
-    }
-  },
-  {
-    "symbol": "META",
-    "technical_rating": {
-      "sell": 3,
-      "neutral": 10,
-      "buy": 13,
-      "updated_on": "2024-07-05 08:20:15"
-    }
-  },
-  {
-    "symbol": "HOTL",
-    "technical_rating": {
-      "sell": 6,
-      "neutral": 17,
-      "buy": 1,
-      "updated_on": "2024-07-05 08:20:24"
-    }
-  },
-  {
-    "symbol": "ENRG",
-    "technical_rating": {
-      "sell": 6,
-      "neutral": 8,
-      "buy": 12,
-      "updated_on": "2024-07-05 08:20:33"
-    }
-  },
-  {
-    "symbol": "OMRE",
-    "technical_rating": {
-      "sell": 15,
-      "neutral": 7,
-      "buy": 4,
-      "updated_on": "2024-07-05 08:20:41"
-    }
-  },
-  {
-    "symbol": "PAMG",
-    "technical_rating": {
-      "sell": 14,
-      "neutral": 9,
-      "buy": 2,
-      "updated_on": "2024-07-05 08:20:49"
-    }
-  },
-  {
-    "symbol": "PANR",
-    "technical_rating": {
-      "sell": 13,
-      "neutral": 10,
-      "buy": 3,
-      "updated_on": "2024-07-05 08:20:57"
-    }
-  },
-  {
-    "symbol": "CAMP",
-    "technical_rating": {
-      "sell": 5,
-      "neutral": 10,
-      "buy": 11,
-      "updated_on": "2024-07-05 08:21:04"
-    }
-  },
-  {
-    "symbol": "DUTI",
-    "technical_rating": {
-      "sell": 12,
-      "neutral": 8,
-      "buy": 6,
-      "updated_on": "2024-07-05 08:21:13"
-    }
-  },
-  {
-    "symbol": "PGAS",
-    "technical_rating": {
-      "sell": 2,
-      "neutral": 10,
-      "buy": 14,
-      "updated_on": "2024-07-05 08:21:22"
-    }
-  },
-  {
-    "symbol": "PGLI",
-    "technical_rating": {
-      "sell": 16,
-      "neutral": 9,
-      "buy": 1,
-      "updated_on": "2024-07-05 08:21:30"
-    }
-  },
-  {
-    "symbol": "PLIN",
-    "technical_rating": {
-      "sell": 15,
-      "neutral": 9,
-      "buy": 2,
-      "updated_on": "2024-07-05 08:21:39"
-    }
-  },
-  {
-    "symbol": "ACST",
+    "symbol": "SKRN",
     "technical_rating": {
       "sell": 9,
       "neutral": 9,
       "buy": 8,
-      "updated_on": "2024-07-05 08:21:48"
-    }
-  },
-  {
-    "symbol": "INCO",
-    "technical_rating": {
-      "sell": 16,
-      "neutral": 9,
-      "buy": 1,
-      "updated_on": "2024-07-05 08:21:56"
-    }
-  },
-  {
-    "symbol": "MTDL",
-    "technical_rating": {
-      "sell": 2,
-      "neutral": 9,
-      "buy": 15,
-      "updated_on": "2024-07-05 08:22:07"
-    }
-  },
-  {
-    "symbol": "PMJS",
-    "technical_rating": {
-      "sell": 5,
-      "neutral": 10,
-      "buy": 11,
-      "updated_on": "2024-07-05 08:22:16"
-    }
-  },
-  {
-    "symbol": "SMKL",
-    "technical_rating": {
-      "sell": 6,
-      "neutral": 10,
-      "buy": 10,
-      "updated_on": "2024-07-05 08:22:24"
-    }
-  },
-  {
-    "symbol": "BAYU",
-    "technical_rating": {
-      "sell": 15,
-      "neutral": 9,
-      "buy": 2,
-      "updated_on": "2024-07-05 08:22:33"
-    }
-  },
-  {
-    "symbol": "BIPI",
-    "technical_rating": {
-      "sell": 14,
-      "neutral": 6,
-      "buy": 6,
-      "updated_on": "2024-07-05 08:22:41"
-    }
-  },
-  {
-    "symbol": "JKSW",
-    "technical_rating": {
-      "sell": 6,
-      "neutral": 8,
-      "buy": 12,
-      "updated_on": "2024-07-05 08:22:49"
-    }
-  },
-  {
-    "symbol": "KREN",
-    "technical_rating": {
-      "sell": 10,
-      "neutral": 10,
-      "buy": 6,
-      "updated_on": "2024-07-05 08:22:57"
-    }
-  },
-  {
-    "symbol": "MRAT",
-    "technical_rating": {
-      "sell": 1,
-      "neutral": 9,
-      "buy": 16,
-      "updated_on": "2024-07-05 08:23:03"
-    }
-  },
-  {
-    "symbol": "MCOL",
-    "technical_rating": {
-      "sell": 8,
-      "neutral": 10,
-      "buy": 8,
-      "updated_on": "2024-07-05 08:23:10"
-    }
-  },
-  {
-    "symbol": "OLIV",
-    "technical_rating": {
-      "sell": 15,
-      "neutral": 9,
-      "buy": 2,
-      "updated_on": "2024-07-05 08:23:18"
-    }
-  },
-  {
-    "symbol": "NIKL",
-    "technical_rating": null
-  },
-  {
-    "symbol": "PNGO",
-    "technical_rating": {
-      "sell": 12,
-      "neutral": 8,
-      "buy": 6,
-      "updated_on": "2024-07-05 08:23:37"
-    }
-  },
-  {
-    "symbol": "CITY",
-    "technical_rating": {
-      "sell": 8,
-      "neutral": 15,
-      "buy": 1,
-      "updated_on": "2024-07-05 08:23:45"
-    }
-  },
-  {
-    "symbol": "PANI",
-    "technical_rating": {
-      "sell": 12,
-      "neutral": 10,
-      "buy": 4,
-      "updated_on": "2024-07-05 08:23:54"
-    }
-  },
-  {
-    "symbol": "RCCC",
-    "technical_rating": {
-      "sell": 4,
-      "neutral": 9,
-      "buy": 13,
-      "updated_on": "2024-07-05 08:24:02"
-    }
-  },
-  {
-    "symbol": "POLI",
-    "technical_rating": {
-      "sell": 6,
-      "neutral": 10,
-      "buy": 10,
-      "updated_on": "2024-07-05 08:24:10"
-    }
-  },
-  {
-    "symbol": "POLL",
-    "technical_rating": {
-      "sell": 14,
-      "neutral": 8,
-      "buy": 4,
-      "updated_on": "2024-07-05 08:24:18"
-    }
-  },
-  {
-    "symbol": "RDTX",
-    "technical_rating": {
-      "sell": 16,
-      "neutral": 9,
-      "buy": 1,
-      "updated_on": "2024-07-05 08:24:26"
-    }
-  },
-  {
-    "symbol": "MBMA",
-    "technical_rating": {
-      "sell": 3,
-      "neutral": 10,
-      "buy": 13,
-      "updated_on": "2024-07-05 08:24:33"
-    }
-  },
-  {
-    "symbol": "PORT",
-    "technical_rating": {
-      "sell": 12,
-      "neutral": 9,
-      "buy": 5,
-      "updated_on": "2024-07-05 08:24:41"
-    }
-  },
-  {
-    "symbol": "RMBA",
-    "technical_rating": null
-  },
-  {
-    "symbol": "BOBA",
-    "technical_rating": {
-      "sell": 2,
-      "neutral": 8,
-      "buy": 16,
-      "updated_on": "2024-07-05 08:24:55"
-    }
-  },
-  {
-    "symbol": "MNCN",
-    "technical_rating": {
-      "sell": 8,
-      "neutral": 9,
-      "buy": 9,
-      "updated_on": "2024-07-05 08:25:04"
-    }
-  },
-  {
-    "symbol": "PSSI",
-    "technical_rating": {
-      "sell": 7,
-      "neutral": 10,
-      "buy": 9,
-      "updated_on": "2024-07-05 08:25:13"
-    }
-  },
-  {
-    "symbol": "PTDU",
-    "technical_rating": {
-      "sell": 11,
-      "neutral": 10,
-      "buy": 5,
-      "updated_on": "2024-07-05 08:25:22"
-    }
-  },
-  {
-    "symbol": "TUGU",
-    "technical_rating": {
-      "sell": 12,
-      "neutral": 9,
-      "buy": 5,
-      "updated_on": "2024-07-05 08:25:31"
-    }
-  },
-  {
-    "symbol": "PURA",
-    "technical_rating": {
-      "sell": 8,
-      "neutral": 10,
-      "buy": 8,
-      "updated_on": "2024-07-05 08:25:39"
-    }
-  },
-  {
-    "symbol": "DEWI",
-    "technical_rating": {
-      "sell": 12,
-      "neutral": 9,
-      "buy": 5,
-      "updated_on": "2024-07-05 08:25:48"
-    }
-  },
-  {
-    "symbol": "ICBP",
-    "technical_rating": {
-      "sell": 15,
-      "neutral": 10,
-      "buy": 1,
-      "updated_on": "2024-07-05 08:25:57"
-    }
-  },
-  {
-    "symbol": "TYRE",
-    "technical_rating": {
-      "sell": 9,
-      "neutral": 9,
-      "buy": 8,
-      "updated_on": "2024-07-05 08:26:05"
-    }
-  },
-  {
-    "symbol": "PTPW",
-    "technical_rating": {
-      "sell": 11,
-      "neutral": 11,
-      "buy": 4,
-      "updated_on": "2024-07-05 08:26:14"
-    }
-  },
-  {
-    "symbol": "PTSN",
-    "technical_rating": {
-      "sell": 14,
-      "neutral": 10,
-      "buy": 2,
-      "updated_on": "2024-07-05 08:26:23"
-    }
-  },
-  {
-    "symbol": "BPFI",
-    "technical_rating": {
-      "sell": 5,
-      "neutral": 8,
-      "buy": 13,
-      "updated_on": "2024-07-05 08:26:31"
-    }
-  },
-  {
-    "symbol": "MMLP",
-    "technical_rating": {
-      "sell": 3,
-      "neutral": 10,
-      "buy": 13,
-      "updated_on": "2024-07-05 08:26:39"
-    }
-  },
-  {
-    "symbol": "DEAL",
-    "technical_rating": {
-      "sell": 11,
-      "neutral": 10,
-      "buy": 5,
-      "updated_on": "2024-07-05 08:26:47"
-    }
-  },
-  {
-    "symbol": "IKAN",
-    "technical_rating": {
-      "sell": 14,
-      "neutral": 11,
-      "buy": 1,
-      "updated_on": "2024-07-05 08:26:56"
-    }
-  },
-  {
-    "symbol": "INPC",
-    "technical_rating": {
-      "sell": 6,
-      "neutral": 9,
-      "buy": 11,
-      "updated_on": "2024-07-05 08:27:05"
-    }
-  },
-  {
-    "symbol": "JAWA",
-    "technical_rating": {
-      "sell": 10,
-      "neutral": 8,
-      "buy": 8,
-      "updated_on": "2024-07-05 08:27:12"
-    }
-  },
-  {
-    "symbol": "BABY",
-    "technical_rating": {
-      "sell": 6,
-      "neutral": 10,
-      "buy": 8,
-      "updated_on": "2024-07-05 08:27:21"
-    }
-  },
-  {
-    "symbol": "INDR",
-    "technical_rating": {
-      "sell": 12,
-      "neutral": 9,
-      "buy": 5,
-      "updated_on": "2024-07-05 08:27:29"
-    }
-  },
-  {
-    "symbol": "LPKR",
-    "technical_rating": {
-      "sell": 15,
-      "neutral": 10,
-      "buy": 1,
-      "updated_on": "2024-07-05 08:27:38"
-    }
-  },
-  {
-    "symbol": "SHIP",
-    "technical_rating": {
-      "sell": 10,
-      "neutral": 9,
-      "buy": 7,
-      "updated_on": "2024-07-05 08:27:46"
-    }
-  },
-  {
-    "symbol": "RAFI",
-    "technical_rating": {
-      "sell": 10,
-      "neutral": 8,
-      "buy": 8,
-      "updated_on": "2024-07-05 08:27:54"
+      "updated_on": "2024-07-06 08:20:21"
     }
   },
   {
     "symbol": "ADHI",
     "technical_rating": {
-      "sell": 7,
-      "neutral": 9,
-      "buy": 10,
-      "updated_on": "2024-07-05 08:28:03"
+      "sell": 10,
+      "neutral": 8,
+      "buy": 8,
+      "updated_on": "2024-07-06 08:20:30"
     }
   },
   {
@@ -535,16 +23,16 @@
       "sell": 16,
       "neutral": 8,
       "buy": 2,
-      "updated_on": "2024-07-05 08:28:11"
+      "updated_on": "2024-07-06 08:20:38"
     }
   },
   {
     "symbol": "BLUE",
     "technical_rating": {
       "sell": 15,
-      "neutral": 11,
-      "buy": 0,
-      "updated_on": "2024-07-05 08:28:19"
+      "neutral": 10,
+      "buy": 1,
+      "updated_on": "2024-07-06 08:20:47"
     }
   },
   {
@@ -553,7 +41,7 @@
       "sell": 15,
       "neutral": 10,
       "buy": 1,
-      "updated_on": "2024-07-05 08:28:28"
+      "updated_on": "2024-07-06 08:20:56"
     }
   },
   {
@@ -562,25 +50,34 @@
       "sell": 12,
       "neutral": 11,
       "buy": 1,
-      "updated_on": "2024-07-05 08:28:35"
+      "updated_on": "2024-07-06 08:21:04"
     }
   },
   {
     "symbol": "CBUT",
     "technical_rating": {
-      "sell": 11,
+      "sell": 12,
       "neutral": 10,
-      "buy": 5,
-      "updated_on": "2024-07-05 08:28:43"
+      "buy": 4,
+      "updated_on": "2024-07-06 08:21:13"
     }
   },
   {
     "symbol": "HADE",
     "technical_rating": {
-      "sell": 16,
+      "sell": 5,
+      "neutral": 10,
+      "buy": 11,
+      "updated_on": "2024-07-06 08:21:21"
+    }
+  },
+  {
+    "symbol": "RIGS",
+    "technical_rating": {
+      "sell": 7,
       "neutral": 9,
-      "buy": 1,
-      "updated_on": "2024-07-05 08:28:52"
+      "buy": 10,
+      "updated_on": "2024-07-06 08:21:29"
     }
   },
   {
@@ -589,25 +86,34 @@
       "sell": 10,
       "neutral": 10,
       "buy": 4,
-      "updated_on": "2024-07-05 08:29:00"
+      "updated_on": "2024-07-06 08:21:38"
     }
   },
   {
-    "symbol": "RIGS",
+    "symbol": "SLIS",
+    "technical_rating": {
+      "sell": 12,
+      "neutral": 7,
+      "buy": 7,
+      "updated_on": "2024-07-06 08:21:47"
+    }
+  },
+  {
+    "symbol": "SMBR",
     "technical_rating": {
       "sell": 6,
-      "neutral": 9,
-      "buy": 11,
-      "updated_on": "2024-07-05 08:29:08"
+      "neutral": 10,
+      "buy": 10,
+      "updated_on": "2024-07-06 08:21:55"
     }
   },
   {
     "symbol": "BUAH",
     "technical_rating": {
-      "sell": 9,
-      "neutral": 9,
+      "sell": 8,
+      "neutral": 10,
       "buy": 8,
-      "updated_on": "2024-07-05 08:29:17"
+      "updated_on": "2024-07-06 08:22:04"
     }
   },
   {
@@ -616,16 +122,16 @@
       "sell": 14,
       "neutral": 9,
       "buy": 3,
-      "updated_on": "2024-07-05 08:29:26"
+      "updated_on": "2024-07-06 08:22:13"
     }
   },
   {
     "symbol": "DEWA",
     "technical_rating": {
-      "sell": 4,
-      "neutral": 8,
+      "sell": 3,
+      "neutral": 9,
       "buy": 14,
-      "updated_on": "2024-07-05 08:29:34"
+      "updated_on": "2024-07-06 08:22:21"
     }
   },
   {
@@ -634,7 +140,7 @@
       "sell": 15,
       "neutral": 10,
       "buy": 1,
-      "updated_on": "2024-07-05 08:29:43"
+      "updated_on": "2024-07-06 08:22:29"
     }
   },
   {
@@ -643,7 +149,16 @@
       "sell": 15,
       "neutral": 10,
       "buy": 1,
-      "updated_on": "2024-07-05 08:29:52"
+      "updated_on": "2024-07-06 08:22:37"
+    }
+  },
+  {
+    "symbol": "SMCB",
+    "technical_rating": {
+      "sell": 13,
+      "neutral": 10,
+      "buy": 3,
+      "updated_on": "2024-07-06 08:22:46"
     }
   },
   {
@@ -652,7 +167,7 @@
       "sell": 5,
       "neutral": 5,
       "buy": 16,
-      "updated_on": "2024-07-05 08:30:00"
+      "updated_on": "2024-07-06 08:22:55"
     }
   },
   {
@@ -661,7 +176,7 @@
       "sell": 2,
       "neutral": 8,
       "buy": 16,
-      "updated_on": "2024-07-05 08:30:08"
+      "updated_on": "2024-07-06 08:23:04"
     }
   },
   {
@@ -670,7 +185,7 @@
       "sell": 16,
       "neutral": 9,
       "buy": 1,
-      "updated_on": "2024-07-05 08:30:17"
+      "updated_on": "2024-07-06 08:23:12"
     }
   },
   {
@@ -679,7 +194,7 @@
       "sell": 12,
       "neutral": 11,
       "buy": 2,
-      "updated_on": "2024-07-05 08:30:26"
+      "updated_on": "2024-07-06 08:23:21"
     }
   },
   {
@@ -688,7 +203,7 @@
       "sell": 5,
       "neutral": 8,
       "buy": 13,
-      "updated_on": "2024-07-05 08:30:34"
+      "updated_on": "2024-07-06 08:23:29"
     }
   },
   {
@@ -697,16 +212,16 @@
       "sell": 3,
       "neutral": 11,
       "buy": 12,
-      "updated_on": "2024-07-05 08:30:43"
+      "updated_on": "2024-07-06 08:23:38"
     }
   },
   {
     "symbol": "ESIP",
     "technical_rating": {
-      "sell": 6,
-      "neutral": 9,
-      "buy": 11,
-      "updated_on": "2024-07-05 08:30:51"
+      "sell": 12,
+      "neutral": 10,
+      "buy": 4,
+      "updated_on": "2024-07-06 08:23:46"
     }
   },
   {
@@ -715,7 +230,7 @@
       "sell": 14,
       "neutral": 10,
       "buy": 2,
-      "updated_on": "2024-07-05 08:30:59"
+      "updated_on": "2024-07-06 08:23:55"
     }
   },
   {
@@ -724,25 +239,43 @@
       "sell": 14,
       "neutral": 10,
       "buy": 2,
-      "updated_on": "2024-07-05 08:31:08"
+      "updated_on": "2024-07-06 08:24:05"
     }
   },
   {
     "symbol": "PTBA",
     "technical_rating": {
-      "sell": 9,
-      "neutral": 10,
-      "buy": 7,
-      "updated_on": "2024-07-05 08:31:17"
+      "sell": 8,
+      "neutral": 9,
+      "buy": 9,
+      "updated_on": "2024-07-06 08:24:13"
+    }
+  },
+  {
+    "symbol": "SMDR",
+    "technical_rating": {
+      "sell": 3,
+      "neutral": 9,
+      "buy": 14,
+      "updated_on": "2024-07-06 08:24:22"
+    }
+  },
+  {
+    "symbol": "SMGA",
+    "technical_rating": {
+      "sell": 5,
+      "neutral": 9,
+      "buy": 8,
+      "updated_on": "2024-07-06 08:24:30"
     }
   },
   {
     "symbol": "BISI",
     "technical_rating": {
-      "sell": 10,
-      "neutral": 10,
-      "buy": 6,
-      "updated_on": "2024-07-05 08:31:26"
+      "sell": 12,
+      "neutral": 9,
+      "buy": 5,
+      "updated_on": "2024-07-06 08:24:39"
     }
   },
   {
@@ -751,25 +284,16 @@
       "sell": 14,
       "neutral": 9,
       "buy": 3,
-      "updated_on": "2024-07-05 08:31:35"
-    }
-  },
-  {
-    "symbol": "PLAN",
-    "technical_rating": {
-      "sell": 15,
-      "neutral": 10,
-      "buy": 1,
-      "updated_on": "2024-07-05 08:31:43"
+      "updated_on": "2024-07-06 08:24:48"
     }
   },
   {
     "symbol": "GDST",
     "technical_rating": {
-      "sell": 4,
-      "neutral": 9,
-      "buy": 13,
-      "updated_on": "2024-07-05 08:31:52"
+      "sell": 5,
+      "neutral": 7,
+      "buy": 14,
+      "updated_on": "2024-07-06 08:24:57"
     }
   },
   {
@@ -778,25 +302,34 @@
       "sell": 15,
       "neutral": 10,
       "buy": 1,
-      "updated_on": "2024-07-05 08:32:00"
+      "updated_on": "2024-07-06 08:25:05"
     }
   },
   {
     "symbol": "PKPK",
     "technical_rating": {
-      "sell": 1,
-      "neutral": 9,
-      "buy": 16,
-      "updated_on": "2024-07-05 08:32:08"
+      "sell": 2,
+      "neutral": 10,
+      "buy": 14,
+      "updated_on": "2024-07-06 08:25:13"
+    }
+  },
+  {
+    "symbol": "PLAN",
+    "technical_rating": {
+      "sell": 8,
+      "neutral": 11,
+      "buy": 7,
+      "updated_on": "2024-07-06 08:25:22"
     }
   },
   {
     "symbol": "DPUM",
     "technical_rating": {
-      "sell": 2,
-      "neutral": 9,
-      "buy": 15,
-      "updated_on": "2024-07-05 08:32:17"
+      "sell": 1,
+      "neutral": 8,
+      "buy": 17,
+      "updated_on": "2024-07-06 08:25:31"
     }
   },
   {
@@ -805,16 +338,7 @@
       "sell": 16,
       "neutral": 7,
       "buy": 3,
-      "updated_on": "2024-07-05 08:32:26"
-    }
-  },
-  {
-    "symbol": "MAXI",
-    "technical_rating": {
-      "sell": 2,
-      "neutral": 9,
-      "buy": 15,
-      "updated_on": "2024-07-05 08:32:34"
+      "updated_on": "2024-07-06 08:25:39"
     }
   },
   {
@@ -823,7 +347,16 @@
       "sell": 17,
       "neutral": 7,
       "buy": 2,
-      "updated_on": "2024-07-05 08:32:43"
+      "updated_on": "2024-07-06 08:25:48"
+    }
+  },
+  {
+    "symbol": "MAXI",
+    "technical_rating": {
+      "sell": 2,
+      "neutral": 9,
+      "buy": 15,
+      "updated_on": "2024-07-06 08:25:57"
     }
   },
   {
@@ -832,7 +365,16 @@
       "sell": 13,
       "neutral": 11,
       "buy": 2,
-      "updated_on": "2024-07-05 08:32:51"
+      "updated_on": "2024-07-06 08:26:05"
+    }
+  },
+  {
+    "symbol": "SMGR",
+    "technical_rating": {
+      "sell": 9,
+      "neutral": 9,
+      "buy": 8,
+      "updated_on": "2024-07-06 08:26:14"
     }
   },
   {
@@ -841,43 +383,52 @@
       "sell": 14,
       "neutral": 10,
       "buy": 0,
-      "updated_on": "2024-07-05 08:33:00"
-    }
-  },
-  {
-    "symbol": "GRPM",
-    "technical_rating": {
-      "sell": 14,
-      "neutral": 10,
-      "buy": 2,
-      "updated_on": "2024-07-05 08:33:07"
-    }
-  },
-  {
-    "symbol": "RONY",
-    "technical_rating": {
-      "sell": 14,
-      "neutral": 10,
-      "buy": 2,
-      "updated_on": "2024-07-05 08:33:14"
+      "updated_on": "2024-07-06 08:26:22"
     }
   },
   {
     "symbol": "CMRY",
     "technical_rating": {
-      "sell": 12,
+      "sell": 11,
       "neutral": 10,
-      "buy": 4,
-      "updated_on": "2024-07-05 08:33:23"
+      "buy": 5,
+      "updated_on": "2024-07-06 08:26:31"
+    }
+  },
+  {
+    "symbol": "GRPM",
+    "technical_rating": {
+      "sell": 4,
+      "neutral": 9,
+      "buy": 13,
+      "updated_on": "2024-07-06 08:26:39"
+    }
+  },
+  {
+    "symbol": "RONY",
+    "technical_rating": {
+      "sell": 6,
+      "neutral": 9,
+      "buy": 11,
+      "updated_on": "2024-07-06 08:26:48"
     }
   },
   {
     "symbol": "SMDM",
     "technical_rating": {
-      "sell": 1,
-      "neutral": 8,
-      "buy": 17,
-      "updated_on": "2024-07-05 08:33:31"
+      "sell": 2,
+      "neutral": 9,
+      "buy": 15,
+      "updated_on": "2024-07-06 08:26:56"
+    }
+  },
+  {
+    "symbol": "SMMT",
+    "technical_rating": {
+      "sell": 10,
+      "neutral": 10,
+      "buy": 6,
+      "updated_on": "2024-07-06 08:27:04"
     }
   },
   {
@@ -886,16 +437,7 @@
       "sell": 1,
       "neutral": 9,
       "buy": 16,
-      "updated_on": "2024-07-05 08:33:39"
-    }
-  },
-  {
-    "symbol": "HAIS",
-    "technical_rating": {
-      "sell": 7,
-      "neutral": 10,
-      "buy": 9,
-      "updated_on": "2024-07-05 08:33:48"
+      "updated_on": "2024-07-06 08:27:12"
     }
   },
   {
@@ -904,7 +446,25 @@
       "sell": 8,
       "neutral": 15,
       "buy": 1,
-      "updated_on": "2024-07-05 08:33:56"
+      "updated_on": "2024-07-06 08:27:21"
+    }
+  },
+  {
+    "symbol": "HAIS",
+    "technical_rating": {
+      "sell": 7,
+      "neutral": 10,
+      "buy": 9,
+      "updated_on": "2024-07-06 08:27:30"
+    }
+  },
+  {
+    "symbol": "KAEF",
+    "technical_rating": {
+      "sell": 11,
+      "neutral": 8,
+      "buy": 7,
+      "updated_on": "2024-07-06 08:27:38"
     }
   },
   {
@@ -913,25 +473,25 @@
       "sell": 13,
       "neutral": 9,
       "buy": 4,
-      "updated_on": "2024-07-05 08:34:05"
+      "updated_on": "2024-07-06 08:27:46"
     }
   },
   {
-    "symbol": "KAEF",
+    "symbol": "SOCI",
     "technical_rating": {
-      "sell": 9,
-      "neutral": 8,
-      "buy": 9,
-      "updated_on": "2024-07-05 08:34:14"
+      "sell": 8,
+      "neutral": 10,
+      "buy": 8,
+      "updated_on": "2024-07-06 08:27:55"
     }
   },
   {
     "symbol": "JMAS",
     "technical_rating": {
-      "sell": 5,
-      "neutral": 10,
-      "buy": 11,
-      "updated_on": "2024-07-05 08:34:22"
+      "sell": 4,
+      "neutral": 8,
+      "buy": 14,
+      "updated_on": "2024-07-06 08:28:03"
     }
   },
   {
@@ -940,7 +500,7 @@
       "sell": 14,
       "neutral": 10,
       "buy": 2,
-      "updated_on": "2024-07-05 08:34:31"
+      "updated_on": "2024-07-06 08:28:11"
     }
   },
   {
@@ -949,7 +509,7 @@
       "sell": 8,
       "neutral": 9,
       "buy": 9,
-      "updated_on": "2024-07-05 08:34:40"
+      "updated_on": "2024-07-06 08:28:19"
     }
   },
   {
@@ -958,7 +518,34 @@
       "sell": 15,
       "neutral": 9,
       "buy": 2,
-      "updated_on": "2024-07-05 08:34:49"
+      "updated_on": "2024-07-06 08:28:28"
+    }
+  },
+  {
+    "symbol": "SPMA",
+    "technical_rating": {
+      "sell": 10,
+      "neutral": 10,
+      "buy": 6,
+      "updated_on": "2024-07-06 08:28:36"
+    }
+  },
+  {
+    "symbol": "SPTO",
+    "technical_rating": {
+      "sell": 10,
+      "neutral": 9,
+      "buy": 7,
+      "updated_on": "2024-07-06 08:28:44"
+    }
+  },
+  {
+    "symbol": "SQMI",
+    "technical_rating": {
+      "sell": 11,
+      "neutral": 11,
+      "buy": 2,
+      "updated_on": "2024-07-06 08:28:52"
     }
   },
   {
@@ -967,16 +554,7 @@
       "sell": 13,
       "neutral": 11,
       "buy": 2,
-      "updated_on": "2024-07-05 08:34:58"
-    }
-  },
-  {
-    "symbol": "RSCH",
-    "technical_rating": {
-      "sell": 3,
-      "neutral": 10,
-      "buy": 13,
-      "updated_on": "2024-07-05 08:35:07"
+      "updated_on": "2024-07-06 08:28:59"
     }
   },
   {
@@ -985,7 +563,61 @@
       "sell": 16,
       "neutral": 9,
       "buy": 1,
-      "updated_on": "2024-07-05 08:35:15"
+      "updated_on": "2024-07-06 08:29:07"
+    }
+  },
+  {
+    "symbol": "RSCH",
+    "technical_rating": {
+      "sell": 3,
+      "neutral": 10,
+      "buy": 13,
+      "updated_on": "2024-07-06 08:29:15"
+    }
+  },
+  {
+    "symbol": "SRSN",
+    "technical_rating": {
+      "sell": 15,
+      "neutral": 10,
+      "buy": 1,
+      "updated_on": "2024-07-06 08:29:23"
+    }
+  },
+  {
+    "symbol": "SSMS",
+    "technical_rating": {
+      "sell": 4,
+      "neutral": 8,
+      "buy": 14,
+      "updated_on": "2024-07-06 08:29:31"
+    }
+  },
+  {
+    "symbol": "SSTM",
+    "technical_rating": {
+      "sell": 13,
+      "neutral": 10,
+      "buy": 2,
+      "updated_on": "2024-07-06 08:29:39"
+    }
+  },
+  {
+    "symbol": "STAR",
+    "technical_rating": {
+      "sell": 14,
+      "neutral": 10,
+      "buy": 2,
+      "updated_on": "2024-07-06 08:29:48"
+    }
+  },
+  {
+    "symbol": "STTP",
+    "technical_rating": {
+      "sell": 0,
+      "neutral": 10,
+      "buy": 16,
+      "updated_on": "2024-07-06 08:29:58"
     }
   },
   {
@@ -994,16 +626,7 @@
       "sell": 10,
       "neutral": 8,
       "buy": 8,
-      "updated_on": "2024-07-05 08:35:24"
-    }
-  },
-  {
-    "symbol": "LMAX",
-    "technical_rating": {
-      "sell": 5,
-      "neutral": 8,
-      "buy": 13,
-      "updated_on": "2024-07-05 08:35:32"
+      "updated_on": "2024-07-06 08:30:07"
     }
   },
   {
@@ -1012,7 +635,7 @@
       "sell": 4,
       "neutral": 10,
       "buy": 12,
-      "updated_on": "2024-07-05 08:35:40"
+      "updated_on": "2024-07-06 08:30:15"
     }
   },
   {
@@ -1021,7 +644,16 @@
       "sell": 11,
       "neutral": 9,
       "buy": 6,
-      "updated_on": "2024-07-05 08:35:49"
+      "updated_on": "2024-07-06 08:30:24"
+    }
+  },
+  {
+    "symbol": "LMAX",
+    "technical_rating": {
+      "sell": 5,
+      "neutral": 8,
+      "buy": 13,
+      "updated_on": "2024-07-06 08:30:33"
     }
   },
   {
@@ -1030,7 +662,16 @@
       "sell": 2,
       "neutral": 7,
       "buy": 17,
-      "updated_on": "2024-07-05 08:35:56"
+      "updated_on": "2024-07-06 08:30:42"
+    }
+  },
+  {
+    "symbol": "TALF",
+    "technical_rating": {
+      "sell": 11,
+      "neutral": 10,
+      "buy": 5,
+      "updated_on": "2024-07-06 08:30:50"
     }
   },
   {
@@ -1039,7 +680,7 @@
       "sell": 2,
       "neutral": 8,
       "buy": 16,
-      "updated_on": "2024-07-05 08:36:04"
+      "updated_on": "2024-07-06 08:30:59"
     }
   },
   {
@@ -1048,7 +689,7 @@
       "sell": 8,
       "neutral": 10,
       "buy": 8,
-      "updated_on": "2024-07-05 08:36:12"
+      "updated_on": "2024-07-06 08:31:07"
     }
   },
   {
@@ -1057,34 +698,43 @@
       "sell": 1,
       "neutral": 10,
       "buy": 15,
-      "updated_on": "2024-07-05 08:36:20"
+      "updated_on": "2024-07-06 08:31:15"
     }
   },
   {
     "symbol": "EPMT",
     "technical_rating": {
-      "sell": 4,
-      "neutral": 9,
-      "buy": 13,
-      "updated_on": "2024-07-05 08:36:26"
+      "sell": 5,
+      "neutral": 7,
+      "buy": 14,
+      "updated_on": "2024-07-06 08:31:24"
     }
   },
   {
     "symbol": "SMSM",
     "technical_rating": {
       "sell": 0,
-      "neutral": 9,
-      "buy": 17,
-      "updated_on": "2024-07-05 08:36:33"
+      "neutral": 10,
+      "buy": 16,
+      "updated_on": "2024-07-06 08:31:33"
+    }
+  },
+  {
+    "symbol": "TAMU",
+    "technical_rating": {
+      "sell": 13,
+      "neutral": 10,
+      "buy": 3,
+      "updated_on": "2024-07-06 08:31:41"
     }
   },
   {
     "symbol": "APLI",
     "technical_rating": {
-      "sell": 4,
-      "neutral": 7,
-      "buy": 15,
-      "updated_on": "2024-07-05 08:36:41"
+      "sell": 12,
+      "neutral": 8,
+      "buy": 6,
+      "updated_on": "2024-07-06 08:31:51"
     }
   },
   {
@@ -1093,7 +743,7 @@
       "sell": 3,
       "neutral": 10,
       "buy": 13,
-      "updated_on": "2024-07-05 08:36:48"
+      "updated_on": "2024-07-06 08:31:59"
     }
   },
   {
@@ -1102,7 +752,7 @@
       "sell": 9,
       "neutral": 9,
       "buy": 6,
-      "updated_on": "2024-07-05 08:36:55"
+      "updated_on": "2024-07-06 08:32:07"
     }
   },
   {
@@ -1111,7 +761,7 @@
       "sell": 2,
       "neutral": 10,
       "buy": 14,
-      "updated_on": "2024-07-05 08:37:03"
+      "updated_on": "2024-07-06 08:32:15"
     }
   },
   {
@@ -1120,7 +770,7 @@
       "sell": 7,
       "neutral": 10,
       "buy": 9,
-      "updated_on": "2024-07-05 08:37:10"
+      "updated_on": "2024-07-06 08:32:23"
     }
   },
   {
@@ -1129,16 +779,16 @@
       "sell": 11,
       "neutral": 9,
       "buy": 6,
-      "updated_on": "2024-07-05 08:37:19"
+      "updated_on": "2024-07-06 08:32:31"
     }
   },
   {
     "symbol": "AMRT",
     "technical_rating": {
-      "sell": 8,
+      "sell": 4,
       "neutral": 9,
-      "buy": 9,
-      "updated_on": "2024-07-05 08:37:26"
+      "buy": 13,
+      "updated_on": "2024-07-06 08:32:40"
     }
   },
   {
@@ -1147,7 +797,7 @@
       "sell": 16,
       "neutral": 9,
       "buy": 1,
-      "updated_on": "2024-07-05 08:37:35"
+      "updated_on": "2024-07-06 08:32:49"
     }
   },
   {
@@ -1156,7 +806,7 @@
       "sell": 11,
       "neutral": 14,
       "buy": 1,
-      "updated_on": "2024-07-05 08:37:43"
+      "updated_on": "2024-07-06 08:32:57"
     }
   },
   {
@@ -1165,7 +815,7 @@
       "sell": 8,
       "neutral": 9,
       "buy": 9,
-      "updated_on": "2024-07-05 08:37:50"
+      "updated_on": "2024-07-06 08:33:05"
     }
   },
   {
@@ -1174,26 +824,21 @@
       "sell": 13,
       "neutral": 9,
       "buy": 4,
-      "updated_on": "2024-07-05 08:37:58"
+      "updated_on": "2024-07-06 08:33:13"
+    }
+  },
+  {
+    "symbol": "TBIG",
+    "technical_rating": {
+      "sell": 5,
+      "neutral": 10,
+      "buy": 11,
+      "updated_on": "2024-07-06 08:33:20"
     }
   },
   {
     "symbol": "CPRO",
-    "technical_rating": {
-      "sell": 8,
-      "neutral": 15,
-      "buy": 1,
-      "updated_on": "2024-07-05 08:38:06"
-    }
-  },
-  {
-    "symbol": "LCGP",
-    "technical_rating": {
-      "sell": 14,
-      "neutral": 10,
-      "buy": 2,
-      "updated_on": "2024-07-05 08:38:14"
-    }
+    "technical_rating": null
   },
   {
     "symbol": "INDS",
@@ -1201,7 +846,7 @@
       "sell": 2,
       "neutral": 9,
       "buy": 15,
-      "updated_on": "2024-07-05 08:38:23"
+      "updated_on": "2024-07-06 08:33:40"
     }
   },
   {
@@ -1210,16 +855,16 @@
       "sell": 4,
       "neutral": 9,
       "buy": 13,
-      "updated_on": "2024-07-05 08:38:31"
+      "updated_on": "2024-07-06 08:33:47"
     }
   },
   {
-    "symbol": "SMKM",
+    "symbol": "LCGP",
     "technical_rating": {
-      "sell": 9,
-      "neutral": 9,
-      "buy": 8,
-      "updated_on": "2024-07-05 08:38:43"
+      "sell": 14,
+      "neutral": 10,
+      "buy": 2,
+      "updated_on": "2024-07-06 08:33:55"
     }
   },
   {
@@ -1228,7 +873,16 @@
       "sell": 2,
       "neutral": 10,
       "buy": 14,
-      "updated_on": "2024-07-05 08:38:49"
+      "updated_on": "2024-07-06 08:34:01"
+    }
+  },
+  {
+    "symbol": "SMKM",
+    "technical_rating": {
+      "sell": 9,
+      "neutral": 9,
+      "buy": 8,
+      "updated_on": "2024-07-06 08:34:10"
     }
   },
   {
@@ -1237,7 +891,7 @@
       "sell": 1,
       "neutral": 10,
       "buy": 15,
-      "updated_on": "2024-07-05 08:38:57"
+      "updated_on": "2024-07-06 08:34:18"
     }
   },
   {
@@ -1246,7 +900,7 @@
       "sell": 14,
       "neutral": 8,
       "buy": 4,
-      "updated_on": "2024-07-05 08:39:06"
+      "updated_on": "2024-07-06 08:34:26"
     }
   },
   {
@@ -1255,7 +909,7 @@
       "sell": 4,
       "neutral": 9,
       "buy": 13,
-      "updated_on": "2024-07-05 08:39:14"
+      "updated_on": "2024-07-06 08:34:34"
     }
   },
   {
@@ -1264,7 +918,7 @@
       "sell": 10,
       "neutral": 9,
       "buy": 7,
-      "updated_on": "2024-07-05 08:39:23"
+      "updated_on": "2024-07-06 08:34:43"
     }
   },
   {
@@ -1273,43 +927,61 @@
       "sell": 15,
       "neutral": 11,
       "buy": 0,
-      "updated_on": "2024-07-05 08:39:30"
+      "updated_on": "2024-07-06 08:34:51"
+    }
+  },
+  {
+    "symbol": "TBLA",
+    "technical_rating": {
+      "sell": 4,
+      "neutral": 9,
+      "buy": 13,
+      "updated_on": "2024-07-06 08:35:00"
     }
   },
   {
     "symbol": "AGRS",
     "technical_rating": {
-      "sell": 5,
-      "neutral": 6,
+      "sell": 3,
+      "neutral": 8,
       "buy": 15,
-      "updated_on": "2024-07-05 08:39:39"
+      "updated_on": "2024-07-06 08:35:09"
     }
   },
   {
     "symbol": "ASMI",
     "technical_rating": {
-      "sell": 14,
-      "neutral": 9,
-      "buy": 3,
-      "updated_on": "2024-07-05 08:39:48"
+      "sell": 11,
+      "neutral": 10,
+      "buy": 5,
+      "updated_on": "2024-07-06 08:35:18"
     }
   },
   {
     "symbol": "ERTX",
     "technical_rating": {
-      "sell": 10,
+      "sell": 15,
       "neutral": 9,
+      "buy": 2,
+      "updated_on": "2024-07-06 08:35:27"
+    }
+  },
+  {
+    "symbol": "SMLE",
+    "technical_rating": {
+      "sell": 9,
+      "neutral": 8,
       "buy": 7,
-      "updated_on": "2024-07-05 08:39:57"
+      "updated_on": "2024-07-06 08:35:35"
     }
   },
   {
     "symbol": "SMMA",
     "technical_rating": {
-      "sell": 15,
-      "neutral": 8,
-      "buy": 3,
-      "updated_on": "2024-07-05 08:40:05"
+      "sell": 12,
+      "neutral": 9,
+      "buy": 5,
+      "updated_on": "2024-07-06 08:35:44"
     }
   },
   {
@@ -1318,16 +990,7 @@
       "sell": 9,
       "neutral": 10,
       "buy": 7,
-      "updated_on": "2024-07-05 08:40:11"
-    }
-  },
-  {
-    "symbol": "SMLE",
-    "technical_rating": {
-      "sell": 8,
-      "neutral": 7,
-      "buy": 9,
-      "updated_on": "2024-07-05 08:40:18"
+      "updated_on": "2024-07-06 08:35:53"
     }
   },
   {
@@ -1336,7 +999,7 @@
       "sell": 5,
       "neutral": 10,
       "buy": 11,
-      "updated_on": "2024-07-05 08:40:25"
+      "updated_on": "2024-07-06 08:36:01"
     }
   },
   {
@@ -1345,7 +1008,7 @@
       "sell": 10,
       "neutral": 9,
       "buy": 7,
-      "updated_on": "2024-07-05 08:40:33"
+      "updated_on": "2024-07-06 08:36:10"
     }
   },
   {
@@ -1354,16 +1017,34 @@
       "sell": 8,
       "neutral": 9,
       "buy": 9,
-      "updated_on": "2024-07-05 08:40:41"
+      "updated_on": "2024-07-06 08:36:18"
     }
   },
   {
     "symbol": "IATA",
     "technical_rating": {
-      "sell": 2,
+      "sell": 3,
       "neutral": 8,
-      "buy": 16,
-      "updated_on": "2024-07-05 08:40:50"
+      "buy": 15,
+      "updated_on": "2024-07-06 08:36:27"
+    }
+  },
+  {
+    "symbol": "TCID",
+    "technical_rating": {
+      "sell": 7,
+      "neutral": 9,
+      "buy": 10,
+      "updated_on": "2024-07-06 08:36:36"
+    }
+  },
+  {
+    "symbol": "TIRT",
+    "technical_rating": {
+      "sell": 11,
+      "neutral": 10,
+      "buy": 5,
+      "updated_on": "2024-07-06 08:36:44"
     }
   },
   {
@@ -1372,7 +1053,7 @@
       "sell": 15,
       "neutral": 10,
       "buy": 1,
-      "updated_on": "2024-07-05 08:40:58"
+      "updated_on": "2024-07-06 08:36:53"
     }
   },
   {
@@ -1381,7 +1062,7 @@
       "sell": 16,
       "neutral": 9,
       "buy": 1,
-      "updated_on": "2024-07-05 08:41:07"
+      "updated_on": "2024-07-06 08:37:02"
     }
   },
   {
@@ -1390,16 +1071,61 @@
       "sell": 5,
       "neutral": 6,
       "buy": 15,
-      "updated_on": "2024-07-05 08:41:15"
+      "updated_on": "2024-07-06 08:37:11"
+    }
+  },
+  {
+    "symbol": "TLKM",
+    "technical_rating": {
+      "sell": 8,
+      "neutral": 9,
+      "buy": 9,
+      "updated_on": "2024-07-06 08:37:19"
+    }
+  },
+  {
+    "symbol": "TMAS",
+    "technical_rating": {
+      "sell": 3,
+      "neutral": 9,
+      "buy": 14,
+      "updated_on": "2024-07-06 08:37:28"
+    }
+  },
+  {
+    "symbol": "TMPO",
+    "technical_rating": {
+      "sell": 9,
+      "neutral": 8,
+      "buy": 9,
+      "updated_on": "2024-07-06 08:37:37"
+    }
+  },
+  {
+    "symbol": "TNCA",
+    "technical_rating": {
+      "sell": 10,
+      "neutral": 10,
+      "buy": 6,
+      "updated_on": "2024-07-06 08:37:45"
+    }
+  },
+  {
+    "symbol": "TOTO",
+    "technical_rating": {
+      "sell": 6,
+      "neutral": 9,
+      "buy": 11,
+      "updated_on": "2024-07-06 08:37:54"
     }
   },
   {
     "symbol": "ASPI",
     "technical_rating": {
-      "sell": 1,
-      "neutral": 9,
-      "buy": 16,
-      "updated_on": "2024-07-05 08:41:24"
+      "sell": 3,
+      "neutral": 8,
+      "buy": 15,
+      "updated_on": "2024-07-06 08:38:02"
     }
   },
   {
@@ -1408,7 +1134,7 @@
       "sell": 1,
       "neutral": 18,
       "buy": 7,
-      "updated_on": "2024-07-05 08:41:33"
+      "updated_on": "2024-07-06 08:38:10"
     }
   },
   {
@@ -1417,7 +1143,7 @@
       "sell": 7,
       "neutral": 9,
       "buy": 10,
-      "updated_on": "2024-07-05 08:41:41"
+      "updated_on": "2024-07-06 08:38:18"
     }
   },
   {
@@ -1426,25 +1152,16 @@
       "sell": 11,
       "neutral": 11,
       "buy": 2,
-      "updated_on": "2024-07-05 08:41:50"
+      "updated_on": "2024-07-06 08:38:26"
     }
   },
   {
     "symbol": "SOLA",
     "technical_rating": {
-      "sell": 2,
-      "neutral": 4,
+      "sell": 1,
+      "neutral": 5,
       "buy": 8,
-      "updated_on": "2024-07-05 08:41:59"
-    }
-  },
-  {
-    "symbol": "YPAS",
-    "technical_rating": {
-      "sell": 9,
-      "neutral": 9,
-      "buy": 8,
-      "updated_on": "2024-07-05 08:42:07"
+      "updated_on": "2024-07-06 08:38:35"
     }
   },
   {
@@ -1453,7 +1170,7 @@
       "sell": 11,
       "neutral": 8,
       "buy": 7,
-      "updated_on": "2024-07-05 08:42:16"
+      "updated_on": "2024-07-06 08:38:43"
     }
   },
   {
@@ -1462,7 +1179,7 @@
       "sell": 13,
       "neutral": 9,
       "buy": 4,
-      "updated_on": "2024-07-05 08:42:23"
+      "updated_on": "2024-07-06 08:38:51"
     }
   },
   {
@@ -1471,16 +1188,52 @@
       "sell": 4,
       "neutral": 11,
       "buy": 11,
-      "updated_on": "2024-07-05 08:42:31"
+      "updated_on": "2024-07-06 08:38:59"
     }
   },
   {
     "symbol": "PDES",
     "technical_rating": {
+      "sell": 2,
+      "neutral": 9,
+      "buy": 15,
+      "updated_on": "2024-07-06 08:39:07"
+    }
+  },
+  {
+    "symbol": "TOWR",
+    "technical_rating": {
+      "sell": 9,
+      "neutral": 8,
+      "buy": 9,
+      "updated_on": "2024-07-06 08:39:15"
+    }
+  },
+  {
+    "symbol": "TRGU",
+    "technical_rating": {
       "sell": 4,
       "neutral": 7,
       "buy": 15,
-      "updated_on": "2024-07-05 08:42:39"
+      "updated_on": "2024-07-06 08:39:23"
+    }
+  },
+  {
+    "symbol": "TRIM",
+    "technical_rating": {
+      "sell": 15,
+      "neutral": 10,
+      "buy": 1,
+      "updated_on": "2024-07-06 08:39:31"
+    }
+  },
+  {
+    "symbol": "TRIS",
+    "technical_rating": {
+      "sell": 7,
+      "neutral": 11,
+      "buy": 8,
+      "updated_on": "2024-07-06 08:39:38"
     }
   },
   {
@@ -1489,25 +1242,25 @@
       "sell": 14,
       "neutral": 10,
       "buy": 2,
-      "updated_on": "2024-07-05 08:42:45"
+      "updated_on": "2024-07-06 08:39:44"
     }
   },
   {
     "symbol": "ARCI",
     "technical_rating": {
-      "sell": 14,
+      "sell": 15,
       "neutral": 10,
-      "buy": 2,
-      "updated_on": "2024-07-05 08:42:52"
+      "buy": 1,
+      "updated_on": "2024-07-06 08:39:52"
     }
   },
   {
     "symbol": "ARTA",
     "technical_rating": {
-      "sell": 0,
-      "neutral": 10,
+      "sell": 1,
+      "neutral": 9,
       "buy": 16,
-      "updated_on": "2024-07-05 08:43:00"
+      "updated_on": "2024-07-06 08:40:01"
     }
   },
   {
@@ -1516,7 +1269,7 @@
       "sell": 15,
       "neutral": 10,
       "buy": 1,
-      "updated_on": "2024-07-05 08:43:09"
+      "updated_on": "2024-07-06 08:40:09"
     }
   },
   {
@@ -1525,16 +1278,25 @@
       "sell": 16,
       "neutral": 9,
       "buy": 1,
-      "updated_on": "2024-07-05 08:43:18"
+      "updated_on": "2024-07-06 08:40:17"
+    }
+  },
+  {
+    "symbol": "TRST",
+    "technical_rating": {
+      "sell": 2,
+      "neutral": 11,
+      "buy": 13,
+      "updated_on": "2024-07-06 08:40:26"
     }
   },
   {
     "symbol": "AREA",
     "technical_rating": {
-      "sell": 4,
+      "sell": 5,
       "neutral": 10,
-      "buy": 8,
-      "updated_on": "2024-07-05 08:43:27"
+      "buy": 7,
+      "updated_on": "2024-07-06 08:40:34"
     }
   },
   {
@@ -1543,16 +1305,7 @@
       "sell": 1,
       "neutral": 11,
       "buy": 14,
-      "updated_on": "2024-07-05 08:43:35"
-    }
-  },
-  {
-    "symbol": "SOFA",
-    "technical_rating": {
-      "sell": 1,
-      "neutral": 10,
-      "buy": 15,
-      "updated_on": "2024-07-05 08:43:42"
+      "updated_on": "2024-07-06 08:40:42"
     }
   },
   {
@@ -1561,16 +1314,25 @@
       "sell": 14,
       "neutral": 10,
       "buy": 2,
-      "updated_on": "2024-07-05 08:43:51"
+      "updated_on": "2024-07-06 08:40:51"
+    }
+  },
+  {
+    "symbol": "SOFA",
+    "technical_rating": {
+      "sell": 1,
+      "neutral": 10,
+      "buy": 15,
+      "updated_on": "2024-07-06 08:40:59"
     }
   },
   {
     "symbol": "SOHO",
     "technical_rating": {
-      "sell": 7,
+      "sell": 4,
       "neutral": 10,
-      "buy": 9,
-      "updated_on": "2024-07-05 08:43:59"
+      "buy": 12,
+      "updated_on": "2024-07-06 08:41:07"
     }
   },
   {
@@ -1579,34 +1341,61 @@
       "sell": 14,
       "neutral": 9,
       "buy": 3,
-      "updated_on": "2024-07-05 08:44:04"
+      "updated_on": "2024-07-06 08:41:15"
     }
   },
   {
     "symbol": "BKSW",
     "technical_rating": {
-      "sell": 6,
-      "neutral": 7,
-      "buy": 13,
-      "updated_on": "2024-07-05 08:44:13"
+      "sell": 4,
+      "neutral": 8,
+      "buy": 14,
+      "updated_on": "2024-07-06 08:41:22"
     }
   },
   {
     "symbol": "KKGI",
     "technical_rating": {
-      "sell": 4,
-      "neutral": 8,
-      "buy": 14,
-      "updated_on": "2024-07-05 08:44:22"
+      "sell": 2,
+      "neutral": 9,
+      "buy": 15,
+      "updated_on": "2024-07-06 08:41:31"
     }
   },
   {
     "symbol": "SOTS",
     "technical_rating": {
-      "sell": 12,
+      "sell": 15,
       "neutral": 9,
-      "buy": 5,
-      "updated_on": "2024-07-05 08:44:30"
+      "buy": 2,
+      "updated_on": "2024-07-06 08:41:39"
+    }
+  },
+  {
+    "symbol": "TUGU",
+    "technical_rating": {
+      "sell": 10,
+      "neutral": 9,
+      "buy": 7,
+      "updated_on": "2024-07-06 08:41:48"
+    }
+  },
+  {
+    "symbol": "TYRE",
+    "technical_rating": {
+      "sell": 11,
+      "neutral": 11,
+      "buy": 4,
+      "updated_on": "2024-07-06 08:41:56"
+    }
+  },
+  {
+    "symbol": "ULTJ",
+    "technical_rating": {
+      "sell": 8,
+      "neutral": 9,
+      "buy": 9,
+      "updated_on": "2024-07-06 08:42:05"
     }
   },
   {
@@ -1615,7 +1404,7 @@
       "sell": 12,
       "neutral": 10,
       "buy": 4,
-      "updated_on": "2024-07-05 08:44:37"
+      "updated_on": "2024-07-06 08:42:13"
     }
   },
   {
@@ -1624,16 +1413,16 @@
       "sell": 7,
       "neutral": 16,
       "buy": 1,
-      "updated_on": "2024-07-05 08:44:46"
+      "updated_on": "2024-07-06 08:42:21"
     }
   },
   {
     "symbol": "KDSI",
     "technical_rating": {
-      "sell": 1,
+      "sell": 13,
       "neutral": 10,
-      "buy": 15,
-      "updated_on": "2024-07-05 08:44:54"
+      "buy": 3,
+      "updated_on": "2024-07-06 08:42:30"
     }
   },
   {
@@ -1642,7 +1431,7 @@
       "sell": 8,
       "neutral": 14,
       "buy": 2,
-      "updated_on": "2024-07-05 08:45:03"
+      "updated_on": "2024-07-06 08:42:38"
     }
   },
   {
@@ -1651,16 +1440,34 @@
       "sell": 13,
       "neutral": 10,
       "buy": 3,
-      "updated_on": "2024-07-05 08:45:11"
+      "updated_on": "2024-07-06 08:42:46"
+    }
+  },
+  {
+    "symbol": "UNIC",
+    "technical_rating": {
+      "sell": 15,
+      "neutral": 9,
+      "buy": 2,
+      "updated_on": "2024-07-06 08:42:55"
+    }
+  },
+  {
+    "symbol": "UNSP",
+    "technical_rating": {
+      "sell": 15,
+      "neutral": 10,
+      "buy": 1,
+      "updated_on": "2024-07-06 08:43:04"
     }
   },
   {
     "symbol": "BJBR",
     "technical_rating": {
-      "sell": 10,
+      "sell": 11,
       "neutral": 8,
-      "buy": 8,
-      "updated_on": "2024-07-05 08:45:19"
+      "buy": 7,
+      "updated_on": "2024-07-06 08:43:12"
     }
   },
   {
@@ -1669,16 +1476,16 @@
       "sell": 14,
       "neutral": 7,
       "buy": 5,
-      "updated_on": "2024-07-05 08:45:27"
+      "updated_on": "2024-07-06 08:43:20"
     }
   },
   {
     "symbol": "JGLE",
     "technical_rating": {
-      "sell": 13,
+      "sell": 8,
       "neutral": 10,
-      "buy": 3,
-      "updated_on": "2024-07-05 08:45:36"
+      "buy": 8,
+      "updated_on": "2024-07-06 08:43:28"
     }
   },
   {
@@ -1687,7 +1494,25 @@
       "sell": 13,
       "neutral": 8,
       "buy": 5,
-      "updated_on": "2024-07-05 08:45:44"
+      "updated_on": "2024-07-06 08:43:38"
+    }
+  },
+  {
+    "symbol": "UNTR",
+    "technical_rating": {
+      "sell": 4,
+      "neutral": 9,
+      "buy": 13,
+      "updated_on": "2024-07-06 08:43:46"
+    }
+  },
+  {
+    "symbol": "UNVR",
+    "technical_rating": {
+      "sell": 12,
+      "neutral": 9,
+      "buy": 5,
+      "updated_on": "2024-07-06 08:43:55"
     }
   },
   {
@@ -1696,16 +1521,16 @@
       "sell": 2,
       "neutral": 10,
       "buy": 14,
-      "updated_on": "2024-07-05 08:45:53"
+      "updated_on": "2024-07-06 08:44:03"
     }
   },
   {
     "symbol": "INDX",
     "technical_rating": {
-      "sell": 12,
-      "neutral": 7,
-      "buy": 7,
-      "updated_on": "2024-07-05 08:46:01"
+      "sell": 16,
+      "neutral": 8,
+      "buy": 2,
+      "updated_on": "2024-07-06 08:44:11"
     }
   },
   {
@@ -1714,70 +1539,79 @@
       "sell": 16,
       "neutral": 9,
       "buy": 1,
-      "updated_on": "2024-07-05 08:46:09"
+      "updated_on": "2024-07-06 08:44:20"
     }
   },
   {
     "symbol": "NISP",
     "technical_rating": {
-      "sell": 2,
-      "neutral": 10,
+      "sell": 1,
+      "neutral": 11,
       "buy": 14,
-      "updated_on": "2024-07-05 08:46:17"
+      "updated_on": "2024-07-06 08:44:28"
     }
   },
   {
     "symbol": "SBMA",
     "technical_rating": {
-      "sell": 1,
-      "neutral": 11,
+      "sell": 3,
+      "neutral": 9,
       "buy": 14,
-      "updated_on": "2024-07-05 08:46:26"
+      "updated_on": "2024-07-06 08:44:36"
     }
   },
   {
     "symbol": "BMRI",
     "technical_rating": {
-      "sell": 2,
-      "neutral": 10,
+      "sell": 1,
+      "neutral": 11,
       "buy": 14,
-      "updated_on": "2024-07-05 08:46:34"
+      "updated_on": "2024-07-06 08:44:45"
     }
   },
   {
     "symbol": "BSDE",
     "technical_rating": {
-      "sell": 5,
-      "neutral": 9,
-      "buy": 12,
-      "updated_on": "2024-07-05 08:46:42"
+      "sell": 7,
+      "neutral": 8,
+      "buy": 11,
+      "updated_on": "2024-07-06 08:44:53"
     }
   },
   {
     "symbol": "SCMA",
     "technical_rating": {
-      "sell": 6,
+      "sell": 8,
       "neutral": 8,
-      "buy": 12,
-      "updated_on": "2024-07-05 08:46:51"
+      "buy": 10,
+      "updated_on": "2024-07-06 08:45:01"
     }
   },
   {
     "symbol": "SCNP",
     "technical_rating": {
-      "sell": 14,
+      "sell": 7,
       "neutral": 10,
-      "buy": 2,
-      "updated_on": "2024-07-05 08:46:59"
+      "buy": 9,
+      "updated_on": "2024-07-06 08:45:10"
     }
   },
   {
-    "symbol": "ELIT",
+    "symbol": "URBN",
     "technical_rating": {
-      "sell": 8,
-      "neutral": 10,
-      "buy": 8,
-      "updated_on": "2024-07-05 08:47:07"
+      "sell": 6,
+      "neutral": 9,
+      "buy": 11,
+      "updated_on": "2024-07-06 08:45:19"
+    }
+  },
+  {
+    "symbol": "VICI",
+    "technical_rating": {
+      "sell": 5,
+      "neutral": 9,
+      "buy": 12,
+      "updated_on": "2024-07-06 08:45:27"
     }
   },
   {
@@ -1786,7 +1620,16 @@
       "sell": 4,
       "neutral": 10,
       "buy": 12,
-      "updated_on": "2024-07-05 08:47:15"
+      "updated_on": "2024-07-06 08:45:35"
+    }
+  },
+  {
+    "symbol": "ELIT",
+    "technical_rating": {
+      "sell": 9,
+      "neutral": 10,
+      "buy": 7,
+      "updated_on": "2024-07-06 08:45:43"
     }
   },
   {
@@ -1795,16 +1638,16 @@
       "sell": 13,
       "neutral": 10,
       "buy": 3,
-      "updated_on": "2024-07-05 08:47:24"
+      "updated_on": "2024-07-06 08:45:52"
     }
   },
   {
     "symbol": "SATU",
     "technical_rating": {
-      "sell": 9,
+      "sell": 1,
       "neutral": 10,
-      "buy": 7,
-      "updated_on": "2024-07-05 08:47:32"
+      "buy": 15,
+      "updated_on": "2024-07-06 08:45:59"
     }
   },
   {
@@ -1813,16 +1656,7 @@
       "sell": 14,
       "neutral": 9,
       "buy": 3,
-      "updated_on": "2024-07-05 08:47:41"
-    }
-  },
-  {
-    "symbol": "SRIL",
-    "technical_rating": {
-      "sell": 15,
-      "neutral": 10,
-      "buy": 1,
-      "updated_on": "2024-07-05 08:47:48"
+      "updated_on": "2024-07-06 08:46:08"
     }
   },
   {
@@ -1831,7 +1665,7 @@
       "sell": 6,
       "neutral": 8,
       "buy": 12,
-      "updated_on": "2024-07-05 08:47:56"
+      "updated_on": "2024-07-06 08:46:16"
     }
   },
   {
@@ -1840,7 +1674,7 @@
       "sell": 13,
       "neutral": 12,
       "buy": 1,
-      "updated_on": "2024-07-05 08:48:05"
+      "updated_on": "2024-07-06 08:46:24"
     }
   },
   {
@@ -1849,7 +1683,7 @@
       "sell": 17,
       "neutral": 9,
       "buy": 0,
-      "updated_on": "2024-07-05 08:48:14"
+      "updated_on": "2024-07-06 08:46:32"
     }
   },
   {
@@ -1858,7 +1692,7 @@
       "sell": 10,
       "neutral": 11,
       "buy": 5,
-      "updated_on": "2024-07-05 08:48:22"
+      "updated_on": "2024-07-06 08:46:41"
     }
   },
   {
@@ -1867,16 +1701,16 @@
       "sell": 10,
       "neutral": 7,
       "buy": 9,
-      "updated_on": "2024-07-05 08:48:30"
+      "updated_on": "2024-07-06 08:46:49"
     }
   },
   {
-    "symbol": "CSIS",
+    "symbol": "SRIL",
     "technical_rating": {
-      "sell": 7,
-      "neutral": 8,
-      "buy": 11,
-      "updated_on": "2024-07-05 08:48:38"
+      "sell": 15,
+      "neutral": 10,
+      "buy": 1,
+      "updated_on": "2024-07-06 08:46:57"
     }
   },
   {
@@ -1885,7 +1719,16 @@
       "sell": 6,
       "neutral": 16,
       "buy": 2,
-      "updated_on": "2024-07-05 08:48:45"
+      "updated_on": "2024-07-06 08:47:06"
+    }
+  },
+  {
+    "symbol": "CSIS",
+    "technical_rating": {
+      "sell": 10,
+      "neutral": 8,
+      "buy": 8,
+      "updated_on": "2024-07-06 08:47:14"
     }
   },
   {
@@ -1894,25 +1737,43 @@
       "sell": 11,
       "neutral": 9,
       "buy": 4,
-      "updated_on": "2024-07-05 08:48:52"
+      "updated_on": "2024-07-06 08:47:23"
     }
   },
   {
     "symbol": "KETR",
     "technical_rating": {
-      "sell": 16,
+      "sell": 15,
       "neutral": 10,
-      "buy": 0,
-      "updated_on": "2024-07-05 08:49:01"
+      "buy": 1,
+      "updated_on": "2024-07-06 08:47:31"
+    }
+  },
+  {
+    "symbol": "VICO",
+    "technical_rating": {
+      "sell": 14,
+      "neutral": 9,
+      "buy": 3,
+      "updated_on": "2024-07-06 08:47:39"
+    }
+  },
+  {
+    "symbol": "VINS",
+    "technical_rating": {
+      "sell": 9,
+      "neutral": 4,
+      "buy": 13,
+      "updated_on": "2024-07-06 08:47:47"
     }
   },
   {
     "symbol": "BACA",
     "technical_rating": {
-      "sell": 15,
-      "neutral": 9,
-      "buy": 2,
-      "updated_on": "2024-07-05 08:49:09"
+      "sell": 2,
+      "neutral": 8,
+      "buy": 16,
+      "updated_on": "2024-07-06 08:47:56"
     }
   },
   {
@@ -1921,16 +1782,16 @@
       "sell": 15,
       "neutral": 10,
       "buy": 1,
-      "updated_on": "2024-07-05 08:49:18"
+      "updated_on": "2024-07-06 08:48:04"
     }
   },
   {
     "symbol": "DART",
     "technical_rating": {
-      "sell": 6,
-      "neutral": 10,
+      "sell": 5,
+      "neutral": 11,
       "buy": 10,
-      "updated_on": "2024-07-05 08:49:27"
+      "updated_on": "2024-07-06 08:48:12"
     }
   },
   {
@@ -1939,7 +1800,7 @@
       "sell": 15,
       "neutral": 10,
       "buy": 1,
-      "updated_on": "2024-07-05 08:49:36"
+      "updated_on": "2024-07-06 08:48:19"
     }
   },
   {
@@ -1948,25 +1809,34 @@
       "sell": 15,
       "neutral": 9,
       "buy": 2,
-      "updated_on": "2024-07-05 08:49:45"
+      "updated_on": "2024-07-06 08:48:27"
     }
   },
   {
     "symbol": "CASA",
     "technical_rating": {
-      "sell": 16,
-      "neutral": 8,
-      "buy": 2,
-      "updated_on": "2024-07-05 08:49:53"
+      "sell": 11,
+      "neutral": 9,
+      "buy": 6,
+      "updated_on": "2024-07-06 08:48:36"
     }
   },
   {
     "symbol": "DGNS",
     "technical_rating": {
-      "sell": 14,
-      "neutral": 8,
-      "buy": 4,
-      "updated_on": "2024-07-05 08:50:01"
+      "sell": 15,
+      "neutral": 9,
+      "buy": 2,
+      "updated_on": "2024-07-06 08:48:44"
+    }
+  },
+  {
+    "symbol": "DYAN",
+    "technical_rating": {
+      "sell": 10,
+      "neutral": 9,
+      "buy": 7,
+      "updated_on": "2024-07-06 08:48:53"
     }
   },
   {
@@ -1975,25 +1845,34 @@
       "sell": 12,
       "neutral": 9,
       "buy": 5,
-      "updated_on": "2024-07-05 08:50:09"
+      "updated_on": "2024-07-06 08:49:02"
     }
   },
   {
-    "symbol": "DYAN",
+    "symbol": "VIVA",
     "technical_rating": {
-      "sell": 7,
+      "sell": 10,
+      "neutral": 8,
+      "buy": 8,
+      "updated_on": "2024-07-06 08:49:10"
+    }
+  },
+  {
+    "symbol": "VKTR",
+    "technical_rating": {
+      "sell": 2,
+      "neutral": 8,
+      "buy": 16,
+      "updated_on": "2024-07-06 08:49:17"
+    }
+  },
+  {
+    "symbol": "VOKS",
+    "technical_rating": {
+      "sell": 5,
       "neutral": 9,
-      "buy": 10,
-      "updated_on": "2024-07-05 08:50:17"
-    }
-  },
-  {
-    "symbol": "YULE",
-    "technical_rating": {
-      "sell": 4,
-      "neutral": 7,
-      "buy": 15,
-      "updated_on": "2024-07-05 08:50:25"
+      "buy": 12,
+      "updated_on": "2024-07-06 08:49:25"
     }
   },
   {
@@ -2002,7 +1881,7 @@
       "sell": 10,
       "neutral": 9,
       "buy": 7,
-      "updated_on": "2024-07-05 08:50:34"
+      "updated_on": "2024-07-06 08:49:34"
     }
   },
   {
@@ -2011,7 +1890,7 @@
       "sell": 9,
       "neutral": 9,
       "buy": 8,
-      "updated_on": "2024-07-05 08:50:42"
+      "updated_on": "2024-07-06 08:49:42"
     }
   },
   {
@@ -2020,7 +1899,7 @@
       "sell": 2,
       "neutral": 9,
       "buy": 15,
-      "updated_on": "2024-07-05 08:50:50"
+      "updated_on": "2024-07-06 08:49:50"
     }
   },
   {
@@ -2029,7 +1908,7 @@
       "sell": 7,
       "neutral": 10,
       "buy": 9,
-      "updated_on": "2024-07-05 08:50:58"
+      "updated_on": "2024-07-06 08:49:58"
     }
   },
   {
@@ -2038,7 +1917,7 @@
       "sell": 9,
       "neutral": 11,
       "buy": 4,
-      "updated_on": "2024-07-05 08:51:06"
+      "updated_on": "2024-07-06 08:50:06"
     }
   },
   {
@@ -2047,7 +1926,7 @@
       "sell": 10,
       "neutral": 10,
       "buy": 6,
-      "updated_on": "2024-07-05 08:51:14"
+      "updated_on": "2024-07-06 08:50:14"
     }
   },
   {
@@ -2056,7 +1935,7 @@
       "sell": 15,
       "neutral": 9,
       "buy": 2,
-      "updated_on": "2024-07-05 08:51:22"
+      "updated_on": "2024-07-06 08:50:22"
     }
   },
   {
@@ -2065,7 +1944,7 @@
       "sell": 16,
       "neutral": 9,
       "buy": 1,
-      "updated_on": "2024-07-05 08:51:30"
+      "updated_on": "2024-07-06 08:50:31"
     }
   },
   {
@@ -2074,7 +1953,133 @@
       "sell": 6,
       "neutral": 10,
       "buy": 10,
-      "updated_on": "2024-07-05 08:51:38"
+      "updated_on": "2024-07-06 08:50:39"
+    }
+  },
+  {
+    "symbol": "VRNA",
+    "technical_rating": {
+      "sell": 9,
+      "neutral": 11,
+      "buy": 6,
+      "updated_on": "2024-07-06 08:50:47"
+    }
+  },
+  {
+    "symbol": "WAPO",
+    "technical_rating": {
+      "sell": 2,
+      "neutral": 9,
+      "buy": 15,
+      "updated_on": "2024-07-06 08:50:56"
+    }
+  },
+  {
+    "symbol": "AEGS",
+    "technical_rating": {
+      "sell": 10,
+      "neutral": 8,
+      "buy": 6,
+      "updated_on": "2024-07-06 08:51:05"
+    }
+  },
+  {
+    "symbol": "ASRI",
+    "technical_rating": {
+      "sell": 6,
+      "neutral": 9,
+      "buy": 11,
+      "updated_on": "2024-07-06 08:51:14"
+    }
+  },
+  {
+    "symbol": "EAST",
+    "technical_rating": {
+      "sell": 8,
+      "neutral": 9,
+      "buy": 9,
+      "updated_on": "2024-07-06 08:51:22"
+    }
+  },
+  {
+    "symbol": "GEMS",
+    "technical_rating": {
+      "sell": 0,
+      "neutral": 10,
+      "buy": 16,
+      "updated_on": "2024-07-06 08:51:30"
+    }
+  },
+  {
+    "symbol": "GMTD",
+    "technical_rating": {
+      "sell": 3,
+      "neutral": 10,
+      "buy": 13,
+      "updated_on": "2024-07-06 08:51:39"
+    }
+  },
+  {
+    "symbol": "GOOD",
+    "technical_rating": {
+      "sell": 13,
+      "neutral": 10,
+      "buy": 3,
+      "updated_on": "2024-07-06 08:51:47"
+    }
+  },
+  {
+    "symbol": "GOTO",
+    "technical_rating": {
+      "sell": 13,
+      "neutral": 9,
+      "buy": 3,
+      "updated_on": "2024-07-06 08:51:56"
+    }
+  },
+  {
+    "symbol": "KUAS",
+    "technical_rating": {
+      "sell": 11,
+      "neutral": 14,
+      "buy": 1,
+      "updated_on": "2024-07-06 08:52:04"
+    }
+  },
+  {
+    "symbol": "OKAS",
+    "technical_rating": {
+      "sell": 11,
+      "neutral": 9,
+      "buy": 6,
+      "updated_on": "2024-07-06 08:52:11"
+    }
+  },
+  {
+    "symbol": "WEGE",
+    "technical_rating": {
+      "sell": 9,
+      "neutral": 8,
+      "buy": 9,
+      "updated_on": "2024-07-06 08:52:16"
+    }
+  },
+  {
+    "symbol": "GTBO",
+    "technical_rating": {
+      "sell": 9,
+      "neutral": 8,
+      "buy": 9,
+      "updated_on": "2024-07-06 08:52:19"
+    }
+  },
+  {
+    "symbol": "HERO",
+    "technical_rating": {
+      "sell": 15,
+      "neutral": 11,
+      "buy": 0,
+      "updated_on": "2024-07-06 08:52:22"
     }
   }
 ]
