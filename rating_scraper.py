@@ -34,6 +34,10 @@ def scrape_technical_page(url: str) :
 
         # Getting into the data
         speedometer_containers = soup.findAll("div", {"class": "speedometerWrapper-kg4MJrFB"})
+
+
+        # Get Summary data
+        summary_dict = dict()
         summary_technical_data_wrapper = speedometer_containers[1]
         technical_counters_data_wrapper = summary_technical_data_wrapper.findAll("div", {"class": "counterWrapper-kg4MJrFB"})
 
@@ -45,8 +49,104 @@ def scrape_technical_page(url: str) :
         
         # Insert the data to dictionary
         for idx, enum in enumerate(TECHNICAL_ENUM):
-          technical_rating_dict[enum] = int(technical_number_data[idx])
-        technical_rating_dict['updated_on'] = (datetime.now()).strftime("%Y-%m-%d %H:%M:%S")
+          summary_dict[enum] = int(technical_number_data[idx])
+        summary_dict['updated_on'] = (datetime.now()).strftime("%Y-%m-%d %H:%M:%S")
+        technical_rating_dict['summary'] = summary_dict
+
+
+        # Get Oscillator data
+        oscillator_dict = dict()
+        oscillator_technical_data_wrapper = speedometer_containers[0]
+        technical_counters_data_wrapper = oscillator_technical_data_wrapper.findAll("div", {"class": "counterWrapper-kg4MJrFB"})
+
+        technical_number_data = []
+        for technical_counter in technical_counters_data_wrapper:
+          # Get the number data
+          technical_counters_number = technical_counter.find("span", {"class": "counterNumber-kg4MJrFB"})
+          technical_number_data.append(technical_counters_number.get_text())
+        
+        # Insert the data to dictionary
+        for idx, enum in enumerate(TECHNICAL_ENUM):
+          oscillator_dict[enum] = int(technical_number_data[idx])
+        oscillator_dict['updated_on'] = (datetime.now()).strftime("%Y-%m-%d %H:%M:%S")
+        technical_rating_dict['oscillator'] = oscillator_dict
+
+
+        # Get Moving Averages data
+        move_avg_dict = dict()
+        move_avg_technical_data_wrapper = speedometer_containers[2]
+        technical_counters_data_wrapper = move_avg_technical_data_wrapper.findAll("div", {"class": "counterWrapper-kg4MJrFB"})
+
+        technical_number_data = []
+        for technical_counter in technical_counters_data_wrapper:
+          # Get the number data
+          technical_counters_number = technical_counter.find("span", {"class": "counterNumber-kg4MJrFB"})
+          technical_number_data.append(technical_counters_number.get_text())
+        
+        # Insert the data to dictionary
+        for idx, enum in enumerate(TECHNICAL_ENUM):
+          move_avg_dict[enum] = int(technical_number_data[idx])
+        move_avg_dict['updated_on'] = (datetime.now()).strftime("%Y-%m-%d %H:%M:%S")
+        technical_rating_dict['moving_average'] = move_avg_dict
+
+
+        # Get Table data
+        table_containers = soup.findAll("div", {"class" : "container-hvDpy38G"})
+        oscillator_table = table_containers[0]
+        move_avg_table = table_containers[1]
+
+        # Oscillator table
+        cells = oscillator_table.findAll("td", {"class" : "cell-hvDpy38G"})
+        name_list = list()
+        value_list = list()
+        action_list = list()
+        for i in range (len(cells)):
+          if (i % 3 == 0): # Name
+            name = cells[i].get_text()
+            name_list.append(name)
+          elif (i % 3 == 1) : # Value
+            value = cells[i].get_text()
+            value_list.append(value)
+          else: # Action
+            action = cells[i].get_text()
+            action_list.append(action)
+        
+        data = list()
+        for i in range(len(name_list)): # All list should have the same length
+          cell_data = {
+            "name" : name_list[i],
+            "value" : value_list[i],
+            "action" : action_list[i]
+          }
+          data.append(cell_data)
+        technical_rating_dict['oscillator']['data'] = data
+
+        # Moving Average table
+        cells = move_avg_table.findAll("td", {"class" : "cell-hvDpy38G"})
+        name_list = list()
+        value_list = list()
+        action_list = list()
+        for i in range (len(cells)):
+          if (i % 3 == 0): # Name
+            name = cells[i].get_text()
+            name_list.append(name)
+          elif (i % 3 == 1) : # Value
+            value = cells[i].get_text()
+            value_list.append(value)
+          else: # Action
+            action = cells[i].get_text()
+            action_list.append(action)
+        
+        data = list()
+        for i in range(len(name_list)): # All list should have the same length
+          cell_data = {
+            "name" : name_list[i],
+            "value" : value_list[i],
+            "action" : action_list[i]
+          }
+          data.append(cell_data)
+        technical_rating_dict['moving_average']['data'] = data
+
 
         print(f"[TECHNICAL] = Successfully scrape from {url}")
         return technical_rating_dict
@@ -190,3 +290,6 @@ def scrape_analyst_function(symbol_list, process_idx):
   save_to_json(file_path, all_data)
 
   return all_data
+
+
+print(scrape_technical_page("https://www.tradingview.com/symbols/IDX-AMMN/technicals/"))
