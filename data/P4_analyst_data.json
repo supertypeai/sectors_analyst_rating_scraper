@@ -1,6 +1,130 @@
 [
   {
-    "symbol": "BELI",
+    "symbol": "NIRO",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "NIPS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "NISP",
+    "analyst_rating": {
+      "strong_buy": 0,
+      "buy": 1,
+      "hold": 0,
+      "sell": 0,
+      "strong_sell": 0,
+      "n_analyst": 1,
+      "updated_on": "2024-07-10 00:33:18"
+    }
+  },
+  {
+    "symbol": "NOBU",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "NUSA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "NTBK",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "OBMD",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SATU",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SDMU",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SDPC",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "OLIV",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PACK",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PADA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "OPMS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PBID",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PDES",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PEVE",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PGJO",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PGLI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PGUN",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PIPA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PLAN",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PLAS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PLIN",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PMMP",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PNSE",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "POLU",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "POOL",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "POSA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "POWR",
     "analyst_rating": {
       "strong_buy": 1,
       "buy": 0,
@@ -8,11 +132,387 @@
       "sell": 0,
       "strong_sell": 0,
       "n_analyst": 1,
-      "updated_on": "2024-07-04 13:38:25"
+      "updated_on": "2024-07-10 00:35:54"
     }
   },
   {
-    "symbol": "KPAL",
+    "symbol": "PPGL",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PPRI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PSDN",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PTMP",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PTPP",
+    "analyst_rating": {
+      "strong_buy": 1,
+      "buy": 0,
+      "hold": 0,
+      "sell": 0,
+      "strong_sell": 0,
+      "n_analyst": 1,
+      "updated_on": "2024-07-10 00:36:26"
+    }
+  },
+  {
+    "symbol": "PTPS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PTPW",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PTRO",
+    "analyst_rating": {
+      "strong_buy": 1,
+      "buy": 0,
+      "hold": 0,
+      "sell": 0,
+      "strong_sell": 0,
+      "n_analyst": 1,
+      "updated_on": "2024-07-10 00:36:48"
+    }
+  },
+  {
+    "symbol": "PTSN",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PURA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SDRA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SEMA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PURE",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PURI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "RAFI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "RANC",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "RBMS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "RCCC",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "RDTX",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "RELF",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "RGAS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "RIMO",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "RMKO",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "RONY",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "RSCH",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "RUNS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "MGRO",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SFAN",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SGER",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SGRO",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SHID",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SHIP",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SIDO",
+    "analyst_rating": {
+      "strong_buy": 5,
+      "buy": 2,
+      "hold": 7,
+      "sell": 0,
+      "strong_sell": 0,
+      "n_analyst": 14,
+      "updated_on": "2024-07-10 00:39:05"
+    }
+  },
+  {
+    "symbol": "SILO",
+    "analyst_rating": {
+      "strong_buy": 7,
+      "buy": 0,
+      "hold": 1,
+      "sell": 0,
+      "strong_sell": 0,
+      "n_analyst": 8,
+      "updated_on": "2024-07-10 00:39:15"
+    }
+  },
+  {
+    "symbol": "SIMP",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SINI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SIPD",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SKBM",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SKLT",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SKRN",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SAFE",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "MPRO",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SLIS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SMAR",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SMBR",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SMCB",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SMDM",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SMDR",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SMGR",
+    "analyst_rating": {
+      "strong_buy": 8,
+      "buy": 1,
+      "hold": 4,
+      "sell": 0,
+      "strong_sell": 0,
+      "n_analyst": 13,
+      "updated_on": "2024-07-10 00:40:42"
+    }
+  },
+  {
+    "symbol": "SMIL",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SMKL",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SMMA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SMMT",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SMRA",
+    "analyst_rating": {
+      "strong_buy": 8,
+      "buy": 1,
+      "hold": 1,
+      "sell": 0,
+      "strong_sell": 0,
+      "n_analyst": 10,
+      "updated_on": "2024-07-10 00:41:13"
+    }
+  },
+  {
+    "symbol": "SMRU",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SMSM",
+    "analyst_rating": {
+      "strong_buy": 1,
+      "buy": 0,
+      "hold": 0,
+      "sell": 0,
+      "strong_sell": 0,
+      "n_analyst": 1,
+      "updated_on": "2024-07-10 00:41:28"
+    }
+  },
+  {
+    "symbol": "SNLK",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SOCI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SOHO",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SONA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SOSS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SOTS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SPMA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SPTO",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SQMI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SRAJ",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SRSN",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SRTG",
+    "analyst_rating": {
+      "strong_buy": 3,
+      "buy": 0,
+      "hold": 0,
+      "sell": 0,
+      "strong_sell": 0,
+      "n_analyst": 3,
+      "updated_on": "2024-07-10 00:42:35"
+    }
+  },
+  {
+    "symbol": "SSIA",
+    "analyst_rating": {
+      "strong_buy": 2,
+      "buy": 1,
+      "hold": 0,
+      "sell": 0,
+      "strong_sell": 0,
+      "n_analyst": 3,
+      "updated_on": "2024-07-10 00:42:45"
+    }
+  },
+  {
+    "symbol": "SSMS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SSTM",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "STAA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "STAR",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "STRK",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "STTP",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SULI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SUNI",
     "analyst_rating": null
   },
   {
@@ -24,75 +524,23 @@
     "analyst_rating": null
   },
   {
-    "symbol": "ARKO",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "GZCO",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "HDFA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "HDIT",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "IMJS",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BELL",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "CMNT",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "FINN",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "HELI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SWAT",
-    "analyst_rating": null
-  },
-  {
     "symbol": "SWID",
     "analyst_rating": null
   },
   {
-    "symbol": "CBRE",
+    "symbol": "TALF",
     "analyst_rating": null
   },
   {
-    "symbol": "DEFI",
+    "symbol": "TAMA",
     "analyst_rating": null
   },
   {
-    "symbol": "IDPR",
+    "symbol": "TAMU",
     "analyst_rating": null
   },
   {
-    "symbol": "IFII",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "HEXA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "INDO",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "MSTI",
+    "symbol": "TAPG",
     "analyst_rating": {
       "strong_buy": 1,
       "buy": 0,
@@ -100,87 +548,47 @@
       "sell": 0,
       "strong_sell": 0,
       "n_analyst": 1,
-      "updated_on": "2024-07-04 13:40:04"
+      "updated_on": "2024-07-10 00:44:12"
     }
   },
   {
-    "symbol": "MTFN",
+    "symbol": "TARA",
     "analyst_rating": null
   },
   {
-    "symbol": "INDY",
+    "symbol": "TAXI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TBIG",
     "analyst_rating": {
       "strong_buy": 1,
       "buy": 0,
-      "hold": 1,
+      "hold": 5,
       "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 2,
-      "updated_on": "2024-07-04 13:40:17"
+      "strong_sell": 3,
+      "n_analyst": 9,
+      "updated_on": "2024-07-10 00:44:32"
     }
   },
   {
-    "symbol": "INOV",
+    "symbol": "TBLA",
     "analyst_rating": null
   },
   {
-    "symbol": "INPP",
+    "symbol": "TBMS",
     "analyst_rating": null
-  },
-  {
-    "symbol": "ROTI",
-    "analyst_rating": {
-      "strong_buy": 2,
-      "buy": 0,
-      "hold": 1,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 3,
-      "updated_on": "2024-07-04 13:40:34"
-    }
   },
   {
     "symbol": "TCID",
     "analyst_rating": null
   },
   {
-    "symbol": "TECH",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BNBR",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "KICI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "NICK",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SDRA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SICO",
+    "symbol": "TEBE",
     "analyst_rating": null
   },
   {
     "symbol": "TELE",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "CUAN",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "ELPI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "NASA",
     "analyst_rating": null
   },
   {
@@ -196,727 +604,7 @@
     "analyst_rating": null
   },
   {
-    "symbol": "TIRA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TIRT",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BMTR",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "CFIN",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "GLVA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SMAR",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TKIM",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TLKM",
-    "analyst_rating": {
-      "strong_buy": 18,
-      "buy": 2,
-      "hold": 3,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 23,
-      "updated_on": "2024-07-04 13:42:21"
-    }
-  },
-  {
-    "symbol": "INTP",
-    "analyst_rating": {
-      "strong_buy": 5,
-      "buy": 1,
-      "hold": 4,
-      "sell": 0,
-      "strong_sell": 1,
-      "n_analyst": 11,
-      "updated_on": "2024-07-04 13:42:29"
-    }
-  },
-  {
-    "symbol": "JSMR",
-    "analyst_rating": {
-      "strong_buy": 11,
-      "buy": 1,
-      "hold": 0,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 12,
-      "updated_on": "2024-07-04 13:42:36"
-    }
-  },
-  {
-    "symbol": "MKNT",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "PPGL",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TMAS",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TMPO",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TNCA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BOLT",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "KBAG",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "MAPI",
-    "analyst_rating": {
-      "strong_buy": 11,
-      "buy": 2,
-      "hold": 2,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 15,
-      "updated_on": "2024-07-04 13:43:15"
-    }
-  },
-  {
-    "symbol": "MASB",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "PTRO",
-    "analyst_rating": {
-      "strong_buy": 1,
-      "buy": 0,
-      "hold": 0,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 1,
-      "updated_on": "2024-07-04 13:43:27"
-    }
-  },
-  {
-    "symbol": "TOSK",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "ACRO",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "IPCC",
-    "analyst_rating": {
-      "strong_buy": 1,
-      "buy": 0,
-      "hold": 0,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 1,
-      "updated_on": "2024-07-04 13:43:45"
-    }
-  },
-  {
-    "symbol": "KEEN",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "RSGK",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TOTL",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TOTO",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BATA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "PRAS",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SEMA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SMRA",
-    "analyst_rating": {
-      "strong_buy": 8,
-      "buy": 1,
-      "hold": 0,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 9,
-      "updated_on": "2024-07-04 13:44:24"
-    }
-  },
-  {
-    "symbol": "TOWR",
-    "analyst_rating": {
-      "strong_buy": 9,
-      "buy": 1,
-      "hold": 3,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 13,
-      "updated_on": "2024-07-04 13:44:32"
-    }
-  },
-  {
-    "symbol": "TRGU",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TRIL",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "ENAK",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "IBOS",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "LABA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "PUDP",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SNLK",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TRIM",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TRIO",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BPII",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "ENZO",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "HRTA",
-    "analyst_rating": {
-      "strong_buy": 1,
-      "buy": 0,
-      "hold": 0,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 1,
-      "updated_on": "2024-07-04 13:45:34"
-    }
-  },
-  {
-    "symbol": "MPOW",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BSIM",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "CLAY",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "CTTH",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "DOID",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BIKA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BMHS",
-    "analyst_rating": {
-      "strong_buy": 0,
-      "buy": 0,
-      "hold": 1,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 1,
-      "updated_on": "2024-07-04 13:46:10"
-    }
-  },
-  {
-    "symbol": "FMII",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "PJAA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "AMAG",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BMBL",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "DNET",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "MKTR",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TOYS",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TRIS",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "AIMS",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BMSR",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "IPPE",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "KEJU",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TRON",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "AKSI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "AUTO",
-    "analyst_rating": {
-      "strong_buy": 5,
-      "buy": 0,
-      "hold": 0,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 5,
-      "updated_on": "2024-07-04 13:47:21"
-    }
-  },
-  {
-    "symbol": "HBAT",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "MAIN",
-    "analyst_rating": {
-      "strong_buy": 1,
-      "buy": 0,
-      "hold": 2,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 3,
-      "updated_on": "2024-07-04 13:47:33"
-    }
-  },
-  {
-    "symbol": "TRAM",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TRST",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TUGU",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TYRE",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BAIK",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BSML",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "INPS",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "MDLN",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "NOBU",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TRIN",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "ALDO",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "MGLV",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "MOLI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "CLPI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "NETV",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "OCAP",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "PALM",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "CRAB",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "IOTF",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SAGE",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SAPX",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "ULTJ",
-    "analyst_rating": {
-      "strong_buy": 1,
-      "buy": 0,
-      "hold": 0,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 1,
-      "updated_on": "2024-07-04 13:49:20"
-    }
-  },
-  {
-    "symbol": "UNIC",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "UNSP",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "POOL",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SRAJ",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SRTG",
-    "analyst_rating": {
-      "strong_buy": 3,
-      "buy": 0,
-      "hold": 0,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 3,
-      "updated_on": "2024-07-04 13:49:47"
-    }
-  },
-  {
-    "symbol": "SSIA",
-    "analyst_rating": {
-      "strong_buy": 2,
-      "buy": 1,
-      "hold": 0,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 3,
-      "updated_on": "2024-07-04 13:49:55"
-    }
-  },
-  {
-    "symbol": "STAA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "UNTR",
-    "analyst_rating": {
-      "strong_buy": 7,
-      "buy": 0,
-      "hold": 5,
-      "sell": 0,
-      "strong_sell": 1,
-      "n_analyst": 13,
-      "updated_on": "2024-07-04 13:50:07"
-    }
-  },
-  {
-    "symbol": "MREI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "MTEL",
-    "analyst_rating": {
-      "strong_buy": 9,
-      "buy": 0,
-      "hold": 2,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 11,
-      "updated_on": "2024-07-04 13:50:21"
-    }
-  },
-  {
-    "symbol": "SUGI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SULI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TLDN",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "PTSP",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SCCO",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "STRK",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SURI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "UNVR",
-    "analyst_rating": {
-      "strong_buy": 2,
-      "buy": 0,
-      "hold": 11,
-      "sell": 1,
-      "strong_sell": 4,
-      "n_analyst": 18,
-      "updated_on": "2024-07-04 13:51:02"
-    }
-  },
-  {
-    "symbol": "URBN",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "UVCR",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BOGA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TAMA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TAXI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TAYS",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "VICI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "VICO",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "IPAC",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "KRAS",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "MAMI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "UDNG",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "UFOE",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "AMAN",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BWPT",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "DGIK",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "MLPT",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "MUTU",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "VINS",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "VOKS",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "AKKU",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "APII",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "NUSA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TAPG",
-    "analyst_rating": {
-      "strong_buy": 1,
-      "buy": 0,
-      "hold": 0,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 1,
-      "updated_on": "2024-07-04 13:52:59"
-    }
-  },
-  {
-    "symbol": "TARA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "VRNA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TBMS",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TCPI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TDPM",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TEBE",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "UNTD",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "VTNY",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "WAPO",
-    "analyst_rating": null
-  },
-  {
     "symbol": "TGRA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TGUK",
     "analyst_rating": null
   },
   {
@@ -932,19 +620,47 @@
       "sell": 0,
       "strong_sell": 0,
       "n_analyst": 2,
-      "updated_on": "2024-07-04 13:54:07"
+      "updated_on": "2024-07-10 00:46:11"
     }
   },
   {
-    "symbol": "VAST",
+    "symbol": "TIRA",
     "analyst_rating": null
   },
   {
-    "symbol": "WEGE",
+    "symbol": "TIRT",
     "analyst_rating": null
   },
   {
-    "symbol": "WGSH",
+    "symbol": "TKIM",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TLDN",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TLKM",
+    "analyst_rating": {
+      "strong_buy": 18,
+      "buy": 3,
+      "hold": 3,
+      "sell": 0,
+      "strong_sell": 0,
+      "n_analyst": 24,
+      "updated_on": "2024-07-10 00:46:44"
+    }
+  },
+  {
+    "symbol": "TMAS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TMPO",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TNCA",
     "analyst_rating": null
   },
   {
@@ -952,15 +668,211 @@
     "analyst_rating": null
   },
   {
-    "symbol": "TOOL",
-    "analyst_rating": null
-  },
-  {
     "symbol": "TOPS",
     "analyst_rating": null
   },
   {
-    "symbol": "WIDI",
+    "symbol": "TOTL",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TOTO",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TOWR",
+    "analyst_rating": {
+      "strong_buy": 10,
+      "buy": 2,
+      "hold": 3,
+      "sell": 0,
+      "strong_sell": 0,
+      "n_analyst": 15,
+      "updated_on": "2024-07-10 00:47:37"
+    }
+  },
+  {
+    "symbol": "TPIA",
+    "analyst_rating": {
+      "strong_buy": 0,
+      "buy": 0,
+      "hold": 0,
+      "sell": 0,
+      "strong_sell": 1,
+      "n_analyst": 1,
+      "updated_on": "2024-07-10 00:47:46"
+    }
+  },
+  {
+    "symbol": "TPMA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TRGU",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TRIM",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TRIN",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TRIO",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TRIS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TRJA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TRON",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TRST",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TRUE",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TRUK",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TRUS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TSPC",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TUGU",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TYRE",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "UANG",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "UCID",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "ULTJ",
+    "analyst_rating": {
+      "strong_buy": 1,
+      "buy": 0,
+      "hold": 0,
+      "sell": 0,
+      "strong_sell": 0,
+      "n_analyst": 1,
+      "updated_on": "2024-07-10 00:49:30"
+    }
+  },
+  {
+    "symbol": "UNIC",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "UNSP",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "UNTR",
+    "analyst_rating": {
+      "strong_buy": 7,
+      "buy": 0,
+      "hold": 5,
+      "sell": 0,
+      "strong_sell": 1,
+      "n_analyst": 13,
+      "updated_on": "2024-07-10 00:49:51"
+    }
+  },
+  {
+    "symbol": "UNVR",
+    "analyst_rating": {
+      "strong_buy": 2,
+      "buy": 0,
+      "hold": 12,
+      "sell": 1,
+      "strong_sell": 4,
+      "n_analyst": 19,
+      "updated_on": "2024-07-10 00:50:00"
+    }
+  },
+  {
+    "symbol": "URBN",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "VAST",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "VICI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "VICO",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "VINS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "VIVA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "VKTR",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "VOKS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "VRNA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "VTNY",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "WAPO",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "WEGE",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "WEHA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "WICO",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "WIFI",
     "analyst_rating": null
   },
   {
@@ -972,7 +884,7 @@
       "sell": 0,
       "strong_sell": 0,
       "n_analyst": 1,
-      "updated_on": "2024-07-04 13:54:42"
+      "updated_on": "2024-07-10 00:51:30"
     }
   },
   {
@@ -984,7 +896,7 @@
       "sell": 0,
       "strong_sell": 0,
       "n_analyst": 1,
-      "updated_on": "2024-07-04 13:54:50"
+      "updated_on": "2024-07-10 00:51:39"
     }
   },
   {
@@ -992,31 +904,11 @@
     "analyst_rating": null
   },
   {
-    "symbol": "WINR",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TPIA",
-    "analyst_rating": {
-      "strong_buy": 0,
-      "buy": 0,
-      "hold": 0,
-      "sell": 0,
-      "strong_sell": 1,
-      "n_analyst": 1,
-      "updated_on": "2024-07-04 13:55:07"
-    }
-  },
-  {
-    "symbol": "TPMA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "WEHA",
-    "analyst_rating": null
-  },
-  {
     "symbol": "WINS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "WIRG",
     "analyst_rating": null
   },
   {
@@ -1040,39 +932,7 @@
     "analyst_rating": null
   },
   {
-    "symbol": "TRJA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TRUE",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TRUK",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TRUS",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TSPC",
-    "analyst_rating": null
-  },
-  {
     "symbol": "WSBP",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TURI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "UANG",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "UCID",
     "analyst_rating": null
   },
   {
@@ -1084,7 +944,7 @@
       "sell": 0,
       "strong_sell": 0,
       "n_analyst": 1,
-      "updated_on": "2024-07-04 13:56:29"
+      "updated_on": "2024-07-10 00:52:39"
     }
   },
   {
@@ -1104,27 +964,7 @@
     "analyst_rating": null
   },
   {
-    "symbol": "UNIQ",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "UNIT",
-    "analyst_rating": null
-  },
-  {
     "symbol": "ZATA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "VISI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "VIVA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "VKTR",
     "analyst_rating": null
   },
   {
@@ -1136,15 +976,135 @@
     "analyst_rating": null
   },
   {
-    "symbol": "WICO",
+    "symbol": "SAMF",
     "analyst_rating": null
   },
   {
-    "symbol": "WIFI",
+    "symbol": "SICO",
     "analyst_rating": null
   },
   {
-    "symbol": "WIRG",
+    "symbol": "SIMA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SKYB",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SMGA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SMKM",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SMLE",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SOFA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SOLA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SOUL",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SUGI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SURI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TAYS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TCPI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TDPM",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TECH",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TGUK",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TOOL",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TOSK",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TOYS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TRAM",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TRIL",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TURI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "UDNG",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "UFOE",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "UNIQ",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "UNIT",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "UNTD",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "UVCR",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "VISI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "WGSH",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "WIDI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "WINR",
     "analyst_rating": null
   },
   {
