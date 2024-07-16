@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 import pandas as pd
 import numpy as np
-import json
+import sys
 from supabase import create_client
 from multiprocessing import Process
 import time
@@ -37,15 +37,22 @@ if __name__ == "__main__":
   start = time.time()
   print("==> START TECHNICAL DATA SCRAPING ")
 
+  # Read running argument
+  if (sys.argv[1] == None):
+    frequency = "daily"
+  else:
+    frequency = sys.argv[1]
+    # Should be inputed with [daily, hourly, weekly, monthly]
+
   length_list = len(symbol_list)
   i1 = int(length_list / 4)
   i2 = 2 * i1
   i3 = 3 * i1
 
-  p1 = Process(target=scrape_technical_function, args=(symbol_list[:i1], 1))
-  p2 = Process(target=scrape_technical_function, args=(symbol_list[i1:i2], 2))
-  p3 = Process(target=scrape_technical_function, args=(symbol_list[i2:i3], 3))
-  p4 = Process(target=scrape_technical_function, args=(symbol_list[i3:], 4))
+  p1 = Process(target=scrape_technical_function, args=(symbol_list[:i1], 1, frequency))
+  p2 = Process(target=scrape_technical_function, args=(symbol_list[i1:i2], 2, frequency))
+  p3 = Process(target=scrape_technical_function, args=(symbol_list[i2:i3], 3, frequency))
+  p4 = Process(target=scrape_technical_function, args=(symbol_list[i3:], 4, frequency))
 
   p1.start()
   p2.start()
@@ -58,7 +65,7 @@ if __name__ == "__main__":
   p4.join()
 
   # Merge and upsert to db
-  df_merge = combine_technical_data(df_db_data)
+  df_merge = combine_technical_data(df_db_data, frequency)
 
   # Convert to json. Remove the index in dataframe
   records = df_merge.to_dict(orient="records")

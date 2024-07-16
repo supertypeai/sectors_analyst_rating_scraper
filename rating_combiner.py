@@ -4,10 +4,10 @@ import pandas as pd
 import numpy as np
 
 
-def combine_technical_data (df_db_data):
+def combine_technical_data (df_db_data, frequency):
   cwd = os.getcwd()
   data_dir = os.path.join(cwd, "data")
-  data_file_path = [os.path.join(data_dir,f'P{i}_technical_data.json') for i in range(1,5)]
+  data_file_path = [os.path.join(data_dir,f'P{i}_technical_data_{frequency}.json') for i in range(1,5)]
 
   # Combine data
   all_data_list = list()
@@ -20,7 +20,10 @@ def combine_technical_data (df_db_data):
   df_scraped = pd.DataFrame(all_data_list)
 
   # Rename columns
-  df_scraped = df_scraped.rename(columns={"technical_rating": "technical_rating_breakdown"})
+  if (frequency == "daily"):
+    df_scraped = df_scraped.rename(columns={"technical_rating": "technical_rating_breakdown"})
+  else:
+    df_scraped = df_scraped.rename(columns={"technical_rating": "technical_rating_breakdown_{frequency}"})
 
   # Add '.JK' in symbol column value
   df_scraped['symbol'] = df_scraped['symbol']+".JK"

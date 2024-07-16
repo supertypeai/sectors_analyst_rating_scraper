@@ -20,12 +20,55 @@ logging.getLogger('requests_html').setLevel(logging.WARNING)
 def get_url_page(symbol:str) -> str:
     return f"{BASE_URL}{symbol}"
 
-def scrape_technical_page(url: str) :
+def scrape_technical_page(url: str, frequency : str = "daily") :
+    # Frequency = ["hourly", "daily", "weekly", "monthly"] | default = daily
     print(f"[TECHNICAL] = Opening page {url}")
     try:
       session = HTMLSession()
       response = session.get(url)
-      response.html.render(sleep=1, timeout=10)
+
+      if (frequency == "hourly"):
+        print(f"[TECHNICAL] = Getting hourly Data")
+        script = """
+          () => {
+            const item = document.getElementById("1h");
+            if(item) {
+              item.click()
+            }
+          }
+        """
+        response.html.render(sleep=1, timeout=10, script=script)
+      
+      elif (frequency == "weekly"):
+        print(f"[TECHNICAL] = Getting weekly Data")
+        script = """
+          () => {
+            const item = document.getElementById("1W");
+            if(item) {
+              item.click()
+            }
+          }
+        """
+        response.html.render(sleep=1, timeout=10, script=script)
+      
+      elif (frequency == "monthly"):
+        print(f"[TECHNICAL] = Getting monthly Data")
+        script = """
+          () => {
+            const item = document.getElementById("1M");
+            if(item) {
+              item.click()
+              return item.innerHTML
+            } 
+          }
+        """
+        test = response.html.render(sleep=1, timeout=15, script=script)
+        print(test)
+
+      else : #case frequency == daily
+        print(f"[TECHNICAL] = Getting daily Data")
+        response.html.render(sleep=1, timeout=10)
+      
       print(f"[TECHNICAL] = Session for {url} is opened")
 
       soup = BeautifulSoup(response.html.html, "html.parser")
@@ -105,7 +148,7 @@ def scrape_technical_page(url: str) :
             name = cells[i].get_text()
             name_list.append(name)
           elif (i % 3 == 1) : # Value
-            value = cells[i].get_text()
+            value = int(cells[i].get_text().replace(",", "").replace("\u2212", "-"))
             value_list.append(value)
           else: # Action
             action = cells[i].get_text()
@@ -131,7 +174,7 @@ def scrape_technical_page(url: str) :
             name = cells[i].get_text()
             name_list.append(name)
           elif (i % 3 == 1) : # Value
-            value = cells[i].get_text()
+            value = int(cells[i].get_text().replace(",", "").replace("\u2212", "-"))
             value_list.append(value)
           else: # Action
             action = cells[i].get_text()
@@ -211,7 +254,7 @@ def save_to_json(file_path, data):
   with open(file_path, "w") as output_file:
     json.dump(data, output_file, indent=2)
 
-def scrape_technical_rating_data(symbol: str) -> dict:
+def scrape_technical_rating_data(symbol: str, frequency: str) -> dict:
     url = get_url_page(symbol)
     result_data = dict()
     result_data['symbol'] = symbol
@@ -219,7 +262,7 @@ def scrape_technical_rating_data(symbol: str) -> dict:
 
     # Scrape technical page
     technical_url = url+"/technicals/"
-    technical_rating_dict = scrape_technical_page(technical_url)
+    technical_rating_dict = scrape_technical_page(technical_url, frequency)
 
     # Wrap up
     result_data['technical_rating'] = technical_rating_dict
@@ -241,7 +284,7 @@ def scrape_analyst_rating_data(symbol: str) -> dict:
 
     return result_data
 
-def scrape_technical_function(symbol_list, process_idx):
+def scrape_technical_function(symbol_list, process_idx, frequency):
   print(f"==> Start scraping from process P{process_idx}")
   all_data = []
   cwd = os.getcwd()
@@ -251,7 +294,7 @@ def scrape_technical_function(symbol_list, process_idx):
   # Iterate in symbol list
   for i in range(start_idx, len(symbol_list)):
     symbol = symbol_list[i]
-    scrapped_data = scrape_technical_rating_data(symbol)
+    scrapped_data = scrape_technical_rating_data(symbol, frequency)
     all_data.append(scrapped_data)
 
     if (i % 10 == 0 and count != 0):
@@ -259,7 +302,7 @@ def scrape_technical_function(symbol_list, process_idx):
     count += 1
 
   # Save last
-  filename = f"P{process_idx}_technical_data.json"
+  filename = f"P{process_idx}_technical_data_{frequency}.json"
   print(f"==> Finished data is exported in {filename}")
   file_path = os.path.join(cwd, "data", filename)
   save_to_json(file_path, all_data)
@@ -292,4 +335,7 @@ def scrape_analyst_function(symbol_list, process_idx):
   return all_data
 
 
-print(scrape_technical_page("https://www.tradingview.com/symbols/IDX-AMMN/technicals/"))
+# print(scrape_technical_page("https://www.tradingview.com/symbols/IDX-AMMN/technicals/", "hourly"))
+# print(scrape_technical_page("https://www.tradingview.com/symbols/IDX-AMMN/technicals/", "daily"))
+# print(scrape_technical_page("https://www.tradingview.com/symbols/IDX-AMMN/technicals/", "weekly"))
+# print(scrape_technical_page("https://www.tradingview.com/symbols/IDX-AMMN/technicals/", "monthly"))

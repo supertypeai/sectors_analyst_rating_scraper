@@ -1,8 +1,8 @@
-name: Scrape Technical Rating
+name: Scrape Technical Rating Daily
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 8 * * *' 
+    - cron: '0 8 * * *' # Each day at 8 am
 
 jobs:
   build:
@@ -22,17 +22,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install lxml[html_clean]
           pip install -r requirements.txt
-      
-      # - name: Install Chrome
-      #   run: |
-      #     sudo apt-get update
-      #     sudo apt-get install -y chromium-browser
 
       - name: Execute py script # run main.py
         env:
             SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
             SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
-        run: python technical_main.py
+        run: python technical_main.py daily
 
       - name: Pull changes
         run: git pull origin main
