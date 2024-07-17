@@ -42,7 +42,7 @@ if __name__ == "__main__":
     frequency = "daily"
   else:
     frequency = sys.argv[1]
-    # Should be inputed with [daily, hourly, weekly, monthly]
+    # Should be inputed with [daily, weekly, monthly]
 
   length_list = len(symbol_list)
   i1 = int(length_list / 4)

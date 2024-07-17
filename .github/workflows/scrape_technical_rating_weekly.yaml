@@ -1,8 +1,8 @@
-name: Scrape Technical Rating Daily
+name: Scrape Technical Rating Weekly
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 8 * * *' # Each day at 8 am
+    - cron: '0 0 * * 0' # At 00:00 on Sunday
 
 jobs:
   build:
@@ -27,7 +27,7 @@ jobs:
         env:
             SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
             SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
-        run: python technical_main.py daily
+        run: python technical_main.py weekly
 
       - name: Pull changes
         run: git pull origin main

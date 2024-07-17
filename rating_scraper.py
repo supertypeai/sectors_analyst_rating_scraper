@@ -21,31 +21,27 @@ def get_url_page(symbol:str) -> str:
     return f"{BASE_URL}{symbol}"
 
 def scrape_technical_page(url: str, frequency : str = "daily") :
-    # Frequency = ["hourly", "daily", "weekly", "monthly"] | default = daily
+    # Frequency = ["daily", "weekly", "monthly"] | default = daily
     print(f"[TECHNICAL] = Opening page {url}")
     try:
       session = HTMLSession()
       response = session.get(url)
 
-      if (frequency == "hourly"):
-        print(f"[TECHNICAL] = Getting hourly Data")
-        script = """
-          () => {
-            const item = document.getElementById("1h");
-            if(item) {
-              item.click()
-            }
-          }
-        """
-        response.html.render(sleep=1, timeout=10, script=script)
-      
-      elif (frequency == "weekly"):
+      if (frequency == "weekly"):
         print(f"[TECHNICAL] = Getting weekly Data")
         script = """
           () => {
-            const item = document.getElementById("1W");
-            if(item) {
-              item.click()
+            const items = document.getElementsByClassName("square-tab-button-huvpscfz");
+            if(items) {
+              const len = items.length
+              items[len-1].click()
+            } 
+
+            const popupItems = document.getElementsByClassName("item-jFqVJoPk")
+            if (popupItems) {
+              const popupLen = popupItems.length
+              popupItems[popupLen-2].click()
+              return
             }
           }
         """
@@ -55,15 +51,21 @@ def scrape_technical_page(url: str, frequency : str = "daily") :
         print(f"[TECHNICAL] = Getting monthly Data")
         script = """
           () => {
-            const item = document.getElementById("1M");
-            if(item) {
-              item.click()
-              return item.innerHTML
+            const items = document.getElementsByClassName("square-tab-button-huvpscfz");
+            if(items) {
+              const len = items.length
+              items[len-1].click()
             } 
+
+            const popupItems = document.getElementsByClassName("item-jFqVJoPk")
+            if (popupItems) {
+              const popupLen = popupItems.length
+              popupItems[popupLen-1].click()
+              return
+            }
           }
         """
-        test = response.html.render(sleep=1, timeout=10, script=script)
-        print(test)
+        response.html.render(sleep=1, timeout=10, script=script)
 
       else : #case frequency == daily
         print(f"[TECHNICAL] = Getting daily Data")
@@ -148,10 +150,17 @@ def scrape_technical_page(url: str, frequency : str = "daily") :
             name = cells[i].get_text()
             name_list.append(name)
           elif (i % 3 == 1) : # Value
-            value = int(cells[i].get_text().replace(",", "").replace("\u2212", "-"))
+            value = cells[i].get_text().replace(",", "").replace("\u2212", "-")
+            try:
+              value = int(value)
+            except:
+              # Case value is empty (dash (-))
+              value = None
             value_list.append(value)
           else: # Action
             action = cells[i].get_text()
+            if (len(action) == 1 and action == "—"):
+              action = None
             action_list.append(action)
         
         data = list()
@@ -174,10 +183,17 @@ def scrape_technical_page(url: str, frequency : str = "daily") :
             name = cells[i].get_text()
             name_list.append(name)
           elif (i % 3 == 1) : # Value
-            value = int(cells[i].get_text().replace(",", "").replace("\u2212", "-"))
+            value = cells[i].get_text().replace(",", "").replace("\u2212", "-")
+            try:
+              value = int(value)
+            except:
+              # Case value is empty (dash (-))
+              value = None
             value_list.append(value)
           else: # Action
             action = cells[i].get_text()
+            if (len(action) == 1 and action == "—"):
+              action = None
             action_list.append(action)
         
         data = list()
@@ -262,7 +278,13 @@ def scrape_technical_rating_data(symbol: str, frequency: str) -> dict:
 
     # Scrape technical page
     technical_url = url+"/technicals/"
-    technical_rating_dict = scrape_technical_page(technical_url, frequency)
+    attempt = 1
+    while (technical_rating_dict is None and attempt <= 3):
+      technical_rating_dict = scrape_technical_page(technical_url, frequency)
+
+      if (technical_rating_dict is None):
+        print(f"Failed to get technical rating data from {symbol} on attempt {attempt}. Retrying...")
+      attempt += 1
 
     # Wrap up
     result_data['technical_rating'] = technical_rating_dict
@@ -335,7 +357,3 @@ def scrape_analyst_function(symbol_list, process_idx):
   return all_data
 
 
-# print(scrape_technical_page("https://www.tradingview.com/symbols/IDX-AMMN/technicals/", "hourly"))
-# print(scrape_technical_page("https://www.tradingview.com/symbols/IDX-AMMN/technicals/", "daily"))
-# print(scrape_technical_page("https://www.tradingview.com/symbols/IDX-AMMN/technicals/", "weekly"))
-print(scrape_technical_page("https://www.tradingview.com/symbols/IDX-AMMN/technicals/", "monthly"))
