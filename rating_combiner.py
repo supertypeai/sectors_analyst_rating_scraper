@@ -23,7 +23,7 @@ def combine_technical_data (df_db_data, frequency):
   if (frequency == "daily"):
     df_scraped = df_scraped.rename(columns={"technical_rating": "technical_rating_breakdown"})
   else:
-    df_scraped = df_scraped.rename(columns={"technical_rating": "technical_rating_breakdown_{frequency}"})
+    df_scraped = df_scraped.rename(columns={"technical_rating": f"technical_rating_breakdown_{frequency}"})
 
   # Add '.JK' in symbol column value
   df_scraped['symbol'] = df_scraped['symbol']+".JK"

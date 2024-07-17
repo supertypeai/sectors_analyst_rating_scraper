@@ -62,7 +62,7 @@ def scrape_technical_page(url: str, frequency : str = "daily") :
             } 
           }
         """
-        test = response.html.render(sleep=1, timeout=15, script=script)
+        test = response.html.render(sleep=1, timeout=10, script=script)
         print(test)
 
       else : #case frequency == daily
@@ -338,4 +338,4 @@ def scrape_analyst_function(symbol_list, process_idx):
 # print(scrape_technical_page("https://www.tradingview.com/symbols/IDX-AMMN/technicals/", "hourly"))
 # print(scrape_technical_page("https://www.tradingview.com/symbols/IDX-AMMN/technicals/", "daily"))
 # print(scrape_technical_page("https://www.tradingview.com/symbols/IDX-AMMN/technicals/", "weekly"))
-# print(scrape_technical_page("https://www.tradingview.com/symbols/IDX-AMMN/technicals/", "monthly"))
+print(scrape_technical_page("https://www.tradingview.com/symbols/IDX-AMMN/technicals/", "monthly"))
