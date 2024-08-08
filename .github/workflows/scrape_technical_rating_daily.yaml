@@ -2,7 +2,7 @@ name: Scrape Technical Rating Daily
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 8 * * *' # Each day at 8 am
+    - cron: '0 10 * * *' # Each day at 10 am
 
 jobs:
   build:

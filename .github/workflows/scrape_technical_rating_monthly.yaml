@@ -2,7 +2,7 @@ name: Scrape Technical Rating Monthly
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 4 1 * *' # At 4 am on first day each month
+    - cron: '0 12 2 * *' # At 12 pm on second day each month
 
 jobs:
   build:
