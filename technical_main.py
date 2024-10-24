@@ -100,7 +100,7 @@ if __name__ == "__main__":
   print(f"The execution time: {time.strftime('%H:%M:%S', time.gmtime(duration))}")
   print("==> FINISHED TECHNICAL DATA SCRAPING")
 
-  logging.info(f"{end.strftime("%Y-%m-%d")} the {frequency} technical rating data has been scrapped")
+  logging.info(f"{end.strftime('%Y-%m-%d')} the {frequency} technical rating data has been scrapped")
 
 
 
