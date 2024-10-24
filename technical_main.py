@@ -10,6 +10,7 @@ from rating_scraper import scrape_technical_function
 from rating_combiner import combine_technical_data
 import logging
 from imp import reload
+import datetime
 
 load_dotenv()
 
@@ -97,10 +98,11 @@ if __name__ == "__main__":
   # End time
   end = time.time()
   duration = int(end-start)
+
   print(f"The execution time: {time.strftime('%H:%M:%S', time.gmtime(duration))}")
   print("==> FINISHED TECHNICAL DATA SCRAPING")
 
-  logging.info(f"{end.strftime('%Y-%m-%d')} the {frequency} technical rating data has been scrapped")
+  logging.info(f"{datetime.datetime.now().strftime('%Y-%m-%d')} the {frequency} technical rating data has been scrapped. Execution time: {time.strftime('%H:%M:%S', time.gmtime(duration))}")
 
 
 

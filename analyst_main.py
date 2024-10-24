@@ -10,6 +10,7 @@ from rating_scraper import scrape_analyst_function
 from rating_combiner import combine_analyst_data
 import logging
 from imp import reload
+import datetime
 
 load_dotenv()
 
@@ -91,6 +92,6 @@ if __name__ == "__main__":
   print(f"The execution time: {time.strftime('%H:%M:%S', time.gmtime(duration))}")
   print("==> FINISHED ANALYST DATA SCRAPING")
 
-  logging.info(f"{end.strftime('%Y-%m-%d')} the analyst rating data has been scrapped")
+  logging.info(f"{datetime.datetime.now().strftime('%Y-%m-%d')} the analyst rating data has been scrapped. Execution time: {time.strftime('%H:%M:%S', time.gmtime(duration))}")
 
 
