@@ -8,6 +8,8 @@ from multiprocessing import Process
 import time
 from rating_scraper import scrape_technical_function
 from rating_combiner import combine_technical_data
+import logging
+from imp import reload
 
 load_dotenv()
 
@@ -29,6 +31,13 @@ symbol_list
 # Remove the .JK
 for i in range (len(symbol_list)):
   symbol_list[i] = symbol_list[i].replace(".JK", "")
+
+def initiate_logging(LOG_FILENAME):
+    reload(logging)
+
+    formatLOG = '%(asctime)s - %(levelname)s: %(message)s'
+    logging.basicConfig(filename=LOG_FILENAME,level=logging.INFO, format=formatLOG)
+    logging.info('The technical rating scraper program started')
        
 
 if __name__ == "__main__":
@@ -48,6 +57,10 @@ if __name__ == "__main__":
   i1 = int(length_list / 4)
   i2 = 2 * i1
   i3 = 3 * i1
+
+  LOG_FILENAME = 'scrapper.log'
+  initiate_logging(LOG_FILENAME)
+
 
   p1 = Process(target=scrape_technical_function, args=(symbol_list[:i1], 1, frequency))
   p2 = Process(target=scrape_technical_function, args=(symbol_list[i1:i2], 2, frequency))
@@ -86,6 +99,8 @@ if __name__ == "__main__":
   duration = int(end-start)
   print(f"The execution time: {time.strftime('%H:%M:%S', time.gmtime(duration))}")
   print("==> FINISHED TECHNICAL DATA SCRAPING")
+
+  logging.info(f"{end.strftime("%Y-%m-%d")} the {frequency} technical rating data has been scrapped")
 
 
 
