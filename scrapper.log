@@ -28,3 +28,5 @@
 2024-11-03 10:32:19,123 - INFO: 2024-11-03 the daily technical rating data has been scrapped. Execution time: 00:18:35
 2024-11-04 10:13:41,488 - INFO: The technical rating scraper program started
 2024-11-04 10:32:34,666 - INFO: 2024-11-04 the daily technical rating data has been scrapped. Execution time: 00:18:53
+2024-11-04 11:19:14,343 - INFO: The technical rating scraper program started
+2024-11-04 11:38:37,423 - INFO: 2024-11-04 the weekly technical rating data has been scrapped. Execution time: 00:19:23
