@@ -1,254 +1,10 @@
 [
   {
-    "symbol": "PDES",
-    "technical_rating": null
-  },
-  {
-    "symbol": "MBAP",
-    "technical_rating": null
-  },
-  {
-    "symbol": "PDPP",
-    "technical_rating": null
-  },
-  {
-    "symbol": "PEGE",
-    "technical_rating": null
-  },
-  {
-    "symbol": "PEHA",
-    "technical_rating": null
-  },
-  {
-    "symbol": "PEVE",
-    "technical_rating": null
-  },
-  {
-    "symbol": "PGEO",
-    "technical_rating": null
-  },
-  {
-    "symbol": "PGJO",
-    "technical_rating": null
-  },
-  {
-    "symbol": "PGLI",
-    "technical_rating": null
-  },
-  {
-    "symbol": "MDIA",
-    "technical_rating": null
-  },
-  {
-    "symbol": "PGUN",
-    "technical_rating": null
-  },
-  {
-    "symbol": "MEDC",
-    "technical_rating": null
-  },
-  {
-    "symbol": "PIPA",
-    "technical_rating": null
-  },
-  {
-    "symbol": "MEGA",
-    "technical_rating": null
-  },
-  {
-    "symbol": "PKPK",
-    "technical_rating": null
-  },
-  {
-    "symbol": "PLAN",
-    "technical_rating": null
-  },
-  {
-    "symbol": "PLIN",
-    "technical_rating": null
-  },
-  {
-    "symbol": "PMJS",
-    "technical_rating": null
-  },
-  {
-    "symbol": "PNBN",
-    "technical_rating": null
-  },
-  {
-    "symbol": "PNBS",
-    "technical_rating": null
-  },
-  {
-    "symbol": "MGNA",
-    "technical_rating": null
-  },
-  {
-    "symbol": "PNIN",
-    "technical_rating": null
-  },
-  {
-    "symbol": "RMBA",
-    "technical_rating": null
-  },
-  {
-    "symbol": "MGRO",
-    "technical_rating": null
-  },
-  {
-    "symbol": "PNSE",
-    "technical_rating": null
-  },
-  {
-    "symbol": "POLI",
-    "technical_rating": null
-  },
-  {
-    "symbol": "POLL",
-    "technical_rating": null
-  },
-  {
-    "symbol": "POLU",
-    "technical_rating": null
-  },
-  {
-    "symbol": "MKAP",
-    "technical_rating": null
-  },
-  {
-    "symbol": "POLY",
-    "technical_rating": null
-  },
-  {
-    "symbol": "POWR",
-    "technical_rating": null
-  },
-  {
-    "symbol": "PPGL",
-    "technical_rating": null
-  },
-  {
-    "symbol": "PPRE",
-    "technical_rating": null
-  },
-  {
-    "symbol": "PPRI",
-    "technical_rating": null
-  },
-  {
-    "symbol": "PPRO",
-    "technical_rating": null
-  },
-  {
-    "symbol": "MMIX",
-    "technical_rating": null
-  },
-  {
-    "symbol": "PORT",
-    "technical_rating": null
-  },
-  {
-    "symbol": "MORA",
-    "technical_rating": null
-  },
-  {
-    "symbol": "MPIX",
-    "technical_rating": null
-  },
-  {
-    "symbol": "PSDN",
-    "technical_rating": null
-  },
-  {
-    "symbol": "PRDA",
-    "technical_rating": null
-  },
-  {
-    "symbol": "PRIM",
-    "technical_rating": null
-  },
-  {
-    "symbol": "MPXL",
-    "technical_rating": null
-  },
-  {
-    "symbol": "PSGO",
-    "technical_rating": null
-  },
-  {
-    "symbol": "MSIE",
-    "technical_rating": null
-  },
-  {
-    "symbol": "MSIN",
-    "technical_rating": null
-  },
-  {
-    "symbol": "MSTI",
-    "technical_rating": null
-  },
-  {
-    "symbol": "PTBA",
-    "technical_rating": null
-  },
-  {
-    "symbol": "PTMP",
-    "technical_rating": null
-  },
-  {
-    "symbol": "PTMR",
-    "technical_rating": null
-  },
-  {
-    "symbol": "PTPS",
-    "technical_rating": null
-  },
-  {
-    "symbol": "PTPW",
-    "technical_rating": null
-  },
-  {
-    "symbol": "PTSP",
-    "technical_rating": null
-  },
-  {
-    "symbol": "PUDP",
-    "technical_rating": null
-  },
-  {
-    "symbol": "PURE",
-    "technical_rating": null
-  },
-  {
-    "symbol": "MYOH",
-    "technical_rating": null
-  },
-  {
     "symbol": "PURI",
     "technical_rating": null
   },
   {
-    "symbol": "NANO",
-    "technical_rating": null
-  },
-  {
-    "symbol": "NASA",
-    "technical_rating": null
-  },
-  {
-    "symbol": "NAYZ",
-    "technical_rating": null
-  },
-  {
-    "symbol": "PZZA",
-    "technical_rating": null
-  },
-  {
-    "symbol": "NETV",
-    "technical_rating": null
-  },
-  {
-    "symbol": "RAJA",
+    "symbol": "PWON",
     "technical_rating": null
   },
   {
@@ -256,7 +12,35 @@
     "technical_rating": null
   },
   {
+    "symbol": "PYFA",
+    "technical_rating": null
+  },
+  {
+    "symbol": "PZZA",
+    "technical_rating": null
+  },
+  {
+    "symbol": "RAAM",
+    "technical_rating": null
+  },
+  {
+    "symbol": "RAJA",
+    "technical_rating": null
+  },
+  {
+    "symbol": "RALS",
+    "technical_rating": null
+  },
+  {
+    "symbol": "NISP",
+    "technical_rating": null
+  },
+  {
     "symbol": "RANC",
+    "technical_rating": null
+  },
+  {
+    "symbol": "RBMS",
     "technical_rating": null
   },
   {
@@ -272,27 +56,15 @@
     "technical_rating": null
   },
   {
-    "symbol": "NISP",
-    "technical_rating": null
-  },
-  {
     "symbol": "RELI",
     "technical_rating": null
   },
   {
+    "symbol": "RICY",
+    "technical_rating": null
+  },
+  {
     "symbol": "RIGS",
-    "technical_rating": null
-  },
-  {
-    "symbol": "RISE",
-    "technical_rating": null
-  },
-  {
-    "symbol": "ROCK",
-    "technical_rating": null
-  },
-  {
-    "symbol": "RODA",
     "technical_rating": null
   },
   {
@@ -304,7 +76,7 @@
     "technical_rating": null
   },
   {
-    "symbol": "OKAS",
+    "symbol": "RISE",
     "technical_rating": null
   },
   {
@@ -312,11 +84,39 @@
     "technical_rating": null
   },
   {
-    "symbol": "RUIS",
+    "symbol": "RMKE",
+    "technical_rating": null
+  },
+  {
+    "symbol": "ROCK",
     "technical_rating": null
   },
   {
     "symbol": "OPMS",
+    "technical_rating": null
+  },
+  {
+    "symbol": "RODA",
+    "technical_rating": null
+  },
+  {
+    "symbol": "RSCH",
+    "technical_rating": null
+  },
+  {
+    "symbol": "PADA",
+    "technical_rating": null
+  },
+  {
+    "symbol": "RSGK",
+    "technical_rating": null
+  },
+  {
+    "symbol": "RUIS",
+    "technical_rating": null
+  },
+  {
+    "symbol": "RUNS",
     "technical_rating": null
   },
   {
@@ -328,22 +128,6 @@
     "technical_rating": null
   },
   {
-    "symbol": "PADA",
-    "technical_rating": null
-  },
-  {
-    "symbol": "SAME",
-    "technical_rating": null
-  },
-  {
-    "symbol": "SATU",
-    "technical_rating": null
-  },
-  {
-    "symbol": "SBMA",
-    "technical_rating": null
-  },
-  {
     "symbol": "PANS",
     "technical_rating": null
   },
@@ -352,11 +136,47 @@
     "technical_rating": null
   },
   {
+    "symbol": "SAME",
+    "technical_rating": null
+  },
+  {
     "symbol": "RGAS",
     "technical_rating": null
   },
   {
+    "symbol": "SAPX",
+    "technical_rating": null
+  },
+  {
+    "symbol": "SATU",
+    "technical_rating": null
+  },
+  {
+    "symbol": "SBAT",
+    "technical_rating": null
+  },
+  {
+    "symbol": "SBMA",
+    "technical_rating": null
+  },
+  {
+    "symbol": "SCCO",
+    "technical_rating": null
+  },
+  {
+    "symbol": "PTSN",
+    "technical_rating": null
+  },
+  {
+    "symbol": "SCNP",
+    "technical_rating": null
+  },
+  {
     "symbol": "SCPI",
+    "technical_rating": null
+  },
+  {
+    "symbol": "SDMU",
     "technical_rating": null
   },
   {
@@ -368,11 +188,19 @@
     "technical_rating": null
   },
   {
-    "symbol": "PTSN",
+    "symbol": "PLAS",
+    "technical_rating": null
+  },
+  {
+    "symbol": "SEMA",
     "technical_rating": null
   },
   {
     "symbol": "SFAN",
+    "technical_rating": null
+  },
+  {
+    "symbol": "SGER",
     "technical_rating": null
   },
   {
@@ -388,7 +216,7 @@
     "technical_rating": null
   },
   {
-    "symbol": "PLAS",
+    "symbol": "SICO",
     "technical_rating": null
   },
   {
@@ -396,11 +224,27 @@
     "technical_rating": null
   },
   {
+    "symbol": "POOL",
+    "technical_rating": null
+  },
+  {
+    "symbol": "SILO",
+    "technical_rating": null
+  },
+  {
     "symbol": "SIMP",
     "technical_rating": null
   },
   {
+    "symbol": "ROTI",
+    "technical_rating": null
+  },
+  {
     "symbol": "SINI",
+    "technical_rating": null
+  },
+  {
+    "symbol": "SIPD",
     "technical_rating": null
   },
   {
@@ -412,7 +256,7 @@
     "technical_rating": null
   },
   {
-    "symbol": "POOL",
+    "symbol": "SKRN",
     "technical_rating": null
   },
   {
@@ -420,7 +264,7 @@
     "technical_rating": null
   },
   {
-    "symbol": "ROTI",
+    "symbol": "SMAR",
     "technical_rating": null
   },
   {
@@ -428,7 +272,19 @@
     "technical_rating": null
   },
   {
+    "symbol": "SCMA",
+    "technical_rating": null
+  },
+  {
+    "symbol": "SMCB",
+    "technical_rating": null
+  },
+  {
     "symbol": "SMDM",
+    "technical_rating": null
+  },
+  {
+    "symbol": "PURA",
     "technical_rating": null
   },
   {
@@ -440,6 +296,10 @@
     "technical_rating": null
   },
   {
+    "symbol": "RAFI",
+    "technical_rating": null
+  },
+  {
     "symbol": "SMIL",
     "technical_rating": null
   },
@@ -448,11 +308,11 @@
     "technical_rating": null
   },
   {
-    "symbol": "SMLE",
+    "symbol": "SMKM",
     "technical_rating": null
   },
   {
-    "symbol": "SCMA",
+    "symbol": "SMLE",
     "technical_rating": null
   },
   {
@@ -460,7 +320,11 @@
     "technical_rating": null
   },
   {
-    "symbol": "PURA",
+    "symbol": "RDTX",
+    "technical_rating": null
+  },
+  {
+    "symbol": "SMMT",
     "technical_rating": null
   },
   {
@@ -468,39 +332,15 @@
     "technical_rating": null
   },
   {
-    "symbol": "RAFI",
-    "technical_rating": null
-  },
-  {
-    "symbol": "SMSM",
-    "technical_rating": null
-  },
-  {
-    "symbol": "SOCI",
-    "technical_rating": null
-  },
-  {
-    "symbol": "SONA",
-    "technical_rating": null
-  },
-  {
-    "symbol": "SOSS",
-    "technical_rating": null
-  },
-  {
-    "symbol": "RDTX",
-    "technical_rating": null
-  },
-  {
-    "symbol": "SPMA",
-    "technical_rating": null
-  },
-  {
     "symbol": "RIMO",
     "technical_rating": null
   },
   {
-    "symbol": "SPTO",
+    "symbol": "SMRU",
+    "technical_rating": null
+  },
+  {
+    "symbol": "SMSM",
     "technical_rating": null
   },
   {
@@ -512,11 +352,51 @@
     "technical_rating": null
   },
   {
-    "symbol": "RUNS",
+    "symbol": "SNLK",
+    "technical_rating": null
+  },
+  {
+    "symbol": "SOCI",
+    "technical_rating": null
+  },
+  {
+    "symbol": "SOFA",
+    "technical_rating": null
+  },
+  {
+    "symbol": "SONA",
+    "technical_rating": null
+  },
+  {
+    "symbol": "SOSS",
+    "technical_rating": null
+  },
+  {
+    "symbol": "SPMA",
+    "technical_rating": null
+  },
+  {
+    "symbol": "SPRE",
+    "technical_rating": null
+  },
+  {
+    "symbol": "SPTO",
+    "technical_rating": null
+  },
+  {
+    "symbol": "SQMI",
+    "technical_rating": null
+  },
+  {
+    "symbol": "SRAJ",
     "technical_rating": null
   },
   {
     "symbol": "SRIL",
+    "technical_rating": null
+  },
+  {
+    "symbol": "SRSN",
     "technical_rating": null
   },
   {
@@ -528,11 +408,23 @@
     "technical_rating": null
   },
   {
+    "symbol": "SSMS",
+    "technical_rating": null
+  },
+  {
     "symbol": "SSTM",
     "technical_rating": null
   },
   {
     "symbol": "STAA",
+    "technical_rating": null
+  },
+  {
+    "symbol": "STAR",
+    "technical_rating": null
+  },
+  {
+    "symbol": "STRK",
     "technical_rating": null
   },
   {
@@ -544,11 +436,27 @@
     "technical_rating": null
   },
   {
+    "symbol": "SULI",
+    "technical_rating": null
+  },
+  {
     "symbol": "SUNI",
     "technical_rating": null
   },
   {
+    "symbol": "SAMF",
+    "technical_rating": null
+  },
+  {
     "symbol": "SUPR",
+    "technical_rating": null
+  },
+  {
+    "symbol": "SURI",
+    "technical_rating": null
+  },
+  {
+    "symbol": "SMDR",
     "technical_rating": null
   },
   {
@@ -560,23 +468,11 @@
     "technical_rating": null
   },
   {
-    "symbol": "TARA",
+    "symbol": "TALF",
     "technical_rating": null
   },
   {
-    "symbol": "TBLA",
-    "technical_rating": null
-  },
-  {
-    "symbol": "SAMF",
-    "technical_rating": null
-  },
-  {
-    "symbol": "TCID",
-    "technical_rating": null
-  },
-  {
-    "symbol": "SMDR",
+    "symbol": "TAMA",
     "technical_rating": null
   },
   {
@@ -588,15 +484,11 @@
     "technical_rating": null
   },
   {
-    "symbol": "TFAS",
+    "symbol": "TARA",
     "technical_rating": null
   },
   {
-    "symbol": "SICO",
-    "technical_rating": null
-  },
-  {
-    "symbol": "TGKA",
+    "symbol": "TBLA",
     "technical_rating": null
   },
   {
@@ -608,6 +500,10 @@
     "technical_rating": null
   },
   {
+    "symbol": "TCID",
+    "technical_rating": null
+  },
+  {
     "symbol": "SKYB",
     "technical_rating": null
   },
@@ -616,7 +512,43 @@
     "technical_rating": null
   },
   {
+    "symbol": "TCPI",
+    "technical_rating": null
+  },
+  {
     "symbol": "TBIG",
+    "technical_rating": null
+  },
+  {
+    "symbol": "TEBE",
+    "technical_rating": null
+  },
+  {
+    "symbol": "TELE",
+    "technical_rating": null
+  },
+  {
+    "symbol": "TFAS",
+    "technical_rating": null
+  },
+  {
+    "symbol": "TFCO",
+    "technical_rating": null
+  },
+  {
+    "symbol": "TGKA",
+    "technical_rating": null
+  },
+  {
+    "symbol": "TGRA",
+    "technical_rating": null
+  },
+  {
+    "symbol": "TIFA",
+    "technical_rating": null
+  },
+  {
+    "symbol": "TINS",
     "technical_rating": null
   },
   {
@@ -624,31 +556,11 @@
     "technical_rating": null
   },
   {
+    "symbol": "TIRT",
+    "technical_rating": null
+  },
+  {
     "symbol": "TKIM",
-    "technical_rating": null
-  },
-  {
-    "symbol": "TLDN",
-    "technical_rating": null
-  },
-  {
-    "symbol": "TNCA",
-    "technical_rating": null
-  },
-  {
-    "symbol": "SMKM",
-    "technical_rating": null
-  },
-  {
-    "symbol": "TLKM",
-    "technical_rating": null
-  },
-  {
-    "symbol": "SOFA",
-    "technical_rating": null
-  },
-  {
-    "symbol": "STAR",
     "technical_rating": null
   },
   {
@@ -656,7 +568,11 @@
     "technical_rating": null
   },
   {
-    "symbol": "TOPS",
+    "symbol": "TLDN",
+    "technical_rating": null
+  },
+  {
+    "symbol": "TLKM",
     "technical_rating": null
   },
   {
@@ -668,6 +584,42 @@
     "technical_rating": null
   },
   {
+    "symbol": "TMPO",
+    "technical_rating": null
+  },
+  {
+    "symbol": "TNCA",
+    "technical_rating": null
+  },
+  {
+    "symbol": "TOBA",
+    "technical_rating": null
+  },
+  {
+    "symbol": "TOOL",
+    "technical_rating": null
+  },
+  {
+    "symbol": "TAXI",
+    "technical_rating": null
+  },
+  {
+    "symbol": "TOPS",
+    "technical_rating": null
+  },
+  {
+    "symbol": "TOSK",
+    "technical_rating": null
+  },
+  {
+    "symbol": "TBMS",
+    "technical_rating": null
+  },
+  {
+    "symbol": "TOTO",
+    "technical_rating": null
+  },
+  {
     "symbol": "TPIA",
     "technical_rating": null
   },
@@ -676,31 +628,11 @@
     "technical_rating": null
   },
   {
-    "symbol": "TAXI",
+    "symbol": "TRGU",
     "technical_rating": null
   },
   {
-    "symbol": "TRIN",
-    "technical_rating": null
-  },
-  {
-    "symbol": "TBMS",
-    "technical_rating": null
-  },
-  {
-    "symbol": "TRIS",
-    "technical_rating": null
-  },
-  {
-    "symbol": "TMPO",
-    "technical_rating": null
-  },
-  {
-    "symbol": "TRJA",
-    "technical_rating": null
-  },
-  {
-    "symbol": "TYRE",
+    "symbol": "TRIL",
     "technical_rating": null
   },
   {
@@ -708,7 +640,11 @@
     "technical_rating": null
   },
   {
-    "symbol": "TRUE",
+    "symbol": "TRIN",
+    "technical_rating": null
+  },
+  {
+    "symbol": "TRIO",
     "technical_rating": null
   },
   {
@@ -716,7 +652,11 @@
     "technical_rating": null
   },
   {
-    "symbol": "UFOE",
+    "symbol": "TRIS",
+    "technical_rating": null
+  },
+  {
+    "symbol": "TRJA",
     "technical_rating": null
   },
   {
@@ -724,7 +664,11 @@
     "technical_rating": null
   },
   {
-    "symbol": "VICI",
+    "symbol": "TRON",
+    "technical_rating": null
+  },
+  {
+    "symbol": "TRUE",
     "technical_rating": null
   },
   {
@@ -736,7 +680,7 @@
     "technical_rating": null
   },
   {
-    "symbol": "VTNY",
+    "symbol": "TYRE",
     "technical_rating": null
   },
   {
@@ -744,7 +688,11 @@
     "technical_rating": null
   },
   {
-    "symbol": "VKTR",
+    "symbol": "UANG",
+    "technical_rating": null
+  },
+  {
+    "symbol": "UFOE",
     "technical_rating": null
   },
   {
@@ -752,11 +700,11 @@
     "technical_rating": null
   },
   {
-    "symbol": "WIFI",
+    "symbol": "UNIT",
     "technical_rating": null
   },
   {
-    "symbol": "WINE",
+    "symbol": "UNTD",
     "technical_rating": null
   },
   {
@@ -764,11 +712,11 @@
     "technical_rating": null
   },
   {
-    "symbol": "WIIM",
+    "symbol": "UVCR",
     "technical_rating": null
   },
   {
-    "symbol": "WOWS",
+    "symbol": "VERN",
     "technical_rating": null
   },
   {
@@ -780,15 +728,19 @@
     "technical_rating": null
   },
   {
-    "symbol": "WMUU",
+    "symbol": "VICI",
     "technical_rating": null
   },
   {
-    "symbol": "WSBP",
+    "symbol": "VICO",
     "technical_rating": null
   },
   {
-    "symbol": "WTON",
+    "symbol": "VINS",
+    "technical_rating": null
+  },
+  {
+    "symbol": "VKTR",
     "technical_rating": null
   },
   {
@@ -796,7 +748,15 @@
     "technical_rating": null
   },
   {
-    "symbol": "WINS",
+    "symbol": "VOKS",
+    "technical_rating": null
+  },
+  {
+    "symbol": "VTNY",
+    "technical_rating": null
+  },
+  {
+    "symbol": "WEHA",
     "technical_rating": null
   },
   {
@@ -820,7 +780,7 @@
     "technical_rating": null
   },
   {
-    "symbol": "UANG",
+    "symbol": "WICO",
     "technical_rating": null
   },
   {
@@ -828,7 +788,11 @@
     "technical_rating": null
   },
   {
-    "symbol": "ZATA",
+    "symbol": "WIFI",
+    "technical_rating": null
+  },
+  {
+    "symbol": "WIIM",
     "technical_rating": null
   },
   {
@@ -840,6 +804,10 @@
     "technical_rating": null
   },
   {
+    "symbol": "WINE",
+    "technical_rating": null
+  },
+  {
     "symbol": "UNIC",
     "technical_rating": null
   },
@@ -848,11 +816,19 @@
     "technical_rating": null
   },
   {
-    "symbol": "UNIT",
+    "symbol": "WINS",
     "technical_rating": null
   },
   {
     "symbol": "UNSP",
+    "technical_rating": null
+  },
+  {
+    "symbol": "WMUU",
+    "technical_rating": null
+  },
+  {
+    "symbol": "WOWS",
     "technical_rating": null
   },
   {
@@ -864,11 +840,19 @@
     "technical_rating": null
   },
   {
+    "symbol": "WSBP",
+    "technical_rating": null
+  },
+  {
     "symbol": "URBN",
     "technical_rating": null
   },
   {
-    "symbol": "UVCR",
+    "symbol": "WSKT",
+    "technical_rating": null
+  },
+  {
+    "symbol": "WTON",
     "technical_rating": null
   },
   {
@@ -876,7 +860,15 @@
     "technical_rating": null
   },
   {
-    "symbol": "ZYRX",
+    "symbol": "YELO",
+    "technical_rating": null
+  },
+  {
+    "symbol": "YPAS",
+    "technical_rating": null
+  },
+  {
+    "symbol": "YULE",
     "technical_rating": null
   },
   {
@@ -888,11 +880,19 @@
     "technical_rating": null
   },
   {
-    "symbol": "VOKS",
+    "symbol": "ZBRA",
     "technical_rating": null
   },
   {
     "symbol": "VRNA",
+    "technical_rating": null
+  },
+  {
+    "symbol": "ZATA",
+    "technical_rating": null
+  },
+  {
+    "symbol": "ZYRX",
     "technical_rating": null
   },
   {
