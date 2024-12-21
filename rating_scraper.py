@@ -167,7 +167,7 @@ def scrape_technical_page(url: str, frequency : str = "daily") :
         for i in range(len(name_list)): # All list should have the same length
           cell_data = {
             "name" : name_list[i],
-            "value" : int(value_list[i]),
+            "value" : int(float(value_list[i])),
             "action" : action_list[i]
           }
           data.append(cell_data)
@@ -200,7 +200,7 @@ def scrape_technical_page(url: str, frequency : str = "daily") :
         for i in range(len(name_list)): # All list should have the same length
           cell_data = {
             "name" : name_list[i],
-            "value" : int(value_list[i]),
+            "value" : int(float(value_list[i])),
             "action" : action_list[i]
           }
           data.append(cell_data)
