@@ -27,49 +27,49 @@ def scrape_technical_page(url: str, frequency : str = "daily") :
       session = HTMLSession()
       response = session.get(url)
 
-      if (frequency == "weekly"):
-        print(f"[TECHNICAL] = Getting weekly Data")
-        script = """
-          () => {
-            const items = document.getElementsByClassName("square-tab-button-huvpscfz");
-            if(items) {
-              const len = items.length
-              items[len-1].click()
-            } 
+      # if (frequency == "weekly"):
+      #   print(f"[TECHNICAL] = Getting weekly Data")
+      #   script = """
+      #     () => {
+      #       const items = document.getElementsByClassName("square-tab-button-huvpscfz");
+      #       if(items) {
+      #         const len = items.length
+      #         items[len-1].click()
+      #       } 
 
-            const popupItems = document.getElementsByClassName("item-jFqVJoPk")
-            if (popupItems) {
-              const popupLen = popupItems.length
-              popupItems[popupLen-2].click()
-              return
-            }
-          }
-        """
-        response.html.render(sleep=1, timeout=10, script=script)
+      #       const popupItems = document.getElementsByClassName("item-jFqVJoPk")
+      #       if (popupItems) {
+      #         const popupLen = popupItems.length
+      #         popupItems[popupLen-2].click()
+      #         return
+      #       }
+      #     }
+      #   """
+      #   response.html.render(sleep=2, timeout=10, script=script)
       
-      elif (frequency == "monthly"):
-        print(f"[TECHNICAL] = Getting monthly Data")
-        script = """
-          () => {
-            const items = document.getElementsByClassName("square-tab-button-huvpscfz");
-            if(items) {
-              const len = items.length
-              items[len-1].click()
-            } 
+      # elif (frequency == "monthly"):
+      #   print(f"[TECHNICAL] = Getting monthly Data")
+      #   script = """
+      #     () => {
+      #       const items = document.getElementsByClassName("square-tab-button-huvpscfz");
+      #       if(items) {
+      #         const len = items.length
+      #         items[len-1].click()
+      #       } 
 
-            const popupItems = document.getElementsByClassName("item-jFqVJoPk")
-            if (popupItems) {
-              const popupLen = popupItems.length
-              popupItems[popupLen-1].click()
-              return
-            }
-          }
-        """
-        response.html.render(sleep=1, timeout=10, script=script)
+      #       const popupItems = document.getElementsByClassName("item-jFqVJoPk")
+      #       if (popupItems) {
+      #         const popupLen = popupItems.length
+      #         popupItems[popupLen-1].click()
+      #         return
+      #       }
+      #     }
+      #   """
+      #   response.html.render(sleep=2, timeout=10, script=script)
 
-      else : #case frequency == daily
-        print(f"[TECHNICAL] = Getting daily Data")
-        response.html.render(sleep=1, timeout=10)
+      # else : #case frequency == daily
+      print(f"[TECHNICAL] = Getting daily Data")
+      response.html.render(sleep=5, timeout=10)
       
       print(f"[TECHNICAL] = Session for {url} is opened")
 
@@ -142,6 +142,8 @@ def scrape_technical_page(url: str, frequency : str = "daily") :
 
         # Oscillator table
         cells = oscillator_table.findAll("td", {"class" : "cell-hvDpy38G"})
+        print(cells)
+
         name_list = list()
         value_list = list()
         action_list = list()
@@ -167,7 +169,7 @@ def scrape_technical_page(url: str, frequency : str = "daily") :
         for i in range(len(name_list)): # All list should have the same length
           cell_data = {
             "name" : name_list[i],
-            "value" : int(float(value_list[i])),
+            "value" : int(float(value_list[i])) if value_list[i] is not None else None,
             "action" : action_list[i]
           }
           data.append(cell_data)
@@ -200,11 +202,13 @@ def scrape_technical_page(url: str, frequency : str = "daily") :
         for i in range(len(name_list)): # All list should have the same length
           cell_data = {
             "name" : name_list[i],
-            "value" : int(float(value_list[i])),
+            "value" : int(float(value_list[i])) if value_list[i] is not None else None,
             "action" : action_list[i]
           }
           data.append(cell_data)
         technical_rating_dict['moving_average']['data'] = data
+
+        print(technical_rating_dict)
 
 
         print(f"[TECHNICAL] = Successfully scrape from {url}")
@@ -213,8 +217,8 @@ def scrape_technical_page(url: str, frequency : str = "daily") :
         print(f"[TECHNICAL] = None HTML Value for {url}")
         return None
     except Exception as e:
-      print(f"[TECHNICAL] = Fail scraping from URL: {url}")
-      print(f"[TECHNCIAL] = {e}")
+      print(f"[TECHNICAL][FAILED] =  scraping from URL: {url}")
+      print(f"[TECHNCIAL][FAILED] = {e}")
       return None
     finally:
       session.close()
@@ -225,7 +229,7 @@ def scrape_forecast_page(url: str) :
     try:
       session = HTMLSession()
       response = session.get(url)
-      response.html.render(sleep=1, timeout=10)
+      response.html.render(sleep=5, timeout=10)
       print(f"[ANALYST] = Session for {url} is opened")
 
       soup = BeautifulSoup(response.html.html, "html.parser")
@@ -258,8 +262,8 @@ def scrape_forecast_page(url: str) :
         print(f"[ANALYST] = None HTML Value for {url}")
         return None
     except Exception as e:
-      print(f"[ANALYST] = Fail scraping from URL: {url}")
-      print(f"[ANALYST] = {e}")
+      print(f"[ANALYST][FAILED] = Fail scraping from URL: {url}")
+      print(f"[ANALYST][FAILED] = {e}")
       return None
     finally:
       session.close()
@@ -306,6 +310,8 @@ def scrape_analyst_rating_data(symbol: str) -> dict:
 
     return result_data
 
+
+
 def scrape_technical_function(symbol_list, process_idx, frequency):
   print(f"==> Start scraping from process P{process_idx}")
   all_data = []
@@ -330,6 +336,10 @@ def scrape_technical_function(symbol_list, process_idx, frequency):
   save_to_json(file_path, all_data)
 
   return all_data
+
+
+
+
 
 def scrape_analyst_function(symbol_list, process_idx):
   print(f"==> Start scraping from process P{process_idx}")
