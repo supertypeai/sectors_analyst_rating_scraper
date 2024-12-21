@@ -40,6 +40,7 @@ def combine_technical_data (df_db_data, frequency):
 
   # Change employee_num to int
   df_merge['employee_num'] = df_merge['employee_num'].astype('Int64')
+  df_merge['employee_num_manual'] = df_merge['employee_num_manual'].astype('Int64')
   
   return df_merge
 
@@ -76,5 +77,6 @@ def combine_analyst_data (df_db_data):
 
   # Change employee_num to int
   df_merge['employee_num'] = df_merge['employee_num'].astype('Int64')
+  df_merge['employee_num_manual'] = df_merge['employee_num_manual'].astype('Int64')
   
   return df_merge
