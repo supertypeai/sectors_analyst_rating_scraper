@@ -3,16 +3,16 @@
     "symbol": "AADI",
     "technical_rating": {
       "summary": {
-        "sell": 0,
+        "sell": 4,
         "neutral": 0,
         "buy": 0,
-        "updated_on": "2024-12-21 13:53:38"
+        "updated_on": "2024-12-21 06:55:43"
       },
       "oscillator": {
-        "sell": 0,
+        "sell": 1,
         "neutral": 0,
         "buy": 0,
-        "updated_on": "2024-12-21 13:53:38",
+        "updated_on": "2024-12-21 06:55:43",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -41,8 +41,8 @@
           },
           {
             "name": "Momentum (10)",
-            "value": null,
-            "action": null
+            "value": 100,
+            "action": "Sell"
           },
           {
             "name": "MACD Level (12, 26)",
@@ -72,20 +72,20 @@
         ]
       },
       "moving_average": {
-        "sell": 0,
+        "sell": 3,
         "neutral": 0,
         "buy": 0,
-        "updated_on": "2024-12-21 13:53:38",
+        "updated_on": "2024-12-21 06:55:43",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
-            "value": null,
-            "action": null
+            "value": 8483,
+            "action": "Sell"
           },
           {
             "name": "Simple Moving Average (10)",
-            "value": null,
-            "action": null
+            "value": 9108,
+            "action": "Sell"
           },
           {
             "name": "Exponential Moving Average (20)",
@@ -149,8 +149,8 @@
           },
           {
             "name": "Hull Moving Average (9)",
-            "value": null,
-            "action": null
+            "value": 8199,
+            "action": "Sell"
           }
         ]
       }
@@ -160,154 +160,154 @@
     "symbol": "ABBA",
     "technical_rating": {
       "summary": {
-        "sell": 0,
-        "neutral": 0,
-        "buy": 0,
-        "updated_on": "2024-12-21 13:53:46"
+        "sell": 14,
+        "neutral": 8,
+        "buy": 4,
+        "updated_on": "2024-12-21 06:55:50"
       },
       "oscillator": {
-        "sell": 0,
-        "neutral": 0,
-        "buy": 0,
-        "updated_on": "2024-12-21 13:53:46",
+        "sell": 1,
+        "neutral": 7,
+        "buy": 3,
+        "updated_on": "2024-12-21 06:55:50",
         "data": [
           {
             "name": "Relative Strength Index (14)",
-            "value": null,
-            "action": null
+            "value": 41,
+            "action": "Neutral"
           },
           {
             "name": "Stochastic %K (14, 3, 3)",
-            "value": null,
-            "action": null
+            "value": 12,
+            "action": "Neutral"
           },
           {
             "name": "Commodity Channel Index (20)",
-            "value": null,
-            "action": null
+            "value": -162,
+            "action": "Buy"
           },
           {
             "name": "Average Directional Index (14)",
-            "value": null,
-            "action": null
+            "value": 18,
+            "action": "Neutral"
           },
           {
             "name": "Awesome Oscillator",
-            "value": null,
-            "action": null
+            "value": -1,
+            "action": "Neutral"
           },
           {
             "name": "Momentum (10)",
-            "value": null,
-            "action": null
+            "value": -4,
+            "action": "Buy"
           },
           {
             "name": "MACD Level (12, 26)",
-            "value": null,
-            "action": null
+            "value": -1,
+            "action": "Sell"
           },
           {
             "name": "Stochastic RSI Fast (3, 3, 14, 14)",
-            "value": null,
-            "action": null
+            "value": 20,
+            "action": "Neutral"
           },
           {
             "name": "Williams Percent Range (14)",
-            "value": null,
-            "action": null
+            "value": -83,
+            "action": "Buy"
           },
           {
             "name": "Bull Bear Power",
-            "value": null,
-            "action": null
+            "value": -5,
+            "action": "Neutral"
           },
           {
             "name": "Ultimate Oscillator (7, 14, 28)",
-            "value": null,
-            "action": null
+            "value": 42,
+            "action": "Neutral"
           }
         ]
       },
       "moving_average": {
-        "sell": 0,
-        "neutral": 0,
-        "buy": 0,
-        "updated_on": "2024-12-21 13:53:46",
+        "sell": 13,
+        "neutral": 1,
+        "buy": 1,
+        "updated_on": "2024-12-21 06:55:50",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
-            "value": null,
-            "action": null
+            "value": 28,
+            "action": "Sell"
           },
           {
             "name": "Simple Moving Average (10)",
-            "value": null,
-            "action": null
+            "value": 28,
+            "action": "Sell"
           },
           {
             "name": "Exponential Moving Average (20)",
-            "value": null,
-            "action": null
+            "value": 28,
+            "action": "Sell"
           },
           {
             "name": "Simple Moving Average (20)",
-            "value": null,
-            "action": null
+            "value": 28,
+            "action": "Sell"
           },
           {
             "name": "Exponential Moving Average (30)",
-            "value": null,
-            "action": null
+            "value": 29,
+            "action": "Sell"
           },
           {
             "name": "Simple Moving Average (30)",
-            "value": null,
-            "action": null
+            "value": 28,
+            "action": "Sell"
           },
           {
             "name": "Exponential Moving Average (50)",
-            "value": null,
-            "action": null
+            "value": 30,
+            "action": "Sell"
           },
           {
             "name": "Simple Moving Average (50)",
-            "value": null,
-            "action": null
+            "value": 30,
+            "action": "Sell"
           },
           {
             "name": "Exponential Moving Average (100)",
-            "value": null,
-            "action": null
+            "value": 31,
+            "action": "Sell"
           },
           {
             "name": "Simple Moving Average (100)",
-            "value": null,
-            "action": null
+            "value": 31,
+            "action": "Sell"
           },
           {
             "name": "Exponential Moving Average (200)",
-            "value": null,
-            "action": null
+            "value": 38,
+            "action": "Sell"
           },
           {
             "name": "Simple Moving Average (200)",
-            "value": null,
-            "action": null
+            "value": 32,
+            "action": "Sell"
           },
           {
             "name": "Ichimoku Base Line (9, 26, 52, 26)",
-            "value": null,
-            "action": null
+            "value": 28,
+            "action": "Neutral"
           },
           {
             "name": "Volume Weighted Moving Average (20)",
-            "value": null,
-            "action": null
+            "value": 28,
+            "action": "Sell"
           },
           {
             "name": "Hull Moving Average (9)",
-            "value": null,
-            "action": null
+            "value": 26,
+            "action": "Buy"
           }
         ]
       }
