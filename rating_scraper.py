@@ -154,7 +154,7 @@ def scrape_technical_page(url: str, frequency : str = "daily") :
           elif (i % 3 == 1) : # Value
             value = cells[i].get_text().replace(",", "").replace("\u2212", "-")
             try:
-              value = int(value)
+              value = int(float(value))
             except:
               # Case value is empty (dash (-))
               value = None
@@ -169,7 +169,7 @@ def scrape_technical_page(url: str, frequency : str = "daily") :
         for i in range(len(name_list)): # All list should have the same length
           cell_data = {
             "name" : name_list[i],
-            "value" : int(float(value_list[i])) if value_list[i] is not None else None,
+            "value" : value_list[i],
             "action" : action_list[i]
           }
           data.append(cell_data)
@@ -187,7 +187,7 @@ def scrape_technical_page(url: str, frequency : str = "daily") :
           elif (i % 3 == 1) : # Value
             value = cells[i].get_text().replace(",", "").replace("\u2212", "-")
             try:
-              value = int(value)
+              value = int(float(value))
             except:
               # Case value is empty (dash (-))
               value = None
@@ -202,14 +202,11 @@ def scrape_technical_page(url: str, frequency : str = "daily") :
         for i in range(len(name_list)): # All list should have the same length
           cell_data = {
             "name" : name_list[i],
-            "value" : int(float(value_list[i])) if value_list[i] is not None else None,
+            "value" : value_list[i],
             "action" : action_list[i]
           }
           data.append(cell_data)
         technical_rating_dict['moving_average']['data'] = data
-
-        print(technical_rating_dict)
-
 
         print(f"[TECHNICAL] = Successfully scrape from {url}")
         return technical_rating_dict
