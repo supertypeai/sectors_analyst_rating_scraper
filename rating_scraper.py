@@ -142,7 +142,6 @@ def scrape_technical_page(url: str, frequency : str = "daily") :
 
         # Oscillator table
         cells = oscillator_table.findAll("td", {"class" : "cell-hvDpy38G"})
-        print(cells)
 
         name_list = list()
         value_list = list()
