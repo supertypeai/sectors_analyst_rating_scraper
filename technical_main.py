@@ -54,8 +54,8 @@ if __name__ == "__main__":
     frequency = sys.argv[1]
     # Should be inputed with [daily, weekly, monthly]
 
-  # length_list = len(symbol_list)
-  length_list = 8
+  length_list = len(symbol_list)
+  # length_list = 8
   i1 = int(length_list // 4)
   i2 = 2 * i1
   i3 = 3 * i1
@@ -64,19 +64,19 @@ if __name__ == "__main__":
   initiate_logging(LOG_FILENAME)
 
   p1 = Process(target=scrape_technical_function, args=(symbol_list[:i1], 1, frequency))
-  # p2 = Process(target=scrape_technical_function, args=(symbol_list[i1:i2], 2, frequency))
-  # p3 = Process(target=scrape_technical_function, args=(symbol_list[i2:i3], 3, frequency))
-  # p4 = Process(target=scrape_technical_function, args=(symbol_list[i3:], 4, frequency))
+  p2 = Process(target=scrape_technical_function, args=(symbol_list[i1:i2], 2, frequency))
+  p3 = Process(target=scrape_technical_function, args=(symbol_list[i2:i3], 3, frequency))
+  p4 = Process(target=scrape_technical_function, args=(symbol_list[i3:], 4, frequency))
 
   p1.start()
-  # p2.start()
-  # p3.start()
-  # p4.start()
+  p2.start()
+  p3.start()
+  p4.start()
 
   p1.join()
-  # p2.join()
-  # p3.join()
-  # p4.join()
+  p2.join()
+  p3.join()
+  p4.join()
 
   # Merge and upsert to db
   df_merge = combine_technical_data(df_db_data, frequency)
@@ -84,16 +84,16 @@ if __name__ == "__main__":
   # Convert to json. Remove the index in dataframe
   records = df_merge.to_dict(orient="records")
 
-  # # Upsert to db
-  # try:
-  #   supabase.table("idx_key_stats").upsert(
-  #       records
-  #   ).execute()
-  #   print(
-  #       f"Successfully upserted {len(records)} data to database"
-  #   )
-  # except Exception as e:
-  #   raise Exception(f"Error upserting to database: {e}")
+  # Upsert to db
+  try:
+    supabase.table("idx_key_stats").upsert(
+        records
+    ).execute()
+    print(
+        f"Successfully upserted {len(records)} data to database"
+    )
+  except Exception as e:
+    raise Exception(f"Error upserting to database: {e}")
   
   # End time
   end = time.time()
