@@ -39,7 +39,7 @@ def combine_technical_data (df_db_data, frequency):
   df_merge = df_db_data.replace({np.nan: None})
 
   # Change employee_num to int
-  df_merge['employee_num'] = df_merge['employee_num'].astype(int)
+  df_merge['employee_num'] = df_merge['employee_num'].astype('Int64')
   
   return df_merge
 
@@ -75,6 +75,6 @@ def combine_analyst_data (df_db_data):
   df_merge = df_db_data.replace({np.nan: None})
 
   # Change employee_num to int
-  df_merge['employee_num'] = df_merge['employee_num'].astype(int)
+  df_merge['employee_num'] = df_merge['employee_num'].astype('Int64')
   
   return df_merge
