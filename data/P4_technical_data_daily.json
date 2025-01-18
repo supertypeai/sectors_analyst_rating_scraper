@@ -6,13 +6,13 @@
         "sell": 5,
         "neutral": 6,
         "buy": 15,
-        "updated_on": "2025-01-17 10:12:28"
+        "updated_on": "2025-01-18 10:11:50"
       },
       "oscillator": {
         "sell": 4,
         "neutral": 5,
         "buy": 2,
-        "updated_on": "2025-01-17 10:12:28",
+        "updated_on": "2025-01-18 10:11:50",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -75,7 +75,7 @@
         "sell": 1,
         "neutral": 1,
         "buy": 13,
-        "updated_on": "2025-01-17 10:12:28",
+        "updated_on": "2025-01-18 10:11:50",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -163,13 +163,13 @@
         "sell": 15,
         "neutral": 10,
         "buy": 1,
-        "updated_on": "2025-01-17 10:12:37"
+        "updated_on": "2025-01-18 10:11:58"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:12:37",
+        "updated_on": "2025-01-18 10:11:58",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -232,7 +232,7 @@
         "sell": 14,
         "neutral": 1,
         "buy": 0,
-        "updated_on": "2025-01-17 10:12:37",
+        "updated_on": "2025-01-18 10:11:58",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -320,13 +320,13 @@
         "sell": 9,
         "neutral": 11,
         "buy": 6,
-        "updated_on": "2025-01-17 10:12:46"
+        "updated_on": "2025-01-18 10:12:07"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 10,
         "buy": 0,
-        "updated_on": "2025-01-17 10:12:46",
+        "updated_on": "2025-01-18 10:12:07",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -389,7 +389,7 @@
         "sell": 8,
         "neutral": 1,
         "buy": 6,
-        "updated_on": "2025-01-17 10:12:46",
+        "updated_on": "2025-01-18 10:12:07",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -477,13 +477,13 @@
         "sell": 6,
         "neutral": 9,
         "buy": 11,
-        "updated_on": "2025-01-17 10:12:54"
+        "updated_on": "2025-01-18 10:12:16"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 8,
         "buy": 1,
-        "updated_on": "2025-01-17 10:12:54",
+        "updated_on": "2025-01-18 10:12:16",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -546,7 +546,7 @@
         "sell": 4,
         "neutral": 1,
         "buy": 10,
-        "updated_on": "2025-01-17 10:12:54",
+        "updated_on": "2025-01-18 10:12:16",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -634,13 +634,13 @@
         "sell": 2,
         "neutral": 10,
         "buy": 14,
-        "updated_on": "2025-01-17 10:13:03"
+        "updated_on": "2025-01-18 10:12:25"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 9,
         "buy": 2,
-        "updated_on": "2025-01-17 10:13:03",
+        "updated_on": "2025-01-18 10:12:25",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -703,7 +703,7 @@
         "sell": 2,
         "neutral": 1,
         "buy": 12,
-        "updated_on": "2025-01-17 10:13:03",
+        "updated_on": "2025-01-18 10:12:25",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -791,13 +791,13 @@
         "sell": 6,
         "neutral": 16,
         "buy": 2,
-        "updated_on": "2025-01-17 10:13:13"
+        "updated_on": "2025-01-18 10:12:33"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 7,
         "buy": 2,
-        "updated_on": "2025-01-17 10:13:13",
+        "updated_on": "2025-01-18 10:12:33",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -860,7 +860,7 @@
         "sell": 6,
         "neutral": 9,
         "buy": 0,
-        "updated_on": "2025-01-17 10:13:13",
+        "updated_on": "2025-01-18 10:12:33",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -948,13 +948,13 @@
         "sell": 14,
         "neutral": 10,
         "buy": 2,
-        "updated_on": "2025-01-17 10:13:22"
+        "updated_on": "2025-01-18 10:12:42"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:13:22",
+        "updated_on": "2025-01-18 10:12:42",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -1017,7 +1017,7 @@
         "sell": 13,
         "neutral": 1,
         "buy": 1,
-        "updated_on": "2025-01-17 10:13:22",
+        "updated_on": "2025-01-18 10:12:42",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -1105,13 +1105,13 @@
         "sell": 14,
         "neutral": 10,
         "buy": 2,
-        "updated_on": "2025-01-17 10:13:31"
+        "updated_on": "2025-01-18 10:12:50"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:13:31",
+        "updated_on": "2025-01-18 10:12:50",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -1174,7 +1174,7 @@
         "sell": 13,
         "neutral": 1,
         "buy": 1,
-        "updated_on": "2025-01-17 10:13:31",
+        "updated_on": "2025-01-18 10:12:50",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -1262,13 +1262,13 @@
         "sell": 13,
         "neutral": 9,
         "buy": 4,
-        "updated_on": "2025-01-17 10:13:40"
+        "updated_on": "2025-01-18 10:12:59"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 8,
         "buy": 1,
-        "updated_on": "2025-01-17 10:13:40",
+        "updated_on": "2025-01-18 10:12:59",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -1331,7 +1331,7 @@
         "sell": 11,
         "neutral": 1,
         "buy": 3,
-        "updated_on": "2025-01-17 10:13:40",
+        "updated_on": "2025-01-18 10:12:59",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -1419,13 +1419,13 @@
         "sell": 15,
         "neutral": 9,
         "buy": 2,
-        "updated_on": "2025-01-17 10:13:49"
+        "updated_on": "2025-01-18 10:13:07"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 8,
         "buy": 1,
-        "updated_on": "2025-01-17 10:13:49",
+        "updated_on": "2025-01-18 10:13:07",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -1488,7 +1488,7 @@
         "sell": 13,
         "neutral": 1,
         "buy": 1,
-        "updated_on": "2025-01-17 10:13:49",
+        "updated_on": "2025-01-18 10:13:07",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -1576,13 +1576,13 @@
         "sell": 15,
         "neutral": 9,
         "buy": 2,
-        "updated_on": "2025-01-17 10:13:58"
+        "updated_on": "2025-01-18 10:13:16"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 8,
         "buy": 1,
-        "updated_on": "2025-01-17 10:13:58",
+        "updated_on": "2025-01-18 10:13:16",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -1645,7 +1645,7 @@
         "sell": 13,
         "neutral": 1,
         "buy": 1,
-        "updated_on": "2025-01-17 10:13:58",
+        "updated_on": "2025-01-18 10:13:16",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -1733,13 +1733,13 @@
         "sell": 9,
         "neutral": 9,
         "buy": 8,
-        "updated_on": "2025-01-17 10:14:07"
+        "updated_on": "2025-01-18 10:13:25"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 8,
         "buy": 3,
-        "updated_on": "2025-01-17 10:14:07",
+        "updated_on": "2025-01-18 10:13:25",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -1802,7 +1802,7 @@
         "sell": 9,
         "neutral": 1,
         "buy": 5,
-        "updated_on": "2025-01-17 10:14:07",
+        "updated_on": "2025-01-18 10:13:25",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -1890,13 +1890,13 @@
         "sell": 9,
         "neutral": 10,
         "buy": 5,
-        "updated_on": "2025-01-17 10:14:16"
+        "updated_on": "2025-01-18 10:13:34"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 7,
         "buy": 1,
-        "updated_on": "2025-01-17 10:14:16",
+        "updated_on": "2025-01-18 10:13:34",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -1959,7 +1959,7 @@
         "sell": 8,
         "neutral": 3,
         "buy": 4,
-        "updated_on": "2025-01-17 10:14:16",
+        "updated_on": "2025-01-18 10:13:34",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -2047,13 +2047,13 @@
         "sell": 15,
         "neutral": 10,
         "buy": 1,
-        "updated_on": "2025-01-17 10:14:25"
+        "updated_on": "2025-01-18 10:13:42"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 9,
         "buy": 0,
-        "updated_on": "2025-01-17 10:14:25",
+        "updated_on": "2025-01-18 10:13:42",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -2116,7 +2116,7 @@
         "sell": 13,
         "neutral": 1,
         "buy": 1,
-        "updated_on": "2025-01-17 10:14:25",
+        "updated_on": "2025-01-18 10:13:42",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -2204,13 +2204,13 @@
         "sell": 12,
         "neutral": 10,
         "buy": 4,
-        "updated_on": "2025-01-17 10:14:34"
+        "updated_on": "2025-01-18 10:13:50"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:14:34",
+        "updated_on": "2025-01-18 10:13:50",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -2273,7 +2273,7 @@
         "sell": 11,
         "neutral": 1,
         "buy": 3,
-        "updated_on": "2025-01-17 10:14:34",
+        "updated_on": "2025-01-18 10:13:50",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -2361,13 +2361,13 @@
         "sell": 0,
         "neutral": 10,
         "buy": 16,
-        "updated_on": "2025-01-17 10:14:43"
+        "updated_on": "2025-01-18 10:13:57"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 9,
         "buy": 2,
-        "updated_on": "2025-01-17 10:14:43",
+        "updated_on": "2025-01-18 10:13:57",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -2430,7 +2430,7 @@
         "sell": 0,
         "neutral": 1,
         "buy": 14,
-        "updated_on": "2025-01-17 10:14:43",
+        "updated_on": "2025-01-18 10:13:57",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -2518,13 +2518,13 @@
         "sell": 11,
         "neutral": 9,
         "buy": 6,
-        "updated_on": "2025-01-17 10:14:52"
+        "updated_on": "2025-01-18 10:14:05"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 8,
         "buy": 2,
-        "updated_on": "2025-01-17 10:14:52",
+        "updated_on": "2025-01-18 10:14:05",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -2587,7 +2587,7 @@
         "sell": 10,
         "neutral": 1,
         "buy": 4,
-        "updated_on": "2025-01-17 10:14:52",
+        "updated_on": "2025-01-18 10:14:05",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -2675,13 +2675,13 @@
         "sell": 15,
         "neutral": 8,
         "buy": 3,
-        "updated_on": "2025-01-17 10:15:00"
+        "updated_on": "2025-01-18 10:14:12"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 7,
         "buy": 2,
-        "updated_on": "2025-01-17 10:15:00",
+        "updated_on": "2025-01-18 10:14:12",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -2744,7 +2744,7 @@
         "sell": 13,
         "neutral": 1,
         "buy": 1,
-        "updated_on": "2025-01-17 10:15:00",
+        "updated_on": "2025-01-18 10:14:12",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -2832,13 +2832,13 @@
         "sell": 3,
         "neutral": 9,
         "buy": 14,
-        "updated_on": "2025-01-17 10:15:09"
+        "updated_on": "2025-01-18 10:14:19"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 8,
         "buy": 2,
-        "updated_on": "2025-01-17 10:15:09",
+        "updated_on": "2025-01-18 10:14:19",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -2901,7 +2901,7 @@
         "sell": 2,
         "neutral": 1,
         "buy": 12,
-        "updated_on": "2025-01-17 10:15:09",
+        "updated_on": "2025-01-18 10:14:19",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -2989,13 +2989,13 @@
         "sell": 9,
         "neutral": 10,
         "buy": 7,
-        "updated_on": "2025-01-17 10:15:18"
+        "updated_on": "2025-01-18 10:14:26"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:15:18",
+        "updated_on": "2025-01-18 10:14:26",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -3058,7 +3058,7 @@
         "sell": 8,
         "neutral": 1,
         "buy": 6,
-        "updated_on": "2025-01-17 10:15:18",
+        "updated_on": "2025-01-18 10:14:26",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -3146,13 +3146,13 @@
         "sell": 8,
         "neutral": 10,
         "buy": 6,
-        "updated_on": "2025-01-17 10:15:27"
+        "updated_on": "2025-01-18 10:14:33"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 7,
         "buy": 2,
-        "updated_on": "2025-01-17 10:15:27",
+        "updated_on": "2025-01-18 10:14:33",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -3215,7 +3215,7 @@
         "sell": 8,
         "neutral": 3,
         "buy": 4,
-        "updated_on": "2025-01-17 10:15:27",
+        "updated_on": "2025-01-18 10:14:33",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -3303,13 +3303,13 @@
         "sell": 9,
         "neutral": 8,
         "buy": 9,
-        "updated_on": "2025-01-17 10:15:35"
+        "updated_on": "2025-01-18 10:14:40"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 7,
         "buy": 3,
-        "updated_on": "2025-01-17 10:15:35",
+        "updated_on": "2025-01-18 10:14:40",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -3372,7 +3372,7 @@
         "sell": 8,
         "neutral": 1,
         "buy": 6,
-        "updated_on": "2025-01-17 10:15:35",
+        "updated_on": "2025-01-18 10:14:40",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -3460,13 +3460,13 @@
         "sell": 13,
         "neutral": 10,
         "buy": 3,
-        "updated_on": "2025-01-17 10:15:43"
+        "updated_on": "2025-01-18 10:14:47"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 9,
         "buy": 2,
-        "updated_on": "2025-01-17 10:15:43",
+        "updated_on": "2025-01-18 10:14:47",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -3529,7 +3529,7 @@
         "sell": 13,
         "neutral": 1,
         "buy": 1,
-        "updated_on": "2025-01-17 10:15:43",
+        "updated_on": "2025-01-18 10:14:47",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -3621,13 +3621,13 @@
         "sell": 7,
         "neutral": 16,
         "buy": 1,
-        "updated_on": "2025-01-17 10:16:09"
+        "updated_on": "2025-01-18 10:15:13"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 8,
         "buy": 1,
-        "updated_on": "2025-01-17 10:16:09",
+        "updated_on": "2025-01-18 10:15:13",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -3690,7 +3690,7 @@
         "sell": 7,
         "neutral": 8,
         "buy": 0,
-        "updated_on": "2025-01-17 10:16:09",
+        "updated_on": "2025-01-18 10:15:13",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -3778,13 +3778,13 @@
         "sell": 14,
         "neutral": 10,
         "buy": 2,
-        "updated_on": "2025-01-17 10:16:16"
+        "updated_on": "2025-01-18 10:15:20"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:16:16",
+        "updated_on": "2025-01-18 10:15:20",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -3847,7 +3847,7 @@
         "sell": 13,
         "neutral": 1,
         "buy": 1,
-        "updated_on": "2025-01-17 10:16:16",
+        "updated_on": "2025-01-18 10:15:20",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -3935,13 +3935,13 @@
         "sell": 17,
         "neutral": 9,
         "buy": 0,
-        "updated_on": "2025-01-17 10:16:24"
+        "updated_on": "2025-01-18 10:15:27"
       },
       "oscillator": {
         "sell": 3,
         "neutral": 8,
         "buy": 0,
-        "updated_on": "2025-01-17 10:16:24",
+        "updated_on": "2025-01-18 10:15:27",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -4004,7 +4004,7 @@
         "sell": 14,
         "neutral": 1,
         "buy": 0,
-        "updated_on": "2025-01-17 10:16:24",
+        "updated_on": "2025-01-18 10:15:27",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -4092,13 +4092,13 @@
         "sell": 10,
         "neutral": 10,
         "buy": 6,
-        "updated_on": "2025-01-17 10:16:31"
+        "updated_on": "2025-01-18 10:15:35"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:16:31",
+        "updated_on": "2025-01-18 10:15:35",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -4161,7 +4161,7 @@
         "sell": 9,
         "neutral": 1,
         "buy": 5,
-        "updated_on": "2025-01-17 10:16:31",
+        "updated_on": "2025-01-18 10:15:35",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -4249,13 +4249,13 @@
         "sell": 18,
         "neutral": 7,
         "buy": 1,
-        "updated_on": "2025-01-17 10:16:39"
+        "updated_on": "2025-01-18 10:15:43"
       },
       "oscillator": {
         "sell": 4,
         "neutral": 6,
         "buy": 1,
-        "updated_on": "2025-01-17 10:16:39",
+        "updated_on": "2025-01-18 10:15:43",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -4318,7 +4318,7 @@
         "sell": 14,
         "neutral": 1,
         "buy": 0,
-        "updated_on": "2025-01-17 10:16:39",
+        "updated_on": "2025-01-18 10:15:43",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -4406,13 +4406,13 @@
         "sell": 4,
         "neutral": 8,
         "buy": 14,
-        "updated_on": "2025-01-17 10:16:46"
+        "updated_on": "2025-01-18 10:15:51"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 7,
         "buy": 2,
-        "updated_on": "2025-01-17 10:16:46",
+        "updated_on": "2025-01-18 10:15:51",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -4475,7 +4475,7 @@
         "sell": 2,
         "neutral": 1,
         "buy": 12,
-        "updated_on": "2025-01-17 10:16:46",
+        "updated_on": "2025-01-18 10:15:51",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -4563,13 +4563,13 @@
         "sell": 14,
         "neutral": 7,
         "buy": 5,
-        "updated_on": "2025-01-17 10:16:56"
+        "updated_on": "2025-01-18 10:15:58"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 6,
         "buy": 3,
-        "updated_on": "2025-01-17 10:16:56",
+        "updated_on": "2025-01-18 10:15:58",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -4632,7 +4632,7 @@
         "sell": 12,
         "neutral": 1,
         "buy": 2,
-        "updated_on": "2025-01-17 10:16:56",
+        "updated_on": "2025-01-18 10:15:58",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -4720,13 +4720,13 @@
         "sell": 13,
         "neutral": 8,
         "buy": 5,
-        "updated_on": "2025-01-17 10:17:04"
+        "updated_on": "2025-01-18 10:16:05"
       },
       "oscillator": {
         "sell": 3,
         "neutral": 7,
         "buy": 1,
-        "updated_on": "2025-01-17 10:17:04",
+        "updated_on": "2025-01-18 10:16:05",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -4789,7 +4789,7 @@
         "sell": 10,
         "neutral": 1,
         "buy": 4,
-        "updated_on": "2025-01-17 10:17:04",
+        "updated_on": "2025-01-18 10:16:05",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -4877,13 +4877,13 @@
         "sell": 14,
         "neutral": 8,
         "buy": 4,
-        "updated_on": "2025-01-17 10:17:11"
+        "updated_on": "2025-01-18 10:16:12"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 7,
         "buy": 3,
-        "updated_on": "2025-01-17 10:17:11",
+        "updated_on": "2025-01-18 10:16:12",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -4946,7 +4946,7 @@
         "sell": 13,
         "neutral": 1,
         "buy": 1,
-        "updated_on": "2025-01-17 10:17:11",
+        "updated_on": "2025-01-18 10:16:12",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -5034,13 +5034,13 @@
         "sell": 10,
         "neutral": 8,
         "buy": 8,
-        "updated_on": "2025-01-17 10:17:18"
+        "updated_on": "2025-01-18 10:16:19"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 7,
         "buy": 3,
-        "updated_on": "2025-01-17 10:17:18",
+        "updated_on": "2025-01-18 10:16:19",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -5103,7 +5103,7 @@
         "sell": 9,
         "neutral": 1,
         "buy": 5,
-        "updated_on": "2025-01-17 10:17:18",
+        "updated_on": "2025-01-18 10:16:19",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -5191,13 +5191,13 @@
         "sell": 9,
         "neutral": 10,
         "buy": 7,
-        "updated_on": "2025-01-17 10:17:26"
+        "updated_on": "2025-01-18 10:16:26"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:17:26",
+        "updated_on": "2025-01-18 10:16:26",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -5260,7 +5260,7 @@
         "sell": 8,
         "neutral": 1,
         "buy": 6,
-        "updated_on": "2025-01-17 10:17:26",
+        "updated_on": "2025-01-18 10:16:26",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -5348,13 +5348,13 @@
         "sell": 15,
         "neutral": 9,
         "buy": 2,
-        "updated_on": "2025-01-17 10:17:33"
+        "updated_on": "2025-01-18 10:16:33"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 8,
         "buy": 2,
-        "updated_on": "2025-01-17 10:17:33",
+        "updated_on": "2025-01-18 10:16:33",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -5417,7 +5417,7 @@
         "sell": 14,
         "neutral": 1,
         "buy": 0,
-        "updated_on": "2025-01-17 10:17:33",
+        "updated_on": "2025-01-18 10:16:33",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -5505,13 +5505,13 @@
         "sell": 15,
         "neutral": 9,
         "buy": 2,
-        "updated_on": "2025-01-17 10:17:40"
+        "updated_on": "2025-01-18 10:16:41"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 8,
         "buy": 2,
-        "updated_on": "2025-01-17 10:17:40",
+        "updated_on": "2025-01-18 10:16:41",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -5574,7 +5574,7 @@
         "sell": 14,
         "neutral": 1,
         "buy": 0,
-        "updated_on": "2025-01-17 10:17:40",
+        "updated_on": "2025-01-18 10:16:41",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -5662,13 +5662,13 @@
         "sell": 0,
         "neutral": 9,
         "buy": 17,
-        "updated_on": "2025-01-17 10:17:48"
+        "updated_on": "2025-01-18 10:16:48"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 8,
         "buy": 3,
-        "updated_on": "2025-01-17 10:17:48",
+        "updated_on": "2025-01-18 10:16:48",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -5731,7 +5731,7 @@
         "sell": 0,
         "neutral": 1,
         "buy": 14,
-        "updated_on": "2025-01-17 10:17:48",
+        "updated_on": "2025-01-18 10:16:48",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -5819,13 +5819,13 @@
         "sell": 12,
         "neutral": 10,
         "buy": 4,
-        "updated_on": "2025-01-17 10:17:55"
+        "updated_on": "2025-01-18 10:16:55"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:17:55",
+        "updated_on": "2025-01-18 10:16:55",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -5888,7 +5888,7 @@
         "sell": 11,
         "neutral": 1,
         "buy": 3,
-        "updated_on": "2025-01-17 10:17:55",
+        "updated_on": "2025-01-18 10:16:55",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -5976,13 +5976,13 @@
         "sell": 13,
         "neutral": 10,
         "buy": 3,
-        "updated_on": "2025-01-17 10:18:03"
+        "updated_on": "2025-01-18 10:17:12"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:18:03",
+        "updated_on": "2025-01-18 10:17:12",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -6045,7 +6045,7 @@
         "sell": 12,
         "neutral": 1,
         "buy": 2,
-        "updated_on": "2025-01-17 10:18:03",
+        "updated_on": "2025-01-18 10:17:12",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -6133,13 +6133,13 @@
         "sell": 0,
         "neutral": 11,
         "buy": 15,
-        "updated_on": "2025-01-17 10:18:10"
+        "updated_on": "2025-01-18 10:17:19"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 10,
         "buy": 1,
-        "updated_on": "2025-01-17 10:18:10",
+        "updated_on": "2025-01-18 10:17:19",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -6202,7 +6202,7 @@
         "sell": 0,
         "neutral": 1,
         "buy": 14,
-        "updated_on": "2025-01-17 10:18:10",
+        "updated_on": "2025-01-18 10:17:19",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -6290,13 +6290,13 @@
         "sell": 13,
         "neutral": 10,
         "buy": 3,
-        "updated_on": "2025-01-17 10:18:17"
+        "updated_on": "2025-01-18 10:17:26"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 9,
         "buy": 2,
-        "updated_on": "2025-01-17 10:18:17",
+        "updated_on": "2025-01-18 10:17:26",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -6359,7 +6359,7 @@
         "sell": 13,
         "neutral": 1,
         "buy": 1,
-        "updated_on": "2025-01-17 10:18:17",
+        "updated_on": "2025-01-18 10:17:26",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -6447,13 +6447,13 @@
         "sell": 15,
         "neutral": 9,
         "buy": 2,
-        "updated_on": "2025-01-17 10:18:25"
+        "updated_on": "2025-01-18 10:17:33"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 8,
         "buy": 1,
-        "updated_on": "2025-01-17 10:18:25",
+        "updated_on": "2025-01-18 10:17:33",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -6516,7 +6516,7 @@
         "sell": 13,
         "neutral": 1,
         "buy": 1,
-        "updated_on": "2025-01-17 10:18:25",
+        "updated_on": "2025-01-18 10:17:33",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -6604,13 +6604,13 @@
         "sell": 3,
         "neutral": 9,
         "buy": 14,
-        "updated_on": "2025-01-17 10:18:32"
+        "updated_on": "2025-01-18 10:17:40"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 8,
         "buy": 1,
-        "updated_on": "2025-01-17 10:18:32",
+        "updated_on": "2025-01-18 10:17:40",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -6673,7 +6673,7 @@
         "sell": 1,
         "neutral": 1,
         "buy": 13,
-        "updated_on": "2025-01-17 10:18:32",
+        "updated_on": "2025-01-18 10:17:40",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -6761,13 +6761,13 @@
         "sell": 8,
         "neutral": 8,
         "buy": 10,
-        "updated_on": "2025-01-17 10:18:39"
+        "updated_on": "2025-01-18 10:17:47"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 7,
         "buy": 3,
-        "updated_on": "2025-01-17 10:18:39",
+        "updated_on": "2025-01-18 10:17:47",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -6830,7 +6830,7 @@
         "sell": 7,
         "neutral": 1,
         "buy": 7,
-        "updated_on": "2025-01-17 10:18:39",
+        "updated_on": "2025-01-18 10:17:47",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -6918,13 +6918,13 @@
         "sell": 11,
         "neutral": 10,
         "buy": 5,
-        "updated_on": "2025-01-17 10:18:47"
+        "updated_on": "2025-01-18 10:17:54"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:18:47",
+        "updated_on": "2025-01-18 10:17:54",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -6987,7 +6987,7 @@
         "sell": 10,
         "neutral": 1,
         "buy": 4,
-        "updated_on": "2025-01-17 10:18:47",
+        "updated_on": "2025-01-18 10:17:54",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -7075,13 +7075,13 @@
         "sell": 13,
         "neutral": 10,
         "buy": 3,
-        "updated_on": "2025-01-17 10:18:54"
+        "updated_on": "2025-01-18 10:18:01"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 8,
         "buy": 1,
-        "updated_on": "2025-01-17 10:18:54",
+        "updated_on": "2025-01-18 10:18:01",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -7144,7 +7144,7 @@
         "sell": 11,
         "neutral": 2,
         "buy": 2,
-        "updated_on": "2025-01-17 10:18:54",
+        "updated_on": "2025-01-18 10:18:01",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -7232,13 +7232,13 @@
         "sell": 13,
         "neutral": 10,
         "buy": 3,
-        "updated_on": "2025-01-17 10:19:02"
+        "updated_on": "2025-01-18 10:18:08"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:19:02",
+        "updated_on": "2025-01-18 10:18:08",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -7301,7 +7301,7 @@
         "sell": 12,
         "neutral": 1,
         "buy": 2,
-        "updated_on": "2025-01-17 10:19:02",
+        "updated_on": "2025-01-18 10:18:08",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -7389,13 +7389,13 @@
         "sell": 7,
         "neutral": 9,
         "buy": 10,
-        "updated_on": "2025-01-17 10:19:09"
+        "updated_on": "2025-01-18 10:18:15"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 8,
         "buy": 2,
-        "updated_on": "2025-01-17 10:19:09",
+        "updated_on": "2025-01-18 10:18:15",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -7458,7 +7458,7 @@
         "sell": 6,
         "neutral": 1,
         "buy": 8,
-        "updated_on": "2025-01-17 10:19:09",
+        "updated_on": "2025-01-18 10:18:15",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -7546,13 +7546,13 @@
         "sell": 0,
         "neutral": 10,
         "buy": 16,
-        "updated_on": "2025-01-17 10:19:16"
+        "updated_on": "2025-01-18 10:18:22"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 9,
         "buy": 2,
-        "updated_on": "2025-01-17 10:19:16",
+        "updated_on": "2025-01-18 10:18:22",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -7615,7 +7615,7 @@
         "sell": 0,
         "neutral": 1,
         "buy": 14,
-        "updated_on": "2025-01-17 10:19:16",
+        "updated_on": "2025-01-18 10:18:22",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -7703,13 +7703,13 @@
         "sell": 6,
         "neutral": 10,
         "buy": 10,
-        "updated_on": "2025-01-17 10:19:24"
+        "updated_on": "2025-01-18 10:18:30"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:19:24",
+        "updated_on": "2025-01-18 10:18:30",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -7772,7 +7772,7 @@
         "sell": 5,
         "neutral": 1,
         "buy": 9,
-        "updated_on": "2025-01-17 10:19:24",
+        "updated_on": "2025-01-18 10:18:30",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -7860,13 +7860,13 @@
         "sell": 3,
         "neutral": 9,
         "buy": 14,
-        "updated_on": "2025-01-17 10:19:33"
+        "updated_on": "2025-01-18 10:18:37"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 8,
         "buy": 1,
-        "updated_on": "2025-01-17 10:19:33",
+        "updated_on": "2025-01-18 10:18:37",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -7929,7 +7929,7 @@
         "sell": 1,
         "neutral": 1,
         "buy": 13,
-        "updated_on": "2025-01-17 10:19:33",
+        "updated_on": "2025-01-18 10:18:37",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -8017,13 +8017,13 @@
         "sell": 8,
         "neutral": 9,
         "buy": 9,
-        "updated_on": "2025-01-17 10:19:41"
+        "updated_on": "2025-01-18 10:18:44"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 8,
         "buy": 1,
-        "updated_on": "2025-01-17 10:19:41",
+        "updated_on": "2025-01-18 10:18:44",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -8086,7 +8086,7 @@
         "sell": 6,
         "neutral": 1,
         "buy": 8,
-        "updated_on": "2025-01-17 10:19:41",
+        "updated_on": "2025-01-18 10:18:44",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -8174,13 +8174,13 @@
         "sell": 11,
         "neutral": 9,
         "buy": 6,
-        "updated_on": "2025-01-17 10:19:49"
+        "updated_on": "2025-01-18 10:18:51"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 8,
         "buy": 1,
-        "updated_on": "2025-01-17 10:19:49",
+        "updated_on": "2025-01-18 10:18:51",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -8243,7 +8243,7 @@
         "sell": 9,
         "neutral": 1,
         "buy": 5,
-        "updated_on": "2025-01-17 10:19:49",
+        "updated_on": "2025-01-18 10:18:51",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -8331,13 +8331,13 @@
         "sell": 0,
         "neutral": 9,
         "buy": 17,
-        "updated_on": "2025-01-17 10:19:58"
+        "updated_on": "2025-01-18 10:18:58"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 8,
         "buy": 3,
-        "updated_on": "2025-01-17 10:19:58",
+        "updated_on": "2025-01-18 10:18:58",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -8400,7 +8400,7 @@
         "sell": 0,
         "neutral": 1,
         "buy": 14,
-        "updated_on": "2025-01-17 10:19:58",
+        "updated_on": "2025-01-18 10:18:58",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -8488,13 +8488,13 @@
         "sell": 17,
         "neutral": 9,
         "buy": 0,
-        "updated_on": "2025-01-17 10:20:07"
+        "updated_on": "2025-01-18 10:19:05"
       },
       "oscillator": {
         "sell": 3,
         "neutral": 8,
         "buy": 0,
-        "updated_on": "2025-01-17 10:20:07",
+        "updated_on": "2025-01-18 10:19:05",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -8557,7 +8557,7 @@
         "sell": 14,
         "neutral": 1,
         "buy": 0,
-        "updated_on": "2025-01-17 10:20:07",
+        "updated_on": "2025-01-18 10:19:05",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -8645,13 +8645,13 @@
         "sell": 2,
         "neutral": 9,
         "buy": 15,
-        "updated_on": "2025-01-17 10:20:15"
+        "updated_on": "2025-01-18 10:19:12"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 8,
         "buy": 1,
-        "updated_on": "2025-01-17 10:20:15",
+        "updated_on": "2025-01-18 10:19:12",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -8714,7 +8714,7 @@
         "sell": 0,
         "neutral": 1,
         "buy": 14,
-        "updated_on": "2025-01-17 10:20:15",
+        "updated_on": "2025-01-18 10:19:12",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -8802,13 +8802,13 @@
         "sell": 5,
         "neutral": 9,
         "buy": 12,
-        "updated_on": "2025-01-17 10:20:24"
+        "updated_on": "2025-01-18 10:19:24"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 8,
         "buy": 1,
-        "updated_on": "2025-01-17 10:20:24",
+        "updated_on": "2025-01-18 10:19:24",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -8871,7 +8871,7 @@
         "sell": 3,
         "neutral": 1,
         "buy": 11,
-        "updated_on": "2025-01-17 10:20:24",
+        "updated_on": "2025-01-18 10:19:24",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -8959,13 +8959,13 @@
         "sell": 14,
         "neutral": 10,
         "buy": 2,
-        "updated_on": "2025-01-17 10:20:33"
+        "updated_on": "2025-01-18 10:19:32"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:20:33",
+        "updated_on": "2025-01-18 10:19:32",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -9028,7 +9028,7 @@
         "sell": 13,
         "neutral": 1,
         "buy": 1,
-        "updated_on": "2025-01-17 10:20:33",
+        "updated_on": "2025-01-18 10:19:32",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -9116,13 +9116,13 @@
         "sell": 14,
         "neutral": 11,
         "buy": 1,
-        "updated_on": "2025-01-17 10:20:41"
+        "updated_on": "2025-01-18 10:19:41"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 10,
         "buy": 0,
-        "updated_on": "2025-01-17 10:20:41",
+        "updated_on": "2025-01-18 10:19:41",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -9185,7 +9185,7 @@
         "sell": 13,
         "neutral": 1,
         "buy": 1,
-        "updated_on": "2025-01-17 10:20:41",
+        "updated_on": "2025-01-18 10:19:41",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -9273,13 +9273,13 @@
         "sell": 16,
         "neutral": 10,
         "buy": 0,
-        "updated_on": "2025-01-17 10:20:49"
+        "updated_on": "2025-01-18 10:19:49"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 9,
         "buy": 0,
-        "updated_on": "2025-01-17 10:20:49",
+        "updated_on": "2025-01-18 10:19:49",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -9342,7 +9342,7 @@
         "sell": 14,
         "neutral": 1,
         "buy": 0,
-        "updated_on": "2025-01-17 10:20:49",
+        "updated_on": "2025-01-18 10:19:49",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -9430,13 +9430,13 @@
         "sell": 16,
         "neutral": 10,
         "buy": 0,
-        "updated_on": "2025-01-17 10:20:57"
+        "updated_on": "2025-01-18 10:19:57"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 9,
         "buy": 0,
-        "updated_on": "2025-01-17 10:20:57",
+        "updated_on": "2025-01-18 10:19:57",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -9499,7 +9499,7 @@
         "sell": 14,
         "neutral": 1,
         "buy": 0,
-        "updated_on": "2025-01-17 10:20:57",
+        "updated_on": "2025-01-18 10:19:57",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -9587,13 +9587,13 @@
         "sell": 16,
         "neutral": 8,
         "buy": 2,
-        "updated_on": "2025-01-17 10:21:05"
+        "updated_on": "2025-01-18 10:20:05"
       },
       "oscillator": {
         "sell": 3,
         "neutral": 7,
         "buy": 1,
-        "updated_on": "2025-01-17 10:21:05",
+        "updated_on": "2025-01-18 10:20:05",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -9656,7 +9656,7 @@
         "sell": 13,
         "neutral": 1,
         "buy": 1,
-        "updated_on": "2025-01-17 10:21:05",
+        "updated_on": "2025-01-18 10:20:05",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -9744,13 +9744,13 @@
         "sell": 15,
         "neutral": 8,
         "buy": 3,
-        "updated_on": "2025-01-17 10:21:13"
+        "updated_on": "2025-01-18 10:20:13"
       },
       "oscillator": {
         "sell": 4,
         "neutral": 7,
         "buy": 0,
-        "updated_on": "2025-01-17 10:21:13",
+        "updated_on": "2025-01-18 10:20:13",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -9813,7 +9813,7 @@
         "sell": 11,
         "neutral": 1,
         "buy": 3,
-        "updated_on": "2025-01-17 10:21:13",
+        "updated_on": "2025-01-18 10:20:13",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -9901,13 +9901,13 @@
         "sell": 6,
         "neutral": 8,
         "buy": 11,
-        "updated_on": "2025-01-17 10:21:20"
+        "updated_on": "2025-01-18 10:20:21"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 7,
         "buy": 3,
-        "updated_on": "2025-01-17 10:21:20",
+        "updated_on": "2025-01-18 10:20:21",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -9970,7 +9970,7 @@
         "sell": 6,
         "neutral": 1,
         "buy": 8,
-        "updated_on": "2025-01-17 10:21:20",
+        "updated_on": "2025-01-18 10:20:21",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -10058,13 +10058,13 @@
         "sell": 14,
         "neutral": 9,
         "buy": 3,
-        "updated_on": "2025-01-17 10:21:27"
+        "updated_on": "2025-01-18 10:20:30"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 8,
         "buy": 3,
-        "updated_on": "2025-01-17 10:21:27",
+        "updated_on": "2025-01-18 10:20:30",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -10127,7 +10127,7 @@
         "sell": 14,
         "neutral": 1,
         "buy": 0,
-        "updated_on": "2025-01-17 10:21:27",
+        "updated_on": "2025-01-18 10:20:30",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -10215,13 +10215,13 @@
         "sell": 9,
         "neutral": 9,
         "buy": 8,
-        "updated_on": "2025-01-17 10:21:35"
+        "updated_on": "2025-01-18 10:20:37"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 8,
         "buy": 1,
-        "updated_on": "2025-01-17 10:21:35",
+        "updated_on": "2025-01-18 10:20:37",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -10284,7 +10284,7 @@
         "sell": 7,
         "neutral": 1,
         "buy": 7,
-        "updated_on": "2025-01-17 10:21:35",
+        "updated_on": "2025-01-18 10:20:37",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -10372,13 +10372,13 @@
         "sell": 1,
         "neutral": 9,
         "buy": 16,
-        "updated_on": "2025-01-17 10:21:42"
+        "updated_on": "2025-01-18 10:20:45"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 8,
         "buy": 2,
-        "updated_on": "2025-01-17 10:21:42",
+        "updated_on": "2025-01-18 10:20:45",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -10441,7 +10441,7 @@
         "sell": 0,
         "neutral": 1,
         "buy": 14,
-        "updated_on": "2025-01-17 10:21:42",
+        "updated_on": "2025-01-18 10:20:45",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -10529,13 +10529,13 @@
         "sell": 9,
         "neutral": 10,
         "buy": 7,
-        "updated_on": "2025-01-17 10:21:49"
+        "updated_on": "2025-01-18 10:20:52"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:21:49",
+        "updated_on": "2025-01-18 10:20:52",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -10598,7 +10598,7 @@
         "sell": 8,
         "neutral": 1,
         "buy": 6,
-        "updated_on": "2025-01-17 10:21:49",
+        "updated_on": "2025-01-18 10:20:52",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -10686,13 +10686,13 @@
         "sell": 4,
         "neutral": 7,
         "buy": 15,
-        "updated_on": "2025-01-17 10:21:56"
+        "updated_on": "2025-01-18 10:20:59"
       },
       "oscillator": {
         "sell": 3,
         "neutral": 6,
         "buy": 2,
-        "updated_on": "2025-01-17 10:21:56",
+        "updated_on": "2025-01-18 10:20:59",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -10755,7 +10755,7 @@
         "sell": 1,
         "neutral": 1,
         "buy": 13,
-        "updated_on": "2025-01-17 10:21:56",
+        "updated_on": "2025-01-18 10:20:59",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -10843,13 +10843,13 @@
         "sell": 4,
         "neutral": 10,
         "buy": 12,
-        "updated_on": "2025-01-17 10:22:03"
+        "updated_on": "2025-01-18 10:21:07"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 9,
         "buy": 0,
-        "updated_on": "2025-01-17 10:22:03",
+        "updated_on": "2025-01-18 10:21:07",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -10912,7 +10912,7 @@
         "sell": 2,
         "neutral": 1,
         "buy": 12,
-        "updated_on": "2025-01-17 10:22:03",
+        "updated_on": "2025-01-18 10:21:07",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -11000,13 +11000,13 @@
         "sell": 0,
         "neutral": 9,
         "buy": 17,
-        "updated_on": "2025-01-17 10:22:10"
+        "updated_on": "2025-01-18 10:21:14"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 8,
         "buy": 3,
-        "updated_on": "2025-01-17 10:22:10",
+        "updated_on": "2025-01-18 10:21:14",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -11069,7 +11069,7 @@
         "sell": 0,
         "neutral": 1,
         "buy": 14,
-        "updated_on": "2025-01-17 10:22:10",
+        "updated_on": "2025-01-18 10:21:14",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -11157,13 +11157,13 @@
         "sell": 2,
         "neutral": 6,
         "buy": 9,
-        "updated_on": "2025-01-17 10:22:17"
+        "updated_on": "2025-01-18 10:21:21"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 6,
         "buy": 2,
-        "updated_on": "2025-01-17 10:22:17",
+        "updated_on": "2025-01-18 10:21:21",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -11226,7 +11226,7 @@
         "sell": 1,
         "neutral": 0,
         "buy": 7,
-        "updated_on": "2025-01-17 10:22:17",
+        "updated_on": "2025-01-18 10:21:21",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -11314,13 +11314,13 @@
         "sell": 11,
         "neutral": 10,
         "buy": 5,
-        "updated_on": "2025-01-17 10:22:24"
+        "updated_on": "2025-01-18 10:21:29"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 9,
         "buy": 2,
-        "updated_on": "2025-01-17 10:22:24",
+        "updated_on": "2025-01-18 10:21:29",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -11383,7 +11383,7 @@
         "sell": 11,
         "neutral": 1,
         "buy": 3,
-        "updated_on": "2025-01-17 10:22:24",
+        "updated_on": "2025-01-18 10:21:29",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -11471,13 +11471,13 @@
         "sell": 15,
         "neutral": 9,
         "buy": 2,
-        "updated_on": "2025-01-17 10:22:32"
+        "updated_on": "2025-01-18 10:21:36"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 8,
         "buy": 2,
-        "updated_on": "2025-01-17 10:22:32",
+        "updated_on": "2025-01-18 10:21:36",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -11540,7 +11540,7 @@
         "sell": 14,
         "neutral": 1,
         "buy": 0,
-        "updated_on": "2025-01-17 10:22:32",
+        "updated_on": "2025-01-18 10:21:36",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -11628,13 +11628,13 @@
         "sell": 13,
         "neutral": 10,
         "buy": 3,
-        "updated_on": "2025-01-17 10:22:39"
+        "updated_on": "2025-01-18 10:21:43"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 9,
         "buy": 0,
-        "updated_on": "2025-01-17 10:22:39",
+        "updated_on": "2025-01-18 10:21:43",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -11697,7 +11697,7 @@
         "sell": 11,
         "neutral": 1,
         "buy": 3,
-        "updated_on": "2025-01-17 10:22:39",
+        "updated_on": "2025-01-18 10:21:43",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -11785,13 +11785,13 @@
         "sell": 5,
         "neutral": 10,
         "buy": 11,
-        "updated_on": "2025-01-17 10:22:46"
+        "updated_on": "2025-01-18 10:21:51"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 9,
         "buy": 2,
-        "updated_on": "2025-01-17 10:22:46",
+        "updated_on": "2025-01-18 10:21:51",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -11854,7 +11854,7 @@
         "sell": 5,
         "neutral": 1,
         "buy": 9,
-        "updated_on": "2025-01-17 10:22:46",
+        "updated_on": "2025-01-18 10:21:51",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -11942,13 +11942,13 @@
         "sell": 6,
         "neutral": 15,
         "buy": 1,
-        "updated_on": "2025-01-17 10:22:53"
+        "updated_on": "2025-01-18 10:21:58"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 8,
         "buy": 1,
-        "updated_on": "2025-01-17 10:22:53",
+        "updated_on": "2025-01-18 10:21:58",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -12011,7 +12011,7 @@
         "sell": 6,
         "neutral": 7,
         "buy": 0,
-        "updated_on": "2025-01-17 10:22:53",
+        "updated_on": "2025-01-18 10:21:58",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -12099,13 +12099,13 @@
         "sell": 16,
         "neutral": 7,
         "buy": 3,
-        "updated_on": "2025-01-17 10:23:00"
+        "updated_on": "2025-01-18 10:22:06"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 6,
         "buy": 3,
-        "updated_on": "2025-01-17 10:23:00",
+        "updated_on": "2025-01-18 10:22:06",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -12168,7 +12168,7 @@
         "sell": 14,
         "neutral": 1,
         "buy": 0,
-        "updated_on": "2025-01-17 10:23:00",
+        "updated_on": "2025-01-18 10:22:06",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -12256,13 +12256,13 @@
         "sell": 15,
         "neutral": 7,
         "buy": 4,
-        "updated_on": "2025-01-17 10:23:08"
+        "updated_on": "2025-01-18 10:22:13"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 6,
         "buy": 4,
-        "updated_on": "2025-01-17 10:23:08",
+        "updated_on": "2025-01-18 10:22:13",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -12325,7 +12325,7 @@
         "sell": 14,
         "neutral": 1,
         "buy": 0,
-        "updated_on": "2025-01-17 10:23:08",
+        "updated_on": "2025-01-18 10:22:13",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -12413,13 +12413,13 @@
         "sell": 5,
         "neutral": 10,
         "buy": 11,
-        "updated_on": "2025-01-17 10:23:15"
+        "updated_on": "2025-01-18 10:22:21"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:23:15",
+        "updated_on": "2025-01-18 10:22:21",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -12482,7 +12482,7 @@
         "sell": 4,
         "neutral": 1,
         "buy": 10,
-        "updated_on": "2025-01-17 10:23:15",
+        "updated_on": "2025-01-18 10:22:21",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -12570,13 +12570,13 @@
         "sell": 17,
         "neutral": 8,
         "buy": 1,
-        "updated_on": "2025-01-17 10:23:23"
+        "updated_on": "2025-01-18 10:22:29"
       },
       "oscillator": {
         "sell": 3,
         "neutral": 7,
         "buy": 1,
-        "updated_on": "2025-01-17 10:23:23",
+        "updated_on": "2025-01-18 10:22:29",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -12639,7 +12639,7 @@
         "sell": 14,
         "neutral": 1,
         "buy": 0,
-        "updated_on": "2025-01-17 10:23:23",
+        "updated_on": "2025-01-18 10:22:29",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -12727,13 +12727,13 @@
         "sell": 13,
         "neutral": 12,
         "buy": 1,
-        "updated_on": "2025-01-17 10:23:30"
+        "updated_on": "2025-01-18 10:22:37"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:23:30",
+        "updated_on": "2025-01-18 10:22:37",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -12796,7 +12796,7 @@
         "sell": 12,
         "neutral": 3,
         "buy": 0,
-        "updated_on": "2025-01-17 10:23:30",
+        "updated_on": "2025-01-18 10:22:37",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -12884,13 +12884,13 @@
         "sell": 9,
         "neutral": 9,
         "buy": 8,
-        "updated_on": "2025-01-17 10:23:37"
+        "updated_on": "2025-01-18 10:22:45"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 8,
         "buy": 2,
-        "updated_on": "2025-01-17 10:23:37",
+        "updated_on": "2025-01-18 10:22:45",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -12953,7 +12953,7 @@
         "sell": 8,
         "neutral": 1,
         "buy": 6,
-        "updated_on": "2025-01-17 10:23:37",
+        "updated_on": "2025-01-18 10:22:45",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -13041,13 +13041,13 @@
         "sell": 6,
         "neutral": 12,
         "buy": 8,
-        "updated_on": "2025-01-17 10:23:45"
+        "updated_on": "2025-01-18 10:22:52"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 10,
         "buy": 1,
-        "updated_on": "2025-01-17 10:23:45",
+        "updated_on": "2025-01-18 10:22:52",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -13110,7 +13110,7 @@
         "sell": 6,
         "neutral": 2,
         "buy": 7,
-        "updated_on": "2025-01-17 10:23:45",
+        "updated_on": "2025-01-18 10:22:52",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -13198,13 +13198,13 @@
         "sell": 9,
         "neutral": 10,
         "buy": 7,
-        "updated_on": "2025-01-17 10:23:52"
+        "updated_on": "2025-01-18 10:23:00"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 9,
         "buy": 2,
-        "updated_on": "2025-01-17 10:23:52",
+        "updated_on": "2025-01-18 10:23:00",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -13267,7 +13267,7 @@
         "sell": 9,
         "neutral": 1,
         "buy": 5,
-        "updated_on": "2025-01-17 10:23:52",
+        "updated_on": "2025-01-18 10:23:00",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -13355,13 +13355,13 @@
         "sell": 16,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:23:59"
+        "updated_on": "2025-01-18 10:23:07"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 8,
         "buy": 1,
-        "updated_on": "2025-01-17 10:23:59",
+        "updated_on": "2025-01-18 10:23:07",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -13424,7 +13424,7 @@
         "sell": 14,
         "neutral": 1,
         "buy": 0,
-        "updated_on": "2025-01-17 10:23:59",
+        "updated_on": "2025-01-18 10:23:07",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -13512,13 +13512,13 @@
         "sell": 7,
         "neutral": 10,
         "buy": 9,
-        "updated_on": "2025-01-17 10:24:07"
+        "updated_on": "2025-01-18 10:23:15"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:24:07",
+        "updated_on": "2025-01-18 10:23:15",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -13581,7 +13581,7 @@
         "sell": 6,
         "neutral": 1,
         "buy": 8,
-        "updated_on": "2025-01-17 10:24:07",
+        "updated_on": "2025-01-18 10:23:15",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -13669,13 +13669,13 @@
         "sell": 7,
         "neutral": 10,
         "buy": 9,
-        "updated_on": "2025-01-17 10:24:14"
+        "updated_on": "2025-01-18 10:23:22"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:24:14",
+        "updated_on": "2025-01-18 10:23:22",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -13738,7 +13738,7 @@
         "sell": 6,
         "neutral": 1,
         "buy": 8,
-        "updated_on": "2025-01-17 10:24:14",
+        "updated_on": "2025-01-18 10:23:22",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -13826,13 +13826,13 @@
         "sell": 12,
         "neutral": 10,
         "buy": 4,
-        "updated_on": "2025-01-17 10:24:24"
+        "updated_on": "2025-01-18 10:23:30"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 9,
         "buy": 2,
-        "updated_on": "2025-01-17 10:24:24",
+        "updated_on": "2025-01-18 10:23:30",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -13895,7 +13895,7 @@
         "sell": 12,
         "neutral": 1,
         "buy": 2,
-        "updated_on": "2025-01-17 10:24:24",
+        "updated_on": "2025-01-18 10:23:30",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -13983,13 +13983,13 @@
         "sell": 10,
         "neutral": 8,
         "buy": 8,
-        "updated_on": "2025-01-17 10:24:31"
+        "updated_on": "2025-01-18 10:23:37"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 7,
         "buy": 2,
-        "updated_on": "2025-01-17 10:24:31",
+        "updated_on": "2025-01-18 10:23:37",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -14052,7 +14052,7 @@
         "sell": 8,
         "neutral": 1,
         "buy": 6,
-        "updated_on": "2025-01-17 10:24:31",
+        "updated_on": "2025-01-18 10:23:37",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -14140,13 +14140,13 @@
         "sell": 12,
         "neutral": 9,
         "buy": 5,
-        "updated_on": "2025-01-17 10:24:38"
+        "updated_on": "2025-01-18 10:23:45"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 8,
         "buy": 1,
-        "updated_on": "2025-01-17 10:24:38",
+        "updated_on": "2025-01-18 10:23:45",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -14209,7 +14209,7 @@
         "sell": 10,
         "neutral": 1,
         "buy": 4,
-        "updated_on": "2025-01-17 10:24:38",
+        "updated_on": "2025-01-18 10:23:45",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -14297,13 +14297,13 @@
         "sell": 9,
         "neutral": 10,
         "buy": 7,
-        "updated_on": "2025-01-17 10:24:46"
+        "updated_on": "2025-01-18 10:23:52"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 9,
         "buy": 0,
-        "updated_on": "2025-01-17 10:24:46",
+        "updated_on": "2025-01-18 10:23:52",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -14366,7 +14366,7 @@
         "sell": 7,
         "neutral": 1,
         "buy": 7,
-        "updated_on": "2025-01-17 10:24:46",
+        "updated_on": "2025-01-18 10:23:52",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -14454,13 +14454,13 @@
         "sell": 16,
         "neutral": 8,
         "buy": 2,
-        "updated_on": "2025-01-17 10:24:53"
+        "updated_on": "2025-01-18 10:23:59"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 7,
         "buy": 2,
-        "updated_on": "2025-01-17 10:24:53",
+        "updated_on": "2025-01-18 10:23:59",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -14523,7 +14523,7 @@
         "sell": 14,
         "neutral": 1,
         "buy": 0,
-        "updated_on": "2025-01-17 10:24:53",
+        "updated_on": "2025-01-18 10:23:59",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -14611,13 +14611,13 @@
         "sell": 15,
         "neutral": 11,
         "buy": 0,
-        "updated_on": "2025-01-17 10:25:00"
+        "updated_on": "2025-01-18 10:24:07"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 10,
         "buy": 0,
-        "updated_on": "2025-01-17 10:25:00",
+        "updated_on": "2025-01-18 10:24:07",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -14680,7 +14680,7 @@
         "sell": 14,
         "neutral": 1,
         "buy": 0,
-        "updated_on": "2025-01-17 10:25:00",
+        "updated_on": "2025-01-18 10:24:07",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -14768,13 +14768,13 @@
         "sell": 10,
         "neutral": 9,
         "buy": 7,
-        "updated_on": "2025-01-17 10:25:07"
+        "updated_on": "2025-01-18 10:24:14"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 8,
         "buy": 1,
-        "updated_on": "2025-01-17 10:25:07",
+        "updated_on": "2025-01-18 10:24:14",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -14837,7 +14837,7 @@
         "sell": 8,
         "neutral": 1,
         "buy": 6,
-        "updated_on": "2025-01-17 10:25:07",
+        "updated_on": "2025-01-18 10:24:14",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -14925,13 +14925,13 @@
         "sell": 7,
         "neutral": 16,
         "buy": 1,
-        "updated_on": "2025-01-17 10:25:14"
+        "updated_on": "2025-01-18 10:24:24"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 8,
         "buy": 1,
-        "updated_on": "2025-01-17 10:25:14",
+        "updated_on": "2025-01-18 10:24:24",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -14994,7 +14994,7 @@
         "sell": 7,
         "neutral": 8,
         "buy": 0,
-        "updated_on": "2025-01-17 10:25:14",
+        "updated_on": "2025-01-18 10:24:24",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -15082,13 +15082,13 @@
         "sell": 2,
         "neutral": 10,
         "buy": 14,
-        "updated_on": "2025-01-17 10:25:21"
+        "updated_on": "2025-01-18 10:24:32"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 9,
         "buy": 2,
-        "updated_on": "2025-01-17 10:25:21",
+        "updated_on": "2025-01-18 10:24:32",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -15151,7 +15151,7 @@
         "sell": 2,
         "neutral": 1,
         "buy": 12,
-        "updated_on": "2025-01-17 10:25:21",
+        "updated_on": "2025-01-18 10:24:32",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -15239,13 +15239,13 @@
         "sell": 6,
         "neutral": 17,
         "buy": 1,
-        "updated_on": "2025-01-17 10:25:28"
+        "updated_on": "2025-01-18 10:24:40"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 8,
         "buy": 1,
-        "updated_on": "2025-01-17 10:25:28",
+        "updated_on": "2025-01-18 10:24:40",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -15308,7 +15308,7 @@
         "sell": 6,
         "neutral": 9,
         "buy": 0,
-        "updated_on": "2025-01-17 10:25:28",
+        "updated_on": "2025-01-18 10:24:40",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -15396,13 +15396,13 @@
         "sell": 14,
         "neutral": 10,
         "buy": 2,
-        "updated_on": "2025-01-17 10:25:35"
+        "updated_on": "2025-01-18 10:24:49"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:25:35",
+        "updated_on": "2025-01-18 10:24:49",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -15465,7 +15465,7 @@
         "sell": 13,
         "neutral": 1,
         "buy": 1,
-        "updated_on": "2025-01-17 10:25:35",
+        "updated_on": "2025-01-18 10:24:49",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -15553,13 +15553,13 @@
         "sell": 16,
         "neutral": 10,
         "buy": 0,
-        "updated_on": "2025-01-17 10:25:42"
+        "updated_on": "2025-01-18 10:24:57"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 9,
         "buy": 0,
-        "updated_on": "2025-01-17 10:25:42",
+        "updated_on": "2025-01-18 10:24:57",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -15622,7 +15622,7 @@
         "sell": 14,
         "neutral": 1,
         "buy": 0,
-        "updated_on": "2025-01-17 10:25:42",
+        "updated_on": "2025-01-18 10:24:57",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -15710,13 +15710,13 @@
         "sell": 1,
         "neutral": 8,
         "buy": 17,
-        "updated_on": "2025-01-17 10:25:49"
+        "updated_on": "2025-01-18 10:25:05"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 7,
         "buy": 3,
-        "updated_on": "2025-01-17 10:25:49",
+        "updated_on": "2025-01-18 10:25:05",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -15779,7 +15779,7 @@
         "sell": 0,
         "neutral": 1,
         "buy": 14,
-        "updated_on": "2025-01-17 10:25:49",
+        "updated_on": "2025-01-18 10:25:05",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -15867,13 +15867,13 @@
         "sell": 7,
         "neutral": 10,
         "buy": 9,
-        "updated_on": "2025-01-17 10:25:56"
+        "updated_on": "2025-01-18 10:25:13"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:25:56",
+        "updated_on": "2025-01-18 10:25:13",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -15936,7 +15936,7 @@
         "sell": 6,
         "neutral": 1,
         "buy": 8,
-        "updated_on": "2025-01-17 10:25:56",
+        "updated_on": "2025-01-18 10:25:13",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -16024,13 +16024,13 @@
         "sell": 15,
         "neutral": 10,
         "buy": 1,
-        "updated_on": "2025-01-17 10:26:04"
+        "updated_on": "2025-01-18 10:25:21"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:26:04",
+        "updated_on": "2025-01-18 10:25:21",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -16093,7 +16093,7 @@
         "sell": 14,
         "neutral": 1,
         "buy": 0,
-        "updated_on": "2025-01-17 10:26:04",
+        "updated_on": "2025-01-18 10:25:21",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -16181,13 +16181,13 @@
         "sell": 3,
         "neutral": 10,
         "buy": 13,
-        "updated_on": "2025-01-17 10:26:11"
+        "updated_on": "2025-01-18 10:25:29"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 9,
         "buy": 2,
-        "updated_on": "2025-01-17 10:26:11",
+        "updated_on": "2025-01-18 10:25:29",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -16250,7 +16250,7 @@
         "sell": 3,
         "neutral": 1,
         "buy": 11,
-        "updated_on": "2025-01-17 10:26:11",
+        "updated_on": "2025-01-18 10:25:29",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -16338,13 +16338,13 @@
         "sell": 12,
         "neutral": 8,
         "buy": 4,
-        "updated_on": "2025-01-17 10:26:19"
+        "updated_on": "2025-01-18 10:25:38"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 7,
         "buy": 3,
-        "updated_on": "2025-01-17 10:26:19",
+        "updated_on": "2025-01-18 10:25:38",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -16407,7 +16407,7 @@
         "sell": 11,
         "neutral": 1,
         "buy": 1,
-        "updated_on": "2025-01-17 10:26:19",
+        "updated_on": "2025-01-18 10:25:38",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -16495,13 +16495,13 @@
         "sell": 9,
         "neutral": 10,
         "buy": 7,
-        "updated_on": "2025-01-17 10:26:26"
+        "updated_on": "2025-01-18 10:25:45"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:26:26",
+        "updated_on": "2025-01-18 10:25:45",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -16564,7 +16564,7 @@
         "sell": 8,
         "neutral": 1,
         "buy": 6,
-        "updated_on": "2025-01-17 10:26:26",
+        "updated_on": "2025-01-18 10:25:45",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -16652,13 +16652,13 @@
         "sell": 15,
         "neutral": 10,
         "buy": 1,
-        "updated_on": "2025-01-17 10:26:34"
+        "updated_on": "2025-01-18 10:25:53"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:26:34",
+        "updated_on": "2025-01-18 10:25:53",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -16721,7 +16721,7 @@
         "sell": 14,
         "neutral": 1,
         "buy": 0,
-        "updated_on": "2025-01-17 10:26:34",
+        "updated_on": "2025-01-18 10:25:53",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -16809,13 +16809,13 @@
         "sell": 15,
         "neutral": 6,
         "buy": 5,
-        "updated_on": "2025-01-17 10:26:42"
+        "updated_on": "2025-01-18 10:26:01"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 5,
         "buy": 4,
-        "updated_on": "2025-01-17 10:26:42",
+        "updated_on": "2025-01-18 10:26:01",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -16878,7 +16878,7 @@
         "sell": 13,
         "neutral": 1,
         "buy": 1,
-        "updated_on": "2025-01-17 10:26:42",
+        "updated_on": "2025-01-18 10:26:01",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -16966,13 +16966,13 @@
         "sell": 14,
         "neutral": 9,
         "buy": 3,
-        "updated_on": "2025-01-17 10:26:49"
+        "updated_on": "2025-01-18 10:26:09"
       },
       "oscillator": {
         "sell": 3,
         "neutral": 8,
         "buy": 0,
-        "updated_on": "2025-01-17 10:26:49",
+        "updated_on": "2025-01-18 10:26:09",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -17035,7 +17035,7 @@
         "sell": 11,
         "neutral": 1,
         "buy": 3,
-        "updated_on": "2025-01-17 10:26:49",
+        "updated_on": "2025-01-18 10:26:09",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -17123,13 +17123,13 @@
         "sell": 15,
         "neutral": 10,
         "buy": 1,
-        "updated_on": "2025-01-17 10:26:57"
+        "updated_on": "2025-01-18 10:26:18"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:26:57",
+        "updated_on": "2025-01-18 10:26:18",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -17192,7 +17192,7 @@
         "sell": 14,
         "neutral": 1,
         "buy": 0,
-        "updated_on": "2025-01-17 10:26:57",
+        "updated_on": "2025-01-18 10:26:18",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -17280,13 +17280,13 @@
         "sell": 15,
         "neutral": 10,
         "buy": 1,
-        "updated_on": "2025-01-17 10:27:05"
+        "updated_on": "2025-01-18 10:26:27"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:27:05",
+        "updated_on": "2025-01-18 10:26:27",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -17349,7 +17349,7 @@
         "sell": 14,
         "neutral": 1,
         "buy": 0,
-        "updated_on": "2025-01-17 10:27:05",
+        "updated_on": "2025-01-18 10:26:27",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -17437,13 +17437,13 @@
         "sell": 7,
         "neutral": 9,
         "buy": 10,
-        "updated_on": "2025-01-17 10:27:12"
+        "updated_on": "2025-01-18 10:26:35"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 8,
         "buy": 2,
-        "updated_on": "2025-01-17 10:27:12",
+        "updated_on": "2025-01-18 10:26:35",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -17506,7 +17506,7 @@
         "sell": 6,
         "neutral": 1,
         "buy": 8,
-        "updated_on": "2025-01-17 10:27:12",
+        "updated_on": "2025-01-18 10:26:35",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -17594,13 +17594,13 @@
         "sell": 10,
         "neutral": 13,
         "buy": 2,
-        "updated_on": "2025-01-17 10:27:20"
+        "updated_on": "2025-01-18 10:26:43"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 7,
         "buy": 2,
-        "updated_on": "2025-01-17 10:27:20",
+        "updated_on": "2025-01-18 10:26:43",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -17663,7 +17663,7 @@
         "sell": 9,
         "neutral": 6,
         "buy": 0,
-        "updated_on": "2025-01-17 10:27:20",
+        "updated_on": "2025-01-18 10:26:43",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -17751,13 +17751,13 @@
         "sell": 13,
         "neutral": 7,
         "buy": 6,
-        "updated_on": "2025-01-17 10:27:28"
+        "updated_on": "2025-01-18 10:26:52"
       },
       "oscillator": {
         "sell": 3,
         "neutral": 6,
         "buy": 2,
-        "updated_on": "2025-01-17 10:27:28",
+        "updated_on": "2025-01-18 10:26:52",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -17820,7 +17820,7 @@
         "sell": 10,
         "neutral": 1,
         "buy": 4,
-        "updated_on": "2025-01-17 10:27:28",
+        "updated_on": "2025-01-18 10:26:52",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -17908,13 +17908,13 @@
         "sell": 7,
         "neutral": 10,
         "buy": 9,
-        "updated_on": "2025-01-17 10:27:35"
+        "updated_on": "2025-01-18 10:27:00"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 9,
         "buy": 2,
-        "updated_on": "2025-01-17 10:27:35",
+        "updated_on": "2025-01-18 10:27:00",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -17977,7 +17977,7 @@
         "sell": 7,
         "neutral": 1,
         "buy": 7,
-        "updated_on": "2025-01-17 10:27:35",
+        "updated_on": "2025-01-18 10:27:00",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -18065,13 +18065,13 @@
         "sell": 13,
         "neutral": 10,
         "buy": 3,
-        "updated_on": "2025-01-17 10:27:43"
+        "updated_on": "2025-01-18 10:27:07"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 9,
         "buy": 2,
-        "updated_on": "2025-01-17 10:27:43",
+        "updated_on": "2025-01-18 10:27:07",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -18134,7 +18134,7 @@
         "sell": 13,
         "neutral": 1,
         "buy": 1,
-        "updated_on": "2025-01-17 10:27:43",
+        "updated_on": "2025-01-18 10:27:07",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -18222,13 +18222,13 @@
         "sell": 2,
         "neutral": 10,
         "buy": 14,
-        "updated_on": "2025-01-17 10:27:50"
+        "updated_on": "2025-01-18 10:27:15"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:27:50",
+        "updated_on": "2025-01-18 10:27:15",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -18291,7 +18291,7 @@
         "sell": 1,
         "neutral": 1,
         "buy": 13,
-        "updated_on": "2025-01-17 10:27:50",
+        "updated_on": "2025-01-18 10:27:15",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -18379,13 +18379,13 @@
         "sell": 6,
         "neutral": 11,
         "buy": 9,
-        "updated_on": "2025-01-17 10:27:58"
+        "updated_on": "2025-01-18 10:27:22"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 10,
         "buy": 1,
-        "updated_on": "2025-01-17 10:27:58",
+        "updated_on": "2025-01-18 10:27:22",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -18448,7 +18448,7 @@
         "sell": 6,
         "neutral": 1,
         "buy": 8,
-        "updated_on": "2025-01-17 10:27:58",
+        "updated_on": "2025-01-18 10:27:22",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -18536,13 +18536,13 @@
         "sell": 15,
         "neutral": 8,
         "buy": 3,
-        "updated_on": "2025-01-17 10:28:05"
+        "updated_on": "2025-01-18 10:27:29"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 7,
         "buy": 2,
-        "updated_on": "2025-01-17 10:28:05",
+        "updated_on": "2025-01-18 10:27:29",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -18605,7 +18605,7 @@
         "sell": 13,
         "neutral": 1,
         "buy": 1,
-        "updated_on": "2025-01-17 10:28:05",
+        "updated_on": "2025-01-18 10:27:29",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -18693,13 +18693,13 @@
         "sell": 12,
         "neutral": 7,
         "buy": 7,
-        "updated_on": "2025-01-17 10:28:13"
+        "updated_on": "2025-01-18 10:27:36"
       },
       "oscillator": {
         "sell": 4,
         "neutral": 6,
         "buy": 1,
-        "updated_on": "2025-01-17 10:28:13",
+        "updated_on": "2025-01-18 10:27:36",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -18762,7 +18762,7 @@
         "sell": 8,
         "neutral": 1,
         "buy": 6,
-        "updated_on": "2025-01-17 10:28:13",
+        "updated_on": "2025-01-18 10:27:36",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -18850,13 +18850,13 @@
         "sell": 4,
         "neutral": 10,
         "buy": 12,
-        "updated_on": "2025-01-17 10:28:20"
+        "updated_on": "2025-01-18 10:27:43"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 9,
         "buy": 2,
-        "updated_on": "2025-01-17 10:28:20",
+        "updated_on": "2025-01-18 10:27:43",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -18919,7 +18919,7 @@
         "sell": 4,
         "neutral": 1,
         "buy": 10,
-        "updated_on": "2025-01-17 10:28:20",
+        "updated_on": "2025-01-18 10:27:43",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -19007,13 +19007,13 @@
         "sell": 7,
         "neutral": 11,
         "buy": 8,
-        "updated_on": "2025-01-17 10:28:28"
+        "updated_on": "2025-01-18 10:27:51"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 10,
         "buy": 1,
-        "updated_on": "2025-01-17 10:28:28",
+        "updated_on": "2025-01-18 10:27:51",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -19076,7 +19076,7 @@
         "sell": 7,
         "neutral": 1,
         "buy": 7,
-        "updated_on": "2025-01-17 10:28:28",
+        "updated_on": "2025-01-18 10:27:51",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -19164,13 +19164,13 @@
         "sell": 14,
         "neutral": 10,
         "buy": 2,
-        "updated_on": "2025-01-17 10:28:35"
+        "updated_on": "2025-01-18 10:27:58"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:28:35",
+        "updated_on": "2025-01-18 10:27:58",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -19233,7 +19233,7 @@
         "sell": 13,
         "neutral": 1,
         "buy": 1,
-        "updated_on": "2025-01-17 10:28:35",
+        "updated_on": "2025-01-18 10:27:58",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -19321,13 +19321,13 @@
         "sell": 14,
         "neutral": 11,
         "buy": 1,
-        "updated_on": "2025-01-17 10:28:42"
+        "updated_on": "2025-01-18 10:28:07"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 10,
         "buy": 1,
-        "updated_on": "2025-01-17 10:28:42",
+        "updated_on": "2025-01-18 10:28:07",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -19390,7 +19390,7 @@
         "sell": 14,
         "neutral": 1,
         "buy": 0,
-        "updated_on": "2025-01-17 10:28:42",
+        "updated_on": "2025-01-18 10:28:07",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -19478,13 +19478,13 @@
         "sell": 1,
         "neutral": 11,
         "buy": 14,
-        "updated_on": "2025-01-17 10:28:50"
+        "updated_on": "2025-01-18 10:28:15"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 10,
         "buy": 0,
-        "updated_on": "2025-01-17 10:28:50",
+        "updated_on": "2025-01-18 10:28:15",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -19547,7 +19547,7 @@
         "sell": 0,
         "neutral": 1,
         "buy": 14,
-        "updated_on": "2025-01-17 10:28:50",
+        "updated_on": "2025-01-18 10:28:15",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -19635,13 +19635,13 @@
         "sell": 17,
         "neutral": 9,
         "buy": 0,
-        "updated_on": "2025-01-17 10:28:57"
+        "updated_on": "2025-01-18 10:28:24"
       },
       "oscillator": {
         "sell": 3,
         "neutral": 8,
         "buy": 0,
-        "updated_on": "2025-01-17 10:28:57",
+        "updated_on": "2025-01-18 10:28:24",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -19704,7 +19704,7 @@
         "sell": 14,
         "neutral": 1,
         "buy": 0,
-        "updated_on": "2025-01-17 10:28:57",
+        "updated_on": "2025-01-18 10:28:24",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -19792,13 +19792,13 @@
         "sell": 5,
         "neutral": 10,
         "buy": 11,
-        "updated_on": "2025-01-17 10:29:05"
+        "updated_on": "2025-01-18 10:28:32"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:29:05",
+        "updated_on": "2025-01-18 10:28:32",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -19861,7 +19861,7 @@
         "sell": 4,
         "neutral": 1,
         "buy": 10,
-        "updated_on": "2025-01-17 10:29:05",
+        "updated_on": "2025-01-18 10:28:32",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -19949,13 +19949,13 @@
         "sell": 2,
         "neutral": 9,
         "buy": 15,
-        "updated_on": "2025-01-17 10:29:13"
+        "updated_on": "2025-01-18 10:28:41"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 8,
         "buy": 2,
-        "updated_on": "2025-01-17 10:29:13",
+        "updated_on": "2025-01-18 10:28:41",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -20018,7 +20018,7 @@
         "sell": 1,
         "neutral": 1,
         "buy": 13,
-        "updated_on": "2025-01-17 10:29:13",
+        "updated_on": "2025-01-18 10:28:41",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -20106,13 +20106,13 @@
         "sell": 11,
         "neutral": 11,
         "buy": 2,
-        "updated_on": "2025-01-17 10:29:20"
+        "updated_on": "2025-01-18 10:28:49"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 8,
         "buy": 1,
-        "updated_on": "2025-01-17 10:29:20",
+        "updated_on": "2025-01-18 10:28:49",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -20175,7 +20175,7 @@
         "sell": 11,
         "neutral": 3,
         "buy": 1,
-        "updated_on": "2025-01-17 10:29:20",
+        "updated_on": "2025-01-18 10:28:49",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -20263,13 +20263,13 @@
         "sell": 3,
         "neutral": 10,
         "buy": 13,
-        "updated_on": "2025-01-17 10:29:27"
+        "updated_on": "2025-01-18 10:28:58"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:29:27",
+        "updated_on": "2025-01-18 10:28:58",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -20332,7 +20332,7 @@
         "sell": 2,
         "neutral": 1,
         "buy": 12,
-        "updated_on": "2025-01-17 10:29:27",
+        "updated_on": "2025-01-18 10:28:58",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -20420,13 +20420,13 @@
         "sell": 1,
         "neutral": 8,
         "buy": 17,
-        "updated_on": "2025-01-17 10:29:34"
+        "updated_on": "2025-01-18 10:29:07"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 7,
         "buy": 3,
-        "updated_on": "2025-01-17 10:29:34",
+        "updated_on": "2025-01-18 10:29:07",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -20489,7 +20489,7 @@
         "sell": 0,
         "neutral": 1,
         "buy": 14,
-        "updated_on": "2025-01-17 10:29:34",
+        "updated_on": "2025-01-18 10:29:07",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -20577,13 +20577,13 @@
         "sell": 8,
         "neutral": 8,
         "buy": 10,
-        "updated_on": "2025-01-17 10:29:42"
+        "updated_on": "2025-01-18 10:29:15"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 7,
         "buy": 2,
-        "updated_on": "2025-01-17 10:29:42",
+        "updated_on": "2025-01-18 10:29:15",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -20646,7 +20646,7 @@
         "sell": 6,
         "neutral": 1,
         "buy": 8,
-        "updated_on": "2025-01-17 10:29:42",
+        "updated_on": "2025-01-18 10:29:15",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -20734,13 +20734,13 @@
         "sell": 12,
         "neutral": 8,
         "buy": 6,
-        "updated_on": "2025-01-17 10:29:50"
+        "updated_on": "2025-01-18 10:29:22"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 7,
         "buy": 3,
-        "updated_on": "2025-01-17 10:29:50",
+        "updated_on": "2025-01-18 10:29:22",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -20803,7 +20803,7 @@
         "sell": 11,
         "neutral": 1,
         "buy": 3,
-        "updated_on": "2025-01-17 10:29:50",
+        "updated_on": "2025-01-18 10:29:22",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -20891,13 +20891,13 @@
         "sell": 13,
         "neutral": 9,
         "buy": 2,
-        "updated_on": "2025-01-17 10:29:58"
+        "updated_on": "2025-01-18 10:29:29"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 7,
         "buy": 2,
-        "updated_on": "2025-01-17 10:29:58",
+        "updated_on": "2025-01-18 10:29:29",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -20960,7 +20960,7 @@
         "sell": 13,
         "neutral": 2,
         "buy": 0,
-        "updated_on": "2025-01-17 10:29:58",
+        "updated_on": "2025-01-18 10:29:29",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -21048,13 +21048,13 @@
         "sell": 7,
         "neutral": 10,
         "buy": 9,
-        "updated_on": "2025-01-17 10:30:06"
+        "updated_on": "2025-01-18 10:29:36"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 9,
         "buy": 2,
-        "updated_on": "2025-01-17 10:30:06",
+        "updated_on": "2025-01-18 10:29:36",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -21117,7 +21117,7 @@
         "sell": 7,
         "neutral": 1,
         "buy": 7,
-        "updated_on": "2025-01-17 10:30:06",
+        "updated_on": "2025-01-18 10:29:36",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -21205,13 +21205,13 @@
         "sell": 15,
         "neutral": 9,
         "buy": 2,
-        "updated_on": "2025-01-17 10:30:15"
+        "updated_on": "2025-01-18 10:29:43"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 8,
         "buy": 2,
-        "updated_on": "2025-01-17 10:30:15",
+        "updated_on": "2025-01-18 10:29:43",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -21274,7 +21274,7 @@
         "sell": 14,
         "neutral": 1,
         "buy": 0,
-        "updated_on": "2025-01-17 10:30:15",
+        "updated_on": "2025-01-18 10:29:43",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -21362,13 +21362,13 @@
         "sell": 0,
         "neutral": 8,
         "buy": 18,
-        "updated_on": "2025-01-17 10:30:24"
+        "updated_on": "2025-01-18 10:29:50"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 7,
         "buy": 4,
-        "updated_on": "2025-01-17 10:30:24",
+        "updated_on": "2025-01-18 10:29:50",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -21431,7 +21431,7 @@
         "sell": 0,
         "neutral": 1,
         "buy": 14,
-        "updated_on": "2025-01-17 10:30:24",
+        "updated_on": "2025-01-18 10:29:50",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -21519,13 +21519,13 @@
         "sell": 10,
         "neutral": 10,
         "buy": 6,
-        "updated_on": "2025-01-17 10:30:33"
+        "updated_on": "2025-01-18 10:29:57"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 9,
         "buy": 2,
-        "updated_on": "2025-01-17 10:30:33",
+        "updated_on": "2025-01-18 10:29:57",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -21588,7 +21588,7 @@
         "sell": 10,
         "neutral": 1,
         "buy": 4,
-        "updated_on": "2025-01-17 10:30:33",
+        "updated_on": "2025-01-18 10:29:57",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -21676,13 +21676,13 @@
         "sell": 3,
         "neutral": 8,
         "buy": 15,
-        "updated_on": "2025-01-17 10:30:42"
+        "updated_on": "2025-01-18 10:30:05"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 7,
         "buy": 2,
-        "updated_on": "2025-01-17 10:30:42",
+        "updated_on": "2025-01-18 10:30:05",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -21745,7 +21745,7 @@
         "sell": 1,
         "neutral": 1,
         "buy": 13,
-        "updated_on": "2025-01-17 10:30:42",
+        "updated_on": "2025-01-18 10:30:05",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -21833,13 +21833,13 @@
         "sell": 15,
         "neutral": 10,
         "buy": 1,
-        "updated_on": "2025-01-17 10:30:51"
+        "updated_on": "2025-01-18 10:30:13"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:30:51",
+        "updated_on": "2025-01-18 10:30:13",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -21902,7 +21902,7 @@
         "sell": 14,
         "neutral": 1,
         "buy": 0,
-        "updated_on": "2025-01-17 10:30:51",
+        "updated_on": "2025-01-18 10:30:13",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -21990,13 +21990,13 @@
         "sell": 10,
         "neutral": 9,
         "buy": 7,
-        "updated_on": "2025-01-17 10:30:59"
+        "updated_on": "2025-01-18 10:30:20"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 8,
         "buy": 2,
-        "updated_on": "2025-01-17 10:30:59",
+        "updated_on": "2025-01-18 10:30:20",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -22059,7 +22059,7 @@
         "sell": 9,
         "neutral": 1,
         "buy": 5,
-        "updated_on": "2025-01-17 10:30:59",
+        "updated_on": "2025-01-18 10:30:20",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -22147,13 +22147,13 @@
         "sell": 6,
         "neutral": 16,
         "buy": 2,
-        "updated_on": "2025-01-17 10:31:08"
+        "updated_on": "2025-01-18 10:30:28"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 7,
         "buy": 2,
-        "updated_on": "2025-01-17 10:31:08",
+        "updated_on": "2025-01-18 10:30:28",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -22216,7 +22216,7 @@
         "sell": 6,
         "neutral": 9,
         "buy": 0,
-        "updated_on": "2025-01-17 10:31:08",
+        "updated_on": "2025-01-18 10:30:28",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -22304,13 +22304,13 @@
         "sell": 15,
         "neutral": 10,
         "buy": 1,
-        "updated_on": "2025-01-17 10:31:16"
+        "updated_on": "2025-01-18 10:30:36"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 9,
         "buy": 0,
-        "updated_on": "2025-01-17 10:31:16",
+        "updated_on": "2025-01-18 10:30:36",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -22373,7 +22373,7 @@
         "sell": 13,
         "neutral": 1,
         "buy": 1,
-        "updated_on": "2025-01-17 10:31:16",
+        "updated_on": "2025-01-18 10:30:36",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -22461,13 +22461,13 @@
         "sell": 17,
         "neutral": 9,
         "buy": 0,
-        "updated_on": "2025-01-17 10:31:24"
+        "updated_on": "2025-01-18 10:30:45"
       },
       "oscillator": {
         "sell": 3,
         "neutral": 8,
         "buy": 0,
-        "updated_on": "2025-01-17 10:31:24",
+        "updated_on": "2025-01-18 10:30:45",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -22530,7 +22530,7 @@
         "sell": 14,
         "neutral": 1,
         "buy": 0,
-        "updated_on": "2025-01-17 10:31:24",
+        "updated_on": "2025-01-18 10:30:45",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -22618,13 +22618,13 @@
         "sell": 11,
         "neutral": 9,
         "buy": 6,
-        "updated_on": "2025-01-17 10:31:32"
+        "updated_on": "2025-01-18 10:30:53"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 8,
         "buy": 1,
-        "updated_on": "2025-01-17 10:31:32",
+        "updated_on": "2025-01-18 10:30:53",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -22687,7 +22687,7 @@
         "sell": 9,
         "neutral": 1,
         "buy": 5,
-        "updated_on": "2025-01-17 10:31:32",
+        "updated_on": "2025-01-18 10:30:53",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -22775,13 +22775,13 @@
         "sell": 6,
         "neutral": 17,
         "buy": 1,
-        "updated_on": "2025-01-17 10:31:41"
+        "updated_on": "2025-01-18 10:31:01"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 8,
         "buy": 1,
-        "updated_on": "2025-01-17 10:31:41",
+        "updated_on": "2025-01-18 10:31:01",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -22844,7 +22844,7 @@
         "sell": 6,
         "neutral": 9,
         "buy": 0,
-        "updated_on": "2025-01-17 10:31:41",
+        "updated_on": "2025-01-18 10:31:01",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -22932,13 +22932,13 @@
         "sell": 2,
         "neutral": 10,
         "buy": 14,
-        "updated_on": "2025-01-17 10:31:49"
+        "updated_on": "2025-01-18 10:31:10"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:31:49",
+        "updated_on": "2025-01-18 10:31:10",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -23001,7 +23001,7 @@
         "sell": 1,
         "neutral": 1,
         "buy": 13,
-        "updated_on": "2025-01-17 10:31:49",
+        "updated_on": "2025-01-18 10:31:10",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -23089,13 +23089,13 @@
         "sell": 13,
         "neutral": 9,
         "buy": 4,
-        "updated_on": "2025-01-17 10:31:58"
+        "updated_on": "2025-01-18 10:31:18"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 8,
         "buy": 1,
-        "updated_on": "2025-01-17 10:31:58",
+        "updated_on": "2025-01-18 10:31:18",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -23158,7 +23158,7 @@
         "sell": 11,
         "neutral": 1,
         "buy": 3,
-        "updated_on": "2025-01-17 10:31:58",
+        "updated_on": "2025-01-18 10:31:18",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -23246,13 +23246,13 @@
         "sell": 15,
         "neutral": 10,
         "buy": 1,
-        "updated_on": "2025-01-17 10:32:06"
+        "updated_on": "2025-01-18 10:31:36"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 9,
         "buy": 0,
-        "updated_on": "2025-01-17 10:32:06",
+        "updated_on": "2025-01-18 10:31:36",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -23315,7 +23315,7 @@
         "sell": 13,
         "neutral": 1,
         "buy": 1,
-        "updated_on": "2025-01-17 10:32:06",
+        "updated_on": "2025-01-18 10:31:36",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -23403,13 +23403,13 @@
         "sell": 3,
         "neutral": 9,
         "buy": 14,
-        "updated_on": "2025-01-17 10:32:14"
+        "updated_on": "2025-01-18 10:31:43"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 8,
         "buy": 2,
-        "updated_on": "2025-01-17 10:32:14",
+        "updated_on": "2025-01-18 10:31:43",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -23472,7 +23472,7 @@
         "sell": 2,
         "neutral": 1,
         "buy": 12,
-        "updated_on": "2025-01-17 10:32:14",
+        "updated_on": "2025-01-18 10:31:43",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -23560,13 +23560,13 @@
         "sell": 4,
         "neutral": 11,
         "buy": 11,
-        "updated_on": "2025-01-17 10:32:22"
+        "updated_on": "2025-01-18 10:31:50"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 10,
         "buy": 1,
-        "updated_on": "2025-01-17 10:32:22",
+        "updated_on": "2025-01-18 10:31:50",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -23629,7 +23629,7 @@
         "sell": 4,
         "neutral": 1,
         "buy": 10,
-        "updated_on": "2025-01-17 10:32:22",
+        "updated_on": "2025-01-18 10:31:50",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -23717,13 +23717,13 @@
         "sell": 1,
         "neutral": 9,
         "buy": 16,
-        "updated_on": "2025-01-17 10:32:30"
+        "updated_on": "2025-01-18 10:31:57"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 8,
         "buy": 3,
-        "updated_on": "2025-01-17 10:32:30",
+        "updated_on": "2025-01-18 10:31:57",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -23786,7 +23786,7 @@
         "sell": 1,
         "neutral": 1,
         "buy": 13,
-        "updated_on": "2025-01-17 10:32:30",
+        "updated_on": "2025-01-18 10:31:57",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -23874,13 +23874,13 @@
         "sell": 15,
         "neutral": 9,
         "buy": 2,
-        "updated_on": "2025-01-17 10:32:38"
+        "updated_on": "2025-01-18 10:32:04"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 8,
         "buy": 1,
-        "updated_on": "2025-01-17 10:32:38",
+        "updated_on": "2025-01-18 10:32:04",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -23943,7 +23943,7 @@
         "sell": 13,
         "neutral": 1,
         "buy": 1,
-        "updated_on": "2025-01-17 10:32:38",
+        "updated_on": "2025-01-18 10:32:04",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -24031,13 +24031,13 @@
         "sell": 10,
         "neutral": 10,
         "buy": 6,
-        "updated_on": "2025-01-17 10:32:46"
+        "updated_on": "2025-01-18 10:32:11"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:32:46",
+        "updated_on": "2025-01-18 10:32:11",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -24100,7 +24100,7 @@
         "sell": 9,
         "neutral": 1,
         "buy": 5,
-        "updated_on": "2025-01-17 10:32:46",
+        "updated_on": "2025-01-18 10:32:11",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -24188,13 +24188,13 @@
         "sell": 13,
         "neutral": 10,
         "buy": 3,
-        "updated_on": "2025-01-17 10:32:54"
+        "updated_on": "2025-01-18 10:32:18"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 9,
         "buy": 0,
-        "updated_on": "2025-01-17 10:32:54",
+        "updated_on": "2025-01-18 10:32:18",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -24257,7 +24257,7 @@
         "sell": 11,
         "neutral": 1,
         "buy": 3,
-        "updated_on": "2025-01-17 10:32:54",
+        "updated_on": "2025-01-18 10:32:18",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -24345,13 +24345,13 @@
         "sell": 7,
         "neutral": 9,
         "buy": 10,
-        "updated_on": "2025-01-17 10:33:02"
+        "updated_on": "2025-01-18 10:32:25"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 8,
         "buy": 2,
-        "updated_on": "2025-01-17 10:33:02",
+        "updated_on": "2025-01-18 10:32:25",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -24414,7 +24414,7 @@
         "sell": 6,
         "neutral": 1,
         "buy": 8,
-        "updated_on": "2025-01-17 10:33:02",
+        "updated_on": "2025-01-18 10:32:25",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -24502,13 +24502,13 @@
         "sell": 11,
         "neutral": 9,
         "buy": 4,
-        "updated_on": "2025-01-17 10:33:09"
+        "updated_on": "2025-01-18 10:32:32"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 7,
         "buy": 2,
-        "updated_on": "2025-01-17 10:33:09",
+        "updated_on": "2025-01-18 10:32:32",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -24571,7 +24571,7 @@
         "sell": 11,
         "neutral": 2,
         "buy": 2,
-        "updated_on": "2025-01-17 10:33:09",
+        "updated_on": "2025-01-18 10:32:32",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -24659,13 +24659,13 @@
         "sell": 1,
         "neutral": 9,
         "buy": 16,
-        "updated_on": "2025-01-17 10:33:16"
+        "updated_on": "2025-01-18 10:32:39"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 8,
         "buy": 2,
-        "updated_on": "2025-01-17 10:33:16",
+        "updated_on": "2025-01-18 10:32:39",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -24728,7 +24728,7 @@
         "sell": 0,
         "neutral": 1,
         "buy": 14,
-        "updated_on": "2025-01-17 10:33:16",
+        "updated_on": "2025-01-18 10:32:39",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -24816,13 +24816,13 @@
         "sell": 10,
         "neutral": 9,
         "buy": 7,
-        "updated_on": "2025-01-17 10:33:24"
+        "updated_on": "2025-01-18 10:32:46"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 8,
         "buy": 2,
-        "updated_on": "2025-01-17 10:33:24",
+        "updated_on": "2025-01-18 10:32:46",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -24885,7 +24885,7 @@
         "sell": 9,
         "neutral": 1,
         "buy": 5,
-        "updated_on": "2025-01-17 10:33:24",
+        "updated_on": "2025-01-18 10:32:46",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -24973,13 +24973,13 @@
         "sell": 3,
         "neutral": 8,
         "buy": 15,
-        "updated_on": "2025-01-17 10:33:31"
+        "updated_on": "2025-01-18 10:32:53"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 7,
         "buy": 3,
-        "updated_on": "2025-01-17 10:33:31",
+        "updated_on": "2025-01-18 10:32:53",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -25042,7 +25042,7 @@
         "sell": 2,
         "neutral": 1,
         "buy": 12,
-        "updated_on": "2025-01-17 10:33:31",
+        "updated_on": "2025-01-18 10:32:53",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -25130,13 +25130,13 @@
         "sell": 1,
         "neutral": 8,
         "buy": 17,
-        "updated_on": "2025-01-17 10:33:38"
+        "updated_on": "2025-01-18 10:33:00"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 7,
         "buy": 3,
-        "updated_on": "2025-01-17 10:33:38",
+        "updated_on": "2025-01-18 10:33:00",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -25199,7 +25199,7 @@
         "sell": 0,
         "neutral": 1,
         "buy": 14,
-        "updated_on": "2025-01-17 10:33:38",
+        "updated_on": "2025-01-18 10:33:00",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -25287,13 +25287,13 @@
         "sell": 15,
         "neutral": 10,
         "buy": 1,
-        "updated_on": "2025-01-17 10:33:45"
+        "updated_on": "2025-01-18 10:33:07"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:33:45",
+        "updated_on": "2025-01-18 10:33:07",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -25356,7 +25356,7 @@
         "sell": 14,
         "neutral": 1,
         "buy": 0,
-        "updated_on": "2025-01-17 10:33:45",
+        "updated_on": "2025-01-18 10:33:07",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -25444,13 +25444,13 @@
         "sell": 3,
         "neutral": 10,
         "buy": 13,
-        "updated_on": "2025-01-17 10:33:52"
+        "updated_on": "2025-01-18 10:33:15"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:33:52",
+        "updated_on": "2025-01-18 10:33:15",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -25513,7 +25513,7 @@
         "sell": 2,
         "neutral": 1,
         "buy": 12,
-        "updated_on": "2025-01-17 10:33:52",
+        "updated_on": "2025-01-18 10:33:15",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -25601,13 +25601,13 @@
         "sell": 13,
         "neutral": 8,
         "buy": 4,
-        "updated_on": "2025-01-17 10:33:59"
+        "updated_on": "2025-01-18 10:33:22"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 7,
         "buy": 3,
-        "updated_on": "2025-01-17 10:33:59",
+        "updated_on": "2025-01-18 10:33:22",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -25670,7 +25670,7 @@
         "sell": 13,
         "neutral": 1,
         "buy": 1,
-        "updated_on": "2025-01-17 10:33:59",
+        "updated_on": "2025-01-18 10:33:22",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -25758,13 +25758,13 @@
         "sell": 2,
         "neutral": 9,
         "buy": 15,
-        "updated_on": "2025-01-17 10:34:06"
+        "updated_on": "2025-01-18 10:33:29"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 8,
         "buy": 2,
-        "updated_on": "2025-01-17 10:34:06",
+        "updated_on": "2025-01-18 10:33:29",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -25827,7 +25827,7 @@
         "sell": 1,
         "neutral": 1,
         "buy": 13,
-        "updated_on": "2025-01-17 10:34:06",
+        "updated_on": "2025-01-18 10:33:29",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -25915,13 +25915,13 @@
         "sell": 12,
         "neutral": 9,
         "buy": 5,
-        "updated_on": "2025-01-17 10:34:14"
+        "updated_on": "2025-01-18 10:33:36"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 8,
         "buy": 1,
-        "updated_on": "2025-01-17 10:34:14",
+        "updated_on": "2025-01-18 10:33:36",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -25984,7 +25984,7 @@
         "sell": 10,
         "neutral": 1,
         "buy": 4,
-        "updated_on": "2025-01-17 10:34:14",
+        "updated_on": "2025-01-18 10:33:36",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -26072,13 +26072,13 @@
         "sell": 15,
         "neutral": 9,
         "buy": 2,
-        "updated_on": "2025-01-17 10:34:23"
+        "updated_on": "2025-01-18 10:33:43"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 8,
         "buy": 1,
-        "updated_on": "2025-01-17 10:34:23",
+        "updated_on": "2025-01-18 10:33:43",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -26141,7 +26141,7 @@
         "sell": 13,
         "neutral": 1,
         "buy": 1,
-        "updated_on": "2025-01-17 10:34:23",
+        "updated_on": "2025-01-18 10:33:43",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -26229,13 +26229,13 @@
         "sell": 14,
         "neutral": 11,
         "buy": 1,
-        "updated_on": "2025-01-17 10:34:30"
+        "updated_on": "2025-01-18 10:33:51"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 10,
         "buy": 1,
-        "updated_on": "2025-01-17 10:34:30",
+        "updated_on": "2025-01-18 10:33:51",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -26298,7 +26298,7 @@
         "sell": 14,
         "neutral": 1,
         "buy": 0,
-        "updated_on": "2025-01-17 10:34:30",
+        "updated_on": "2025-01-18 10:33:51",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -26386,13 +26386,13 @@
         "sell": 8,
         "neutral": 9,
         "buy": 9,
-        "updated_on": "2025-01-17 10:34:37"
+        "updated_on": "2025-01-18 10:33:58"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 8,
         "buy": 2,
-        "updated_on": "2025-01-17 10:34:37",
+        "updated_on": "2025-01-18 10:33:58",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -26455,7 +26455,7 @@
         "sell": 7,
         "neutral": 1,
         "buy": 7,
-        "updated_on": "2025-01-17 10:34:37",
+        "updated_on": "2025-01-18 10:33:58",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -26543,13 +26543,13 @@
         "sell": 2,
         "neutral": 10,
         "buy": 14,
-        "updated_on": "2025-01-17 10:34:45"
+        "updated_on": "2025-01-18 10:34:06"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:34:45",
+        "updated_on": "2025-01-18 10:34:06",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -26612,7 +26612,7 @@
         "sell": 1,
         "neutral": 1,
         "buy": 13,
-        "updated_on": "2025-01-17 10:34:45",
+        "updated_on": "2025-01-18 10:34:06",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -26700,13 +26700,13 @@
         "sell": 4,
         "neutral": 11,
         "buy": 11,
-        "updated_on": "2025-01-17 10:34:52"
+        "updated_on": "2025-01-18 10:34:13"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 9,
         "buy": 2,
-        "updated_on": "2025-01-17 10:34:52",
+        "updated_on": "2025-01-18 10:34:13",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -26769,7 +26769,7 @@
         "sell": 4,
         "neutral": 2,
         "buy": 9,
-        "updated_on": "2025-01-17 10:34:52",
+        "updated_on": "2025-01-18 10:34:13",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -26857,13 +26857,13 @@
         "sell": 16,
         "neutral": 8,
         "buy": 2,
-        "updated_on": "2025-01-17 10:35:00"
+        "updated_on": "2025-01-18 10:34:25"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 7,
         "buy": 2,
-        "updated_on": "2025-01-17 10:35:00",
+        "updated_on": "2025-01-18 10:34:25",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -26926,7 +26926,7 @@
         "sell": 14,
         "neutral": 1,
         "buy": 0,
-        "updated_on": "2025-01-17 10:35:00",
+        "updated_on": "2025-01-18 10:34:25",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -27014,13 +27014,13 @@
         "sell": 1,
         "neutral": 8,
         "buy": 17,
-        "updated_on": "2025-01-17 10:35:07"
+        "updated_on": "2025-01-18 10:34:33"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 7,
         "buy": 3,
-        "updated_on": "2025-01-17 10:35:07",
+        "updated_on": "2025-01-18 10:34:33",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -27083,7 +27083,7 @@
         "sell": 0,
         "neutral": 1,
         "buy": 14,
-        "updated_on": "2025-01-17 10:35:07",
+        "updated_on": "2025-01-18 10:34:33",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -27171,13 +27171,13 @@
         "sell": 9,
         "neutral": 9,
         "buy": 8,
-        "updated_on": "2025-01-17 10:35:15"
+        "updated_on": "2025-01-18 10:34:42"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 8,
         "buy": 1,
-        "updated_on": "2025-01-17 10:35:15",
+        "updated_on": "2025-01-18 10:34:42",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -27240,7 +27240,7 @@
         "sell": 7,
         "neutral": 1,
         "buy": 7,
-        "updated_on": "2025-01-17 10:35:15",
+        "updated_on": "2025-01-18 10:34:42",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -27328,13 +27328,13 @@
         "sell": 5,
         "neutral": 7,
         "buy": 14,
-        "updated_on": "2025-01-17 10:35:23"
+        "updated_on": "2025-01-18 10:34:51"
       },
       "oscillator": {
         "sell": 4,
         "neutral": 6,
         "buy": 1,
-        "updated_on": "2025-01-17 10:35:23",
+        "updated_on": "2025-01-18 10:34:51",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -27397,7 +27397,7 @@
         "sell": 1,
         "neutral": 1,
         "buy": 13,
-        "updated_on": "2025-01-17 10:35:23",
+        "updated_on": "2025-01-18 10:34:51",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -27485,13 +27485,13 @@
         "sell": 10,
         "neutral": 8,
         "buy": 8,
-        "updated_on": "2025-01-17 10:35:30"
+        "updated_on": "2025-01-18 10:34:59"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 7,
         "buy": 2,
-        "updated_on": "2025-01-17 10:35:30",
+        "updated_on": "2025-01-18 10:34:59",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -27554,7 +27554,7 @@
         "sell": 8,
         "neutral": 1,
         "buy": 6,
-        "updated_on": "2025-01-17 10:35:30",
+        "updated_on": "2025-01-18 10:34:59",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -27642,13 +27642,13 @@
         "sell": 3,
         "neutral": 9,
         "buy": 14,
-        "updated_on": "2025-01-17 10:35:38"
+        "updated_on": "2025-01-18 10:35:08"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 8,
         "buy": 2,
-        "updated_on": "2025-01-17 10:35:38",
+        "updated_on": "2025-01-18 10:35:08",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -27711,7 +27711,7 @@
         "sell": 2,
         "neutral": 1,
         "buy": 12,
-        "updated_on": "2025-01-17 10:35:38",
+        "updated_on": "2025-01-18 10:35:08",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -27799,13 +27799,13 @@
         "sell": 12,
         "neutral": 10,
         "buy": 4,
-        "updated_on": "2025-01-17 10:35:45"
+        "updated_on": "2025-01-18 10:35:16"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:35:45",
+        "updated_on": "2025-01-18 10:35:16",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -27868,7 +27868,7 @@
         "sell": 11,
         "neutral": 1,
         "buy": 3,
-        "updated_on": "2025-01-17 10:35:45",
+        "updated_on": "2025-01-18 10:35:16",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -27956,13 +27956,13 @@
         "sell": 15,
         "neutral": 10,
         "buy": 1,
-        "updated_on": "2025-01-17 10:35:52"
+        "updated_on": "2025-01-18 10:35:24"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:35:52",
+        "updated_on": "2025-01-18 10:35:24",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -28025,7 +28025,7 @@
         "sell": 14,
         "neutral": 1,
         "buy": 0,
-        "updated_on": "2025-01-17 10:35:52",
+        "updated_on": "2025-01-18 10:35:24",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -28113,13 +28113,13 @@
         "sell": 14,
         "neutral": 10,
         "buy": 2,
-        "updated_on": "2025-01-17 10:36:00"
+        "updated_on": "2025-01-18 10:35:32"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 9,
         "buy": 2,
-        "updated_on": "2025-01-17 10:36:00",
+        "updated_on": "2025-01-18 10:35:32",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -28182,7 +28182,7 @@
         "sell": 14,
         "neutral": 1,
         "buy": 0,
-        "updated_on": "2025-01-17 10:36:00",
+        "updated_on": "2025-01-18 10:35:32",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -28270,13 +28270,13 @@
         "sell": 13,
         "neutral": 10,
         "buy": 3,
-        "updated_on": "2025-01-17 10:36:07"
+        "updated_on": "2025-01-18 10:35:40"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:36:07",
+        "updated_on": "2025-01-18 10:35:40",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -28339,7 +28339,7 @@
         "sell": 12,
         "neutral": 1,
         "buy": 2,
-        "updated_on": "2025-01-17 10:36:07",
+        "updated_on": "2025-01-18 10:35:40",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -28427,13 +28427,13 @@
         "sell": 14,
         "neutral": 9,
         "buy": 3,
-        "updated_on": "2025-01-17 10:36:15"
+        "updated_on": "2025-01-18 10:35:48"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 8,
         "buy": 2,
-        "updated_on": "2025-01-17 10:36:15",
+        "updated_on": "2025-01-18 10:35:48",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -28496,7 +28496,7 @@
         "sell": 13,
         "neutral": 1,
         "buy": 1,
-        "updated_on": "2025-01-17 10:36:15",
+        "updated_on": "2025-01-18 10:35:48",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -28584,13 +28584,13 @@
         "sell": 11,
         "neutral": 9,
         "buy": 6,
-        "updated_on": "2025-01-17 10:36:22"
+        "updated_on": "2025-01-18 10:35:57"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 8,
         "buy": 1,
-        "updated_on": "2025-01-17 10:36:22",
+        "updated_on": "2025-01-18 10:35:57",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -28653,7 +28653,7 @@
         "sell": 9,
         "neutral": 1,
         "buy": 5,
-        "updated_on": "2025-01-17 10:36:22",
+        "updated_on": "2025-01-18 10:35:57",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -28741,13 +28741,13 @@
         "sell": 15,
         "neutral": 9,
         "buy": 2,
-        "updated_on": "2025-01-17 10:36:30"
+        "updated_on": "2025-01-18 10:36:04"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 8,
         "buy": 2,
-        "updated_on": "2025-01-17 10:36:30",
+        "updated_on": "2025-01-18 10:36:04",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -28810,7 +28810,7 @@
         "sell": 14,
         "neutral": 1,
         "buy": 0,
-        "updated_on": "2025-01-17 10:36:30",
+        "updated_on": "2025-01-18 10:36:04",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -28898,13 +28898,13 @@
         "sell": 15,
         "neutral": 10,
         "buy": 1,
-        "updated_on": "2025-01-17 10:36:37"
+        "updated_on": "2025-01-18 10:36:12"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:36:37",
+        "updated_on": "2025-01-18 10:36:12",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -28967,7 +28967,7 @@
         "sell": 14,
         "neutral": 1,
         "buy": 0,
-        "updated_on": "2025-01-17 10:36:37",
+        "updated_on": "2025-01-18 10:36:12",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -29055,13 +29055,13 @@
         "sell": 6,
         "neutral": 10,
         "buy": 10,
-        "updated_on": "2025-01-17 10:36:45"
+        "updated_on": "2025-01-18 10:36:20"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 9,
         "buy": 2,
-        "updated_on": "2025-01-17 10:36:45",
+        "updated_on": "2025-01-18 10:36:20",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -29124,7 +29124,7 @@
         "sell": 6,
         "neutral": 1,
         "buy": 8,
-        "updated_on": "2025-01-17 10:36:45",
+        "updated_on": "2025-01-18 10:36:20",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -29212,13 +29212,13 @@
         "sell": 9,
         "neutral": 14,
         "buy": 1,
-        "updated_on": "2025-01-17 10:36:53"
+        "updated_on": "2025-01-18 10:36:28"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 8,
         "buy": 1,
-        "updated_on": "2025-01-17 10:36:53",
+        "updated_on": "2025-01-18 10:36:28",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -29281,7 +29281,7 @@
         "sell": 9,
         "neutral": 6,
         "buy": 0,
-        "updated_on": "2025-01-17 10:36:53",
+        "updated_on": "2025-01-18 10:36:28",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -29369,13 +29369,13 @@
         "sell": 11,
         "neutral": 9,
         "buy": 6,
-        "updated_on": "2025-01-17 10:37:00"
+        "updated_on": "2025-01-18 10:36:36"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 8,
         "buy": 1,
-        "updated_on": "2025-01-17 10:37:00",
+        "updated_on": "2025-01-18 10:36:36",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -29438,7 +29438,7 @@
         "sell": 9,
         "neutral": 1,
         "buy": 5,
-        "updated_on": "2025-01-17 10:37:00",
+        "updated_on": "2025-01-18 10:36:36",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -29526,13 +29526,13 @@
         "sell": 9,
         "neutral": 14,
         "buy": 1,
-        "updated_on": "2025-01-17 10:37:08"
+        "updated_on": "2025-01-18 10:36:44"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 8,
         "buy": 1,
-        "updated_on": "2025-01-17 10:37:08",
+        "updated_on": "2025-01-18 10:36:44",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -29595,7 +29595,7 @@
         "sell": 9,
         "neutral": 6,
         "buy": 0,
-        "updated_on": "2025-01-17 10:37:08",
+        "updated_on": "2025-01-18 10:36:44",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -29683,13 +29683,13 @@
         "sell": 16,
         "neutral": 10,
         "buy": 0,
-        "updated_on": "2025-01-17 10:37:16"
+        "updated_on": "2025-01-18 10:36:52"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 9,
         "buy": 0,
-        "updated_on": "2025-01-17 10:37:16",
+        "updated_on": "2025-01-18 10:36:52",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -29752,7 +29752,7 @@
         "sell": 14,
         "neutral": 1,
         "buy": 0,
-        "updated_on": "2025-01-17 10:37:16",
+        "updated_on": "2025-01-18 10:36:52",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -29840,13 +29840,13 @@
         "sell": 16,
         "neutral": 10,
         "buy": 0,
-        "updated_on": "2025-01-17 10:37:23"
+        "updated_on": "2025-01-18 10:37:00"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 9,
         "buy": 0,
-        "updated_on": "2025-01-17 10:37:23",
+        "updated_on": "2025-01-18 10:37:00",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -29909,7 +29909,7 @@
         "sell": 14,
         "neutral": 1,
         "buy": 0,
-        "updated_on": "2025-01-17 10:37:23",
+        "updated_on": "2025-01-18 10:37:00",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -29997,13 +29997,13 @@
         "sell": 0,
         "neutral": 9,
         "buy": 17,
-        "updated_on": "2025-01-17 10:37:30"
+        "updated_on": "2025-01-18 10:37:08"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 8,
         "buy": 3,
-        "updated_on": "2025-01-17 10:37:30",
+        "updated_on": "2025-01-18 10:37:08",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -30066,7 +30066,7 @@
         "sell": 0,
         "neutral": 1,
         "buy": 14,
-        "updated_on": "2025-01-17 10:37:30",
+        "updated_on": "2025-01-18 10:37:08",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -30154,13 +30154,13 @@
         "sell": 12,
         "neutral": 10,
         "buy": 2,
-        "updated_on": "2025-01-17 10:37:38"
+        "updated_on": "2025-01-18 10:37:15"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 7,
         "buy": 2,
-        "updated_on": "2025-01-17 10:37:38",
+        "updated_on": "2025-01-18 10:37:15",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -30223,7 +30223,7 @@
         "sell": 12,
         "neutral": 3,
         "buy": 0,
-        "updated_on": "2025-01-17 10:37:38",
+        "updated_on": "2025-01-18 10:37:15",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -30311,13 +30311,13 @@
         "sell": 9,
         "neutral": 10,
         "buy": 7,
-        "updated_on": "2025-01-17 10:37:45"
+        "updated_on": "2025-01-18 10:37:22"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 9,
         "buy": 2,
-        "updated_on": "2025-01-17 10:37:45",
+        "updated_on": "2025-01-18 10:37:22",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -30380,7 +30380,7 @@
         "sell": 9,
         "neutral": 1,
         "buy": 5,
-        "updated_on": "2025-01-17 10:37:45",
+        "updated_on": "2025-01-18 10:37:22",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -30468,13 +30468,13 @@
         "sell": 13,
         "neutral": 9,
         "buy": 4,
-        "updated_on": "2025-01-17 10:37:52"
+        "updated_on": "2025-01-18 10:37:29"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 8,
         "buy": 1,
-        "updated_on": "2025-01-17 10:37:52",
+        "updated_on": "2025-01-18 10:37:29",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -30537,7 +30537,7 @@
         "sell": 11,
         "neutral": 1,
         "buy": 3,
-        "updated_on": "2025-01-17 10:37:52",
+        "updated_on": "2025-01-18 10:37:29",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -30625,13 +30625,13 @@
         "sell": 15,
         "neutral": 9,
         "buy": 2,
-        "updated_on": "2025-01-17 10:37:59"
+        "updated_on": "2025-01-18 10:37:36"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 8,
         "buy": 2,
-        "updated_on": "2025-01-17 10:37:59",
+        "updated_on": "2025-01-18 10:37:36",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -30694,7 +30694,7 @@
         "sell": 14,
         "neutral": 1,
         "buy": 0,
-        "updated_on": "2025-01-17 10:37:59",
+        "updated_on": "2025-01-18 10:37:36",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -30782,13 +30782,13 @@
         "sell": 3,
         "neutral": 10,
         "buy": 13,
-        "updated_on": "2025-01-17 10:38:06"
+        "updated_on": "2025-01-18 10:37:43"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 9,
         "buy": 2,
-        "updated_on": "2025-01-17 10:38:06",
+        "updated_on": "2025-01-18 10:37:43",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -30851,7 +30851,7 @@
         "sell": 3,
         "neutral": 1,
         "buy": 11,
-        "updated_on": "2025-01-17 10:38:06",
+        "updated_on": "2025-01-18 10:37:43",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -30939,13 +30939,13 @@
         "sell": 13,
         "neutral": 9,
         "buy": 4,
-        "updated_on": "2025-01-17 10:38:13"
+        "updated_on": "2025-01-18 10:37:50"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 8,
         "buy": 3,
-        "updated_on": "2025-01-17 10:38:13",
+        "updated_on": "2025-01-18 10:37:50",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -31008,7 +31008,7 @@
         "sell": 13,
         "neutral": 1,
         "buy": 1,
-        "updated_on": "2025-01-17 10:38:13",
+        "updated_on": "2025-01-18 10:37:50",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -31096,13 +31096,13 @@
         "sell": 9,
         "neutral": 10,
         "buy": 7,
-        "updated_on": "2025-01-17 10:38:20"
+        "updated_on": "2025-01-18 10:37:57"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:38:20",
+        "updated_on": "2025-01-18 10:37:57",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -31165,7 +31165,7 @@
         "sell": 8,
         "neutral": 1,
         "buy": 6,
-        "updated_on": "2025-01-17 10:38:20",
+        "updated_on": "2025-01-18 10:37:57",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -31253,13 +31253,13 @@
         "sell": 4,
         "neutral": 10,
         "buy": 12,
-        "updated_on": "2025-01-17 10:38:28"
+        "updated_on": "2025-01-18 10:38:14"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 9,
         "buy": 2,
-        "updated_on": "2025-01-17 10:38:28",
+        "updated_on": "2025-01-18 10:38:14",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -31322,7 +31322,7 @@
         "sell": 4,
         "neutral": 1,
         "buy": 10,
-        "updated_on": "2025-01-17 10:38:28",
+        "updated_on": "2025-01-18 10:38:14",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -31410,13 +31410,13 @@
         "sell": 14,
         "neutral": 9,
         "buy": 3,
-        "updated_on": "2025-01-17 10:38:35"
+        "updated_on": "2025-01-18 10:38:21"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 8,
         "buy": 2,
-        "updated_on": "2025-01-17 10:38:35",
+        "updated_on": "2025-01-18 10:38:21",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -31479,7 +31479,7 @@
         "sell": 13,
         "neutral": 1,
         "buy": 1,
-        "updated_on": "2025-01-17 10:38:35",
+        "updated_on": "2025-01-18 10:38:21",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -31571,13 +31571,13 @@
         "sell": 8,
         "neutral": 8,
         "buy": 10,
-        "updated_on": "2025-01-17 10:39:03"
+        "updated_on": "2025-01-18 10:38:47"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 7,
         "buy": 3,
-        "updated_on": "2025-01-17 10:39:03",
+        "updated_on": "2025-01-18 10:38:47",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -31640,7 +31640,7 @@
         "sell": 7,
         "neutral": 1,
         "buy": 7,
-        "updated_on": "2025-01-17 10:39:03",
+        "updated_on": "2025-01-18 10:38:47",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -31728,13 +31728,13 @@
         "sell": 7,
         "neutral": 9,
         "buy": 10,
-        "updated_on": "2025-01-17 10:39:10"
+        "updated_on": "2025-01-18 10:38:55"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 8,
         "buy": 3,
-        "updated_on": "2025-01-17 10:39:10",
+        "updated_on": "2025-01-18 10:38:55",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -31797,7 +31797,7 @@
         "sell": 7,
         "neutral": 1,
         "buy": 7,
-        "updated_on": "2025-01-17 10:39:10",
+        "updated_on": "2025-01-18 10:38:55",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -31885,13 +31885,13 @@
         "sell": 16,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:39:17"
+        "updated_on": "2025-01-18 10:39:02"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 8,
         "buy": 1,
-        "updated_on": "2025-01-17 10:39:17",
+        "updated_on": "2025-01-18 10:39:02",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -31954,7 +31954,7 @@
         "sell": 14,
         "neutral": 1,
         "buy": 0,
-        "updated_on": "2025-01-17 10:39:17",
+        "updated_on": "2025-01-18 10:39:02",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -32042,13 +32042,13 @@
         "sell": 15,
         "neutral": 8,
         "buy": 3,
-        "updated_on": "2025-01-17 10:39:24"
+        "updated_on": "2025-01-18 10:39:09"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 7,
         "buy": 2,
-        "updated_on": "2025-01-17 10:39:24",
+        "updated_on": "2025-01-18 10:39:09",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -32111,7 +32111,7 @@
         "sell": 13,
         "neutral": 1,
         "buy": 1,
-        "updated_on": "2025-01-17 10:39:24",
+        "updated_on": "2025-01-18 10:39:09",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -32199,13 +32199,13 @@
         "sell": 2,
         "neutral": 10,
         "buy": 14,
-        "updated_on": "2025-01-17 10:39:32"
+        "updated_on": "2025-01-18 10:39:17"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 9,
         "buy": 2,
-        "updated_on": "2025-01-17 10:39:32",
+        "updated_on": "2025-01-18 10:39:17",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -32268,7 +32268,7 @@
         "sell": 2,
         "neutral": 1,
         "buy": 12,
-        "updated_on": "2025-01-17 10:39:32",
+        "updated_on": "2025-01-18 10:39:17",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -32356,13 +32356,13 @@
         "sell": 14,
         "neutral": 8,
         "buy": 4,
-        "updated_on": "2025-01-17 10:39:40"
+        "updated_on": "2025-01-18 10:39:24"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 7,
         "buy": 2,
-        "updated_on": "2025-01-17 10:39:40",
+        "updated_on": "2025-01-18 10:39:24",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -32425,7 +32425,7 @@
         "sell": 12,
         "neutral": 1,
         "buy": 2,
-        "updated_on": "2025-01-17 10:39:40",
+        "updated_on": "2025-01-18 10:39:24",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -32513,13 +32513,13 @@
         "sell": 7,
         "neutral": 9,
         "buy": 10,
-        "updated_on": "2025-01-17 10:39:49"
+        "updated_on": "2025-01-18 10:39:32"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 8,
         "buy": 2,
-        "updated_on": "2025-01-17 10:39:49",
+        "updated_on": "2025-01-18 10:39:32",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -32582,7 +32582,7 @@
         "sell": 6,
         "neutral": 1,
         "buy": 8,
-        "updated_on": "2025-01-17 10:39:49",
+        "updated_on": "2025-01-18 10:39:32",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -32670,13 +32670,13 @@
         "sell": 14,
         "neutral": 10,
         "buy": 2,
-        "updated_on": "2025-01-17 10:39:57"
+        "updated_on": "2025-01-18 10:39:39"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:39:57",
+        "updated_on": "2025-01-18 10:39:39",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -32739,7 +32739,7 @@
         "sell": 13,
         "neutral": 1,
         "buy": 1,
-        "updated_on": "2025-01-17 10:39:57",
+        "updated_on": "2025-01-18 10:39:39",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -32827,13 +32827,13 @@
         "sell": 3,
         "neutral": 9,
         "buy": 14,
-        "updated_on": "2025-01-17 10:40:05"
+        "updated_on": "2025-01-18 10:39:46"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 8,
         "buy": 2,
-        "updated_on": "2025-01-17 10:40:05",
+        "updated_on": "2025-01-18 10:39:46",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -32896,7 +32896,7 @@
         "sell": 2,
         "neutral": 1,
         "buy": 12,
-        "updated_on": "2025-01-17 10:40:05",
+        "updated_on": "2025-01-18 10:39:46",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -32984,13 +32984,13 @@
         "sell": 0,
         "neutral": 10,
         "buy": 16,
-        "updated_on": "2025-01-17 10:40:13"
+        "updated_on": "2025-01-18 10:39:54"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 9,
         "buy": 2,
-        "updated_on": "2025-01-17 10:40:13",
+        "updated_on": "2025-01-18 10:39:54",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -33053,7 +33053,7 @@
         "sell": 0,
         "neutral": 1,
         "buy": 14,
-        "updated_on": "2025-01-17 10:40:13",
+        "updated_on": "2025-01-18 10:39:54",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -33141,13 +33141,13 @@
         "sell": 6,
         "neutral": 7,
         "buy": 13,
-        "updated_on": "2025-01-17 10:40:22"
+        "updated_on": "2025-01-18 10:40:01"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 6,
         "buy": 3,
-        "updated_on": "2025-01-17 10:40:22",
+        "updated_on": "2025-01-18 10:40:01",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -33210,7 +33210,7 @@
         "sell": 4,
         "neutral": 1,
         "buy": 10,
-        "updated_on": "2025-01-17 10:40:22",
+        "updated_on": "2025-01-18 10:40:01",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -33298,13 +33298,13 @@
         "sell": 3,
         "neutral": 7,
         "buy": 16,
-        "updated_on": "2025-01-17 10:40:30"
+        "updated_on": "2025-01-18 10:40:08"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 6,
         "buy": 3,
-        "updated_on": "2025-01-17 10:40:30",
+        "updated_on": "2025-01-18 10:40:08",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -33367,7 +33367,7 @@
         "sell": 1,
         "neutral": 1,
         "buy": 13,
-        "updated_on": "2025-01-17 10:40:30",
+        "updated_on": "2025-01-18 10:40:08",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -33455,13 +33455,13 @@
         "sell": 13,
         "neutral": 10,
         "buy": 3,
-        "updated_on": "2025-01-17 10:40:39"
+        "updated_on": "2025-01-18 10:40:15"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 9,
         "buy": 2,
-        "updated_on": "2025-01-17 10:40:39",
+        "updated_on": "2025-01-18 10:40:15",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -33524,7 +33524,7 @@
         "sell": 13,
         "neutral": 1,
         "buy": 1,
-        "updated_on": "2025-01-17 10:40:39",
+        "updated_on": "2025-01-18 10:40:15",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -33612,13 +33612,13 @@
         "sell": 3,
         "neutral": 10,
         "buy": 13,
-        "updated_on": "2025-01-17 10:40:48"
+        "updated_on": "2025-01-18 10:40:22"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 9,
         "buy": 2,
-        "updated_on": "2025-01-17 10:40:48",
+        "updated_on": "2025-01-18 10:40:22",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -33681,7 +33681,7 @@
         "sell": 3,
         "neutral": 1,
         "buy": 11,
-        "updated_on": "2025-01-17 10:40:48",
+        "updated_on": "2025-01-18 10:40:22",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -33769,13 +33769,13 @@
         "sell": 14,
         "neutral": 10,
         "buy": 2,
-        "updated_on": "2025-01-17 10:40:56"
+        "updated_on": "2025-01-18 10:40:40"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 9,
         "buy": 0,
-        "updated_on": "2025-01-17 10:40:56",
+        "updated_on": "2025-01-18 10:40:40",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -33838,7 +33838,7 @@
         "sell": 12,
         "neutral": 1,
         "buy": 2,
-        "updated_on": "2025-01-17 10:40:56",
+        "updated_on": "2025-01-18 10:40:40",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -33926,13 +33926,13 @@
         "sell": 14,
         "neutral": 8,
         "buy": 4,
-        "updated_on": "2025-01-17 10:41:04"
+        "updated_on": "2025-01-18 10:40:48"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 7,
         "buy": 3,
-        "updated_on": "2025-01-17 10:41:04",
+        "updated_on": "2025-01-18 10:40:48",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -33995,7 +33995,7 @@
         "sell": 13,
         "neutral": 1,
         "buy": 1,
-        "updated_on": "2025-01-17 10:41:04",
+        "updated_on": "2025-01-18 10:40:48",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -34083,13 +34083,13 @@
         "sell": 1,
         "neutral": 8,
         "buy": 17,
-        "updated_on": "2025-01-17 10:41:12"
+        "updated_on": "2025-01-18 10:40:55"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 7,
         "buy": 3,
-        "updated_on": "2025-01-17 10:41:12",
+        "updated_on": "2025-01-18 10:40:55",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -34152,7 +34152,7 @@
         "sell": 0,
         "neutral": 1,
         "buy": 14,
-        "updated_on": "2025-01-17 10:41:12",
+        "updated_on": "2025-01-18 10:40:55",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -34240,13 +34240,13 @@
         "sell": 14,
         "neutral": 11,
         "buy": 1,
-        "updated_on": "2025-01-17 10:41:20"
+        "updated_on": "2025-01-18 10:41:03"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 10,
         "buy": 1,
-        "updated_on": "2025-01-17 10:41:20",
+        "updated_on": "2025-01-18 10:41:03",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -34309,7 +34309,7 @@
         "sell": 14,
         "neutral": 1,
         "buy": 0,
-        "updated_on": "2025-01-17 10:41:20",
+        "updated_on": "2025-01-18 10:41:03",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -34397,13 +34397,13 @@
         "sell": 11,
         "neutral": 10,
         "buy": 5,
-        "updated_on": "2025-01-17 10:41:29"
+        "updated_on": "2025-01-18 10:41:10"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 9,
         "buy": 0,
-        "updated_on": "2025-01-17 10:41:29",
+        "updated_on": "2025-01-18 10:41:10",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -34466,7 +34466,7 @@
         "sell": 9,
         "neutral": 1,
         "buy": 5,
-        "updated_on": "2025-01-17 10:41:29",
+        "updated_on": "2025-01-18 10:41:10",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -34554,13 +34554,13 @@
         "sell": 5,
         "neutral": 9,
         "buy": 12,
-        "updated_on": "2025-01-17 10:41:37"
+        "updated_on": "2025-01-18 10:41:18"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 8,
         "buy": 3,
-        "updated_on": "2025-01-17 10:41:37",
+        "updated_on": "2025-01-18 10:41:18",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -34623,7 +34623,7 @@
         "sell": 5,
         "neutral": 1,
         "buy": 9,
-        "updated_on": "2025-01-17 10:41:37",
+        "updated_on": "2025-01-18 10:41:18",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -34711,13 +34711,13 @@
         "sell": 6,
         "neutral": 16,
         "buy": 2,
-        "updated_on": "2025-01-17 10:41:46"
+        "updated_on": "2025-01-18 10:41:26"
       },
       "oscillator": {
         "sell": 0,
         "neutral": 7,
         "buy": 2,
-        "updated_on": "2025-01-17 10:41:46",
+        "updated_on": "2025-01-18 10:41:26",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -34780,7 +34780,7 @@
         "sell": 6,
         "neutral": 9,
         "buy": 0,
-        "updated_on": "2025-01-17 10:41:46",
+        "updated_on": "2025-01-18 10:41:26",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -34868,13 +34868,13 @@
         "sell": 1,
         "neutral": 9,
         "buy": 16,
-        "updated_on": "2025-01-17 10:42:04"
+        "updated_on": "2025-01-18 10:41:33"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 8,
         "buy": 2,
-        "updated_on": "2025-01-17 10:42:04",
+        "updated_on": "2025-01-18 10:41:33",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -34937,7 +34937,7 @@
         "sell": 0,
         "neutral": 1,
         "buy": 14,
-        "updated_on": "2025-01-17 10:42:04",
+        "updated_on": "2025-01-18 10:41:33",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -35025,13 +35025,13 @@
         "sell": 8,
         "neutral": 9,
         "buy": 9,
-        "updated_on": "2025-01-17 10:42:13"
+        "updated_on": "2025-01-18 10:41:41"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 8,
         "buy": 2,
-        "updated_on": "2025-01-17 10:42:13",
+        "updated_on": "2025-01-18 10:41:41",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -35094,7 +35094,7 @@
         "sell": 7,
         "neutral": 1,
         "buy": 7,
-        "updated_on": "2025-01-17 10:42:13",
+        "updated_on": "2025-01-18 10:41:41",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -35182,13 +35182,13 @@
         "sell": 15,
         "neutral": 9,
         "buy": 2,
-        "updated_on": "2025-01-17 10:42:21"
+        "updated_on": "2025-01-18 10:41:49"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 8,
         "buy": 1,
-        "updated_on": "2025-01-17 10:42:21",
+        "updated_on": "2025-01-18 10:41:49",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -35251,7 +35251,7 @@
         "sell": 13,
         "neutral": 1,
         "buy": 1,
-        "updated_on": "2025-01-17 10:42:21",
+        "updated_on": "2025-01-18 10:41:49",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -35339,13 +35339,13 @@
         "sell": 11,
         "neutral": 9,
         "buy": 6,
-        "updated_on": "2025-01-17 10:42:30"
+        "updated_on": "2025-01-18 10:41:57"
       },
       "oscillator": {
         "sell": 3,
         "neutral": 8,
         "buy": 0,
-        "updated_on": "2025-01-17 10:42:30",
+        "updated_on": "2025-01-18 10:41:57",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -35408,7 +35408,7 @@
         "sell": 8,
         "neutral": 1,
         "buy": 6,
-        "updated_on": "2025-01-17 10:42:30",
+        "updated_on": "2025-01-18 10:41:57",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -35496,13 +35496,13 @@
         "sell": 7,
         "neutral": 11,
         "buy": 8,
-        "updated_on": "2025-01-17 10:42:38"
+        "updated_on": "2025-01-18 10:42:05"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 9,
         "buy": 0,
-        "updated_on": "2025-01-17 10:42:38",
+        "updated_on": "2025-01-18 10:42:05",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -35565,7 +35565,7 @@
         "sell": 5,
         "neutral": 2,
         "buy": 8,
-        "updated_on": "2025-01-17 10:42:38",
+        "updated_on": "2025-01-18 10:42:05",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -35653,13 +35653,13 @@
         "sell": 3,
         "neutral": 10,
         "buy": 13,
-        "updated_on": "2025-01-17 10:42:47"
+        "updated_on": "2025-01-18 10:42:13"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:42:47",
+        "updated_on": "2025-01-18 10:42:13",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -35722,7 +35722,7 @@
         "sell": 2,
         "neutral": 1,
         "buy": 12,
-        "updated_on": "2025-01-17 10:42:47",
+        "updated_on": "2025-01-18 10:42:13",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -35810,13 +35810,13 @@
         "sell": 3,
         "neutral": 10,
         "buy": 13,
-        "updated_on": "2025-01-17 10:42:55"
+        "updated_on": "2025-01-18 10:42:20"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:42:55",
+        "updated_on": "2025-01-18 10:42:20",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -35879,7 +35879,7 @@
         "sell": 2,
         "neutral": 1,
         "buy": 12,
-        "updated_on": "2025-01-17 10:42:55",
+        "updated_on": "2025-01-18 10:42:20",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -35967,13 +35967,13 @@
         "sell": 17,
         "neutral": 7,
         "buy": 2,
-        "updated_on": "2025-01-17 10:43:03"
+        "updated_on": "2025-01-18 10:42:27"
       },
       "oscillator": {
         "sell": 3,
         "neutral": 6,
         "buy": 2,
-        "updated_on": "2025-01-17 10:43:03",
+        "updated_on": "2025-01-18 10:42:27",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -36036,7 +36036,7 @@
         "sell": 14,
         "neutral": 1,
         "buy": 0,
-        "updated_on": "2025-01-17 10:43:03",
+        "updated_on": "2025-01-18 10:42:27",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -36124,13 +36124,13 @@
         "sell": 13,
         "neutral": 10,
         "buy": 3,
-        "updated_on": "2025-01-17 10:43:11"
+        "updated_on": "2025-01-18 10:42:33"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 9,
         "buy": 0,
-        "updated_on": "2025-01-17 10:43:11",
+        "updated_on": "2025-01-18 10:42:33",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -36193,7 +36193,7 @@
         "sell": 11,
         "neutral": 1,
         "buy": 3,
-        "updated_on": "2025-01-17 10:43:11",
+        "updated_on": "2025-01-18 10:42:33",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -36281,13 +36281,13 @@
         "sell": 1,
         "neutral": 10,
         "buy": 15,
-        "updated_on": "2025-01-17 10:43:20"
+        "updated_on": "2025-01-18 10:42:40"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:43:20",
+        "updated_on": "2025-01-18 10:42:40",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -36350,7 +36350,7 @@
         "sell": 0,
         "neutral": 1,
         "buy": 14,
-        "updated_on": "2025-01-17 10:43:20",
+        "updated_on": "2025-01-18 10:42:40",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -36438,13 +36438,13 @@
         "sell": 9,
         "neutral": 10,
         "buy": 7,
-        "updated_on": "2025-01-17 10:43:27"
+        "updated_on": "2025-01-18 10:42:47"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:43:27",
+        "updated_on": "2025-01-18 10:42:47",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -36507,7 +36507,7 @@
         "sell": 8,
         "neutral": 1,
         "buy": 6,
-        "updated_on": "2025-01-17 10:43:27",
+        "updated_on": "2025-01-18 10:42:47",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -36595,13 +36595,13 @@
         "sell": 6,
         "neutral": 6,
         "buy": 14,
-        "updated_on": "2025-01-17 10:43:34"
+        "updated_on": "2025-01-18 10:42:54"
       },
       "oscillator": {
         "sell": 5,
         "neutral": 5,
         "buy": 1,
-        "updated_on": "2025-01-17 10:43:34",
+        "updated_on": "2025-01-18 10:42:54",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -36664,7 +36664,7 @@
         "sell": 1,
         "neutral": 1,
         "buy": 13,
-        "updated_on": "2025-01-17 10:43:34",
+        "updated_on": "2025-01-18 10:42:54",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -36752,13 +36752,13 @@
         "sell": 16,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:43:41"
+        "updated_on": "2025-01-18 10:43:01"
       },
       "oscillator": {
         "sell": 2,
         "neutral": 8,
         "buy": 1,
-        "updated_on": "2025-01-17 10:43:41",
+        "updated_on": "2025-01-18 10:43:01",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -36821,7 +36821,7 @@
         "sell": 14,
         "neutral": 1,
         "buy": 0,
-        "updated_on": "2025-01-17 10:43:41",
+        "updated_on": "2025-01-18 10:43:01",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
@@ -36909,13 +36909,13 @@
         "sell": 3,
         "neutral": 10,
         "buy": 13,
-        "updated_on": "2025-01-17 10:43:48"
+        "updated_on": "2025-01-18 10:43:08"
       },
       "oscillator": {
         "sell": 1,
         "neutral": 9,
         "buy": 1,
-        "updated_on": "2025-01-17 10:43:48",
+        "updated_on": "2025-01-18 10:43:08",
         "data": [
           {
             "name": "Relative Strength Index (14)",
@@ -36978,7 +36978,7 @@
         "sell": 2,
         "neutral": 1,
         "buy": 12,
-        "updated_on": "2025-01-17 10:43:48",
+        "updated_on": "2025-01-18 10:43:08",
         "data": [
           {
             "name": "Exponential Moving Average (10)",
