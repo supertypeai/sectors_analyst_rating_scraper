@@ -230,3 +230,5 @@
 2025-02-01 10:42:12,656 - INFO: 2025-02-01 the daily technical rating data has been scrapped. Execution time: 00:31:03
 2025-02-02 10:11:10,938 - INFO: The technical rating scraper program started
 2025-02-02 10:42:38,841 - INFO: 2025-02-02 the daily technical rating data has been scrapped. Execution time: 00:31:27
+2025-02-02 13:08:52,768 - INFO: The analyst rating scraper program started
+2025-02-02 13:35:03,999 - INFO: 2025-02-02 the analyst rating data has been scrapped. Execution time: 00:26:11
