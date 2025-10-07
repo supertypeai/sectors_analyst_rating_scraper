@@ -5,3 +5,5 @@ python-dotenv==1.0.1
 requests_html==0.10.0
 supabase==2.5.1
 webdriver_manager==4.0.1
+lxml_html_clean
+playwright

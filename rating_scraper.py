@@ -1,4 +1,4 @@
-from urllib.request import urlopen
+from playwright.sync_api import sync_playwright, Page
 from bs4 import BeautifulSoup
 from datetime import datetime
 from requests_html import HTMLSession
@@ -20,12 +20,15 @@ logging.getLogger('requests_html').setLevel(logging.WARNING)
 def get_url_page(symbol:str) -> str:
     return f"{BASE_URL}{symbol}"
 
-def scrape_technical_page(url: str, frequency : str = "daily") :
+def scrape_technical_page(page: Page, url: str, frequency : str = "daily") :
     # Frequency = ["daily", "weekly", "monthly"] | default = daily
     print(f"[TECHNICAL] = Opening page {url}")
     try:
-      session = HTMLSession()
-      response = session.get(url)
+      page.goto(url, timeout=60000) # Timeout 60s
+      print(f"[TECHNICAL] = Page for {url} is loaded")
+      
+      html_content = page.content()
+      soup = BeautifulSoup(html_content, "html.parser")
 
       # if (frequency == "weekly"):
       #   print(f"[TECHNICAL] = Getting weekly Data")
@@ -68,18 +71,12 @@ def scrape_technical_page(url: str, frequency : str = "daily") :
       #   response.html.render(sleep=2, timeout=10, script=script)
 
       # else : #case frequency == daily
-      print(f"[TECHNICAL] = Getting daily Data")
-      response.html.render(sleep=5, timeout=10)
-      
-      print(f"[TECHNICAL] = Session for {url} is opened")
 
-      soup = BeautifulSoup(response.html.html, "html.parser")
       if (soup is not None):
         technical_rating_dict = dict()
 
         # Getting into the data
         speedometer_containers = soup.findAll("div", {"class": "speedometerWrapper-kg4MJrFB"})
-
 
         # Get Summary data
         summary_dict = dict()
@@ -216,19 +213,17 @@ def scrape_technical_page(url: str, frequency : str = "daily") :
       print(f"[TECHNICAL][FAILED] =  scraping from URL: {url}")
       print(f"[TECHNCIAL][FAILED] = {e}")
       return None
-    finally:
-      session.close()
-      print(f"[TECHNICAL] = Session for {url} is closed")
     
-def scrape_forecast_page(url: str) :
+def scrape_forecast_page(page: Page, url: str) :
     print(f"[ANALYST] = Opening page {url}")
     try:
-      session = HTMLSession()
-      response = session.get(url)
-      response.html.render(sleep=5, timeout=10)
-      print(f"[ANALYST] = Session for {url} is opened")
+      page.goto(url, timeout=60000) # Timeout 60s
+      print(f"[ANALYST] = Page for {url} is loaded")
 
-      soup = BeautifulSoup(response.html.html, "html.parser")
+      # Store the HTML content
+      html_content = page.content()
+      soup = BeautifulSoup(html_content, "html.parser")
+
       if (soup is not None):
         analyst_rating_dict = dict()
 
@@ -260,106 +255,89 @@ def scrape_forecast_page(url: str) :
     except Exception as e:
       print(f"[ANALYST][FAILED] = Fail scraping from URL: {url}")
       print(f"[ANALYST][FAILED] = {e}")
-      return None
-    finally:
-      session.close()
-      print(f"[ANALYST] = Session for {url} is closed")
-    
+      return None    
 
 def save_to_json(file_path, data):
   with open(file_path, "w") as output_file:
     json.dump(data, output_file, indent=2)
 
-def scrape_technical_rating_data(symbol: str, frequency: str) -> dict:
+def scrape_technical_rating_data(page: Page, symbol: str, frequency: str) -> dict:
     url = get_url_page(symbol)
-    result_data = dict()
-    result_data['symbol'] = symbol
+    technical_url = f"{url}/technicals/"
+    
     technical_rating_dict = None
-
-    # Scrape technical page
-    technical_url = url+"/technicals/"
     attempt = 1
-    while (technical_rating_dict is None and attempt <= 3):
-      technical_rating_dict = scrape_technical_page(technical_url, frequency)
-
-      if (technical_rating_dict is None):
-        print(f"Failed to get technical rating data from {symbol} on attempt {attempt}. Retrying...")
+    while technical_rating_dict is None and attempt <= 3:
+      technical_rating_dict = scrape_technical_page(page, technical_url, frequency)
+      if technical_rating_dict is None:
+        print(f"Failed to get technical rating data for {symbol} on attempt {attempt}. Retrying...")
       attempt += 1
+      
+    return {'symbol': symbol, 'technical_rating': technical_rating_dict}
 
-    # Wrap up
-    result_data['technical_rating'] = technical_rating_dict
-
-    return result_data
-
-def scrape_analyst_rating_data(symbol: str) -> dict:
+def scrape_analyst_rating_data(page: Page, symbol: str) -> dict:
     url = get_url_page(symbol)
-    result_data = dict()
-    result_data['symbol'] = symbol
-    analyst_rating_dict = None
-
-    # Scrape forecast page
-    forecast_url = url+"/forecast/"
-    analyst_rating_dict = scrape_forecast_page(forecast_url)
-
-    # Wrap up
-    result_data['analyst_rating'] = analyst_rating_dict
-
-    return result_data
-
-
+    forecast_url = f"{url}/forecast/"
+    
+    analyst_rating_dict = scrape_forecast_page(page, forecast_url)
+      
+    return {'symbol': symbol, 'analyst_rating': analyst_rating_dict}
 
 def scrape_technical_function(symbol_list, process_idx, frequency):
   print(f"==> Start scraping from process P{process_idx}")
   all_data = []
+  # Playwright
+  with sync_playwright() as p:
+    # Launch browser (only once at the beginning)
+    browser = p.chromium.launch(headless=True) # headless=False to see the browser action
+    page = browser.new_page()
+
+    try:
+      # Iterate in symbol list
+      for i, symbol in enumerate(symbol_list):
+        scrapped_data = scrape_technical_rating_data(page, symbol, frequency)
+        all_data.append(scrapped_data)
+
+        if (i > 0 and i % 10 == 0):
+          print(f"CHECKPOINT || P{process_idx} {i} Data")
+    
+    finally:
+      browser.close()
+      print(f"==> Browser for P{process_idx} closed.")
+
   cwd = os.getcwd()
-  start_idx = 0
-  count = 0
-
-  # Iterate in symbol list
-  for i in range(start_idx, len(symbol_list)):
-    symbol = symbol_list[i]
-    scrapped_data = scrape_technical_rating_data(symbol, frequency)
-    all_data.append(scrapped_data)
-
-    if (i % 10 == 0 and count != 0):
-      print(f"CHECKPOINT || P{process_idx} {i} Data")
-    count += 1
-
-  # Save last
   filename = f"P{process_idx}_technical_data_{frequency}.json"
   print(f"==> Finished data is exported in {filename}")
   file_path = os.path.join(cwd, "data", filename)
   save_to_json(file_path, all_data)
-
   return all_data
-
-
-
-
 
 def scrape_analyst_function(symbol_list, process_idx):
   print(f"==> Start scraping from process P{process_idx}")
   all_data = []
+  # Playwright
+  with sync_playwright() as p:
+    browser = p.chromium.launch(headless=True) # headless=False to see the browser action
+    page = browser.new_page()
+
+    try:
+      # Iterate in symbol list
+      for i, symbol in enumerate(symbol_list):
+        scrapped_data = scrape_analyst_rating_data(page, symbol)
+        all_data.append(scrapped_data)
+
+        if (i > 0 and i % 10 == 0):
+          print(f"CHECKPOINT || P{process_idx} {i} Data")
+    
+    finally:
+      browser.close()
+      print(f"==> Browser for P{process_idx} closed.")
+  
   cwd = os.getcwd()
-  start_idx = 0
-  count = 0
-
-  # Iterate in symbol list
-  for i in range(start_idx, len(symbol_list)):
-    symbol = symbol_list[i]
-    scrapped_data = scrape_analyst_rating_data(symbol)
-    all_data.append(scrapped_data)
-
-    if (i % 10 == 0 and count != 0):
-      print(f"CHECKPOINT || P{process_idx} {i} Data")
-    count += 1
-
-  # Save last
   filename = f"P{process_idx}_analyst_data.json"
   print(f"==> Finished data is exported in {filename}")
   file_path = os.path.join(cwd, "data", filename)
   save_to_json(file_path, all_data)
-
   return all_data
 
 
