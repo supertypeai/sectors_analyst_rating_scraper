@@ -1,6 +1,6 @@
 [
   {
-    "symbol": "SHID",
+    "symbol": "TPMA",
     "analyst_rating": null
   },
   {
@@ -8,15 +8,7 @@
     "analyst_rating": null
   },
   {
-    "symbol": "GDYR",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "COAL",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SMMT",
+    "symbol": "ALDO",
     "analyst_rating": null
   },
   {
@@ -24,347 +16,23 @@
     "analyst_rating": null
   },
   {
-    "symbol": "LRNA",
+    "symbol": "FPNI",
     "analyst_rating": null
   },
   {
-    "symbol": "WIRG",
+    "symbol": "HRTA",
     "analyst_rating": null
   },
   {
-    "symbol": "BBLD",
+    "symbol": "IOTF",
     "analyst_rating": null
   },
   {
-    "symbol": "GMTD",
+    "symbol": "LPIN",
     "analyst_rating": null
   },
   {
-    "symbol": "CAKK",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "EXCL",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TINS",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "MBSS",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "AGRS",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "AMAN",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "FWCT",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "WTON",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "AHAP",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "ARGO",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BUDI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BAPI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SNLK",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "MDLN",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "CGAS",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SFAN",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "AMOR",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BOLA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "COCO",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SMGR",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "CLEO",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "WIKA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BTEK",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BSML",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "ASJT",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "ASSA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "DMMX",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "VINS",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BUVA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "RBMS",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BIKE",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BDKR",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "DAAZ",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "AMAG",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BINO",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SMKL",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BALI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "RAJA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "RSGK",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "WICO",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BGTG",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "ADMF",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "AGII",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "CAMP",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "WSBP",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BIRD",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "PTPS",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "ANTM",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "AKKU",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BDMN",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "AREA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "MAHA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TSPC",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "ISEA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SQMI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "DADA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BLTZ",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TRON",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BISI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "PTBA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "FIMP",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "OCAP",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "EPAC",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "WIDI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "ANJT",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "PNLF",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "PURA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "ADMR",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "VTNY",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "ARII",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "FUJI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "NFCX",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BNBA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "APLN",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "HELI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "UNIC",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BOBA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "ADHI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "VERN",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "ICON",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TRIN",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "ARTI",
+    "symbol": "ASLC",
     "analyst_rating": null
   },
   {
@@ -376,11 +44,327 @@
     "analyst_rating": null
   },
   {
-    "symbol": "HBAT",
+    "symbol": "MCOL",
     "analyst_rating": null
   },
   {
-    "symbol": "SSTM",
+    "symbol": "AMAN",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "MLPT",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "MTDL",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "AHAP",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "ARGO",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "MTSM",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "WTON",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "WSBP",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TIRT",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "STTP",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TOOL",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "AMOR",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SNLK",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SLIS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TRIN",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TRJA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TRUE",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "ASJT",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "BATA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TRUS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "ASSA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "UCID",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SAPX",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "RUNS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "RBMS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PYFA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "UNSP",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "URBN",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "AMAG",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PTIS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "VAST",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "BBLD",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "BALI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "VICO",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "VOKS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "BDKR",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "VTNY",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "POWR",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "WICO",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "WIFI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "WINS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PKPK",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "ANTM",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "AKKU",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "WOOD",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "ZATA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "NZIA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TFCO",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TECH",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TCPI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TGUK",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TIRA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "ADMF",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "AGII",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "BGTG",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "AGRS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "AREA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "BFIN",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "BIKE",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "ASBI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "AYLS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "ANJT",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "BINO",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "BAIK",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "BAJA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "ADMR",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "BIRD",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "BAPA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "ARII",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "BAPI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "APLN",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "BAYU",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "BBRI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "BDMN",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "ADHI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "BIKA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "BJBR",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "CAMP",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "ARTI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "BISI",
     "analyst_rating": null
   },
   {
@@ -388,15 +372,27 @@
     "analyst_rating": null
   },
   {
-    "symbol": "HITS",
+    "symbol": "DEWI",
     "analyst_rating": null
   },
   {
-    "symbol": "MCOL",
+    "symbol": "DPUM",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "DVLA",
     "analyst_rating": null
   },
   {
     "symbol": "ABMM",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "BLTZ",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "ERTX",
     "analyst_rating": null
   },
   {
@@ -408,15 +404,11 @@
     "analyst_rating": null
   },
   {
-    "symbol": "MDIA",
+    "symbol": "ESTI",
     "analyst_rating": null
   },
   {
-    "symbol": "UVCR",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "LPCK",
+    "symbol": "BMSR",
     "analyst_rating": null
   },
   {
@@ -424,7 +416,7 @@
     "analyst_rating": null
   },
   {
-    "symbol": "AEGS",
+    "symbol": "HDFA",
     "analyst_rating": null
   },
   {
@@ -432,15 +424,11 @@
     "analyst_rating": null
   },
   {
-    "symbol": "MGNA",
+    "symbol": "AEGS",
     "analyst_rating": null
   },
   {
-    "symbol": "JSPT",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BPTR",
+    "symbol": "HITS",
     "analyst_rating": null
   },
   {
@@ -448,15 +436,11 @@
     "analyst_rating": null
   },
   {
-    "symbol": "HADE",
+    "symbol": "BNBA",
     "analyst_rating": null
   },
   {
-    "symbol": "ALDO",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BRPT",
+    "symbol": "HKMU",
     "analyst_rating": null
   },
   {
@@ -464,11 +448,15 @@
     "analyst_rating": null
   },
   {
-    "symbol": "BBMD",
+    "symbol": "HMSP",
     "analyst_rating": null
   },
   {
-    "symbol": "KING",
+    "symbol": "HOPE",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "ICBP",
     "analyst_rating": null
   },
   {
@@ -476,23 +464,27 @@
     "analyst_rating": null
   },
   {
+    "symbol": "BBMD",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "IDEA",
+    "analyst_rating": null
+  },
+  {
     "symbol": "ATIC",
     "analyst_rating": null
   },
   {
-    "symbol": "KLIN",
+    "symbol": "IGAR",
     "analyst_rating": null
   },
   {
-    "symbol": "MTRA",
+    "symbol": "IIKP",
     "analyst_rating": null
   },
   {
-    "symbol": "BFIN",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "KREN",
+    "symbol": "IKAN",
     "analyst_rating": null
   },
   {
@@ -500,15 +492,11 @@
     "analyst_rating": null
   },
   {
-    "symbol": "NICL",
+    "symbol": "BNGA",
     "analyst_rating": null
   },
   {
-    "symbol": "HRTA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SAPX",
+    "symbol": "IMAS",
     "analyst_rating": null
   },
   {
@@ -516,11 +504,11 @@
     "analyst_rating": null
   },
   {
-    "symbol": "PPRI",
+    "symbol": "BOBA",
     "analyst_rating": null
   },
   {
-    "symbol": "TFCO",
+    "symbol": "INCI",
     "analyst_rating": null
   },
   {
@@ -528,23 +516,27 @@
     "analyst_rating": null
   },
   {
-    "symbol": "MAPA",
+    "symbol": "BOLA",
     "analyst_rating": null
   },
   {
-    "symbol": "BUKA",
+    "symbol": "INCO",
     "analyst_rating": null
   },
   {
-    "symbol": "OBMD",
+    "symbol": "BPFI",
     "analyst_rating": null
   },
   {
-    "symbol": "BSWD",
+    "symbol": "INET",
     "analyst_rating": null
   },
   {
-    "symbol": "MICE",
+    "symbol": "INPP",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "ISEA",
     "analyst_rating": null
   },
   {
@@ -552,23 +544,27 @@
     "analyst_rating": null
   },
   {
-    "symbol": "BAJA",
+    "symbol": "ISSP",
     "analyst_rating": null
   },
   {
-    "symbol": "BBRI",
+    "symbol": "ITIC",
     "analyst_rating": null
   },
   {
-    "symbol": "BVIC",
+    "symbol": "JATI",
     "analyst_rating": null
   },
   {
-    "symbol": "MLBI",
+    "symbol": "BPTR",
     "analyst_rating": null
   },
   {
-    "symbol": "WOMF",
+    "symbol": "BRPT",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "JAYA",
     "analyst_rating": null
   },
   {
@@ -580,11 +576,7 @@
     "analyst_rating": null
   },
   {
-    "symbol": "LIFE",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "MYOH",
+    "symbol": "JMAS",
     "analyst_rating": null
   },
   {
@@ -592,15 +584,15 @@
     "analyst_rating": null
   },
   {
-    "symbol": "BWPT",
+    "symbol": "JSPT",
     "analyst_rating": null
   },
   {
-    "symbol": "ASLC",
+    "symbol": "KBLI",
     "analyst_rating": null
   },
   {
-    "symbol": "MEDC",
+    "symbol": "KBLM",
     "analyst_rating": null
   },
   {
@@ -608,19 +600,15 @@
     "analyst_rating": null
   },
   {
-    "symbol": "SWID",
+    "symbol": "KDTN",
     "analyst_rating": null
   },
   {
-    "symbol": "AYLS",
+    "symbol": "KETR",
     "analyst_rating": null
   },
   {
-    "symbol": "MDKA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BAYU",
+    "symbol": "KING",
     "analyst_rating": null
   },
   {
@@ -628,19 +616,27 @@
     "analyst_rating": null
   },
   {
-    "symbol": "NCKL",
+    "symbol": "KONI",
     "analyst_rating": null
   },
   {
-    "symbol": "RMKO",
+    "symbol": "KOTA",
     "analyst_rating": null
   },
   {
-    "symbol": "PADA",
+    "symbol": "KRAS",
     "analyst_rating": null
   },
   {
-    "symbol": "UNTR",
+    "symbol": "BSML",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "BSWD",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "KREN",
     "analyst_rating": null
   },
   {
@@ -648,35 +644,27 @@
     "analyst_rating": null
   },
   {
-    "symbol": "GMFI",
+    "symbol": "KRYA",
     "analyst_rating": null
   },
   {
-    "symbol": "PART",
+    "symbol": "KUAS",
     "analyst_rating": null
   },
   {
-    "symbol": "BMSR",
+    "symbol": "LAPD",
     "analyst_rating": null
   },
   {
-    "symbol": "MLPT",
+    "symbol": "BTEK",
     "analyst_rating": null
   },
   {
-    "symbol": "TDPM",
+    "symbol": "BUDI",
     "analyst_rating": null
   },
   {
-    "symbol": "PEHA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "PIPA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SAME",
+    "symbol": "LIFE",
     "analyst_rating": null
   },
   {
@@ -684,11 +672,15 @@
     "analyst_rating": null
   },
   {
-    "symbol": "KRYA",
+    "symbol": "LUCY",
     "analyst_rating": null
   },
   {
-    "symbol": "TOTO",
+    "symbol": "MAGP",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "MAPA",
     "analyst_rating": null
   },
   {
@@ -696,11 +688,15 @@
     "analyst_rating": null
   },
   {
-    "symbol": "BPFI",
+    "symbol": "MAPB",
     "analyst_rating": null
   },
   {
-    "symbol": "POLY",
+    "symbol": "MAXI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "MDLN",
     "analyst_rating": null
   },
   {
@@ -708,35 +704,27 @@
     "analyst_rating": null
   },
   {
-    "symbol": "CPIN",
+    "symbol": "MEDC",
     "analyst_rating": null
   },
   {
-    "symbol": "BIKA",
+    "symbol": "MENN",
     "analyst_rating": null
   },
   {
-    "symbol": "PRAY",
+    "symbol": "MICE",
     "analyst_rating": null
   },
   {
-    "symbol": "CUAN",
+    "symbol": "BUKA",
     "analyst_rating": null
   },
   {
-    "symbol": "PTPP",
+    "symbol": "BUVA",
     "analyst_rating": null
   },
   {
-    "symbol": "TRIM",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "ZATA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "RANC",
+    "symbol": "MIKA",
     "analyst_rating": null
   },
   {
@@ -744,15 +732,19 @@
     "analyst_rating": null
   },
   {
-    "symbol": "RSCH",
+    "symbol": "BVIC",
     "analyst_rating": null
   },
   {
-    "symbol": "TGUK",
+    "symbol": "MKNT",
     "analyst_rating": null
   },
   {
-    "symbol": "BAIK",
+    "symbol": "BWPT",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "CAKK",
     "analyst_rating": null
   },
   {
@@ -760,11 +752,15 @@
     "analyst_rating": null
   },
   {
-    "symbol": "SCMA",
+    "symbol": "MMLP",
     "analyst_rating": null
   },
   {
-    "symbol": "DATA",
+    "symbol": "MORA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "MPIX",
     "analyst_rating": null
   },
   {
@@ -772,19 +768,19 @@
     "analyst_rating": null
   },
   {
-    "symbol": "BJBR",
+    "symbol": "MPPA",
     "analyst_rating": null
   },
   {
-    "symbol": "DEAL",
+    "symbol": "MPXL",
     "analyst_rating": null
   },
   {
-    "symbol": "SCPI",
+    "symbol": "MSIE",
     "analyst_rating": null
   },
   {
-    "symbol": "SDPC",
+    "symbol": "CGAS",
     "analyst_rating": null
   },
   {
@@ -792,11 +788,11 @@
     "analyst_rating": null
   },
   {
-    "symbol": "IDEA",
+    "symbol": "MTLA",
     "analyst_rating": null
   },
   {
-    "symbol": "DLTA",
+    "symbol": "CLEO",
     "analyst_rating": null
   },
   {
@@ -804,15 +800,7 @@
     "analyst_rating": null
   },
   {
-    "symbol": "INET",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SINI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "DPNS",
+    "symbol": "MYOH",
     "analyst_rating": null
   },
   {
@@ -820,7 +808,15 @@
     "analyst_rating": null
   },
   {
-    "symbol": "PURI",
+    "symbol": "MYOR",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "NAIK",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "NICE",
     "analyst_rating": null
   },
   {
@@ -828,15 +824,11 @@
     "analyst_rating": null
   },
   {
-    "symbol": "TRUS",
+    "symbol": "COAL",
     "analyst_rating": null
   },
   {
-    "symbol": "CSRA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SOLA",
+    "symbol": "PADA",
     "analyst_rating": null
   },
   {
@@ -844,7 +836,11 @@
     "analyst_rating": null
   },
   {
-    "symbol": "UANG",
+    "symbol": "COCO",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PADI",
     "analyst_rating": null
   },
   {
@@ -856,47 +852,39 @@
     "analyst_rating": null
   },
   {
-    "symbol": "SMBR",
+    "symbol": "CPIN",
     "analyst_rating": null
   },
   {
-    "symbol": "SOUL",
+    "symbol": "CPRI",
     "analyst_rating": null
   },
   {
-    "symbol": "VOKS",
+    "symbol": "PANS",
     "analyst_rating": null
   },
   {
-    "symbol": "DEWI",
+    "symbol": "PART",
     "analyst_rating": null
   },
   {
-    "symbol": "DUCK",
+    "symbol": "PDES",
     "analyst_rating": null
   },
   {
-    "symbol": "SSIA",
+    "symbol": "CSRA",
     "analyst_rating": null
   },
   {
-    "symbol": "ISSP",
+    "symbol": "PEHA",
     "analyst_rating": null
   },
   {
-    "symbol": "ECII",
+    "symbol": "PGJO",
     "analyst_rating": null
   },
   {
-    "symbol": "MPPA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "ELPI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "IGAR",
+    "symbol": "PIPA",
     "analyst_rating": null
   },
   {
@@ -904,11 +892,11 @@
     "analyst_rating": null
   },
   {
-    "symbol": "LUCY",
+    "symbol": "CTTH",
     "analyst_rating": null
   },
   {
-    "symbol": "IMAS",
+    "symbol": "PNBN",
     "analyst_rating": null
   },
   {
@@ -916,31 +904,27 @@
     "analyst_rating": null
   },
   {
-    "symbol": "SULI",
+    "symbol": "POLI",
     "analyst_rating": null
   },
   {
-    "symbol": "EMTK",
+    "symbol": "POLY",
     "analyst_rating": null
   },
   {
-    "symbol": "TAMU",
+    "symbol": "PORT",
     "analyst_rating": null
   },
   {
-    "symbol": "SICO",
+    "symbol": "CUAN",
     "analyst_rating": null
   },
   {
-    "symbol": "TBIG",
+    "symbol": "DAAZ",
     "analyst_rating": null
   },
   {
-    "symbol": "BATA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "ENVY",
+    "symbol": "POSA",
     "analyst_rating": null
   },
   {
@@ -948,15 +932,31 @@
     "analyst_rating": null
   },
   {
-    "symbol": "TELE",
+    "symbol": "PRAY",
     "analyst_rating": null
   },
   {
-    "symbol": "MKNT",
+    "symbol": "PTPP",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PUDP",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "DADA",
     "analyst_rating": null
   },
   {
     "symbol": "AALI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "REAL",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "BRIS",
     "analyst_rating": null
   }
 ]

@@ -1,61 +1,5 @@
 [
   {
-    "symbol": "OKAS",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "OLIV",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "OPMS",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "OMED",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "MBAP",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "PACK",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "PAMG",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "PALM",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "PANI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "PDES",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "PANR",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "PBID",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "PBRX",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "PBSA",
-    "analyst_rating": null
-  },
-  {
     "symbol": "PCAR",
     "analyst_rating": null
   },
@@ -68,15 +12,11 @@
     "analyst_rating": null
   },
   {
-    "symbol": "PEVE",
-    "analyst_rating": null
-  },
-  {
     "symbol": "PGAS",
     "analyst_rating": null
   },
   {
-    "symbol": "PJAA",
+    "symbol": "PEVE",
     "analyst_rating": null
   },
   {
@@ -84,7 +24,7 @@
     "analyst_rating": null
   },
   {
-    "symbol": "PMJS",
+    "symbol": "PGLI",
     "analyst_rating": null
   },
   {
@@ -96,15 +36,15 @@
     "analyst_rating": null
   },
   {
+    "symbol": "PJAA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PMJS",
+    "analyst_rating": null
+  },
+  {
     "symbol": "PLAN",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "PKPK",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "PLAS",
     "analyst_rating": null
   },
   {
@@ -112,19 +52,27 @@
     "analyst_rating": null
   },
   {
+    "symbol": "PNBS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PLAS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PNLF",
+    "analyst_rating": null
+  },
+  {
     "symbol": "PMMP",
     "analyst_rating": null
   },
   {
-    "symbol": "PNBN",
+    "symbol": "PNIN",
     "analyst_rating": null
   },
   {
     "symbol": "PNGO",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "PNIN",
     "analyst_rating": null
   },
   {
@@ -144,7 +92,7 @@
     "analyst_rating": null
   },
   {
-    "symbol": "PPRO",
+    "symbol": "PPRI",
     "analyst_rating": null
   },
   {
@@ -152,15 +100,11 @@
     "analyst_rating": null
   },
   {
+    "symbol": "PPRO",
+    "analyst_rating": null
+  },
+  {
     "symbol": "PPGL",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "POWR",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "PSAT",
     "analyst_rating": null
   },
   {
@@ -172,7 +116,15 @@
     "analyst_rating": null
   },
   {
+    "symbol": "PSAT",
+    "analyst_rating": null
+  },
+  {
     "symbol": "BUMI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PSKT",
     "analyst_rating": null
   },
   {
@@ -188,15 +140,15 @@
     "analyst_rating": null
   },
   {
-    "symbol": "PSKT",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "PSGO",
+    "symbol": "PTBA",
     "analyst_rating": null
   },
   {
     "symbol": "PSDN",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PSGO",
     "analyst_rating": null
   },
   {
@@ -220,15 +172,15 @@
     "analyst_rating": null
   },
   {
-    "symbol": "PTIS",
+    "symbol": "PTPW",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PTPS",
     "analyst_rating": null
   },
   {
     "symbol": "PTSP",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "PTPW",
     "analyst_rating": null
   },
   {
@@ -240,15 +192,19 @@
     "analyst_rating": null
   },
   {
-    "symbol": "PWON",
-    "analyst_rating": null
-  },
-  {
     "symbol": "PURE",
     "analyst_rating": null
   },
   {
-    "symbol": "RAAM",
+    "symbol": "PURA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PWON",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PURI",
     "analyst_rating": null
   },
   {
@@ -256,15 +212,15 @@
     "analyst_rating": null
   },
   {
+    "symbol": "RAAM",
+    "analyst_rating": null
+  },
+  {
     "symbol": "PZZA",
     "analyst_rating": null
   },
   {
-    "symbol": "PYFA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "RDTX",
+    "symbol": "RAJA",
     "analyst_rating": null
   },
   {
@@ -272,7 +228,7 @@
     "analyst_rating": null
   },
   {
-    "symbol": "RALS",
+    "symbol": "RANC",
     "analyst_rating": null
   },
   {
@@ -280,11 +236,11 @@
     "analyst_rating": null
   },
   {
-    "symbol": "REAL",
+    "symbol": "RALS",
     "analyst_rating": null
   },
   {
-    "symbol": "RICY",
+    "symbol": "RDTX",
     "analyst_rating": null
   },
   {
@@ -300,15 +256,15 @@
     "analyst_rating": null
   },
   {
-    "symbol": "RGAS",
-    "analyst_rating": null
-  },
-  {
     "symbol": "DEPO",
     "analyst_rating": null
   },
   {
-    "symbol": "RMKE",
+    "symbol": "RGAS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "RICY",
     "analyst_rating": null
   },
   {
@@ -320,11 +276,11 @@
     "analyst_rating": null
   },
   {
-    "symbol": "ROTI",
+    "symbol": "RMKO",
     "analyst_rating": null
   },
   {
-    "symbol": "ROCK",
+    "symbol": "RISE",
     "analyst_rating": null
   },
   {
@@ -332,15 +288,19 @@
     "analyst_rating": null
   },
   {
-    "symbol": "RODA",
+    "symbol": "ROCK",
     "analyst_rating": null
   },
   {
-    "symbol": "RUIS",
+    "symbol": "RSGK",
     "analyst_rating": null
   },
   {
-    "symbol": "RUNS",
+    "symbol": "ROTI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "RSCH",
     "analyst_rating": null
   },
   {
@@ -348,11 +308,7 @@
     "analyst_rating": null
   },
   {
-    "symbol": "SAFE",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SAGE",
+    "symbol": "RUIS",
     "analyst_rating": null
   },
   {
@@ -360,15 +316,23 @@
     "analyst_rating": null
   },
   {
+    "symbol": "SAFE",
+    "analyst_rating": null
+  },
+  {
     "symbol": "SAMF",
     "analyst_rating": null
   },
   {
-    "symbol": "SATU",
+    "symbol": "SAME",
     "analyst_rating": null
   },
   {
     "symbol": "SBAT",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SATU",
     "analyst_rating": null
   },
   {
@@ -388,11 +352,11 @@
     "analyst_rating": null
   },
   {
-    "symbol": "SEMA",
+    "symbol": "SDRA",
     "analyst_rating": null
   },
   {
-    "symbol": "SDRA",
+    "symbol": "SDPC",
     "analyst_rating": null
   },
   {
@@ -400,7 +364,7 @@
     "analyst_rating": null
   },
   {
-    "symbol": "SGER",
+    "symbol": "SFAN",
     "analyst_rating": null
   },
   {
@@ -408,11 +372,15 @@
     "analyst_rating": null
   },
   {
+    "symbol": "SEMA",
+    "analyst_rating": null
+  },
+  {
     "symbol": "SGRO",
     "analyst_rating": null
   },
   {
-    "symbol": "SHIP",
+    "symbol": "SGER",
     "analyst_rating": null
   },
   {
@@ -424,7 +392,7 @@
     "analyst_rating": null
   },
   {
-    "symbol": "SIDO",
+    "symbol": "SHIP",
     "analyst_rating": null
   },
   {
@@ -432,7 +400,11 @@
     "analyst_rating": null
   },
   {
-    "symbol": "SIMA",
+    "symbol": "SICO",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SIDO",
     "analyst_rating": null
   },
   {
@@ -444,7 +416,7 @@
     "analyst_rating": null
   },
   {
-    "symbol": "SKBM",
+    "symbol": "SIMA",
     "analyst_rating": null
   },
   {
@@ -452,15 +424,15 @@
     "analyst_rating": null
   },
   {
+    "symbol": "SINI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SKBM",
+    "analyst_rating": null
+  },
+  {
     "symbol": "SIPD",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SKRN",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SKLT",
     "analyst_rating": null
   },
   {
@@ -468,15 +440,15 @@
     "analyst_rating": null
   },
   {
+    "symbol": "SKRN",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SMBR",
+    "analyst_rating": null
+  },
+  {
     "symbol": "SMAR",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SLIS",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SMCB",
     "analyst_rating": null
   },
   {
@@ -484,15 +456,11 @@
     "analyst_rating": null
   },
   {
+    "symbol": "SMCB",
+    "analyst_rating": null
+  },
+  {
     "symbol": "SMDR",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SMGA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SMKM",
     "analyst_rating": null
   },
   {
@@ -500,11 +468,27 @@
     "analyst_rating": null
   },
   {
-    "symbol": "SMMA",
+    "symbol": "SMGA",
     "analyst_rating": null
   },
   {
     "symbol": "SMLE",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SMKM",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SMMA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SMMT",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SMSM",
     "analyst_rating": null
   },
   {
@@ -513,10 +497,6 @@
   },
   {
     "symbol": "SMRU",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SMSM",
     "analyst_rating": null
   },
   {
@@ -544,15 +524,19 @@
     "analyst_rating": null
   },
   {
-    "symbol": "SPRE",
-    "analyst_rating": null
-  },
-  {
     "symbol": "SPMA",
     "analyst_rating": null
   },
   {
-    "symbol": "SRAJ",
+    "symbol": "SPRE",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SQMI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "HOTL",
     "analyst_rating": null
   },
   {
@@ -560,7 +544,7 @@
     "analyst_rating": null
   },
   {
-    "symbol": "SRSN",
+    "symbol": "SRAJ",
     "analyst_rating": null
   },
   {
@@ -568,7 +552,7 @@
     "analyst_rating": null
   },
   {
-    "symbol": "HOTL",
+    "symbol": "SSIA",
     "analyst_rating": null
   },
   {
@@ -580,11 +564,19 @@
     "analyst_rating": null
   },
   {
-    "symbol": "STRK",
+    "symbol": "SUNI",
     "analyst_rating": null
   },
   {
-    "symbol": "STTP",
+    "symbol": "SWAT",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SULI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SWID",
     "analyst_rating": null
   },
   {
@@ -592,15 +584,11 @@
     "analyst_rating": null
   },
   {
-    "symbol": "SUNI",
+    "symbol": "IKBI",
     "analyst_rating": null
   },
   {
     "symbol": "TALF",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SWAT",
     "analyst_rating": null
   },
   {
@@ -612,11 +600,15 @@
     "analyst_rating": null
   },
   {
-    "symbol": "IKBI",
+    "symbol": "IKPM",
     "analyst_rating": null
   },
   {
     "symbol": "TAXI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SSMS",
     "analyst_rating": null
   },
   {
@@ -628,19 +620,15 @@
     "analyst_rating": null
   },
   {
-    "symbol": "IKPM",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SSMS",
-    "analyst_rating": null
-  },
-  {
     "symbol": "TCID",
     "analyst_rating": null
   },
   {
-    "symbol": "TCPI",
+    "symbol": "TDPM",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TELE",
     "analyst_rating": null
   },
   {
@@ -648,15 +636,7 @@
     "analyst_rating": null
   },
   {
-    "symbol": "TECH",
-    "analyst_rating": null
-  },
-  {
     "symbol": "TFAS",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TGKA",
     "analyst_rating": null
   },
   {
@@ -664,27 +644,19 @@
     "analyst_rating": null
   },
   {
+    "symbol": "TGKA",
+    "analyst_rating": null
+  },
+  {
     "symbol": "TGRA",
     "analyst_rating": null
   },
   {
-    "symbol": "TIRT",
+    "symbol": "TINS",
     "analyst_rating": null
   },
   {
-    "symbol": "TIRA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TMAS",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TKIM",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SUGI",
+    "symbol": "TIFA",
     "analyst_rating": null
   },
   {
@@ -692,15 +664,23 @@
     "analyst_rating": null
   },
   {
+    "symbol": "SUGI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TKIM",
+    "analyst_rating": null
+  },
+  {
     "symbol": "TNCA",
     "analyst_rating": null
   },
   {
-    "symbol": "TOOL",
+    "symbol": "TLKM",
     "analyst_rating": null
   },
   {
-    "symbol": "TOSK",
+    "symbol": "TMAS",
     "analyst_rating": null
   },
   {
@@ -708,11 +688,15 @@
     "analyst_rating": null
   },
   {
-    "symbol": "IOTF",
+    "symbol": "TOBA",
     "analyst_rating": null
   },
   {
-    "symbol": "TOWR",
+    "symbol": "TOTL",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TOSK",
     "analyst_rating": null
   },
   {
@@ -720,7 +704,15 @@
     "analyst_rating": null
   },
   {
+    "symbol": "TOTO",
+    "analyst_rating": null
+  },
+  {
     "symbol": "TPIA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TOWR",
     "analyst_rating": null
   },
   {
@@ -728,7 +720,7 @@
     "analyst_rating": null
   },
   {
-    "symbol": "TPMA",
+    "symbol": "TRGU",
     "analyst_rating": null
   },
   {
@@ -740,7 +732,7 @@
     "analyst_rating": null
   },
   {
-    "symbol": "TRGU",
+    "symbol": "TRIM",
     "analyst_rating": null
   },
   {
@@ -756,7 +748,11 @@
     "analyst_rating": null
   },
   {
-    "symbol": "TRJA",
+    "symbol": "TRON",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TSPC",
     "analyst_rating": null
   },
   {
@@ -764,11 +760,7 @@
     "analyst_rating": null
   },
   {
-    "symbol": "TRUE",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TYRE",
+    "symbol": "TAYS",
     "analyst_rating": null
   },
   {
@@ -776,15 +768,23 @@
     "analyst_rating": null
   },
   {
+    "symbol": "IRRA",
+    "analyst_rating": null
+  },
+  {
     "symbol": "TURI",
     "analyst_rating": null
   },
   {
-    "symbol": "TAYS",
+    "symbol": "TYRE",
     "analyst_rating": null
   },
   {
-    "symbol": "IRRA",
+    "symbol": "UANG",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "UNIC",
     "analyst_rating": null
   },
   {
@@ -792,7 +792,7 @@
     "analyst_rating": null
   },
   {
-    "symbol": "UCID",
+    "symbol": "UFOE",
     "analyst_rating": null
   },
   {
@@ -800,19 +800,7 @@
     "analyst_rating": null
   },
   {
-    "symbol": "UFOE",
-    "analyst_rating": null
-  },
-  {
     "symbol": "JGLE",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "UNIT",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "UNSP",
     "analyst_rating": null
   },
   {
@@ -824,7 +812,7 @@
     "analyst_rating": null
   },
   {
-    "symbol": "JRPT",
+    "symbol": "UNIT",
     "analyst_rating": null
   },
   {
@@ -832,11 +820,15 @@
     "analyst_rating": null
   },
   {
-    "symbol": "UNVR",
+    "symbol": "JRPT",
     "analyst_rating": null
   },
   {
-    "symbol": "URBN",
+    "symbol": "UNTR",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "UNVR",
     "analyst_rating": null
   },
   {
@@ -844,15 +836,15 @@
     "analyst_rating": null
   },
   {
-    "symbol": "VAST",
+    "symbol": "UVCR",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "VERN",
     "analyst_rating": null
   },
   {
     "symbol": "VICI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "VICO",
     "analyst_rating": null
   },
   {
@@ -864,11 +856,15 @@
     "analyst_rating": null
   },
   {
-    "symbol": "VKTR",
+    "symbol": "VINS",
     "analyst_rating": null
   },
   {
     "symbol": "VRNA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "VKTR",
     "analyst_rating": null
   },
   {
@@ -880,11 +876,11 @@
     "analyst_rating": null
   },
   {
-    "symbol": "WEHA",
+    "symbol": "WGSH",
     "analyst_rating": null
   },
   {
-    "symbol": "WGSH",
+    "symbol": "WEHA",
     "analyst_rating": null
   },
   {
@@ -892,7 +888,7 @@
     "analyst_rating": null
   },
   {
-    "symbol": "WIFI",
+    "symbol": "WIDI",
     "analyst_rating": null
   },
   {
@@ -900,15 +896,11 @@
     "analyst_rating": null
   },
   {
+    "symbol": "WIKA",
+    "analyst_rating": null
+  },
+  {
     "symbol": "WINE",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "WINS",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "YUPI",
     "analyst_rating": null
   },
   {
@@ -916,11 +908,15 @@
     "analyst_rating": null
   },
   {
+    "symbol": "WIRG",
+    "analyst_rating": null
+  },
+  {
     "symbol": "WOWS",
     "analyst_rating": null
   },
   {
-    "symbol": "WOOD",
+    "symbol": "WOMF",
     "analyst_rating": null
   },
   {
@@ -929,6 +925,10 @@
   },
   {
     "symbol": "WSKT",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "YUPI",
     "analyst_rating": null
   },
   {
