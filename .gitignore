@@ -1,3 +1,4 @@
 .env
 /br
 *.pyc
+/browser_data
