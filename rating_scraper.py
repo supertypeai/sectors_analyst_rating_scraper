@@ -1,21 +1,101 @@
-from playwright.sync_api import sync_playwright, Page
+from playwright.sync_api import sync_playwright, Page, Browser, BrowserContext
 from bs4 import BeautifulSoup
 from datetime import datetime
 from requests_html import HTMLSession
 import json
 import os
 import logging
+import random
 
 # Scraping data
 BASE_URL = 'https://www.tradingview.com/symbols/IDX-'
 TECHNICAL_ENUM = ['sell', 'neutral', 'buy']
 ANALYST_ENUM = ['strong_buy', 'buy', 'hold', 'sell', 'strong_sell']
 
+# Browser data directory for persistent cookies
+BROWSER_DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "browser_data")
+
 # Set the logging level for the 'websockets' logger
 logging.getLogger('websockets').setLevel(logging.WARNING)
 
 # If you need to configure logging for requests-html as well
 logging.getLogger('requests_html').setLevel(logging.WARNING)
+
+# Anti-bot detection settings
+USER_AGENTS = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0"
+]
+
+def create_stealth_page(browser: Browser) -> Page:
+    """Create a page with anti-bot detection settings"""
+    context = browser.new_context(
+        viewport={"width": 1920, "height": 1080},
+        user_agent=random.choice(USER_AGENTS),
+        locale="en-US",
+        timezone_id="Asia/Jakarta",
+        permissions=["geolocation"],
+        java_script_enabled=True,
+    )
+    
+    page = context.new_page()
+    
+    # Add stealth scripts to avoid detection
+    page.add_init_script("""
+        // Overwrite the 'webdriver' property to hide automation
+        Object.defineProperty(navigator, 'webdriver', {
+            get: () => undefined
+        });
+        
+        // Overwrite plugins to appear more like a real browser
+        Object.defineProperty(navigator, 'plugins', {
+            get: () => [1, 2, 3, 4, 5]
+        });
+        
+        // Overwrite languages
+        Object.defineProperty(navigator, 'languages', {
+            get: () => ['en-US', 'en']
+        });
+        
+        // Add chrome object
+        window.chrome = {
+            runtime: {}
+        };
+    """)
+    
+    return page
+
+def create_persistent_context(playwright, process_idx: int, headless: bool = True) -> BrowserContext:
+    """Create a persistent browser context that saves cookies between sessions"""
+    # Each process gets its own browser data directory to avoid conflicts
+    user_data_dir = os.path.join(BROWSER_DATA_DIR, f"process_{process_idx}")
+    
+    context = playwright.chromium.launch_persistent_context(
+        user_data_dir=user_data_dir,
+        headless=headless,
+        viewport={"width": 1920, "height": 1080},
+        locale="en-US",
+        timezone_id="Asia/Jakarta",
+        args=[
+            '--disable-blink-features=AutomationControlled',
+            '--disable-dev-shm-usage',
+            '--no-sandbox',
+            '--disable-setuid-sandbox',
+            '--disable-infobars',
+        ]
+    )
+    
+    # Add stealth scripts
+    context.add_init_script("""
+        Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
+        Object.defineProperty(navigator, 'plugins', { get: () => [1, 2, 3, 4, 5] });
+        Object.defineProperty(navigator, 'languages', { get: () => ['en-US', 'en'] });
+        window.chrome = { runtime: {} };
+    """)
+    
+    return context
 
 def get_url_page(symbol:str) -> str:
     return f"{BASE_URL}{symbol}"
@@ -213,12 +293,55 @@ def scrape_technical_page(page: Page, url: str, frequency : str = "daily") :
       print(f"[TECHNICAL][FAILED] =  scraping from URL: {url}")
       print(f"[TECHNCIAL][FAILED] = {e}")
       return None
-    
+
 def scrape_forecast_page(page: Page, url: str) :
     print(f"[ANALYST] = Opening page {url}")
     try:
       page.goto(url, timeout=60000) # Timeout 60s
       print(f"[ANALYST] = Page for {url} is loaded")
+
+      # Wait for the page to fully load
+      try:
+        page.wait_for_load_state("domcontentloaded", timeout=10000)
+      except:
+        pass
+      
+      # Scroll down to trigger lazy loading of content
+      page.evaluate("window.scrollTo(0, document.body.scrollHeight / 2)")
+      page.wait_for_timeout(1000)
+      page.evaluate("window.scrollTo(0, 0)")
+      page.wait_for_timeout(500)
+      
+      # Wait for network to be idle (all requests done)
+      try:
+        page.wait_for_load_state("networkidle", timeout=3000)
+      except:
+        pass
+      
+      # Wait specifically for the analyst rating section
+      # Try multiple selectors
+      analyst_section_found = False
+      selectors_to_try = [
+        "text=Strong buy",
+        "text=Analyst rating", 
+        "[class*='value-'][class*='GNeDL9vy']"
+      ]
+      
+      for selector in selectors_to_try:
+        try:
+          page.wait_for_selector(selector, timeout=5000)
+          analyst_section_found = True
+          print(f"[ANALYST] = Found element with selector: {selector}")
+          break
+        except:
+          continue
+      
+      if not analyst_section_found:
+        print(f"[ANALYST] = Analyst section not found for {url}, waiting longer...")
+        page.wait_for_timeout(3000)
+      
+      # Additional delay to ensure rendering is complete
+      page.wait_for_timeout(1500)
 
       # Store the HTML content
       html_content = page.content()
@@ -226,6 +349,51 @@ def scrape_forecast_page(page: Page, url: str) :
 
       if (soup is not None):
         analyst_rating_dict = dict()
+
+        # # Strategy 1: Find value divs with the specific class pattern
+        # analyst_value_wrap = soup.findAll("div", {"class": lambda x: x and "value-" in str(x) and "GNeDL9vy" in str(x)})
+        
+        # # Strategy 2: If not found, try broader search for value divs
+        # if not analyst_value_wrap or len(analyst_value_wrap) < len(ANALYST_ENUM):
+        #   # Find all divs, check class as string
+        #   all_divs = soup.findAll("div")
+        #   analyst_value_wrap = []
+        #   for div in all_divs:
+        #     class_attr = div.get("class", [])
+        #     class_str = " ".join(class_attr) if class_attr else ""
+        #     if "value-" in class_str:
+        #       # Check if this div contains just a number
+        #       text = div.get_text().strip()
+        #       if text.isdigit():
+        #         analyst_value_wrap.append(div)
+        
+        # # Strategy 3: Find by parent structure - look for "Strong buy" text
+        # if not analyst_value_wrap or len(analyst_value_wrap) < len(ANALYST_ENUM):
+        #   strong_buy_elem = soup.find(string=lambda t: t and "Strong buy" in str(t))
+        #   if strong_buy_elem:
+        #     # Go up to find container
+        #     parent = strong_buy_elem.find_parent()
+        #     for _ in range(6):
+        #       if parent and parent.parent:
+        #         parent = parent.parent
+        #         # Check if this parent contains all rating labels
+        #         text = parent.get_text()
+        #         if all(label in text for label in ["Strong buy", "Hold", "Strong sell"]):
+        #           # Found the container, now find numeric values
+        #           candidate_divs = parent.findAll("div")
+        #           analyst_value_wrap = []
+        #           for div in candidate_divs:
+        #             div_text = div.get_text().strip()
+        #             if div_text.isdigit() and len(div.findAll()) == 0:  # Leaf div with number
+        #               analyst_value_wrap.append(div)
+        #           if len(analyst_value_wrap) >= 5:
+        #             # Take only first 5 (the rating numbers)
+        #             analyst_value_wrap = analyst_value_wrap[:5]
+        #             break
+        
+        # if not analyst_value_wrap or len(analyst_value_wrap) < len(ANALYST_ENUM):
+        #   print(f"[ANALYST] = No analyst data for {url} (found {len(analyst_value_wrap) if analyst_value_wrap else 0} values)")
+        #   return None
 
         # Getting into the data
         analyst_rating_wrap = soup.find("div", {"class" : "wrap-GNeDL9vy"})
@@ -286,11 +454,11 @@ def scrape_analyst_rating_data(page: Page, symbol: str) -> dict:
 def scrape_technical_function(symbol_list, process_idx, frequency):
   print(f"==> Start scraping from process P{process_idx}")
   all_data = []
-  # Playwright
+  # Playwright with persistent context (saves cookies)
   with sync_playwright() as p:
-    # Launch browser (only once at the beginning)
-    browser = p.chromium.launch(headless=True) # headless=False to see the browser action
-    page = browser.new_page()
+    # Use persistent context to maintain cookies across sessions
+    context = create_persistent_context(p, process_idx, headless=True)
+    page = context.pages[0] if context.pages else context.new_page()
 
     try:
       # Iterate in symbol list
@@ -300,9 +468,12 @@ def scrape_technical_function(symbol_list, process_idx, frequency):
 
         if (i > 0 and i % 10 == 0):
           print(f"CHECKPOINT || P{process_idx} {i} Data")
+        
+        # Random delay to appear more human-like
+        page.wait_for_timeout(random.randint(1000, 2500))
     
     finally:
-      browser.close()
+      context.close()
       print(f"==> Browser for P{process_idx} closed.")
 
   cwd = os.getcwd()
@@ -315,10 +486,12 @@ def scrape_technical_function(symbol_list, process_idx, frequency):
 def scrape_analyst_function(symbol_list, process_idx):
   print(f"==> Start scraping from process P{process_idx}")
   all_data = []
-  # Playwright
+  # Playwright with persistent context (saves cookies)
   with sync_playwright() as p:
-    browser = p.chromium.launch(headless=True) # headless=False to see the browser action
-    page = browser.new_page()
+    # Use persistent context to maintain cookies across sessions
+    # headless=False karena TradingView mendeteksi headless browser
+    context = create_persistent_context(p, process_idx, headless=False)
+    page = context.pages[0] if context.pages else context.new_page()
 
     try:
       # Iterate in symbol list
@@ -328,9 +501,12 @@ def scrape_analyst_function(symbol_list, process_idx):
 
         if (i > 0 and i % 10 == 0):
           print(f"CHECKPOINT || P{process_idx} {i} Data")
+        
+        # Random delay to appear more human-like
+        page.wait_for_timeout(random.randint(1000, 2500))
     
     finally:
-      browser.close()
+      context.close()
       print(f"==> Browser for P{process_idx} closed.")
   
   cwd = os.getcwd()
