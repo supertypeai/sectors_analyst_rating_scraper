@@ -489,7 +489,6 @@ def scrape_analyst_function(symbol_list, process_idx):
   # Playwright with persistent context (saves cookies)
   with sync_playwright() as p:
     # Use persistent context to maintain cookies across sessions
-    # headless=False karena TradingView mendeteksi headless browser
     context = create_persistent_context(p, process_idx, headless=False)
     page = context.pages[0] if context.pages else context.new_page()
 

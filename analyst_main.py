@@ -75,10 +75,18 @@ if __name__ == "__main__":
   # Convert to json. Remove the index in dataframe
   records = df_merge.to_dict(orient="records")
 
+  seen = set()
+  unique_records = []
+  for record in records:
+      key = record.get('symbol')
+      if key not in seen:
+          seen.add(key)
+          unique_records.append(record)
+
   # Upsert to db
   try:
     supabase.table("idx_key_stats").upsert(
-        records
+        unique_records
     ).execute()
     print(
         f"Successfully upserted {len(records)} data to database"
