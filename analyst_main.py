@@ -70,9 +70,8 @@ if __name__ == "__main__":
   p4.join()
 
   # Merge and upsert to db
-  df_merge = combine_analyst_data(df_db_data)
+  df_merge = combine_analyst_data()
 
-  # Convert to json. Remove the index in dataframe
   records = df_merge.to_dict(orient="records")
 
   seen = set()

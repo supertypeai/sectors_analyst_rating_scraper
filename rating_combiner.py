@@ -44,7 +44,7 @@ def combine_technical_data (df_db_data, frequency):
   
   return df_merge
 
-def combine_analyst_data (df_db_data):
+def combine_analyst_data ():
   cwd = os.getcwd()
   data_dir = os.path.join(cwd, "data")
   data_file_path = [os.path.join(data_dir,f'P{i}_analyst_data.json') for i in range(1,5)]
@@ -64,19 +64,5 @@ def combine_analyst_data (df_db_data):
 
   # Add '.JK' in symbol column value
   df_scraped['symbol'] = df_scraped['symbol']+".JK"
-
-  # Sort df_db_data and df_scraped
-  df_db_data = df_db_data.sort_values(['symbol'])
-  df_scraped = df_scraped.sort_values(['symbol'])
-
-  # Merge the dataframe to the one in the db
-  df_db_data.update(df_scraped)
-
-  # Replace mp.nan to None
-  df_merge = df_db_data.replace({np.nan: None})
-
-  # Change employee_num to int
-  df_merge['employee_num'] = df_merge['employee_num'].astype('Int64')
-  df_merge['employee_num_manual'] = df_merge['employee_num_manual'].astype('Int64')
   
-  return df_merge
+  return df_scraped
