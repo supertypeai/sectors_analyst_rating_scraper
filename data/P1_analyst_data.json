@@ -1,30 +1,10 @@
 [
   {
-    "symbol": "MEDC",
-    "analyst_rating": {
-      "strong_buy": 6,
-      "buy": 1,
-      "hold": 0,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 7,
-      "updated_on": "2026-02-23 13:17:02"
-    }
+    "symbol": "BNII",
+    "analyst_rating": null
   },
   {
-    "symbol": "ROTI",
-    "analyst_rating": {
-      "strong_buy": 0,
-      "buy": 0,
-      "hold": 1,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 1,
-      "updated_on": "2026-02-23 13:17:07"
-    }
-  },
-  {
-    "symbol": "LMAX",
+    "symbol": "TRST",
     "analyst_rating": null
   },
   {
@@ -32,7 +12,23 @@
     "analyst_rating": null
   },
   {
-    "symbol": "YUPI",
+    "symbol": "ROTI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "APLN",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "YELO",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "WEGE",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "BLTA",
     "analyst_rating": null
   },
   {
@@ -44,103 +40,23 @@
     "analyst_rating": null
   },
   {
-    "symbol": "PADI",
-    "analyst_rating": null
-  },
-  {
     "symbol": "ICON",
     "analyst_rating": null
   },
   {
     "symbol": "TBIG",
-    "analyst_rating": {
-      "strong_buy": 0,
-      "buy": 0,
-      "hold": 3,
-      "sell": 1,
-      "strong_sell": 1,
-      "n_analyst": 5,
-      "updated_on": "2026-02-23 13:19:57"
-    }
-  },
-  {
-    "symbol": "ISAP",
     "analyst_rating": null
-  },
-  {
-    "symbol": "IPCC",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "YOII",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SOHO",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BBNI",
-    "analyst_rating": {
-      "strong_buy": 14,
-      "buy": 1,
-      "hold": 4,
-      "sell": 0,
-      "strong_sell": 1,
-      "n_analyst": 20,
-      "updated_on": "2026-02-23 13:21:36"
-    }
   },
   {
     "symbol": "SRAJ",
     "analyst_rating": null
   },
   {
-    "symbol": "TPIA",
-    "analyst_rating": {
-      "strong_buy": 0,
-      "buy": 0,
-      "hold": 0,
-      "sell": 0,
-      "strong_sell": 1,
-      "n_analyst": 1,
-      "updated_on": "2026-02-23 13:22:05"
-    }
-  },
-  {
-    "symbol": "YPAS",
+    "symbol": "YUPI",
     "analyst_rating": null
   },
   {
-    "symbol": "TBLA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "ARTI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TCPI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "APLN",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TRIS",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BELL",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TRUE",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "CMNT",
+    "symbol": "BALI",
     "analyst_rating": null
   },
   {
@@ -148,23 +64,95 @@
     "analyst_rating": null
   },
   {
-    "symbol": "VICI",
+    "symbol": "CAKK",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "INDX",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "YOII",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "BBNI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "GWSA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SOHO",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "YPAS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TPIA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "MTRA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "LPPS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "ARTI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "HAIS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "HDIT",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "LPKR",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "BELL",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "HELI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "HUMI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "CMNT",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "IFII",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "IMJS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "LMAX",
     "analyst_rating": null
   },
   {
     "symbol": "EXCL",
-    "analyst_rating": {
-      "strong_buy": 11,
-      "buy": 1,
-      "hold": 4,
-      "sell": 1,
-      "strong_sell": 3,
-      "n_analyst": 20,
-      "updated_on": "2026-02-23 13:26:25"
-    }
+    "analyst_rating": null
   },
   {
-    "symbol": "VINS",
+    "symbol": "VICI",
     "analyst_rating": null
   },
   {
@@ -172,27 +160,19 @@
     "analyst_rating": null
   },
   {
+    "symbol": "BMAS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "IPTV",
+    "analyst_rating": null
+  },
+  {
     "symbol": "BIRD",
-    "analyst_rating": {
-      "strong_buy": 3,
-      "buy": 0,
-      "hold": 0,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 3,
-      "updated_on": "2026-02-23 13:27:17"
-    }
-  },
-  {
-    "symbol": "BNII",
     "analyst_rating": null
   },
   {
-    "symbol": "SMLE",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SMIL",
+    "symbol": "LFLO",
     "analyst_rating": null
   },
   {
@@ -200,27 +180,43 @@
     "analyst_rating": null
   },
   {
-    "symbol": "RONY",
+    "symbol": "FORU",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "LCKM",
     "analyst_rating": null
   },
   {
     "symbol": "BRPT",
-    "analyst_rating": {
-      "strong_buy": 1,
-      "buy": 0,
-      "hold": 1,
-      "sell": 0,
-      "strong_sell": 1,
-      "n_analyst": 3,
-      "updated_on": "2026-02-23 13:29:19"
-    }
+    "analyst_rating": null
+  },
+  {
+    "symbol": "FUJI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "KIAS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "LION",
+    "analyst_rating": null
   },
   {
     "symbol": "BUMI",
     "analyst_rating": null
   },
   {
-    "symbol": "RMKO",
+    "symbol": "LPIN",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "MITI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "MAIN",
     "analyst_rating": null
   },
   {
@@ -232,11 +228,23 @@
     "analyst_rating": null
   },
   {
-    "symbol": "BVIC",
+    "symbol": "MPOW",
     "analyst_rating": null
   },
   {
-    "symbol": "PTMP",
+    "symbol": "MCOL",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "MPXL",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "ADHI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "BVIC",
     "analyst_rating": null
   },
   {
@@ -244,7 +252,15 @@
     "analyst_rating": null
   },
   {
-    "symbol": "ELPI",
+    "symbol": "SRIL",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "MTLA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "AGRS",
     "analyst_rating": null
   },
   {
@@ -252,7 +268,11 @@
     "analyst_rating": null
   },
   {
-    "symbol": "PNIN",
+    "symbol": "ELPI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "LMPI",
     "analyst_rating": null
   },
   {
@@ -260,7 +280,19 @@
     "analyst_rating": null
   },
   {
+    "symbol": "MYOH",
+    "analyst_rating": null
+  },
+  {
     "symbol": "MTSM",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "ASLI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "ERAA",
     "analyst_rating": null
   },
   {
@@ -268,19 +300,23 @@
     "analyst_rating": null
   },
   {
+    "symbol": "BWPT",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SMSM",
+    "analyst_rating": null
+  },
+  {
     "symbol": "BUKA",
-    "analyst_rating": {
-      "strong_buy": 1,
-      "buy": 1,
-      "hold": 1,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 3,
-      "updated_on": "2026-02-23 13:34:29"
-    }
+    "analyst_rating": null
   },
   {
     "symbol": "NICK",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SKRN",
     "analyst_rating": null
   },
   {
@@ -292,47 +328,35 @@
     "analyst_rating": null
   },
   {
-    "symbol": "CDIA",
-    "analyst_rating": {
-      "strong_buy": 1,
-      "buy": 0,
-      "hold": 0,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 1,
-      "updated_on": "2026-02-23 13:35:44"
-    }
+    "symbol": "MGLV",
+    "analyst_rating": null
   },
   {
-    "symbol": "MPRO",
+    "symbol": "EDGE",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "CDIA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "KAEF",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TBLA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "DEWI",
     "analyst_rating": null
   },
   {
     "symbol": "COIN",
-    "analyst_rating": {
-      "strong_buy": 1,
-      "buy": 0,
-      "hold": 0,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 1,
-      "updated_on": "2026-02-23 13:36:12"
-    }
+    "analyst_rating": null
   },
   {
-    "symbol": "BBCA",
-    "analyst_rating": {
-      "strong_buy": 20,
-      "buy": 1,
-      "hold": 1,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 22,
-      "updated_on": "2026-02-23 13:36:18"
-    }
-  },
-  {
-    "symbol": "MIRA",
+    "symbol": "VINS",
     "analyst_rating": null
   },
   {
@@ -340,7 +364,23 @@
     "analyst_rating": null
   },
   {
+    "symbol": "SMLE",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SPMA",
+    "analyst_rating": null
+  },
+  {
     "symbol": "NASA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "AGAR",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SKBM",
     "analyst_rating": null
   },
   {
@@ -348,19 +388,15 @@
     "analyst_rating": null
   },
   {
-    "symbol": "MAIN",
-    "analyst_rating": {
-      "strong_buy": 1,
-      "buy": 0,
-      "hold": 0,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 1,
-      "updated_on": "2026-02-23 13:37:57"
-    }
+    "symbol": "SCCO",
+    "analyst_rating": null
   },
   {
-    "symbol": "BMAS",
+    "symbol": "RMKO",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "AADI",
     "analyst_rating": null
   },
   {
@@ -372,31 +408,47 @@
     "analyst_rating": null
   },
   {
-    "symbol": "LPPF",
-    "analyst_rating": {
-      "strong_buy": 0,
-      "buy": 0,
-      "hold": 0,
-      "sell": 0,
-      "strong_sell": 1,
-      "n_analyst": 1,
-      "updated_on": "2026-02-23 13:39:13"
-    }
-  },
-  {
     "symbol": "BATA",
     "analyst_rating": null
   },
   {
-    "symbol": "FORU",
+    "symbol": "LPPF",
     "analyst_rating": null
   },
   {
-    "symbol": "MMIX",
+    "symbol": "PTMP",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PTSP",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PSGO",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "WOOD",
     "analyst_rating": null
   },
   {
     "symbol": "LPLI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "MAPA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "BTPN",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "OMED",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "CBUT",
     "analyst_rating": null
   },
   {
@@ -408,7 +460,7 @@
     "analyst_rating": null
   },
   {
-    "symbol": "LCKM",
+    "symbol": "CHEM",
     "analyst_rating": null
   },
   {
@@ -416,23 +468,15 @@
     "analyst_rating": null
   },
   {
-    "symbol": "KOIN",
+    "symbol": "INCO",
     "analyst_rating": null
   },
   {
-    "symbol": "INCO",
-    "analyst_rating": {
-      "strong_buy": 12,
-      "buy": 1,
-      "hold": 1,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 14,
-      "updated_on": "2026-02-23 13:42:45"
-    }
+    "symbol": "SMIL",
+    "analyst_rating": null
   },
   {
-    "symbol": "MGLV",
+    "symbol": "KOIN",
     "analyst_rating": null
   },
   {
@@ -440,7 +484,7 @@
     "analyst_rating": null
   },
   {
-    "symbol": "ARKO",
+    "symbol": "ISAP",
     "analyst_rating": null
   },
   {
@@ -448,19 +492,23 @@
     "analyst_rating": null
   },
   {
-    "symbol": "FORE",
-    "analyst_rating": {
-      "strong_buy": 1,
-      "buy": 0,
-      "hold": 0,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 1,
-      "updated_on": "2026-02-23 13:44:24"
-    }
+    "symbol": "EMTK",
+    "analyst_rating": null
   },
   {
-    "symbol": "ATLA",
+    "symbol": "NETV",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "FORE",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "KREN",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "MLPL",
     "analyst_rating": null
   },
   {
@@ -468,15 +516,19 @@
     "analyst_rating": null
   },
   {
+    "symbol": "SEMA",
+    "analyst_rating": null
+  },
+  {
     "symbol": "DMND",
     "analyst_rating": null
   },
   {
-    "symbol": "BOLA",
+    "symbol": "SCNP",
     "analyst_rating": null
   },
   {
-    "symbol": "FUJI",
+    "symbol": "STAA",
     "analyst_rating": null
   },
   {
@@ -484,7 +536,15 @@
     "analyst_rating": null
   },
   {
-    "symbol": "HELI",
+    "symbol": "MKAP",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "CNMA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "BISI",
     "analyst_rating": null
   },
   {
@@ -492,23 +552,23 @@
     "analyst_rating": null
   },
   {
+    "symbol": "PALM",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "SURI",
+    "analyst_rating": null
+  },
+  {
     "symbol": "GAMA",
     "analyst_rating": null
   },
   {
-    "symbol": "AVIA",
-    "analyst_rating": {
-      "strong_buy": 3,
-      "buy": 1,
-      "hold": 0,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 4,
-      "updated_on": "2026-02-23 13:48:00"
-    }
+    "symbol": "RONY",
+    "analyst_rating": null
   },
   {
-    "symbol": "EPMT",
+    "symbol": "AVIA",
     "analyst_rating": null
   },
   {
@@ -516,19 +576,39 @@
     "analyst_rating": null
   },
   {
+    "symbol": "IPCC",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TRIS",
+    "analyst_rating": null
+  },
+  {
     "symbol": "GDYR",
     "analyst_rating": null
   },
   {
-    "symbol": "GWSA",
+    "symbol": "RBMS",
     "analyst_rating": null
   },
   {
-    "symbol": "KIAS",
+    "symbol": "ARKO",
     "analyst_rating": null
   },
   {
-    "symbol": "FISH",
+    "symbol": "ASHA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "KIJA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PURI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "CBMF",
     "analyst_rating": null
   },
   {
@@ -536,27 +616,23 @@
     "analyst_rating": null
   },
   {
-    "symbol": "HUMI",
+    "symbol": "PRIM",
     "analyst_rating": null
   },
   {
-    "symbol": "ARCI",
-    "analyst_rating": {
-      "strong_buy": 3,
-      "buy": 0,
-      "hold": 0,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 3,
-      "updated_on": "2026-02-23 13:51:11"
-    }
+    "symbol": "TOWR",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TGUK",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PTPW",
+    "analyst_rating": null
   },
   {
     "symbol": "FITT",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "HDIT",
     "analyst_rating": null
   },
   {
@@ -568,15 +644,27 @@
     "analyst_rating": null
   },
   {
+    "symbol": "PPRO",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "BPII",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "BBCA",
+    "analyst_rating": null
+  },
+  {
     "symbol": "HOMI",
     "analyst_rating": null
   },
   {
-    "symbol": "IFII",
+    "symbol": "CTTH",
     "analyst_rating": null
   },
   {
-    "symbol": "ASHA",
+    "symbol": "POWR",
     "analyst_rating": null
   },
   {
@@ -584,11 +672,15 @@
     "analyst_rating": null
   },
   {
-    "symbol": "MLPL",
+    "symbol": "FAPA",
     "analyst_rating": null
   },
   {
-    "symbol": "MCOL",
+    "symbol": "PNIN",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "BBMD",
     "analyst_rating": null
   },
   {
@@ -596,135 +688,15 @@
     "analyst_rating": null
   },
   {
-    "symbol": "WOOD",
+    "symbol": "PBRX",
     "analyst_rating": null
   },
   {
-    "symbol": "HMSP",
-    "analyst_rating": {
-      "strong_buy": 7,
-      "buy": 0,
-      "hold": 0,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 7,
-      "updated_on": "2026-02-23 13:55:57"
-    }
-  },
-  {
-    "symbol": "RCCC",
+    "symbol": "TCPI",
     "analyst_rating": null
   },
   {
-    "symbol": "MITI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "PTPS",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "IATA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "ANJT",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "WICO",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "ANTM",
-    "analyst_rating": {
-      "strong_buy": 11,
-      "buy": 2,
-      "hold": 2,
-      "sell": 0,
-      "strong_sell": 1,
-      "n_analyst": 16,
-      "updated_on": "2026-02-23 13:58:21"
-    }
-  },
-  {
-    "symbol": "INAI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "UNTR",
-    "analyst_rating": {
-      "strong_buy": 7,
-      "buy": 0,
-      "hold": 7,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 14,
-      "updated_on": "2026-02-23 13:58:50"
-    }
-  },
-  {
-    "symbol": "UANG",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "INCI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TRUS",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TRIN",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "INDY",
-    "analyst_rating": {
-      "strong_buy": 2,
-      "buy": 0,
-      "hold": 0,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 2,
-      "updated_on": "2026-02-23 14:00:28"
-    }
-  },
-  {
-    "symbol": "TIRT",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "PNSE",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "JTPE",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "ASJT",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "AALI",
-    "analyst_rating": {
-      "strong_buy": 1,
-      "buy": 0,
-      "hold": 1,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 2,
-      "updated_on": "2026-02-23 14:02:07"
-    }
-  },
-  {
-    "symbol": "KAYU",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "KMDS",
+    "symbol": "PJAA",
     "analyst_rating": null
   },
   {
@@ -732,27 +704,171 @@
     "analyst_rating": null
   },
   {
-    "symbol": "KING",
+    "symbol": "DNAR",
     "analyst_rating": null
   },
   {
-    "symbol": "AMAG",
+    "symbol": "CMNP",
     "analyst_rating": null
   },
   {
-    "symbol": "TFCO",
+    "symbol": "RCCC",
     "analyst_rating": null
   },
   {
-    "symbol": "KLIN",
+    "symbol": "HMSP",
     "analyst_rating": null
   },
   {
-    "symbol": "KKGI",
+    "symbol": "PTPS",
     "analyst_rating": null
   },
   {
-    "symbol": "PTSN",
+    "symbol": "OBMD",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "WICO",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PLIN",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "EMAS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "ANJT",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "ANTM",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "DLTA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PANI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "INAI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "FASW",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "DPNS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PACK",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "BINO",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "FOOD",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "ASGR",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "UNTR",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "OILS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "MUTU",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "MPRO",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "GLVA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "DUCK",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "ALTO",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "INDY",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "TIRT",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "KEJU",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "PNSE",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "MREI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "ASJT",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "MMIX",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "HITS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "LAND",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "KMDS",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "UANG",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "CITY",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "LAPD",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "ISAT",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "INDR",
     "analyst_rating": null
   },
   {
@@ -760,287 +876,15 @@
     "analyst_rating": null
   },
   {
-    "symbol": "MLPT",
+    "symbol": "AIMS",
     "analyst_rating": null
   },
   {
-    "symbol": "CINT",
+    "symbol": "AMAG",
     "analyst_rating": null
   },
   {
-    "symbol": "BALI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "LSIP",
-    "analyst_rating": {
-      "strong_buy": 1,
-      "buy": 1,
-      "hold": 1,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 3,
-      "updated_on": "2026-02-23 14:07:16"
-    }
-  },
-  {
-    "symbol": "MYTX",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "MAGP",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "MKPI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "IMJS",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "IKAI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "MDIA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "MENN",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "CSAP",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "MPOW",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "DCII",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "MPPA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "LPCK",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "ADHI",
-    "analyst_rating": {
-      "strong_buy": 0,
-      "buy": 0,
-      "hold": 1,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 1,
-      "updated_on": "2026-02-23 14:12:03"
-    }
-  },
-  {
-    "symbol": "LMPI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "MPXL",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "LINK",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "EMAS",
-    "analyst_rating": {
-      "strong_buy": 2,
-      "buy": 0,
-      "hold": 0,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 2,
-      "updated_on": "2026-02-23 14:13:19"
-    }
-  },
-  {
-    "symbol": "MTLA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "INKP",
-    "analyst_rating": {
-      "strong_buy": 2,
-      "buy": 0,
-      "hold": 0,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 2,
-      "updated_on": "2026-02-23 14:13:47"
-    }
-  },
-  {
-    "symbol": "AGRS",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "MYOH",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "IPTV",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "WIDI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "NANO",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "ASLI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "TBMS",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "NOBU",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "ERAA",
-    "analyst_rating": {
-      "strong_buy": 5,
-      "buy": 0,
-      "hold": 1,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 6,
-      "updated_on": "2026-02-23 14:16:58"
-    }
-  },
-  {
-    "symbol": "OMRE",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SWAT",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SURI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BBHI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "PART",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BWPT",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "GOTO",
-    "analyst_rating": {
-      "strong_buy": 7,
-      "buy": 2,
-      "hold": 2,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 11,
-      "updated_on": "2026-02-23 14:19:24"
-    }
-  },
-  {
-    "symbol": "DEAL",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "STAA",
-    "analyst_rating": {
-      "strong_buy": 1,
-      "buy": 0,
-      "hold": 0,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 1,
-      "updated_on": "2026-02-23 14:19:53"
-    }
-  },
-  {
-    "symbol": "SOSS",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SMBR",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SKBM",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SDRA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SBMA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BBYB",
-    "analyst_rating": {
-      "strong_buy": 0,
-      "buy": 0,
-      "hold": 1,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 1,
-      "updated_on": "2026-02-23 14:21:54"
-    }
-  },
-  {
-    "symbol": "BGTG",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "SAMF",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "EDGE",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "FPNI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "RSGK",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "DEWI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "INDX",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "RELI",
+    "symbol": "ICBP",
     "analyst_rating": null
   },
   {
@@ -1048,255 +892,83 @@
     "analyst_rating": null
   },
   {
-    "symbol": "BRAM",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "PYFA",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "PTSP",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "PTBA",
-    "analyst_rating": {
-      "strong_buy": 1,
-      "buy": 0,
-      "hold": 3,
-      "sell": 1,
-      "strong_sell": 3,
-      "n_analyst": 8,
-      "updated_on": "2026-02-23 14:26:41"
-    }
-  },
-  {
-    "symbol": "PSKT",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "PPRO",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "AGII",
-    "analyst_rating": {
-      "strong_buy": 1,
-      "buy": 0,
-      "hold": 0,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 1,
-      "updated_on": "2026-02-23 14:27:34"
-    }
-  },
-  {
-    "symbol": "AGAR",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "AADI",
-    "analyst_rating": {
-      "strong_buy": 9,
-      "buy": 0,
-      "hold": 2,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 11,
-      "updated_on": "2026-02-23 14:28:04"
-    }
-  },
-  {
-    "symbol": "ACES",
-    "analyst_rating": {
-      "strong_buy": 10,
-      "buy": 1,
-      "hold": 4,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 15,
-      "updated_on": "2026-02-23 14:28:09"
-    }
-  },
-  {
-    "symbol": "ACRO",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "AHAP",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "IPPE",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "AIMS",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "AKPI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "ASBI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "ASPI",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "ATAP",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BAYU",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "KIOS",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "ADMR",
-    "analyst_rating": {
-      "strong_buy": 6,
-      "buy": 0,
-      "hold": 2,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 8,
-      "updated_on": "2026-02-23 14:32:09"
-    }
-  },
-  {
-    "symbol": "BUKK",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "ENRG",
-    "analyst_rating": {
-      "strong_buy": 1,
-      "buy": 0,
-      "hold": 0,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 1,
-      "updated_on": "2026-02-23 14:32:38"
-    }
-  },
-  {
-    "symbol": "ASDM",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "AXIO",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "MAPA",
-    "analyst_rating": {
-      "strong_buy": 7,
-      "buy": 2,
-      "hold": 0,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 9,
-      "updated_on": "2026-02-23 14:33:30"
-    }
-  },
-  {
-    "symbol": "BEEF",
-    "analyst_rating": null
-  },
-  {
-    "symbol": "BSDE",
-    "analyst_rating": {
-      "strong_buy": 4,
-      "buy": 0,
-      "hold": 0,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 4,
-      "updated_on": "2026-02-23 14:33:58"
-    }
-  },
-  {
-    "symbol": "BTPN",
-    "analyst_rating": {
-      "strong_buy": 0,
-      "buy": 0,
-      "hold": 1,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 1,
-      "updated_on": "2026-02-23 14:34:03"
-    }
-  },
-  {
     "symbol": "MAYA",
     "analyst_rating": null
   },
   {
-    "symbol": "BYAN",
+    "symbol": "TFCO",
     "analyst_rating": null
   },
   {
-    "symbol": "CBUT",
+    "symbol": "IDEA",
     "analyst_rating": null
   },
   {
-    "symbol": "CNTX",
+    "symbol": "DCII",
     "analyst_rating": null
   },
   {
-    "symbol": "FILM",
+    "symbol": "CPRI",
     "analyst_rating": null
   },
   {
-    "symbol": "CHEM",
+    "symbol": "ADES",
     "analyst_rating": null
   },
   {
-    "symbol": "COCO",
+    "symbol": "PTSN",
     "analyst_rating": null
   },
   {
-    "symbol": "DRMA",
-    "analyst_rating": {
-      "strong_buy": 3,
-      "buy": 0,
-      "hold": 1,
-      "sell": 0,
-      "strong_sell": 0,
-      "n_analyst": 4,
-      "updated_on": "2026-02-23 14:36:52"
-    }
-  },
-  {
-    "symbol": "BANK",
+    "symbol": "TRIN",
     "analyst_rating": null
   },
   {
-    "symbol": "DWGL",
+    "symbol": "TRUS",
     "analyst_rating": null
   },
   {
-    "symbol": "ELIT",
+    "symbol": "DIGI",
     "analyst_rating": null
   },
   {
-    "symbol": "EMTK",
+    "symbol": "TRUE",
     "analyst_rating": null
   },
   {
-    "symbol": "BAPA",
+    "symbol": "BSBK",
     "analyst_rating": null
   },
   {
-    "symbol": "BIKA",
+    "symbol": "MLPT",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "MEDC",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "ASRI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "MIRA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "BAPI",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "ARKA",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "FAST",
+    "analyst_rating": null
+  },
+  {
+    "symbol": "LSIP",
     "analyst_rating": null
   }
 ]
